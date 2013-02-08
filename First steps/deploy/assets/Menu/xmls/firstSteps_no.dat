@@ -1,0 +1,37 @@
+﻿xmlContent=<?xml version='1.0' encoding='UTF-8'?>
+<unique>
+<faq>
+<difference>"$$nameOfGame$$" inneholder tre interaktive nivåer som lar barnet rykke fremover i eget tempo:
+//u//Nivå 1:// Barnet ditt hører lyder, ser figurer og former i forskjellige farger på skjermen.
+//u//Nivå 2://  Barnet ditt lærer å gjenkjenne de forskjellige tingene fra første nivå, og lærer ordene.
+//u//Nivå 3:// Barnet ditt vil lærer å resonnere. F.eks.: på første nivå  ser barnet en sky. På det andre nivået  lærer hun/han selve ordet, og at det regner fra skyene. På tredje nivå forbinder han/hun skyer med ''vått''.</difference>
+</faq>
+
+<games style="title">
+	<EasyCall>PLUG'N PLAY PHONE</EasyCall>
+	<cec>Comfyland Experience</cec>
+	<easyPCkeyboard>Comfy’s Easy PC System</easyPCkeyboard>
+</games>
+
+<products style='products'>
+	<EasyPCKeyBoard style='comics22'>Comfy’s Easy PC keyboard With the Easy PC range of software adopted to child age</EasyPCKeyBoard>
+	
+	<!-- [ -------------  tri_option page  -------------]-->
+	
+	<comfyChoice style='prodBig'>The Comfy Choice: Introducing Comfy’s range
+of interactive products</comfyChoice>
+	<triWonderTitle style='prodBig'>PLUG'N PLAY PHONE</triWonderTitle>
+	<triWonder style='nutral'>Characters on screen will react to your child's voice.</triWonder>
+	<triCecTitle style='prodBig'>Comfyland Experience</triCecTitle>
+	<triCec style='nutral'>A unique indoor educational play area for toddlers.
+//HREF//www.comfyland.com/cec//Find a location near you.//HREF_END//</triCec>
+	<triKeyboardTitle style='prodBig'>Easy PC System</triKeyboardTitle>
+	<triKeyboard style='nutral'>Toddler’s PC Learning System Keyboard //PLUS// 12 different age-appropriate software games.
+</triKeyboard>
+	<cRange>See our Software Range:</cRange>
+	<cec_Intro>The Comfyland Experience is a unique, dynamic, rich and safe area offering toddlers the confidence to play and have fun in an informal and open-minded atmosphere with their friends or on their own. </cec_Intro>
+	<wonderfone_intro>The Comfy PLUG'N PLAY PHONE improves your child’s listening and conversation skills. The child receives an immediate reward for watching and listening to what is happening on the screen, and for responding correctly and at the right time. </wonderfone_intro>
+	<easyPCkeyboard_intro>Designed to suit the capabilities and interests of young children, this educational and entertaining platform opens a whole new world of interactive experiences.</easyPCkeyboard_intro>
+</products>
+
+</unique>

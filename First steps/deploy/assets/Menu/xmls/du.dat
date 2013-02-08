@@ -1,0 +1,630 @@
+﻿xmlContent=<?xml version='1.0' encoding='UTF-8'?>
+<lang translator='none' style='Dutch.css' updated='15/5/2006' language='English' id='du'>
+<main>
+	<xml_pressTheButterfly>OM TE STARTEN, DRUK OP DE //Color#FF0000//VLINDER//-TOETS VAN HET COMFY KEYBOARD</xml_pressTheButterfly>
+	<xml_pressTheDrum>OM TE STARTEN, DRUK OP DE //Color#003366//DRUM//-TOETS VAN HET COMFY KEYBOARD</xml_pressTheDrum>
+</main>
+
+<!-------------------------------------------      shared     ----------------------------------------------------->
+
+    <shared>
+        <back>terug</back>
+        <next>volgende</next>
+        <beginner style='h3'>Beginnersniveau</beginner>
+        <beginners style='h3'>Beginnersniveau</beginners>
+		<beginnerLevel style='h3'>Beginnersniveau</beginnerLevel>
+        <intermediate style='h3'>Tussenliggend
+niveau</intermediate>
+        <intermediates style='h3'>Tussenliggend niveau</intermediates>
+		<intermediateLevel style='h3'>Tussenliggend niveau</intermediateLevel>
+        <advanced style='h3'>Gevorderden
+niveau</advanced>
+        <advanceds style='h3'>Gevorderden niveau</advanceds>
+		<advancedLevel style='h3'>Gevorderden niveau</advancedLevel>
+        <ages_1_3 style='h3'>Leeftijd 1 - 3 </ages_1_3>
+        <ages_1_3C style='h3'>LEEFTIJD 1-3</ages_1_3C>
+        <ages_3_5 style='h3'>Leeftijd 3 - 5 </ages_3_5>
+		<ages_3_5C style='h3'>LEEFTIJD 3-5</ages_3_5C>
+        <level1 style='comics'>NIVEAU 1</level1>
+        <level2 style='comics'>NIVEAU 2</level2>
+        <level3 style='comics'>NIVEAU 3</level3>
+	<moresoft style='comics'>For More advanced software click here</moresoft>
+	<place_Overlay style='comics'>PLAATS DE "$$nameOfGame$$" TOETSENBORD-COVER OVER HET COMFY KEYBOARD</place_Overlay>
+    </shared>
+	
+	
+	
+    <buttons style='pagesTitle'>
+        <enterGame>Enter Game</enterGame>
+        <enterGame_Inside>ENTER GAME</enterGame_Inside>
+        <activityCenter style='pagesTitle' effect='blue' width="370" dy='-10' dx='-10'>Activity|Center</activityCenter>
+        <activityCenter_Inside style='pagesTitle' effect='blue'>ACTIVITY|CENTER</activityCenter_Inside>
+        <parentSection style='pagesTitle' effect='purple'>Ouder Info</parentSection>
+        <parentSection_Inside style='pagesTitle' effect='purple'>PARENT SECTION</parentSection_Inside>
+        <welcome>welcome to comfy</welcome>
+        <welcome_Inside effect='orange'>Welcome To Comfy</welcome_Inside>
+	<changeLanguage effect='orange'>Taal Wijzigen</changeLanguage>
+	<changeLanguage_Inside effect='orange'>CHANGE LANGUAGE</changeLanguage_Inside>
+        <changeLevel effect='orange'>Niveau Wijzigen</changeLevel>
+        <changeLevel_Inside effect='orange'>CHANGE LEVEL</changeLevel_Inside>
+        <products effect='orange' >Comfy Products</products>
+	<products_Inside effect='orange' style='pagesTitle60'  dx='20' dy='-20'>Producten van Comfy</products_Inside>
+    </buttons>
+    
+    
+<!-------------------------------------------      game names     ----------------------------------------------------->
+    
+    
+    	
+    
+<games style="title">
+	<BabyTV>BabyTV</BabyTV>
+        <letsImagine>Stel je eens voor</letsImagine>
+        <firstSteps>Eerste Stapjes</firstSteps>
+        <animalWorld>Dierenwereld</animalWorld>
+        <birthdayParty>Verjaardagsfeestje</birthdayParty>
+        <timeTravel>Reis door de tijd</timeTravel>
+        <myNeighborhood>Hier woon ik</myNeighborhood>
+        <myHome>Bij mij thuis</myHome>
+        <iLivehere>Hier woon ik</iLivehere>
+        <comfyOnline>Comfy Online</comfyOnline>
+        <WordlOfColors>Wereld vol kleuren</WordlOfColors>
+	<WorldOfColors>Wereld vol kleuren</WorldOfColors>
+        <XMass>Kerst in Comfyland</XMass>
+	<joyOfMusic>Muziekplezier</joyOfMusic>
+	<homeHunt>Bij mij thuis</homeHunt>
+	<Adventure>Adventure in Numberland</Adventure>
+</games>
+
+
+
+<!-------------------------------------------      Parent Section      ----------------------------------------------------->
+
+    <parentSection style='comics22'>
+        <welcome style='comics22' Xstyle="title" dy='10'>WELKOM BIJ COMFY</welcome>
+        <parentGuide style='comics22' Xstyle="title">OUDER INFO: $$nameOfGame$$</parentGuide>
+	<aboutBaby style='comics22' Xstyle="title">ABOUT BABYTV</aboutBaby>
+	<comfy3c style='comics22' Xstyle="title">COMFY PEDAGOGICAL HOUSE</comfy3c>
+        <howto style='comics22' Xstyle="title">HET COMFY KEYBOARD GEBRUIKEN MET EEN COMFY-SPEL</howto>
+        <educational style='comics22' Xstyle="title" dy="5">EDUCATIEVE WAARDEN</educational>
+        <faq style='comics22' Xstyle="title" dy='10'>VEEL GESTELDE VRAGEN (FAQS)</faq>
+        <website style='comics22' Xstyle="title">COMFY WEBSITE</website>
+        <registration style='comics22' Xstyle="title">GARANTIE AND REGISTRATIE</registration>
+        <performance style='comics22' Xstyle="title" dy='-10'>INSTELLINGEN DIE DE PRESTATIES VERBETEREN</performance>
+        <performance_txt1 style='normal' Xstyle="title">Uw schermresolutie heeft invloed op de kwaliteit van de animaties in het spel.
+
+Wanneer u een hoge schermresolutie selecteert, verbetert de kwaliteit van de grafische beelden. Dit wordt echter niet aanbevolen voor langzame computers.
+Wanneer de animaties langzaam en springerig verlopen moet u een resolutie selecteren die langzamer is dan de standaardresolutie.
+
+//h2//Selecteer de gewenste resolutie:</performance_txt1>
+<default>(default)</default>
+    </parentSection>
+    
+	
+	
+<!-------------------------------------------      EDUCATIONAL      ----------------------------------------------------->
+
+<educational style='normal'>
+<title1 style='title'>EDUCATIEVE WAARDEN - ALGEMEEN</title1>
+<note ready='true' style='note'>//i//Opmerking:// Om uw kind alle waarden en vaardigheden aan te leren die hieronder beschreven staan, heeft Comfy meerdere CD-spellen ontwikkeld voor verschillende leeftijden en ontwikkelingsstadia van uw kind.</note>
+<frame1 ready='false' style='normal'>Het Comfy Keyboard en de bijbehorende software is gemaakt en ontworpen door een pedagogisch onderzoeks- en ontwikkelingsteam dat gespecialiseerd is in technologische media aangepast op de vaardigheden en belangstelling van kinderen in de leeftijd van 1 tot 5 jaar. De grote kleurige toetsen, de telefoonhandset en de draaibalk zijn allemaal gemakkelijk te bedienen of vast te houden door kleine handjes. Hiermee kan het kind onafhankelijk en gemakkelijk de computer bedienen zonder dat het moet kunnen lezen of met de computermuis moet kunnen omgaan. </frame1>
+<frame2 >Door te spelen binnen de interactieve wereld van Comfy leert uw kind het volgende:
+
+**Leren door middel van spel en onderzoek.
+**Aanleren van simpele computervaardigheden.
+**Ontwikkelen van cognitieve, emotionele en sociale
+   vaardigheden.
+    
+De aanpak van Comfy is uniek en uitmuntend geschikt om de educatieve doelstellingen te verwezenlijken. Dit komt door de volgende kenmerken:
+
+**De activiteiten vormen een interactieve combinatie van
+   verhalen, tekenfilmpjes, het bekijken van plaatjes, verven
+   met kleuren, luisteren naar muziek, liedjes zingen, motorische
+   activiteiten en vertrouwd raken met sociale concepten.</frame2>
+
+ <frame3 style='normal'>** Het Comfy Keyboard vervangt het standaard
+   toetsenbord en de muis. Iedere toets is kleurrijk en
+   gemakkelijk te bedienen. Kunnen lezen of schrijven
+   is niet nodig.
+  
+**De Comfy-activiteiten zijn speciaal gericht op de
+   leeftijd en de figuurtjes en objecten die in de  
+   verhaaltjes voorkomen zijn vriendelijk en amusant.
+  
+**Wanneer het niveau is aangepast op het
+   ontwikkelingsstadium van uw kind en de activiteit
+   begint, kan uw kind spelen zonder dat daarbij hulp
+   van de ouders nodig is. De spelfiguurtjes praten met
+   uw kind en leggen op elk stadium van de activiteit uit
+   wat er gedaan moet worden. Iedere uitleg gaat
+   vergezeld van duidelijke plaatjes en animaties.</frame3>
+
+<frame4 style='normal'>**Comfy heeft ontelbare educatieve momenten gecreëerd
+   waarop ouder en kind kunnen samenwerken tijdens en na
+   een activiteit. U kunt werkelijk eindeloos genieten van de
+   ervaringen in Comfyland die u als ouder met uw kind kunt
+   delen.
+
+De volgende paragrafen geven een korte omschrijving van de vaardigheden en ontwikkelingspatronen bij kinderen. Tevens wordt een korte uitleg gegeven over hoe Comfy kan bijdragen aan de ontwikkeling van de zintuiglijke, motorieke, cognitieve en emotionele vaardigheden van uw kind.
+</frame4>
+
+<title5 style='title'>EDUCATIEVE WAARDEN - MOTORIEK
+EN ZINTUIGLIJKE VAARDIGHEDEN</title5>
+<frame5 style='normal'>//h1//Motoriek en zintuiglijke vaardigheden
+
+Wanneer kinderen groeien ontwikkelen zich tevens de fysieke en mentale vaardigheden. Hierdoor kan een kind steeds complexere taken uitvoeren. Uw kind leert objecten en personages herkennen, prikkels uit de onmiddelijke omgeving op de juiste wijze interpreteren en de zintuigen ontwikkelen. 
+
+Wanneer uw kind met Comfy speelt leert het:
+**Een verband leggen tussen de objecten en personages
+   die hij of zij op het scherm ziet en die op het Comfy
+   Keyboard.
+**De visuele waarneming verbeteren door onderscheid te
+   leren tussen verschillende vormen en kleuren.
+**De auditieve waarneming verbeteren.
+</frame5>
+<title6 style='title'>EDUCATIEVE WAARDEN - 
+TAALVAARDIGHEID</title6>
+<frame6 style='normal'>//h1//Taalvaardigheid
+	
+De woordenschat van kinderen breidt zich voortdurend uit wanneer ze leren zinnen te vormen.
+
+Met Comfy kan uw kind:
+
+**Leren hoe het vragen, verzoeken, waarschuwingen en
+   uitleggende zinnen moet vormen.
+   
+**Kennis opdoen van nieuwe concepten die verband
+   houden met onderwerpen zoals het weer, post en
+   de tijd.</frame6>
+   
+<title7 style='title'>EDUCATIEVE WAARDEN - 
+LOGISCH NADENKEN</title7>
+<frame7 style='normal'>//h1//Logisch nadenken
+	
+De geheugencapaciteit van kinderen wordt steeds beter. Hierdoor kunnen ze steeds meer plaatjes, stemmen en ervaringen outhouden. Daarnaast ontwikkelt zich tevens hun verbeelding en neemt hun vermogen om creatief na te denken toe.
+
+Spelen met Comfy kan uw kind helpen met:
+**Een beter begrip te krijgen van oorzaak en gevolg
+   door het kind in staat te stellen in te grijpen in een
+   verhaal en ervoor te zorgen dat er iets anders
+   gebeurt (bijvoorbeeld: het gaat regenen, dag
+   wordt nacht). 
+**Het oefenen in het onthouden van objecten,
+   geluiden, stemmen, gebeurtenissen en personages
+   tijdens een activiteit.
+</frame7>
+
+<frame8 style='normal'>
+**Het ontwikkelen van zijn of haar fantasie door actief
+   deel te nemen in het verhaal en er invloed op uit te
+   oefenen en tegelijkertijd de creatieve vaardigheden
+   te verbeteren.
+   
+**Deel te nemen aan "doen alsof" spel met de personages
+   en zo van hen dingen te leren over de echte wereld waarin
+   het kind leeft.
+   
+**Zich leren concentreren en geestelijke inspanning
+   te leveren door uitdagende taken uit te voeren.
+</frame8>
+
+<title9 style='title'>EDUCATIEVE WAARDEN - 
+EMOTIONELE ONTWIKKELING</title9>
+<frame9 style='normal'>//h1//Emotionele ontwikkeling
+
+Kinderen hebben een warme en stimulerende omgeving nodig. Daarnaast hebben ze ook behoefte aan duidelijke grenzen en beperkingen. Hierdoor kunnen ze hun onafhankelijkheid ontwikkelen en dingen leren over hun omgeving. Tevens kunnen ze activiteiten ontplooien in hun streven naar het versterken van hun zelfvertrouwen en zelfbeeld.
+
+Comfy biedt uw kind:
+**Positieve ervaringen die variëren van het ontdekken
+   van veranderende kleuren en klanken tot het
+   ontmoeten van vriendelijke personages.
+**Feedback en aanmoediging voor wat het kind op het
+   toetsenbord uitvoert.
+**Een mogelijkheid om zich uit te leven door de
+   draaibalk op het Comfy Keyboard te gebruiken. 
+ </frame9>
+<frame10 style='normal'>**Het gevoel zeggenschap te hebben over het Comfy
+   Keyboard, over de gebeurtenissen op het scherm en
+   over de verhaallijn. Een gevoel van zeggenschap
+   heeft een positieve invloed op het zelfvertrouwen
+   en zelfbeeld van het kind.
+   
+**Duidelijke begrenzing van de spelregels (Buddy de
+   beer vraagt bijvoorbeeld of het kind het wil laten
+   regenen "maar niet nu, straks pas als ik al thuis ben").  
+</frame10>
+<title11 style='title'>EDUCATIEVE WAARDEN -
+SOCIALE WAARDEN EN GEDRAG</title11>
+<frame11 style='normal'>//h1//Sociale- en gedragswaarden
+		
+Jonge kinderen leren welk gedrag acceptabel is doordat ze vertrouwd raken met sociale en culturele normen. In de Comfy-spelen leren ze de juiste gedragspatronen en hoe ze sociale moeilijkheden en obstakels moeten overwinnen.
+
+Op dit vlak biedt Comfy het volgende:
+**Uw kind leert deelnemen in en wordt vertrouwd met
+   acceptabel gedrag in verschillende dagelijkse situaties.
+**Uw kind krijgt te maken met personages met wie het
+   zich kan identificeren.
+**Het spel legt de nadruk op positieve sociale normen
+   zoals samenwerken en anderen helpen. Comfyland
+   introduceert de positieve waarden van vriendschap,
+   compromissen sluiten en respect hebben voor
+   levende wezens en objecten. 
+</frame11>
+</educational>
+    
+<!-------------------------------------------      WELCOME    ( about comfy)  ----------------------------------------------------->
+
+<welcome>
+
+    <frame1 ready='true' style='normal'>Comfy en zijn vriendjes verwelkomen uw kind in de spannende en boeiende wereld van de multimedia waarbij ervaringen en plezier worden gekoppeld aan leren en ontwikkeling. Comfy stelt uw kind niet alleen in staat een dynamische omgeving vol kleurrijke geanimeerde software te ontdekken zonder dat daarbij hulp van de ouders nodig is; ook kan uw kind daar zijn of haar invloed laten gelden. Tevens is Comfy een leuke en natuurlijke methode om jonge kinderen de beginselen van het computeren en computervaardigheden aan te leren. 
+
+Onze producten zijn zodanig ontworpen dat zij aansluiten op de motoriek en cognitieve vaardigheden van uw kind. Het ComfyKeyboard™ en de bijbehorende software maken het uw kind mogelijk om zelfstandig en gemakkelijk de computer te bedienen. Het kind hoeft hiervoor niet te kunnen lezen of in staat te zijn met de muis om te gaan. Hierdoor kan uw kind op zijn of haar eigen tempo werken.</frame1>
+        <website ready='false' note='it have to be there' style='comics22'>COMFY WEBSITE</website>
+</welcome>
+
+
+
+ <!---------------------------------------------------   Use Comfy  	---------------------------------------------------------------->   
+    
+    <useComfy style='normal'>
+
+        <title1 style='title'>HET COMFY KEYBOARD GEBRUIKEN
+MET EEN COMFY-SPEL</title1>
+
+        <note style='note'>//i//Opmerking:// De uitleg over "Hoe gebruik ik het Comfy Keyboard met Comfy spellen" gaat niet in op de vraag hoe het Comfy Keyboard gebruikt moet worden met dit spel. Voor uitgebreide instructies verwijzen wij u naar de Handleiding voor Ouders.</note>
+
+<frame1 style='normal'>Met behulp van het Comfy Keyboard kunnen peuters en kleuters zich uitleven met de fascinerende en interactieve spellen van Comfy. Het systeem is zodanig ontworpen dat het aansluit op de vaardigheden en interesses van kinderen in de leeftijd van één tot vijf en stelt hen in staat op hun eigen tempo te spelen. 
+
+De bekende vormen, levendige kleuren en vriendelijke tekeningen nodigen kleine vingertjes uit tot aanraken, onderzoeken en ontdekken. De speciaal ontworpen software biedt activiteiten op meerdere niveau's. Uw kind kan daarmee individuele onderdelen van de activiteiten volgens zijn of haar eigen ontwikkeling beheersen.</frame1>
+
+<frame2 dy='-10'>//h1//Beschrijving van de toetsen van het Comfy Keyboard:
+
+//h1//Weertoetsen//
+Het Comfy Keyboard heeft drie weertoetsen:
+**De zon- en daglichttoets
+**De maan- en nachttoets
+**De wolk- en regentoets
+
+Iedere keer wanneer één van deze toetsen wordt ingedrukt, verandert het weer in Comfyland. Zo leert het kind verschillende soorten weer onderscheiden.
+
+//h3//Concepten die met behulp van de weertoetsen vertrouwd worden:
+**Begrip van dag en nacht.
+**Het onderscheiden van natuurverschijnselen zoals regen.</frame2>
+
+<frame3 dy='-10'>//h1//Figuurtoetsen en de telefoonhandset:
+
+**Snaily
+**Buddy
+**Jumpy
+**Feely
+**Comfy
+
+Het kind kan deze figuurtjes op elk gewenst moment oproepen. Ze verschijnen op verschillende plekken en in verschillende omstandigheden.
+
+//h3//Concepten die met behulp van de telefoon vertrouwd worden:
+** Vertrouwd raken met de telefoon als een interactief 
+   communicatiemiddel.
+** Het ontwikkelen van persoonlijk contact met de
+   Comfy-personages en van sociale vaardigheden. 
+</frame3>
+
+<frame4 dy='-10'>//h1//Muziektoetsen
+
+Het toetsenbord heeft vier muziektoetsen: Drum, fluit, piano en trompet. Als op de muzieknotentoets wordt gedrukt wordt het herkenningsmelodietje van Comfy gespeeld en verschijnen de figuurtjes van Comfyland. Iedere afzonderlijke muziektoets introduceert het betreffende muziekinstrument. Door erop te drukken wordt een melodietje afgespeeld dat kenmerkend is voor het instrument. Als uw kind dezelfde muziektoets blijft indrukken verandert het melodietje langzaam van tempo en verandert de melodie zelf ook. 
+
+//h3//Concepten die met behulp van de muziektoetsen vertrouwd worden:
+**Bekend worden met de vier muziekinstrumenten en  
+   deze kunnen herkennen (vorm en geluid).
+**Onderscheid maken tussen verschillende muziekinstrumenten.
+**Melodieën herkennen en liedjes leren.</frame4>
+
+<frame5 dy='-10'>//h1//Kleurentoetsen
+
+Het Comfy Keyboard heeft zes kleurentoetsen:
+
+//Color#9900FF//Paars//  //Color#FF7600//Oranje//  //Color#009900//Groen//  //Color#333399//Blauw//  //Color#FFFF66//Geel//  //Color#CC0000//Rood//
+
+Als op een kleurentoets wordt gedrukt start een activiteit met de betreffende kleur.
+Tijdens het spel gebruikt het kind de kleurentoetsen om met verschillende activiteiten te spelen.
+
+//h3//Concepten die met behulp van de kleurentoetsen vertrouwd worden:
+**Vertrouwd raken met de kleuren van het toetsenbord.
+**Kennismaken met esthetisch kleurgebruik.</frame5>
+
+<frame6 dy='-10'>//h1//De Draaibalk
+
+Het Comfy Keyboard heeft een draaibalk die vrij kan ronddraaien en het kind de mogelijkheid van vrije beweging geeft.
+
+Wanneer de draaibalk wordt gebruikt verandert tijdelijk het tempo van de gebeurtenissen op het scherm. Hoe sneller het kind de draaibalk ronddraait, hoe sneller het tempo van de gebeurtenissen.
+
+//h3//Concepten die met behulp van de draaibalk vertrouwd worden:
+** Een mogelijkheid voor amusement en vrij gebruik van
+   de verbeelding. 
+**Plezier maken door middel van betrokkenheid met en controle
+   over de gebeurtenissen op het scherm.</frame6>
+
+<frame7 dy='-10'>//h1//Pauzetoets
+
+Door op de pauzetoets te drukken wordt de betekenis van "Stop" getoond door middel van geluid en beeld. Wanneer een willekeurige andere toets op het toetsenbord word ingedrukt begint de onderbroken activiteit helemaal opnieuw. 
+
+//h3//Concepten die met behulp van de pauzetoets vertrouwd worden:
+**Geeft het kind de mogelijkheid hulp of aandacht
+   van de ouder te krijgen.
+**De pauzetoets kan worden benut voor een
+   gesprekje of om een geliefd plaatje te bekijken.</frame7>
+</useComfy>
+
+<!---------------------------------------------------  COMFY PEDAGOGICAL HOUSE  ------------------------------------------------->
+
+<m3c style='normal'>
+        <Mtitle1 style='title'>INTRODUCING COMFY PEDAGOGICAL HOUSE (CPH)</Mtitle1>
+		<Mtitle2 style='title'>INTRODUCING COMFY 3C DEVELOPMENTAL CYCLE™</Mtitle2>
+		<Mtitle3 style='title'>PARENTS’ ROLE IN MAXIMIZING COMFY 3C SYSTEM</Mtitle3>
+		<frame1 style='normal'>//h3//Comfy Pedagogical House (CPH)// is the research and development arm of Comfy, responsible for accumulating all knowledge and information, identifying the latest trends in child-development and learning processes, in order to implement them into interactive fun-learning products.
+
+CPH activities include research and field-testing, involving many experts from various fields, which together form the wide knowledge base for Comfy’s activities.
+
+CPH is the developer of Comfy’s unique 3C Developmental Cycle™ to encourage children's curiosity, while promoting and maximizing effective learning.</frame1>
+
+
+
+        <frame2>The immediate effect that is seen when watching a child play with the Comfy system is the magic sparkle in his eyes lighting up his whole face. This is what we refer to as "Comfy's Magic Effect". This magical effect is created by the combination of //h3//C//uriosity //PLUS// //h3//C//hallenge //PLUS// //h3//C//onfidence = //h3//3C Developmental Cycle™//
+
+//h3//Curiosity:// Children are born with natural curiosity. At Comfy, we expose young minds to a rich interactive environment in order to leverage their natural–born curiosity and take them through a journey of learning through play and exploration, enabling the development of new skills and thought-patterns.</frame2>
+
+
+<frame3>//h3//Challenge:// By providing children with age-appropriate, rich and developmental content, we motivate and inspire them to utilize their capabilities to the fullest. Therefore, CPH has created a line of software for children aged 1-5 years old, developing motor skills, emotional intelligence, visual and spatial perception, creative thinking, vocabulary, languages and much more.
+
+//h3//Confidence:// The Comfy system develops self-confidence by enabling the child to play independently - being able to control the activities as an active participant rather than a passive one. Acquiring this sense of control improves the child’s confidence and self-esteem and is the basis for building a stable personality as well as healthy relationships
+</frame3>
+
+
+
+        <frame4>//h2//Choosing The Right Contents//
+Our extensive range of software titles, with different age/developmental levels, enables parents to carefully adjust the right contents for their child at each stage.
+
+//h2//Sharing Quality Time//
+Comfy brings parents and children together when playing and sharing fun educational moments together. The parent/child can stop the activity at any time by pressing the “pause” key and discuss or explain the shown contents, in order to deepen the child’s understanding.
+</frame4>
+        <frame5>//h2//Teaching More Languages//
+In your Comfy system you get up to 18 additional languages, enabling you to switch from one language to another and learn with your child new words in different languages.
+
+//h2//Connecting Comfy’s Contents to Real Life//
+As the Comfy software contents present day-to-day rituals, you can project these on your everyday life, helping your child to accept and understand these activities and find them more enjoyable.
+	</frame5>
+
+</m3c>
+<!---------------------------------------------------  activityCenter  ------------------------------------------------->
+
+<activityCenter style='comics'>
+<frame1 style='comics' width="350">BLIJF ACTIEF MET DE PERSONAGES UIT COMFYLAND. KIES VOOR EEN KLEURPLAAT.
+
+KIES HET FAVORIETE
+PERSONAGE OM TE KLEUREN.
+
+KLIK OP DE PRINTERKNOP.
+
+VEEL PLEZIER!
+</frame1>
+</activityCenter>
+
+<!---------------------------------------------------       FAQ      ------------------------------------------------->
+
+<faq style='normal'>
+        <questions>VRAGEN</questions>
+        <note style='note'>//i//Opmerking:// Uitgebreide uitleg over de verschillende onderdelen vindt u in de Handleiding voor Ouders in het onderdeel Voor de Ouders.</note>
+        
+	<Q_chooseLang>Taal selecteren?</Q_chooseLang>
+        <chooseLang>Klik op de knop "Taal wijzigen" in het menu.
+
+Gebruik de pijltjestoetsen om te zien uit welke talen u kunt kiezen. Klik op de vlag van de gewenste taal.
+
+Druk vervolgens op de rode toets "Spel beginnen". Het spel start nu in de door u gekozen taal. </chooseLang>
+       
+       <Q_changeLevel>Niveau wijzigen?</Q_changeLevel>
+        <changeLevel>Klik op de knop "Niveau wijzigen" in het menu.
+
+Selecteer een niveau door te klikken op een van de kubussen in het gewenste niveau.
+
+Druk vervolgens op de rode toets "Spel beginnen". Het spel start nu op het door u gekozen niveau.</changeLevel>
+        
+	<Q_returnMain>Vanuit het spel terugkeren in het hoofdmenu?</Q_returnMain>
+        <returnMain>Druk op de Esc-toets op het gewone toetsenbord om terug te keren in het menu.</returnMain>
+       
+       <Q_exitGame>Het spel verlaten?</Q_exitGame>
+        <exitGame>Druk op de Esc-toets op het gewone toetsenbord van de PC om terug te keren in het menu.
+
+Druk nogmaals op de Esc-toets om het spel te verlaten.
+
+Een Comfy spel kan alleen met de hulp van een ouder worden afgesloten. Het kind kan dit niet zelf doen. Hierdoor kan het kind zelfstandig spelen binnen de Comfy-wereld zonder dat het per ongeluk in de computeromgeving van de ouders terechtkomt.</exitGame>
+        
+	<Q_difference>Wat is het verschil tussen de drie niveau's van "$$nameOfGame$$"?</Q_difference>
+        
+	<Q_moveUp>Hoe weet ik wanneer het tijd is een niveau hoger te kiezen?</Q_moveUp>
+        <moveUp>We stellen voor dat uw kind begint op Niveau 1 en langzamerhand doorgaat naar een hoger niveau.
+
+Wanneer uw kind met vertrouwen en behendigheid de activiteiten kan doorlopen kunt u het niveau verhogen zodat uw kind wordt geconfronteerd met nieuwe uitdagende activiteiten.</moveUp>
+        
+	<Q_overlay >Wanneer gebruik ik de "$$nameOfGame$$" toetsenbord-cover en waar is die eigenlijk voor?</Q_overlay>
+        <overlay>De speciale "$$nameOfGame$$" toetsenbord-cover bedekt het Comfy Keyboard met nieuwe plaatjes die bij dit spel horen.</overlay>
+        
+	<forMoreFaqs>//Color#EC6002//Voor meer veelgestelde vragen kunt u terecht op onze website: www.comfyland.com//</forMoreFaqs>
+    </faq>
+    
+<!---------------------------------------------------  Products  ------------------------------------------------->
+
+<products style='products'>
+<chooseAge style='comics22'>KIES DE LEEFTIJDSGROEP</chooseAge>
+<chooseDesc style='normal'>Onze speciaal ontwikkelde software biedt verscheidene niveau's waarop uw kind kan ontwikkelen en leren door middel van spannende en uitdagende activiteiten:</chooseDesc>
+<notAllSoftwares style='normalProd'>Niet alle software CD's zijn beschikbaar in alle talen.
+Voor een compleet en actueel overzicht over de beschikbaarheid van onze producten kunt u terecht op onze website: //HREF//www.comfyland.com// www.comfyland.com//HREF_END//</notAllSoftwares>
+<clickOnAnyImage>Klik op een afbeelding voor meer informatie</clickOnAnyImage>
+<newPlaying style='normalProd'>Now Playing:</newPlaying>
+<mrktBefore style='prodBig'>Help your child reach his full potential by providing him the age appropriate software</mrktBefore>
+<signUp style='prodBig'>Spcieal discounts for club members.
+//HREF//www.comfyland.com/club/sign//sign up//HREF_END// for the Comfy Club for free.</signUp>
+<remind style='normalProd'>Don’t remind me any more</remind>
+<mrktAfter style='prodBig'>Your child have been playing with this software, get your//HREF//www.comfyland.com/club/sign// 15//PERCENT// off with free sign up,//HREF_END// on our range of software</mrktAfter>
+
+<!------    Products: First Steps   ------------>
+
+<firstSteps_Intro>"Eerste stapjes" is het eerste computerspel op CD dat speciaal ontworpen is voor peuters (al vanaf 12 maanden). Uw kind kan hiermee zelfstandig met de computer omgaan en raakt vertrouwd met de basisconcepten.</firstSteps_Intro>
+        <firstSteps_Body>//h4//De software heeft drie interactieve niveau's, hierdoor kan uw kind
+op zijn of haar eigen tempo spelen:
+
+//u//Niveau 1:// Kleuren en geluiden.
+//u//Niveau 2:// Objecten en namen herkennen en onderscheiden.
+//u//Niveau 3:// Logisch nadenken en inzicht.
+
+//h3//Ontwikkelingsvoordelen://
+**Bekend worden met vormen, geluiden en kleuren.
+**Ontwikkelen van hand- en oogcoördinatie.
+**Verbeteren van de luistervaardigheid.
+**Bevordering van logisch nadenken en inzicht.
+</firstSteps_Body>
+
+<!------    Products: My Home   ------------>
+
+<myHome_Intro dy='-100'>"Bij mij thuis" staat garant voor uren spelplezier waarbij uw peuter de huiselijke omgeving ontdekt door middel van een verscheidenheid aan dagelijkse activiteiten. Het spel zit vol liedjes en verrassingen waarbij uw kind leert over opruimen en netjes zijn, objecten herkent door middel van geluiden en stemmen en de kleding leert afstemmen op het weer. Uw kind kan verstoppertje spelen met Didi, een schattig meisje van 3 jaar oud, en samen met haar veel spannende dingen ondernemen.</myHome_Intro>
+<myHome_Body margin='0'>//h3//Bij mij thuis heeft drie interactieve niveau's://
+//u//Niveau 1:// Maakt uw kind bekend met een aantal voorwerpen en concepten die met de thuisomgeving te maken hebben.
+//u//Niveau 2:// Uw kind doet mee en reageert op de vragen van de personages met behulp van tips en aanwijzingen die op het scherm worden weergegeven.
+//u//Niveau 3:// Uw kind leert spelen met de personages zonder dat er aanwijzingen op het scherm verschijnen.
+
+//h3//Ontwikkelingsvoordelen://
+**Uw kind leert van alles over de thuisomgeving.
+**Aanleren van oorzaak en gevolg.
+**Uitbreiding van woordenschat en taalvaardigheid.
+**Aanleren van de samenhang tussen vergelijkbare concepten.</myHome_Body>
+
+<!------    Products: Let's Imagine   ------------>
+
+<letsImagine_Intro style='products'>"Stel je eens voor" staat garant voor uren spelplezier waarbij uw peuter zijn of haar creatieve vermogens ontwikkelt. Uw kind krijgt een verscheidenheid aan leuke leerervaringen aangeboden via de kleurige plaatjes en animaties die de visuele ontwikkeling stimuleren en de auditieve vaardigheden prikkelen.</letsImagine_Intro>
+<letsImagine_Body>//h3//De software heeft drie interactieve niveau's:
+//u//Niveau 1//: Uw kind maakt kennis met Didi en Boo en hun wereld vol dieren, vormen,
+		       objecten en lichaamsdelen.
+//u//Niveau 2//: Uw kind doet mee en reageert op de vragen van de personages met behulp
+		       van tips die op het scherm worden weergegeven.
+//u//Niveau 3//: Uw kind leert reageren op de personages zonder dat er tips op het scherm
+		       verschijnen.
+
+//h3//Ontwikkelingsvoordelen:
+**Uitbreiding van woordenschat en taalvaardigheid. 
+**Herkenning van geluiden, vormen en kleuren.
+**Aanleren van oorzaak en gevolg.
+**Helpt uw kind bij het oplossen van problemen bij de verschillende activiteiten.</letsImagine_Body>
+
+<!------    Products: Birthday Party   ------------>
+
+<birthdayParty_Intro>"Verjaardagsfeestje" helpt uw kind bij het verwerven van sociale vaardigheid en communicatieve vaardigheden. Het belangrijkste verhaalthema is het verjaardagsfeestje van Feely. Daar vertelt ieder personage zijn of haar eigen verhaal (door het kind geselecteerd). Snaily de slak vertelt over zijn eerste dag als postbode. Comfy en Jumpy vertellen over hun spannende bezoekje aan de dierentuin en Buddy de beer vertelt alles over zijn bijzondere avontuur in de natuur. Na elk verhaal ontmoeten de personages uit Comfyland elkaar aan de verjaardagstafel.</birthdayParty_Intro>
+<birthdayParty_Body>//h3//Toetsen op het Keyboard
+Met gebruik van het Comfy Keyboard leert uw kind tijdens het verhaal problemen op te lossen door de informatie die het eerder in het verhaal kan vergaren.
+
+//h3//Ontwikkelingsvoordelen:
+**Maakt peuters vertrouwd met het idee van ruimte, tijd en onderlinge dimensies.
+**Het kind raakt bekend met sociale normen en waarden.
+**Het kind herkent kleuren en getallen.
+**Geheugen en zelf-expressie worden gestimuleerd.</birthdayParty_Body>
+
+<!------    Products: Christmas in Comfyland   ------------>
+
+<XMass_Intro>"Kerst in Comfyland" is een heerlijk interactief verhaal dat is opgebouwd uit meerdere korte hoofdstukken. Kerst in Comfyland laat de betoverende aspecten van de Kerstperiode tot leven komen en biedt tegelijkertijd een educatieve en vermakelijke ervaring. Comfy en zijn vriendjes bereiden zich voor op de Kerstperiode en nodigen andere kinderen uit om mee te doen met de activiteiten die zich afspelen in deze fijne vakantieperiode. Het verhaal eindigt ermee dat de Comfy familie een speciale versie van het Kerstlied "We wish you a Merry Christmas" zingt. Hier draait het allemaal om in "Kerst in Comfyland": het plezier dat je beleeft aan de voorbereidingen voor Kerstmis. Deze mooiste tijd van het jaar wordt dit jaar zelfs nog specialer!</XMass_Intro>
+<XMass_Body>//h3//Ontwikkelingsvoordelen:
+**Vergroot de luistervaardigheid en stimuleert concentratie, geheugen en
+  doorzettingsvermogen.
+**Ontwikkelt zelfvertrouwen, onafhankelijkheid en beheersing.
+**Stimuleert positieve emoties.
+**Introduceert de belangrijkste kenmerken van de vakantie.</XMass_Body>
+
+<!------    Products: Joy of Music   ------------>
+
+<JoyOfMusic_Intro>Met "Muziekplezier" maakt uw kind kennis met de heerlijke wereld van de muziek waar lieve nieuwe vriendjes een hoofdrol spelen: Fifi de fluit, Tempo de trompet, Boem Boem de trommel en Mano de piano. Uw kind leert hier van alles over muziekinstrumenten, hun klanken, en over ritme en harmonie. Door op de kleurentoetsen te drukken kan het kind zelf liedjes en muzikale tonen spelen, en een samenspel van meerdere klanken maken. Met "Muziekplezier" maakt uw kind op een betoverende manier kennis met diverse instrumenten, waardoor de eigen creativiteit muzikaal gestimuleerd wordt! 
+</JoyOfMusic_Intro>
+<JoyOfMusic_Body>//h3//Ontwikkelingsvoordelen:
+**Kennis maken met verschillende muziekinstrumenten en termen.
+**Presenteert muziek op een enthousiaste wijze en stimuleert de creativiteit.
+**Stimuleert het waarnemen van kleuren.
+**Ontwikkelt het zelfvertrouwen en het gevoel dingen in de hand te hebben.</JoyOfMusic_Body>
+
+<!------    Products: World of Colors   ------------>
+
+<WordlOfColors_Intro>In "Wereld vol kleuren" maakt uw kind kennis met de wonderlijke wereld van kleuren tijdens een zoektocht naar het verloren bot van Jumpy. Hier leert uw kind hoe de kleuren heten, hoe je voorwerpen met elkaar vergelijkt en welke kleuren bij specifieke voorwerpen passen. Ondertussen worden het observatievermogen en de visuele waarneming gestimuleerd. "Wereld vol kleuren" is een ideale inleiding voor kinderen die net beginnen met het leren van de kleuren. Dit spel helpt hen hierbij door middel van leuke, interactieve verhalen. Kinderen die de kleuren al goed uit elkaar kunnen houden, kunnen in dit spel hun creativiteit toepassen en verdiepen. Het spel zal hen telkens weer een verrijkende en inspirerende ervaring bieden.</WordlOfColors_Intro>
+<WordlOfColors_Body>//h3//Ontwikkelingsvoordelen:
+**Kleuren en objecten met elkaar matchen.
+**Een verborgen voorwerp herkennen.
+**Basisconcepten van ruimtelijke oriëntatie.
+**Evaring bij het oplossen van problemen.
+**Ontwikkeling van vermogen tot vergelijken.</WordlOfColors_Body>
+
+<!------    Products: Animal World   ------------>
+
+<animalWorld_Intro>De ontdekkingen en verrassingen in "Dierenwereld" laten kinderen op een creatieve manier kennis maken met de wereld van de dieren en hun verschillende leefgebieden in de natuur. In "Dierenwereld" beleven kinderen avonturen in de verschillende omgevingen genaamd "Aarde", "Woud", "Water" en "Sneeuw". In elke omgeving kunnen ze vele betoverende interactieve activiteiten beleven die specifiek van toepassing zijn op die omgeving. "Dierenwereld" betekent voor het kind een waardevolle leerervaring. Tegelijkertijd kan de kleuter naast taalvaardigheid tegelijkertijd cognitieve, emotionele en creatieve vaardigheden ontplooien tijdens de spannende verhalen, interactieve spelletjes, creatieve mogelijkheden en muzikale activiteiten die het spel biedt.</animalWorld_Intro>
+<animalWorld_Body>* De inhoud van deze CD is ook beschikbaar op "Comfy Online".
+
+//h3//Ontwikkelingsvoordelen:
+**Ontwikkeling van het vermogen kleuren, vormen en aantallen te onderscheiden.
+**Ontwikkeling van luistervaardigheid en verbetering van het begrijpen van aanwijzingen.
+**Ontwikkeling van vocabulaire en gedachtenpatronen.
+**Bekend raken met kunst, materialen en technieken.</animalWorld_Body>
+
+<!------    Products: Time travel  ------------>
+
+<timeTravel_Intro>In "Reis door de tijd" gaat de peuter of kleuter samen met Comfy en zijn vriendjes op pad tijdens een avontuurlijke reis door ruimte en tijd. In "Reis door de tijd" komen verschillende culturen en tijdperken uit verleden en toekomst aan bod. Dit alles wordt aan het kind gepresenteerd door middel van interessante verhalen, interactieve spelletjes, creatieve en leuke muzikale activiteiten. Comfy en zijn vriendjes leren van alles over de dinosauriërs, onderzoeken de leefomgeving van de eerste mensen, brengen een bezoekje aan een indianendorp waar zij vertrouwd raken met hun tradities en genieten van het bezoekje van een buitenaards wezen. "Reis door de tijd" biedt een fantastische mogelijkheid om de fantasie van peuter en kleuter te prikkelen. Het kind kan op zijn eigen tempo een totaal nieuw universum onderzoeken en ontdekken. De belevenissen die het kind tijdens het uitgebreide aanbod aan activiteiten meemaakt stimuleert de fantasie en de cognitieve vaardigheden.</timeTravel_Intro>
+<timeTravel_Body>* De inhoud van deze CD is ook beschikbaar op "Comfy Online".
+
+//h3//Ontwikkelingsvoordelen:
+**Verbetert de besluitvaardigheid.
+**Verbetert het begrip van kwantitatieve concepten.
+**Vergroot de intellectuele nieuwsgierigheid.
+**Stimuleert een positief zelfbeeld.</timeTravel_Body>
+
+<!------    Products: My Neighborhood  ------------>
+
+<myNeighborhood_Intro>In "Hier woon ik" wordt het kind verwelkomd in Comfyland. In deze gezellige buurt kan het op ontdekkingsreis gaan door middel van prikkelende verhalen, interactieve spelletjes, creatieve mogelijkheden en leuke muzikale activiteiten. Samen met Comfy en zijn vriendjes leert het kind van alles over zijn of haar eigen omgeving. Ook kan het een bezoekje brengen aan de vriendelijke buren, spelen in de speelplaats of het park en leren rijden op verschillende voertuigen. "Hier woon ik" biedt kinderen een fantastische mogelijkheid hun vaardigheden te ontwikkelen via vertrouwde belevenissen uit het dagelijkse leven.</myNeighborhood_Intro>
+<myNeighborhood_Body>* De inhoud van deze CD is ook beschikbaar op "Comfy Online".
+
+//h3//Ontwikkelingsvoordelen:
+**Stimuleert het vermogen tot klassificeren en categoriseren.
+**Bevordert denkprocessen op een steeds moeilijker niveau. 
+**Stimuleert verschillende gedachtenpatronen. 
+**Stimuleert positieve emoties.</myNeighborhood_Body>
+
+<!------    Products: comfyOnline   ------------>
+
+<comfyOnline_Intro>In de online wereld van Comfy beleven kinderen fascinerende software-avonturen. "Comfy Online" biedt kinderen de mogelijkheid om samen met hun vriendjes uit Comfyland te surfen op het net. "Comfy Online" biedt een uitgebreid aantal unieke en interactieve activiteiten op het internet die plaatsvinden in verschillende settings. De inhoud wordt voortdurend bijgewerkt en sluit aan bij gebeurtenissen uit het werkelijke leven. In "Comfy Online" kunnen jonge onderzoekers hun allereerste internetbelevenissen ervaren in een veilig "gesloten" Internet-omgeving.</comfyOnline_Intro>
+<comfyOnline_Body>* Een deel van de inhoud van "Comfy Online" is tevens
+  beschikbaar op de software CD's van Comfy.
+
+//h3//Ontwikkelingsvoordelen:
+**Verbetert de luistervaardigheid, concentratie, geheugen en doorzettingsvermogen.
+**Stimuleert verschillende gedachtenpatronen.
+**Bevordert zelfvertrouwen, onafhankelijkheid en beheersing. 
+**Moedigt aan tot zelfstandig denken en zoeken naar creatieve oplossingen.</comfyOnline_Body>
+
+<!------    Products: BabyTV   ------------>
+
+<babytv_Intro>BabyTV - Go Interactive is an interactive game based on the popular characters from the
+world of BabyTV, the first channel dedicated to infants and toddlers under 3 years of age,
+The famous characters lead activities that are fun and are designed to promote development
+and interaction, We now offer you and your baby the opportunity to interact and play with
+your favorite BabyTV characters off the screen, while developing early learning and communication skills</babytv_Intro>
+<babytv_Body>//h3//Ontwikkelingsvoordelen:
+**Enhances natural curiosity to explore.
+**Encourages creative thought and imagination.
+**Develops the ability to understand and follow instructions.
+**Expands vocabulary and language skills.
+**Develops convenation skills.
+</babytv_Body>
+
+<!------    Products: Adventure   ------------>
+
+<Adventure_Intro>"Adventure in Numberland" is an exciting and fun interactive game, which opens a first window to the world of numbers. The favorite friends from Comfyland go on a fascinating adventure in Numberland where they meet animated numbers that invite them to join a picturesque color, movement and sound experience. The game gives toddlers the opportunity to practice basic quantitative problems such as counting and numbering in a joyful way, thereby enhancing their natural curiosity and strengthening their cognitive and motor skills. </Adventure_Intro>
+<Adventure_Body>//h3//Ontwikkelingsvoordelen:
+** Encouraging the natural curiosity of infants to experience mathematical tasks.
+** Getting acquainted with small numbers.
+** Practicing changes in form, pattern and appearance of fixed quantities.
+** Recognizing quantities of items and how addition and subtraction affect quantity.
+** Comparing amounts, and getting acquainted with the terms "more" and "less".
+</Adventure_Body>
+</products>
+</lang>

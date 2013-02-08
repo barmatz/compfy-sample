@@ -1,0 +1,568 @@
+﻿xmlContent=<?xml version='1.0' encoding='UTF-8'?>
+<lang translator='eric' style='Korean.css' embed="False">
+   <main>
+	   <xml_pressTheButterfly>PRESS THE //Color#FF0000//BUTTERFLY// BUTTON ON THE COMFY KEYBOARD TO START</xml_pressTheButterfly>
+	   <xml_pressTheDrum>컴피 키보드의 드럼 단추를 눌러 시작합니다. </xml_pressTheDrum>
+
+   <xml_pressTheturtle>PRESS THE //Color#FF0000//TURTLE// BUTTON ON THE  //Color#FF0000//COMFY// KEYBOARD TO START</xml_pressTheturtle>
+	</main>
+
+
+<!-------------------------------------------      shared     ----------------------------------------------------->
+
+    <shared>
+        <back>뒤로 </back>
+        <next>다음</next>
+        <beginner style='h3'>초급</beginner>
+        <beginners style='h3'>초보자</beginners>
+		<beginnerLevel style='h3'>초급</beginnerLevel>
+        <intermediate style='h3'>중급</intermediate>
+        <intermediates style='h3'>중급</intermediates>
+		<intermediateLevel style='h3'>중급</intermediateLevel>
+        <advanced style='h3'>고급</advanced>
+        <advanceds style='h3'>고급</advanceds>
+		<advancedLevel style='h3'>고급</advancedLevel>
+        <ages_1_3 style='h3'>1 ~ 3 세 </ages_1_3>
+        <ages_1_3C style='h3'>1 ~ 3 세 </ages_1_3C>
+        <ages_3_5 style='h3'>3 ~ 5 세 </ages_3_5>
+		<ages_3_5C style='h3'>3 ~ 5 세 </ages_3_5C>
+        <level1 style='comics'>레벨 1</level1>
+        <level2 style='comics'>레벨 2</level2>
+        <level3 style='comics'>레벨 3</level3>
+	<moresoft style='comicsEng'>For More advanced software click here</moresoft>
+	<place_Overlay style='comics'>PLACE THE "$$nameOfGame$$" OVERLAY ON THE COMFY KEYBOARD</place_Overlay>
+    </shared>
+    <buttons style='pagesTitle'>
+        <enterGame>게임 시작 </enterGame>
+        <enterGame_Inside>게임 시작 </enterGame_Inside>
+        <activityCenter style='pagesTitle' effect='blue' width="370" dy='-10' dx='-10'>활동|센터</activityCenter>
+        <activityCenter_Inside style='pagesTitle' effect='blue'>활동|센터</activityCenter_Inside>
+        <parentSection style='pagesTitle' effect='purple'>부모님 공간 </parentSection>
+        <parentSection_Inside style='pagesTitle' effect='purple'>부모님  </parentSection_Inside>
+        <welcome>컴피에 대하여</welcome>
+        <welcome_Inside effect='orange'>컴피에 대하여</welcome_Inside>
+        <changeLanguage effect='orange' dy='-25'>언어 변경 </changeLanguage>
+        <changeLanguage_Inside effect='orange'>언어 변경 </changeLanguage_Inside>
+        <changeLevel effect='orange'>레벨 변경</changeLevel>
+        <changeLevel_Inside effect='orange'>레벨 변경</changeLevel_Inside>
+        <products effect='orange' >Comfy Products</products>
+        <products_Inside effect='orange' style='pagesTitle60'  dx='20' dy='-20'>기타 컴피 제품들</products_Inside>
+
+    </buttons>
+    
+    
+    
+    
+<!-------------------------------------------      game names     ----------------------------------------------------->
+    
+<games style="title">
+	<Adventure>Adventure in Numberland</Adventure>
+	<animalWorld>동물의 세계</animalWorld>
+	<BabyTV>BabyTV</BabyTV>
+	<birthdayParty>생일 파티</birthdayParty>
+	<comfyOnline>컴피 </comfyOnline>
+	<firstSteps>첫번째 단계 </firstSteps>
+	<homeHunt>우리집</homeHunt>
+	<iLivehere>우리 동네</iLivehere>
+	<joyOfMusic>음악의 즐거움</joyOfMusic>
+	<letsImagine>상상해 봅시다</letsImagine>
+	<myNeighborhood>우리 동네</myNeighborhood>
+	<myHome>우리집</myHome>
+	<timeTravel>시간 여행</timeTravel>
+	<WordlOfColors>색의 세계</WordlOfColors>
+	<WorldOfColors>색의 세계</WorldOfColors>
+	<XMass>컴피랜드 크리스마스</XMass>
+</games>
+
+
+<!-------------------------------------------      Parent Section      ----------------------------------------------------->
+
+    <parentSection style='comics22'>
+        <welcome style='comics22' Xstyle="title">컴피에 오신 것을 환영합니다</welcome>
+        <parentGuide style='comics22' Xstyle="title">부모 지침서: "$$nameOfGame$$"</parentGuide>
+	<aboutBaby style='comics22' Xstyle="title">ABOUT BABYTV</aboutBaby>
+	<comfy3c style='comics22' Xstyle="title">COMFY PEDAGOGICAL HOUSE</comfy3c>
+        <howto style='comics22' Xstyle="title"  dy="10">컴피 키보드 사용법 </howto>
+        <educational style='comics22' Xstyle="title" dy="7">교육적 가치 </educational>
+        <faq style='comics22' Xstyle="title">자주 묻는 질문 (FAQS) </faq>
+        <website style='comics22' Xstyle="title">컴피 웹사이트로 바로 가기</website>
+        <registration style='comics22' Xstyle="title">온라인 보증서 접수 </registration>	
+	<performance style='comics22' Xstyle="title">환경 설정 </performance>
+        <performance_txt1 style='normal' Xstyle="title">스크린 해상도는 컴피 게임들의 애니메이션 성능에 영향을 미칩니다. 
+
+높은 해상도를 선택하면 게임 그래픽이 우수해지지만 컴퓨터가 느릴 경우에는 추천하는 방법이 아닙니다.  
+
+애니메이션이 느리거나 띄엄띄엄 보일 경우에는 디폴트 (기본)보다 낮은 해상도를 선택하세요. 
+
+//h2//원하는 해상도를 선택하세요 </performance_txt1>
+<default>(디폴트 )</default>
+    </parentSection>
+    
+	
+<!-------------------------------------------      EDUCATIONAL      ----------------------------------------------------->
+
+<educational style='normal'>
+        <title1 style='title'>교육적 가치  – 일반 </title1>
+        <note ready='true' style='note'>주) "자녀의 나이와 성장 단계에 맞춘 다양한 컴피 CD 게임들을 통해 자녀가 다양한 가치들과 능력을 습득할 수 있게 됩니다.  </note>
+        <frame1 ready='false' style='normal'>컴피 키보드와 소프트웨어는 1-5세 아동들의 능력과 관심에 적합한 기술 미디어를 전문으로 하는 교육 연구팀이 개발, 설계하였습니다. 대형 그림 키들과 작은 손으로 잡기 편해 조작이 편리한 전화기와 스핀 롤러는 자녀가 혼자서 가지고 놀 수 있을 만큼 쉽게 조작이 가능하며 별도의 읽기 또는 컴퓨터 마우스 사용 능력이 없어도 됩니다.  </frame1>
+        <frame2 >컴피의 인터액티브 환경 속에서 아이는 자연스럽게:
+**놀이와 탐험을 통해 학습을 합니다.  
+**기본 컴퓨터 활용법을 익힙니다. 
+**인지, 감성, 사회성이 개발됩니다. 
+
+컴피의 독특한 접근법은 학습 목표를 달성하는 데 적합합니다:
+
+**활동들은 이야기, 애니메이션 영화, 사진 보기, 색칠하기, 음악 감상과 노래 부르기, 동작 활동과 사회적인 개념 익히기 등으로 진행됩니다. 
+</frame2>
+ 
+ <frame3 style='normal'>**컴피 키보드는 일반 키보드와 마우스를 대신합니다. 컴피 키보드의 키들은 색깔이 다양하며 사용하기 쉽습니다. 읽기 쓰기 능력은 필요 없답니다. 
+
+**컴피 활동들은 아이에 나이에 맞게 개발되었으며 이야기에 등장하는 캐릭터와 물건들은 사랑스럽고 재미있습니다. 
+
+**자녀의 학습 단계에 따라 레벨을 설정하고 활동들을 시작하게 되면 아이는 부모님의 도움 없이도 혼자 놀 수 있습니다. 컴퓨터의 캐릭터들은 아이들에게 말을 걸고 각 단계마다 설명을 해줍니다. 설명은 언제나 다양한 그래픽과 애니메이션이 곁들여 있습니다.  
+</frame3>
+
+<frame4 style='normal'>**컴피에는 부모님과 아이가 함께 할 수 있는 학습 놀이 기회가 매우 다양합니다. 부모로써 여러분과 가족들은 여러분의 자녀와 함께 끝없이 새로운 경험들을 함께 즐기게 될 것입니다. 
+
+
+다음에서는 아이들의 능력과 발달 패턴을 간략하게 설명하고 여러분의 자녀의 감각 지각, 운동, 인지 그리고 감성 능력 발달에 컴피가 어떠한 도움이 될 수 있는지 설명합니다. </frame4>
+
+<title5 style='title'>교육적 가치  - 운동 및 감각 능력 </title5>
+<frame5 style='normal'>//h1//운동 및 감각 능력 
+
+아이들은 성장하면서 신체적, 정신적 능력이 같이 발달함에 따라 할 수 있는 것들도 많아집니다. 자녀는 물건과 캐릭터를 알아보게 되고 주위 환경으로부터의 자극을 이해하고 감각을 키워나갑니다.  
+
+아이들이 컴피와 함께 놀면서 배우는 것은:
+
+**컴퓨터의 스크린에서 보는 물건과 캐릭터들을 컴피 키보드에 있는 것들과 연결을 지을 수 있게 됩니다. 
+**여러가지 모양과 색깔을 구별할 수 있는 시각적 지각능력이 향상됩니다.  
+**청각 능력이 발달합니다.  </frame5>
+        <title6 style='title'>교육적 가치 
+언어 능력</title6>
+        <frame6 style='normal'>//h1//언어 능력 
+	
+문장 만들기를 배운 아이는 이에 맞게 단어 수도 계속 늘어 갑니다.  
+
+컴피를 통해 여러분의 자녀들은:
+**질문하기와 부탁하기를 배우고 경고적, 설명적인 문장들을 만드는 방법을 학습합니다. 
+**날씨, 우편, 시간 등의 특정하고 새로운 주제에 대한 지식을 습득합니다. </frame6>
+   
+<title7 style='title'>교육적 가치 
+사고 능력 </title7>
+<frame7 style='normal'>//h1//사고 능력 
+
+아이의 기억 능력이 발달해서 더 많은 사진들, 목소리, 그리고 경험들을 기억할 수 있게 됩니다. 또 아이의 상상력이 개발되고 창조적인 사고 능력이 향상됩니다.  
+
+컴피와 놀면서 여러분의 자녀들은:
+
+**진행되는 이야기를 바꿀 수 있어 (예 – 비가 오게 하거나 밤낮을 바꾸기) 원인과 결과의 관계에 대한 이해가 향상됩니다.  
+**활동에 등장하는 다양한 물건, 소리, 음성, 이벤트와 캐릭터 등에 대한 기억력 훈련을 합니다. 
+**이야기의 줄거리를 원하는 대로 바꿔가면서 상상력을 기르고 창조력을 개발합니다.  
+
+</frame7>
+
+<frame8 style='normal'>**캐릭터들과 “연극놀이”를 통해 세상을 익혀갑니다. 
+
+**집중력 발달과 사고력을 키우는 놀이에 참여를 하게 됩니다. </frame8>
+
+<title9 style='title'>교육적 가치 
+감성 발달</title9>
+<frame9 style='normal'>//h1//감성 발달
+
+아이들에게 따뜻하고 격려하는 환경도 중요하지만 규칙들과 금기 사항들도 명확하게 알려줄 필요가 있습니다. 이는 자립심과 호기심을 개발하고 자신감과 자아상을 키우는 노력을 자발적으로 할 수 있게 해줍니다. 
+
+컴피는 여러분의 자녀들에게:
+
+**색과 소리의 변화를 알아가고 친근한 캐릭터들을 만나는 등의 긍정적인 경험을 제공해 줍니다. 
+**키보드를 통해 아이의 행동에 대한 즉각적인 피드백과 격려가 제공됩니다. 
+**컴피 키보드의 스핀 롤러를 이용하여 충동을 해소할 수 있는 기회가 제공됩니다. 
+
+ </frame9>
+        <frame10 style='normal'>**컴피 키보드, 활동 속의 이벤트들, 그리고 줄거리의 방향 등에 대해 일종의 통제권을 가집니다. 이는 아이의 자신감과 자아상 발달에 기여합니다.  
+
+
+**명확한 게임의 규칙이 제시됩니다 (예를 들어, 버디 곰은 아이에게 비를 오게 해달라고 부탁을 하는데 “지금 말고 조금 있다가 내가 집에 가면” 이라고 합니다). 
+</frame10>
+        <title11 style='title'>교육적 가치  - 사회적 가치와 행동 방식 </title11>
+		<frame11 style='normal'>//h1//사회적 가치와 행동 방식 
+
+어린이들은 사회적, 문화적 관습을 경험하면서 올바른 행동 방식을 익혀갑니다. 자녀들은 컴피 게임을 통해 바른 행동을 배우고 사회적인 어려움들과 장애물을 극복하는 방식을 배우게 됩니다. 
+
+여기서 컴피는:
+
+**아이들이 다양한 일상 상황에 직접 참여를 하고 바른 행동을 배울 수 있도록 해줍니다. 
+**아이들이 친숙하게 느낄 수 있는 캐릭터를 이용합니다. 
+**같이 노력하는 것과 남을 도와주는 긍정적인 행동들을 강조해줍니다.  
+**컴피랜드는 우정, 타협, 생명과 물건에 대한 존중과 아낌 등의 긍정적인 가치들을 소개해줍니다.  
+
+</frame11>
+</educational>
+    
+<!-------------------------------------------      WELCOME    ( about comfy)  ----------------------------------------------------->
+
+<welcome>
+<frame1 ready='true' style='normal'>컴피와 친구들은 풍성하고 신나는 멀티미디어 세상을 소개해주고 아이들의 교육과 성장 과정에 새로운 경험과 즐거움을 더해줍니다. 컴피는 여러분의 자녀들이 스스로 컬러풀한 애니메이션 소프트웨어 안에 담긴 역동적인 세상을 탐험하고 조절할 수 있는 기회를 제공합니다. 아이들에게 기본적인 컴퓨터 개념과 기술을 익히는 재미있고 자연스러운 방법도 제공해줍니다.
+
+컴피 제품들은 자녀의 운동과 인지 능력에 맞도록 개발되었습니다. 컴피 키보드와 소프트웨어는 읽기 능력이나 마우스 사용 능력이 없는 아이라도 각자의 발달 속도에 따라 스스로 쉽게 사용할 수 있도록 개발되었습니다.  </frame1>
+        <website ready='false' note='it have to be there' style='comics22'>COMFY WEBSITE</website>
+</welcome>
+
+
+
+
+ <!---------------------------------------------------   Use Comfy  	---------------------------------------------------------------->   
+    
+    <useComfy style='normal'>
+
+        <title1 style='title'>컴피 키보드 사용법 </title1>
+
+        <note style='note'>주) “컴피 게임에서 컴피 키보드 사용하기” 설명서에서는 본 게임 CD에 컴피 키보드를 사용하는 방법이 자세히 나와 있지 않습니다. 자세한 설명은 “부모 지침서” 를 참고하세요. </note>
+
+<frame1 style='normal'>컴피 키보드는 유아들에게 컴피의 재미있는 인터액티브 게임을 즐길 수 있도록 해줍니다. 1 ~ 5세 아이들의 능력과 관심에 맞도록 개발되어 아이의 발달 속도에 따라 사용할 수 있습니다. 
+
+친숙한 모양, 다채로운 색깔과 친근한 이미지들은 어린 손가락들이 만지고 탐구하고 발견할 수 있는 분위기를 만들어줍니다. 특수 개발된 소프트웨어는 아이의 발달 상황에 맞는 활동들을 선택할 수 있게 되어 있습니다. 
+</frame1>
+
+<frame2>//h1//키보드 키에 대한 설명:
+
+//h1//날씨 키 
+컴피 키보드에는 3개의 날씨 키가 있습니다:
+
+**해와 낮을 나타내는 키.
+**달과 밤을 나타내는 키.
+**구름과 비를 나타내는 키.
+
+이중 하나를 누를 때마다 변하는 컴피랜드 세계의 날씨를 통해 아이는 날씨의 특성을 알게 될 것입니다. 
+
+날씨 키를 통해 배우는 개념:
+
+**낮과 밤의 개념 이해.
+**비와 같은 일기 현상 알아보기.</frame2>
+
+<frame3>//h1//캐릭터 키와 전화 수화기:
+
+**스네일리.
+**버디.
+**점피.
+**필리.
+**컴피.
+
+아이들이 캐릭터들을 언제든지 부를 수 있고 이들을 다양한 곳과 상황에서 찾을 수 있게 됩니다.  
+
+전화기를 이용한 학습 개념들:
+
+**인터액티브 통신 수단인 전화기와 친숙해지기.
+**컴피 캐릭터들과 대화하기와 사회성 개발.</frame3>
+
+<frame4>//h1//음악 키들 
+
+컴피 키보드에는 4개의 음악 키들이 있습니다 - 드럼, 플루트, 피아노, 트럼펫.  
+
+음정 키를 누르면 컴피의 주제곡이 나오며 컴피랜드의 캐릭터들에 대한 소개가 나옵니다. 
+
+각 음악 키를 누르면 해당되는 악기가 소개되고 악기별로 고유한 음악이 나오게 됩니다. 같은 키를 계속 누르면 멜로디의 박자가 바뀌면서 다른 멜로디로 변하기도 합니다. 
+ 
+음악 키를 이용한 학습 개념들:
+
+**4개의 악기 (모양과 소리) 를 익히고 알아보기.
+**여러 가지 악기를 구별하기.
+**멜로디를 알고 노래를 배우기.</frame4>
+
+<frame5>//h1// 색깔 키 
+
+키보드에는 6 개의 색깔 키가 있습니다:
+
+//Color#9900FF//빨강//  //Color#FF7600//노랑//  //Color#009900//파랑//  //Color#333399//초록//  //Color#FFFF66//주황//  //Color#CC0000//보라//
+
+색깔 키를 누르면 같은 색의 활동이 나옵니다. 
+
+게임 중간에 색깔 키를 누르면서 다양한 활동 놀이를 합니다. 
+
+색깔 키를 누르면 같은 색의 활동이 나옵니다. 
+
+색깔 키를 이용한 학습 개념들:
+
+**키보드 색깔들을 익히기.
+**미적인 색채 감각 노출.</frame5>
+
+<frame6>//h1//스핀 롤러 
+
+컴피 키보드에는 자유자재로 회전하는 스핀 롤러가 있어 자녀들에게 자유로운 동작 기회들을 제공해줍니다.  
+
+스핀 롤러를 작동하게 되면 스크린상의 이벤트들의 속도가 임시로 바뀝니다. 롤러를 빨리 돌릴수록 이벤트의 속도도 빨라집니다. 
+
+스핀 롤러를 이용한 학습 개념들:
+**흥미를 제공하며 상상력을 자유롭게 사용하기.
+**스크린 참여와 컨트롤을 통해 흥미 돋구기.</frame6>
+
+<frame7>//h1//일시 정지 키 
+
+일시 정지 키를 누르면 “멈춤”의 의미를 소리와 이미지를 통해 알게됩니다. 키보드의 다른 키를 누르면 활동은 다시 처음부터 시작됩니다. 
+
+일시 정지 키를 이용한 학습 개념들:
+**아이가 부모님의 도움을 스스로 요청할 수 있는 기회.
+**일시 정지 키는 대화 중에 또는 좋아하는 그림을 오래 볼 때 사용할 수 있습니다. </frame7>
+</useComfy>
+
+
+<!---------------------------------------------------  activityCenter  ------------------------------------------------->
+
+    <activityCenter style='comics'>
+	<frame1 style='comics' width="350">컴피랜드에서 재미있는 그림 색칠하기 
+컴피랜드 캐릭터를 클릭하면 색칠놀이 페이지로 이동합니다. 가장 좋아하는 그림을 선택합니다. 
+클릭해서 인쇄하고 색칠하기 
+재미있게 놀아요! 
+컴피랜드에서 재미있는 그림 색칠하기 놀이를 합니다. 
+컴피랜드 캐릭터를 클릭하면 색칠놀이 페이지로 이동합니다. </frame1>
+</activityCenter>
+
+<!---------------------------------------------------       FAQ      ------------------------------------------------->
+
+<faq style='normal'>
+        <questions>QUESTIONS</questions>
+        <note style='note'>주) 각 활동에 대한 자세한 설명은 부모님 공간의 “부모님 가이드” 부분을 참고하세요. </note>
+        
+	<Q_chooseLang>언어를 어떻게 선택하나요? </Q_chooseLang>
+        <chooseLang>메뉴의 “언어 변경” 버튼을 클릭하세요. 
+
+제공되는 언어 목록을 화살표를 이용해서 검색하고 희망하는 언어의 국기를 클릭하세요. 
+
+빨간색 “게임 시작” 버튼을 누르면 선택한 언어로 된 게임이 시작됩니다. 
+</chooseLang>
+       
+       <Q_changeLevel>레벨을 어떻게 바꾸나요? </Q_changeLevel>
+        <changeLevel>메뉴의 “레벨 변경” 버튼을 클릭하세요. 
+원하는 레벨의 박스를 클릭하세요. 
+컴피 키보드의 색깔 키를 눌러 레벨을 바꿀 수도 있습니다. 초록 (레벨 1); 파랑 (레벨 2); 노랑 (레벨 3) 
+
+빨간색 “게임 시작” 버튼을 누르면 선택한 레벨로 된 게임이 시작됩니다.</changeLevel>
+        
+	<Q_returnMain>게임에서 메인 메뉴로 돌아가는 방법은? </Q_returnMain>
+        <returnMain>일반 키보드의 ESC키를 누르면 CD 메뉴로 돌아가게 됩니다. 
+</returnMain>
+       
+       <Q_exitGame>게임은 어떻게 종료하나요? </Q_exitGame>
+        <exitGame>일반 키보드의 ESC 키를 누르면 CD 메뉴로 돌아가게 됩니다. 
+게임을 종료하기 위해서는 다시 ESC 키를 누릅니다. 
+컴피 게임들은 종료시 부모님의 도움이 필요하며 아이 혼자서 할 수 없도록 만들어졌습니다. 이는 아이가 컴피의 환경 속에서만 자립적으로 놀고 부모님의 컴퓨터 환경 속으로 우연히 들어가지 못하게 하기 위한 것입니다.    
+</exitGame>
+        
+	<Q_difference>첫번째 단계의 3개의 레벨들은 어떻게 다른가요? </Q_difference>
+        
+	<Q_moveUp>레벨을 올릴 때가 된 것은 어떻게 알수 있나요? </Q_moveUp>
+        <moveUp>레벨 1로 시작을 해서 올라갈 것을 추천합니다. 
+자녀가 자신감을 기르고 활동 놀이를 충분히 익혔다면 레벨을 올려서 새로운 활동들을 소개시켜 주는 것이 좋습니다. 
+</moveUp>
+        
+	<Q_overlay >When do I place the "$$nameOfGame$$" overlay on the Comfy Keyboard and what is it used for?</Q_overlay>
+        <overlay>The "$$nameOfGame$$" overlay should be placed on the Comfy Keyboard when playing with the "$$nameOfGame$$" game CD. The overlay has different icons than the Comfy keyboard and is needed when playing with the "$$nameOfGame$$" CD content.</overlay>
+        
+	<forMoreFaqs>추가 FAQ 는 www.comfyland.com 를 참고하기 바랍니다 </forMoreFaqs>
+    </faq>
+    
+<!---------------------------------------------------  Products  ------------------------------------------------->
+
+<products style='products'>
+<chooseAge style='comics22'>사용 연령을 선택하세요</chooseAge>
+<chooseDesc style='normal'>컴피의 독창적인 소프트웨어들은 신나고 재미있는 활동들을 통해 여러 단계의 학습효과를 지원해줍니다.  </chooseDesc>
+<notAllSoftwares style='normalProd'>모든 소프트웨어의 번역본이 있는 것은 아닙니다. 
+저희 제품에 대한 최신 정보를 원하신다면 //HREF//www.comfyland.com// www.comfyland.com//HREF_END// 을 찾아주세요</notAllSoftwares>
+<clickOnAnyImage>Click on any image for more information</clickOnAnyImage>
+<newPlaying style='normalProd'>Now Playing:</newPlaying>
+<mrktBefore style='prodBig'>Help your child reach his full potential by providing him the age appropriate software</mrktBefore>
+<signUp style='prodBig'>Spcieal discounts for club members.
+//HREF//www.comfyland.com/club/sign//sign up//HREF_END// for the Comfy Club for free.</signUp>
+<remind style='normalProd'>Don’t remind me any more</remind>
+<mrktAfter style='prodBig'>Your child have been playing with this software, get your//HREF//www.comfyland.com/club/sign// 15//PERCENT// off with free sign up,//HREF_END// on our range of software</mrktAfter>
+
+<!------    Products: First Steps   ------------>
+
+<firstSteps_Intro>“첫번째 단계” 은 유아들을 위해 특수 개발된 컴퓨터 게임 CD 로서 유아들에게 독립적인 컴퓨터 경험을 처음으로 제공하고 기본 개념을 소개해줍니다. </firstSteps_Intro>
+        <firstSteps_Body>//h4//
+3 단계의 인터액티브 교과로 구성되어 있습니다:
+//u//1 단계:// 색과 소리 익히기.
+//u//2 단계:// 물건과 이름 알기.
+//u//3 단계:// 생각하기, 이해하기.
+
+//h3//발달 효과:
+
+**모양, 소리, 색깔 익히기.
+**손과 눈의 협응 능력 개발. 
+**듣기 능력 개발.
+**생각하고 이해하는 능력 개발.</firstSteps_Body>
+
+<!------    Products: My Home   ------------>
+
+<myHome_Intro>“우리집”은 다양한 일상 활동을 통해 집안을 살펴보면서 유아들에게 오랜동안 즐거운 시간을 제공해줄 것입니다. 노래와 깜짝거리들로 자녀들에게 정리하는 중요성을 가르쳐주고 소리와 목소리를 통해 물건을 알아보고 날씨에 맞게 옷을 입는 방법 등을 알려주는 게임입니다. 아이들은 3살난 귀여운 여자 아이 디디와 친구들과 함께 숨바꼭질과 여러 재미있는 놀이를 하게 될 것입니다. </myHome_Intro>
+<myHome_Body>//h3//3 단계의 인터액티브 교과로 구성되어 있습니다:
+//u//1 단계:// 집에 있는 다양한 물건들과 개념들을 소개.
+//u//2 단계:// 스크린에 나타나는 힌트를 이용해서 캐릭터의 질문에 반응하게 됩니다.   
+//u//3 단계:// 힌트가 없이도 캐릭터들과 교류를 하는 방법을 익힙니다.
+
+//h3//발달 효과:
+**집 환경 익히기.
+**원인과 결과 학습.
+**단어와 언어 능력 개발.
+**상대적인 개념들간의 관계 익히기.</myHome_Body>
+
+<!------    Products: Let's Imagine   ------------>
+
+<letsImagine_Intro style='products'>“상상해 봅시다”는 유아가 오래도록 즐겁게 상상력을 키우는 시간을 갖게 해줍니다. 다채로운 그래픽과 애니메이션 그림을 통해 여러가지의 학습을 재미있게 하면서 시각적 자극을 받고 청각이 발달하게 됩니다. </letsImagine_Intro>
+<letsImagine_Body>//h3//
+3 단계의 인터액티브 교과로 구성되어 있습니다:
+
+//u//1 단계://  디디와 부의 동물, 모양, 물건, 인체의 세계를 소개합니다. 
+//u//2 단계://  스크린에 나타나는 힌트를 이용해서 캐릭터들의 질문에반 응하게 됩니다. 
+//u//3 단계://  힌트가 없이도 캐릭터들과 교류를 하는 방법을 익힙니다. 
+
+
+//h3//발달 효과:
+
+**단어와 언어 능력 확대.
+**소리, 모양, 색깔 알아 맞히기.
+**원인과 결과 학습.
+**다양한 활동을 통해 아이가 문제를 해결할 수 있도록 도움을 제공.</letsImagine_Body>
+
+<!------    Products: Birthday Party   ------------>
+
+<birthdayParty_Intro>“생일 파티”는 사회성과 의사 소통 능력을 배울 수 있도록 도와주는 게임입니다. 필리의 생일 파티가 주제이며 (아이의 선택에 따라) 캐릭터마다 각자의 이야기를 들려줍니다. 스네일리 달팽이는 우편 배달부가 된 첫 날을 이야기해주고 컴피와 점피는 동물원에 놀러간 이야기를 하며 버디 곰은 놀라운 경험을 말해줍니다. 이야기가 끝날 때 마다 컴피랜드의 캐릭터들은 생일상에 다시 모입니다.</birthdayParty_Intro>
+<birthdayParty_Body>//h3//키보드 키 
+자녀는 이야기의 앞부분에 나오는 정보들을 모아 줄거리에 나오는 문제들을 컴피 키보드를 이용해 푸는 방법을 익히게 됩니다. 
+
+//h3//발달 효과:
+**공간, 시간, 상대적 차원들에 대한 개념 익히기.
+**사회적인 관습과 가치 소개.
+**색과 숫자 알아보기.
+**기억력과 표현력 개발.</birthdayParty_Body>
+
+<!------    Products: Christmas in Comfyland   ------------>
+
+<XMass_Intro>“컴피랜드 크리스마스”는 마법 같은 특별한 휴일을 잘 보여주는 짧은 에피소드들로 엮인 즐겁고도 교육적인 인터액티브 영화입니다. 컴피와 친구들이 크리스마스 행사를 준비해서 다 같이 즐기기 위해 다른 아이들도 초대를 합니다. 컴피의 가족들이 “메리 크리스마스” 노래를 부르면서 끝나는 이야기는 “컴피랜드 크리스마스”의 정신을 잘 표현해줍니다. 크리스마스를 준비하는 즐거움과 행복함을 보여주는 것입니다. 일년 중 가장 특별한 날이 올해에는 더욱 특별해집니다!  </XMass_Intro>
+        <XMass_Body>//h3//발달 효과:
+**듣기 능력, 집중력, 기억력, 참을성 발달.
+**자신감, 자립심, 통제력 개발.
+**긍정적인 감정 수양.
+**크리스마스의 특징 소개.</XMass_Body>
+
+<!------    Products: Joy of Music   ------------>
+
+<JoyOfMusic_Intro>“음악의 즐거움”에서는 피피 플루트, 템포 트럼펫, 붐붐 드럼, 마노 피아노의 연습 리허설과 콘서트에 참여하면서 음악적인 개념을 익힐 수 있습니다. 모든 악기들은 독특한 캐릭터들이 되어 그들만의 성격을 갖고 있습니다. 악기 캐릭터들과 컴피랜드의 캐릭터들간의 교류를 통해 우정과 상호 돕기 등의 개념을 배울 수 있습니다. “음악의 즐거움”은 악기를 익히고, 화음에 대해 알게 되고 운동 능력과 청각적인 능력을 개발하기 위한 이상적인 방법입니다. </JoyOfMusic_Intro>
+        <JoyOfMusic_Body>//h3//발달 효과:
+**다양한 악기와 음악 관련 단어를 익히는 동시에 신나는 음악 감상.
+**창조력과 집중력 향상.
+**색채 지각 능력 발달.
+**통제 감각과 자신감 개발하고 식탁 예절 익히기.
+**우정과 서로 돕는 것의 가치를 강조해줍니다.</JoyOfMusic_Body>
+
+<!------    Products: World of Colors   ------------>
+
+<WordlOfColors_Intro>“색의 세계”에서는 점피가 잃어버린 뼈다귀를 찾는 과정에서 아름다운 색의 세계를 소개해줍니다. 아이들은 색깔들의 이름을 배우고 물건을 비교하고 물건과 색을 매칭하며 관찰력과 시각적 지각 능력을 개발하게 됩니다. “색의 세계”는 색에 대해 처음 배우는 아이들에게 재미있는 인터액티브 이야기를 통한 학습 방법을 제공해줍니다. 색을 이미 익힌 아이들은 창조력을 키우며 놀이를 통해 풍부하고 특별한 경험을 쌓게 될 것입니다.  </WordlOfColors_Intro>
+<WordlOfColors_Body>//h3//발달 효과:
+**색과 물건 매칭.
+**숨은 물건 알아 맞추기.
+**공간성에 대한 기초 개념 학습.
+**문제 해결 경험.
+**비교 능력 개발.</WordlOfColors_Body>
+
+<!------    Products: Animal World   ------------>
+
+<animalWorld_Intro>
+“동물의 세계”의 발견들과 깜짝거리들은 아이들이 동물들의 세계와 자연을 접하고 배울 수 있는 창조적인 방법을 제공합니다. “동물의 세계”에서 아이들은 “지구”, “숲”, “물”, “눈” 세상을 탐험하고 그곳만의 특별한 인터액티브 활동을 즐길 수 있게 됩니다. “동물의 세계”의 이야기, 인터액티브 게임, 창조적인 미술과 음악 활동을 통해 자녀의 인지, 감성, 언어, 창조력을 개발할 수 있습니다.  </animalWorld_Intro>
+<animalWorld_Body>* 본 CD 내용은 “컴피 온라인”에서도 이용하실 수 있습니다. 
+
+//h3//발달 효과:
+**색, 모양, 숫자를 구별하는 능력 개발.
+**듣기 능력 향상과 지시를 이해하는 능력 발달.
+**단어력과 사고 능력 개발.
+**미술, 재료, 테크닉을 익히기.</animalWorld_Body>
+
+<!------    Products: Time travel  ------------>
+
+<timeTravel_Intro>“시간 여행” 에서 아이들은 컴피와 친구들과 함께 신나는 우주와 시간여행을 하게 됩니다. “시간 여행”은 재미있는 이야기, 인터액티브 게임, 창조적인 미술과 음악 활동들을 통해 여러가지 문화와 과거와 현재의 시대를 보여줍니다. 컴피와 친구들은 공룡에 대해 배우고 원시인의 습관들을 살펴보고 인디언 마을을 찾아가 그들의 전통을 배우고 외계인의 방문을 받게 됩니다. “시간 여행”은 자녀에게 완전히 새로운 세상을 소개하면서 아이의 상상력을 자극합니다. 다양한 활동을 통해 아이는 상상력과 인지 능력을 개발할 수 있습니다. </timeTravel_Intro>
+<timeTravel_Body>* 본 CD 내용은 “컴피 온라인”에서도 이용하실 수 있습니다.
+
+//h3//발달 효과: 
+**결정 내리기 능력 향상.
+**숫자 개념에 대한 이해력 향상.
+**지적인 호기심 개발.
+**긍정적인 자아상 확립.</timeTravel_Body>
+
+<!------    Products: My Neighborhood  ------------>
+
+<myNeighborhood_Intro>“우리 동네”는 컴피랜드의 신나는 동네로 아이들을 안내합니다. 아이들은 자극적인 이야기, 인터액티브 게임, 창조적인 미술과 재미있는 음악 활동을 통해 컴피의 동네를 탐험하게 됩니다. 컴피와 친구들과 함께 아이들은 자신의 집을 익히고 친절한 이웃식구들을 방문하고 놀이터와 공원에서 놀며 지시에 따라 다양한 자동차들을 운전하는 방법을 배우게 됩니다. “우리 동네”는 아이들에게 자신감을 주고, 인지, 사회, 감성적인 능력을 일상적인 경험들을 통해 개발할 수 있도록 해줍니다. </myNeighborhood_Intro>
+<myNeighborhood_Body>* 본 CD 내용은 “컴피 온라인”에서도 이용하실 수 있습니다.
+
+//h3//발달 효과: 
+**분류하고 구분하는 능력 향상.
+**점점 복잡한 사고 처리 능력 개발.
+**다양한 사고 패턴 개발.
+**긍정적인 감정 수양.</myNeighborhood_Body>
+
+<!------    Products: comfyOnline   ------------>
+
+<comfyOnline_Intro>컴피의 온라인 세계에서 아이들은 컴피랜드의 친구들과 함께 놀라운 소프트웨어 탐험과 마법의 인터넷 서핑 경험을 하게 됩니다. “컴피 온라인”에서는 다양한 컨텐츠 세상에 여러 종류의 독특하고 인터액티브한 인터넷 활동들이 있습니다. 컨텐츠는 행사, 시간, 장소별로 꾸준히 업데이트되어 아이들 세상의 실제 행사들을 실제 시간에 따라 연결해주면서 아이들에게 뛰어난 단계별 학습 효과를 발휘해줍니다. “컴피 온라인”은 “안전한 정원”과 같은 환경에서 어린 자녀들에게 첫 인터넷 경험을 제공해줍니다. </comfyOnline_Intro>
+<comfyOnline_Body>** “킴피 온라인”의 컨텐츠는 컴피의 소프트웨어 
+   CD 를 통해서도 부분적으로 제공됩니다. 
+
+//h3//발달 효과: 
+**듣기 능력, 집중력, 기억력과 참을성 향상.
+**다양한 사고 패턴 자극.
+**자신감, 자립심과 통제력 개발.
+**사고와 창조적인 해결 능력 장려.</comfyOnline_Body>
+
+<!------    Products: BabyTV   ------------>
+
+<babytv_Intro>BabyTV - Go Interactive is an interactive game based on the popular characters from the
+world of BabyTV, the first channel dedicated to infants and toddlers under 3 years of age,
+The famous characters lead activities that are fun and are designed to promote development
+and interaction, We now offer you and your baby the opportunity to interact and play with
+your favorite BabyTV characters off the screen, while developing early learning and communication skills</babytv_Intro>
+<babytv_Body>//h3//Developmental Benefits
+**Enhances natural curiosity to explore.
+**Encourages creative thought and imagination.
+**Develops the ability to understand and follow instructions.
+**Expands vocabulary and language skills.
+**Develops convenation skills.
+</babytv_Body>
+
+<!------    Products: Adventure   ------------>
+
+<Adventure_Intro>"Adventure in Numberland" is an exciting and fun interactive game, which opens a first window to the world of numbers. The favorite friends from Comfyland go on a fascinating adventure in Numberland where they meet animated numbers that invite them to join a picturesque color, movement and sound experience. The game gives toddlers the opportunity to practice basic quantitative problems such as counting and numbering in a joyful way, thereby enhancing their natural curiosity and strengthening their cognitive and motor skills. </Adventure_Intro>
+<Adventure_Body>//h3//Developmental Benefits
+** Encouraging the natural curiosity of infants to experience mathematical tasks.
+** Getting acquainted with small numbers.
+** Practicing changes in form, pattern and appearance of fixed quantities.
+** Recognizing quantities of items and how addition and subtraction affect quantity.
+** Comparing amounts, and getting acquainted with the terms "more" and "less".
+</Adventure_Body>
+</products>
+
+<!---------------------------------------------------  COMFY PEDAGOGICAL HOUSE  ------------------------------------------------->
+
+<m3c style='normal'>
+        <Mtitle1 style='title'>INTRODUCING COMFY PEDAGOGICAL HOUSE (CPH)</Mtitle1>
+		<Mtitle2 style='title'>INTRODUCING COMFY 3C DEVELOPMENTAL CYCLE™</Mtitle2>
+		<Mtitle3 style='title'>PARENTS’ ROLE IN MAXIMIZING COMFY 3C SYSTEM</Mtitle3>
+		<frame1 style='normal'>//h3//Comfy Pedagogical House (CPH)// is the research and development arm of Comfy, responsible for accumulating all knowledge and information, identifying the latest trends in child-development and learning processes, in order to implement them into interactive fun-learning products.
+
+CPH activities include research and field-testing, involving many experts from various fields, which together form the wide knowledge base for Comfy’s activities.
+
+CPH is the developer of Comfy’s unique 3C Developmental Cycle™ to encourage children's curiosity, while promoting and maximizing effective learning.</frame1>
+
+
+
+        <frame2>The immediate effect that is seen when watching a child play with the Comfy system is the magic sparkle in his eyes lighting up his whole face. This is what we refer to as "Comfy's Magic Effect". This magical effect is created by the combination of //h3//C//uriosity //PLUS// //h3//C//hallenge //PLUS// //h3//C//onfidence = //h3//3C Developmental Cycle™//
+
+//h3//Curiosity//
+Children are born with natural curiosity. At Comfy, we expose young minds to a rich interactive environment in order to leverage their natural–born curiosity and take them through a journey of learning through play and exploration, enabling the development of new skills and thought-patterns.</frame2>
+
+<frame3>//h3//Challenge//
+By providing children with age-appropriate, rich and developmental content, we motivate and inspire them to utilize their capabilities to the fullest. Therefore, CPH has created a line of software for children aged 1-5 years old, developing motor skills, emotional intelligence, visual and spatial perception, creative thinking, vocabulary, languages and much more.
+
+//h3//Confidence//
+The Comfy system develops self-confidence by enabling the child to play independently - being able to control the activities as an active participant rather than a passive one. Acquiring this sense of control improves the child’s confidence and self-esteem and is the basis for building a stable personality as well as healthy relationships.
+</frame3>
+
+</m3c>
+
+</lang>

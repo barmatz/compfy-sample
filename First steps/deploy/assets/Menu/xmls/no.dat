@@ -1,0 +1,524 @@
+﻿xmlContent=<?xml version="1.0" encoding="UTF-8"?>
+<lang translator='eric' style='Western.css' updated='15/5/2006' language='English' id='en'>
+<main>
+<xml_pressTheButterfly>PRESS THE //Color#FF0000//BUTTERFLY// BUTTON ON THE COMFY KEYBOARD TO START</xml_pressTheButterfly>
+<xml_pressTheDrum>PRESS THE //Color#003366//DRUM// BUTTON ON THE COMFY KEYBOARD TO START</xml_pressTheDrum>
+<xml_pressTheturtle>PRESS THE //Color#FF0000//TURTLE// BUTTON ON THE  //Color#FF0000//COMFY// KEYBOARD TO START</xml_pressTheturtle>
+</main>
+<!-- ====================      shared     ==================== - -->
+<shared>
+<back>TILBAKE</back>
+<next>NESTE</next>
+<beginner style='h3'>beginner</beginner>
+<beginners style='h3'>Nybegynnere</beginners>
+<beginnerLevel style='h3'>Nybegynnere</beginnerLevel>
+<intermediate style='h3'>Mellomnivå</intermediate>
+<intermediates style='h3'>Mellomnivå</intermediates>
+<intermediateLevel style='h3'>Mellomnivå</intermediateLevel>
+<advanced style='h3'>Viderekommende Nivå</advanced>
+<advanceds style='h3'>Viderekommende Nivå</advanceds>
+<advancedLevel style='h3'>Viderekommende Nivå</advancedLevel>
+<ages_1_3 style='h3'>Alder 1-3</ages_1_3>
+<ages_1_3C style='h3'>ALDER 1-3</ages_1_3C>
+<ages_3_5 style='h3'>Alder 3-5</ages_3_5>
+<ages_3_5C style='h3'>ALDER 3-5</ages_3_5C>
+<level1 style='comics'>Nivå 1</level1>
+<level2 style='comics'>Nivå 2</level2>
+<level3 style='comics'>Nivå 3</level3>
+<moresoft style='comics'>For mer avansert software trykk her</moresoft>
+<place_Overlay style='comics'>PLACE THE "$$nameOfGame$$" OVERLAY ON THE COMFY KEYBOARD</place_Overlay>
+</shared>
+<buttons style='pagesTitle'>
+	<activityCenter style='pagesTitleMedium' effect='blue' width="410" dx="-24">Aktivitets-|Senter</activityCenter>
+	<parentSection style='pagesTitleMedium' effect='purple'>Foreldre</parentSection>
+	<welcome effect='orange'>Welcome To Comfy</welcome>
+	<changeLanguage effect='orange'>Forandre Språk</changeLanguage>
+	<changeLevel effect='orange' dx="20" dy="10">Forandre Nivå</changeLevel>
+	<products_Inside effect='orange' style='pagesTitle60'  dx='20' dy='-20'>Andre Comfy produkter</products_Inside>
+</buttons>
+
+<!-- ====================      game names     ==================== - -->
+
+<games style="title">
+	<BabyTV>BabyTV</BabyTV>
+	<letsImagine>På liksom</letsImagine>
+	<firstSteps>Første trinn</firstSteps>
+	<animalWorld>Dyreverdenen</animalWorld>
+	<birthdayParty>Bursdagsselskap</birthdayParty>
+	<timeTravel>Tidsreisen</timeTravel>
+	<myNeighborhood>Nabolaget mitt</myNeighborhood>
+	<myHome>Hjemmet mitt</myHome>
+	<iLivehere>I Live Here</iLivehere>
+	<comfyOnline>Comfy Online</comfyOnline>
+	<WordlOfColors>Fargeverdenen</WordlOfColors>
+	<WorldOfColors>Fargeverdenen</WorldOfColors>
+	<XMass>Jul i Comfyland</XMass>
+	<joyOfMusic>Gøy med musikk</joyOfMusic>
+	<homeHunt>Home Hunt</homeHunt>
+	<Adventure>Adventure in Numberland</Adventure>
+</games>
+
+<!-- ====================      Parent Section      ==================== - -->
+
+<parentSection style='comics22'>
+<welcome style='comics22' Xstyle="title">VELKOMMEN TIL COMFY</welcome>
+<parentGuide style='comics22' Xstyle="title">FORELDREGUIDE: $$nameOfGame$$</parentGuide>
+<aboutBaby style='comics22' Xstyle="title">ABOUT BABYTV</aboutBaby>
+<comfy3c style='comics22' Xstyle="title">COMFY PEDAGOGICAL HOUSE</comfy3c>
+<howto style='comics22' Xstyle="title">HVORDAN BRUKE COMFY TASTATUR MED COMFY SPILL</howto>
+<educational style='comics22' Xstyle="title" dy="4">PEDAGOGISKE FORDELER</educational>
+<faq style='comics22' Xstyle="title" dy='-3'>OFTE STILTE SPøRSMÅL (FAQS)</faq>
+<website style='comics22' Xstyle="title">COMFY HJEMMESIDE</website>
+<registration style='comics22' Xstyle="title">ONLINE GARANTI REGISTRERING</registration>
+<performance style='comics22' Xstyle="title">INNSTILLINGER</performance>
+<performance_txt1 style='normal' Xstyle="title">Skjermens oppløsning påvirker kvaliteten 
+av animasjon i spillet.
+
+Valg av høy skjermoppløsning øker kvaliteten på bildene på skjermen, men anbefales ikke hvis datamaskinen er treg.
+
+Hvis animasjonen er treg og hopper, velg en lavere oppløsning enn standardinnstillingen.
+
+//h2//Velg ønsket oppløsning:</performance_txt1>
+<default>(Standardinnstilling)</default>
+</parentSection>
+
+<!-- ====================      EDUCATIONAL      ==================== - -->
+<educational style='normal'>
+<title1 style='title'>PEDAGOGISKE FORDELER
+GENERELT</title1>
+<note ready='true' style='note'>//i//Obs:// For at barnet skal kunne lære seg alle uttrykkene og ferdighetene forklart nedenfor, har Comfy utarbeidet forskjellige CD-spill som er tilpasset barnets alder og utviklingsnivå.</note>
+<frame1 ready='false' style='normal'>Comfy-tastatur og programvare er utarbeidet og utformet av en pedagogisk forsknings- og utviklingsgruppe med tekniske media-spesialister for tilpassing av ferdighetene og interessene til barn i aldersgruppen 1-5. De store, illustrerte tastene, høretelefonen og rullehjulet som er lett å håndtere for små hender, gjør barnet uavhengig, slik at det kan fortsette i eget tempo selv om det ikke kan lese eller bruke musen.</frame1>
+<frame2 >Lek med Comfys interaktive omgivelser gir barnet følgende:
+
+**Læring gjennom lek og utforskning.
+**Tilegnelse av grunnleggende datakunnskaper.
+**Utvikling av kognitive, følelsesmessige og sosiale ferdigheter.
+
+Følgende enestående egenskaper gjør Comfy egnet til å nå de pedagogiske målene:
+
+**Aktivitetene er en interaktiv kombinasjon av 
+  fortellinger, tegnefilmer, bilder og fargelegging, 
+  lytting til musikk og sanger, motoriske aktiviteter 
+  og sosiale begreper.</frame2>
+<frame3 style='normal'>**Comfy-tastatur erstatter det vanlige tastaturet og 
+   musen. Tastene er fargerike og enkle i bruk. Man må 
+   ikke kunne lese eller skrive.
+
+**Comfy-aktivitetene er tilpasset forskjellige 
+   aldersgrupper, og figurene i fortellingen 
+   er koselige og morsomme.
+
+**Når du har tilpasset nivået til barnets lære- og 
+   utviklingstrinn og aktiviteten starter, kan barnet ditt 
+   leke uten hjelp fra foreldrene. Datafigurene snakker
+   til barnet og forklarer hva det skal gjøre. Forklaringene
+   følges opp med tegninger og animasjoner.</frame3>
+<frame4 style='normal'>**Comfy har utarbeidet utallige pedagogiske muligheter 
+   for samarbeid mellom barn og foreldre, både under og 
+   etter en aktivitet. Som forelder kan du, familien og 
+   barnet ditt få uendelig mange felles opplevelser.
+
+Det følgende avsnittet gir en kort beskrivelse av barns evner og utviklingsmønster, og forklarer hvordan Comfy bidrar til å utvikle sansene og de motoriske, kognitive og følelsesmessige ferdighetene til barnet ditt.</frame4>
+<title5 style='title'>PEDAGOGISKE FORDELER - MOTORISKE FERDIGHETER OG SANSEFERDIGHETER</title5>
+<frame5 style='normal'>//h1//Motoriske ferdigheter og sanseferdigheter
+
+Når barn vokser, utvikles de fysiske og mentale ferdighetene slik at det kan utføre mer sammensatte oppgaver. Barnet ditt lærer å gjenkjenne forskjellige ting og figurer, og å forstå det som skjer i de nærmeste omgivelsene samtidig som det utvikler sansene.  
+ 
+Når barnet ditt leker med Comfy, lærer det å:
+
+**Forbinde ting og figurer han eller hun ser på 
+   skjermen med de på Comfy-tastatur.
+**Forbedre iakttagelsesevnen ved å skille 
+   mellom ulike former og farger.
+**Forbedre oppfatningsevnen.</frame5>
+<title6 style='title'>PEDAGOGISKE FORDELER
+SPRÅKFERDIGHETER</title6>
+<frame6 style='normal'>//h1//Språkferdigheter
+
+Barnets ordforråd utvides hele tiden fordi det lærer å konstruere setninger.
+
+Med Comfy vil barnet ditt:
+
+**Lære hvordan man spør, advarer eller opplyser 
+   om noe.
+**Lære nye uttrykk som er tilknyttet spesielle temaer, 
+   f.eks. om været og tidsbegrep, dyr, hjemmet osv.</frame6>
+<title7 style='title'>PEDAGOGISKE FORDELER
+Tenkeferdigheter</title7>
+<frame7 style='normal'>//h1//Tenkeferdigheter
+
+Barns hukommelse utvikles gradvis så de klarer å huske flere og flere bilder, stemmer og handlinger etter hvert. Dessuten utvikles fantasien og den kreative tenkeevnen forbedres.
+ 
+Lek med Comfy hjelper barnet ditt å:
+**Forstå sammenhengen mellom årsak og virkning ved 
+   å gripe inn i handlingen i en fortelling og endre den 
+   (f.eks. la det begynne å regne, forandre dag til natt).
+**Huske ting, lyder, stemmer, hendelser og figurer under 
+   hele aktiviteten.
+**Utvikle fantasien ved å delta i handlingen i fortellingen 
+   hvis det vil, og å øke de kreative ferdighetene.</frame7>
+<frame8 style='normal'>**Leke "liksom-leker" med figurene og lære om
+   omgivelsene sine. 
+
+**Lære å konsentrere seg og bruke de mentale 
+   evnene ved å utføre stimulerende oppgaver.</frame8>
+<title9 style='title'>PEDAGOGISKE FORDELER
+Følelsesmessig utvikling</title9>
+<frame9 style='normal'>//h1//Følelsesmessig utvikling
+
+Barn trenger et varmt og forståelsesfullt miljø, og samtidig klare regler og begrensninger. Da får de utvikle seg til selvstendige individer som liker å utforske omgivelsene, og som kan ta initiativet til forskjellige aktiviteter som styrker selvtilliten og selvbildet.
+
+Comfy gir barnet ditt:
+**Positive opplevelser, fra oppdagelsen av forskjellige 
+   farger og lyder, til møte med hygglige figurer.
+**Tilbakemelding og oppmuntring når det bruker tastaturet.
+**Mulighet til å være impulsiv når det bruker rullehjulet 
+   på Comfy-tastaturet.</frame9>
+<frame10 style='normal'>**Følelsen av å kunne kontrollere Comfy-tastatur, 
+   hendelsesforløpet i aktivitetene og fortellingen. 
+   Følelsen av kontroll øker barnets trygghet og 
+   selvbilde.
+
+**Klare spilleregler (f.eks.: Bamsen Buddy ber barnet 
+   om å la det regne "men ikke nå, men snart
+   når jeg er kommet hjem").</frame10>
+<title11 style='title'>PEDAGOGISKE FORDELER
+Sosial Verdier og Oppførsel</title11>
+<frame11 style='normal'>//h1//Sosial Verdier og Oppførsel
+
+Små barn lærer vedtatte atferdsmønstre ved å bekjentgjøre seg med sosiale og kulturelle normer. 
+Med Comfy-spillene lærer de å oppføre seg ordentlig og å løse sosiale problemer og overkomme hindringer.
+
+På dette området vil Comfy:
+**Lære barnet ditt riktig oppførsel i ulike dagligdagse 
+   situasjoner.
+**Introdusere figurer som barnet kan identifisere seg med.
+**Legge vekt på sosiale normer, som å kunne 
+   samarbeide og å hjelpe andre.
+**Comfyland lærer barnet positive verdier som vennskap, 
+   gjensidighet og respekt for omgivelsene.</frame11>
+</educational>
+
+<!-- ====================      WELCOME    ( about comfy)  ====================  -->
+
+<welcome>
+<frame1 ready='true' style='normal'>Comfy og vennene åpner døren til den frodige og spennende multimedia verdenen, kombinerer øvelser og gleder med læring og utvikling. Comfy gir barnet ditt muligheten til å utforske og påvirke en dynamisk omgivelse i et fargerikt animert program uten hjelp fra foreldre. Det er også en morsom og naturlig måte å la småbarn stifte beskjentskap med grunnleggende databegreper og ferdigheter.  
+
+Produktene våre er tilpasset barnets motoriske og kognitive ferdigheter. Comfy Tastatur og programvare lar barnet få jobbe selvstendig, uten å måtte kunne lese eller bruke musen, slik at barnet kan utvikle seg i eget tempo.</frame1>
+
+<website ready='false' note='it have to be there' style='comics22'>COMFY WEBSITE</website>
+</welcome>
+
+<!-- ====================   Use Comfy  	==================== -->
+
+<useComfy style='normal'>
+<title1 style='title'>HVORDAN BRUKE COMFY-|TASTATUR MED COMFY-SPILL</title1>
+<note style='note'>//i//Obs: // Forklaringen om "Hvordan man bruker Comfy-tastaturet med Comfy spillene" går ikke i detaljer om hvordan Comfy-tastaturet skal brukes med CD-en til dette spillet. Vennligst les "Bruksanvisning for foreldre" for utførlig veiledning.</note>
+<frame1 style='normal'>Med Comfy-tastatur kan babyer og smårollinger hygge seg med Comfys fengslende interaktive spill. Systemet er utarbeidet for å tilpasse ferdighetene og interessene til barn mellom ett og fem år, slik at de kan utvikle seg i eget tempo.
+
+De velkjente formene, de klare fargene og koselige figurene frister små fingre til å røre, undersøke og oppdage. Den spesialutviklede programvaren inneholder aktiviteter på flere nivåer som kan tilpasses barnets personlige utvikling.</frame1>
+<frame2>//h1//Beskrivelse av tastene på tastaturet
+
+//h1//Værtaster
+Comfy-tastatur har tre værtaster:
+**Sol- og dagslystasten
+**Måne- og natt-tasten
+**Sky- og regntasten
+
+Hver gang du trykker på en av tastene, forandrer været seg og barnet lærer å gjenkjenne værtyper.
+
+//h3//Begrep som læres av værtastene:
+**Forståelse av begrepene dag og natt.
+**Gjenkjennelse av fenomen som f.eks. regn.</frame2>
+<frame3>//h1//Figurtaster og telefon håndsettet:
+**Snaily
+**Buddy
+**Jumpy
+**Feely
+**Comfy
+
+Barnet kan ringe til figurene når det har lyst og treffe dem på forskjellige steder og i ulike situasjoner.
+
+//h3//Begrep som læres av telefonen:
+**Bli kjent med telefonen som et interaktivt 
+   kommunikasjonsverktøy.
+**Å utvikle personlig kontakt med Comfy-figurene og 
+   sosiale ferdigheter.</frame3>
+<frame4 dy='-5'>//h1//Musikktaster
+Det er fire musikktaster på tastaturet: Tromme, fløyte, piano og trompet.
+
+Når du trykker på notetasten, spilles Comfys kjenningsmelodi, og du møter figurene i Comfyland.
+
+Når du trykker på en av musikktastene, vil dette instrumentet spille et musikkstykke. Hvis barnet ditt fortsetter å trykke på den samme musikktasten, forandrer melodien og tempoet seg gradvis.
+
+//h3//Begrep som læres av musikktastene:
+**Bli kjent med de fire instrumentene (utseende og lyd).
+**Skjelne mellom forskjellige musikkinstrumenter.
+**Gjenkjenne melodier og lære sanger.</frame4>
+<frame5>//h1// Fargetaster
+
+Tastaturet har 6 fargetaster:
+
+//Color#9900FF//Lilla//  //Color#FF7600//Oransje//  //Color#009900//Grønn//  //Color#333399//Blå//  //Color#FFFF66//Gul//  //Color#CC0000//Rød//
+
+Når du trykker på en fargetast, starter en aktivitet med samme farge.
+
+Mens barnet spiller kan det bruke fargetastene til å leke med mange forskjellige aktiviteter.
+
+//h3//Begrep som læres av fargetastene:
+**Blir kjent med fargene på tastaturet.
+**Estetisk bruk av farger.</frame5>
+<frame6>//h1//Rullehjulet
+Comfy-tastatur har en roterende rulle som spinner fritt, og som lar barnet bevege seg fritt.
+
+Bruk av rullehjulet forandrer midlertidig tempoet til det som skjer på skjermen. Jo fortere barnet ruller den, dess fortere skjer ting på skjermen.
+
+//h3//Begrep som læres av rullehjulet:
+**Ha det gøy og bruke fri fantasi.
+**Ha det gøy mens man mestrer og kontroller det 
+  som skjer på skjermen.</frame6>
+<frame7>//h1//Pausetast
+
+Når man trykker på pausetasten, vises meningen med uttrykket "Stopp" ved hjelp av lyd og bilder. Når man trykker på en annen tast på tastaturet, starter aktiviteten helt fra begynnelsen.
+
+//h3//Begrep som læres av pausetasten:
+**Gir barnet anledning til å leke sammen med foreldrene.
+**Pausetasten kan brukes når man vil snakke eller se 
+  på et bilde man liker.</frame7>
+</useComfy>
+
+<!-- ====================  activityCenter ==================== -->
+
+<activityCenter style='comics'>
+<frame1 style='comics' width="350">Gøyal FARGELEGGING AV BILDER FRA COMFYLAND.
+
+VELG ET BILDE DU LIKER.
+
+KLIKK OG PRINT, OG
+FARGELEGG BILDET DITT.
+
+HA DET HYGGELIG!</frame1>
+</activityCenter>
+<!-- ====================       FAQ      ==================== -->
+<faq style='normal'>
+<questions>SPØRSMÅL</questions>
+<note style='note'>//i//Obs:// For utførlige forklaringer om de forskjellige aktivitetene vennligst les ''Foreldreguide'' i Foreldre Avsnittet.</note>
+<Q_chooseLang>Hvordan velger jeg språk?</Q_chooseLang>
+<chooseLang>Klikk på "Forandre språk"-tasten i menyen.
+
+Flytt pilene opp og ned for å se hvilke språk som finnes. Klikk på flagget til ønsket språk.
+
+Når du trykker på den røde "Legg inn spill"-tasten, begynner spillet på språket du valgte.</chooseLang>
+<Q_changeLevel>Hvordan forandrer jeg nivåer?</Q_changeLevel>
+<changeLevel>Klikk på "Forandre nivå"-tasten i menyen.
+
+Velg nivå ved å klikke på en av firkantene på ønsket nivå.
+
+Du kan også forandre nivå ved å trykke på fargetastene på Comfy-tastatur: Grønn (nivå 1), blå (nivå 2), gul (nivå 3).
+
+Når du trykker på den røde "Legg inn spill"-tasten, begynner spillet på nivået du valgte.</changeLevel>
+<Q_returnMain dy="2">Hvordan kommer jeg tilbake til hovedmenyen etter spillet?</Q_returnMain>
+<returnMain>Trykk Escape-tasten på det vanlige tastaturet for å komme tilbake til CD-menyen.</returnMain>
+<Q_exitGame>Hvordan avslutter jeg spillet?</Q_exitGame>
+<exitGame>Trykk på Escape-tasten på det vanlige tastaturet for å komme tilbake til CD-menyen.
+Trykk Escape-tasten igjen for å gå ut av programmet.
+
+Barnet kan ikke å gå ut av programmene uten hjelp fra foreldre. Barnet kan leke med Comfy helt selvstendig, uten risiko for å forandre noe i foreldrenes datamaskin ved en feiltagelse.</exitGame>
+<Q_difference dy="7">Hva er forskjellen mellom de tre nivåene i "$$nameOfGame$$"?</Q_difference>
+<Q_moveUp>Hvordan vet jeg at det er på tide å rykke opp til neste nivå?</Q_moveUp>
+<moveUp>Vi anbefaler at barnet begynner på nivå 1 og jobber seg gradvis oppover.
+
+Når barnet føler seg fortrolig med og behersker aktivitetene på et nivå, anbefaler vi at du forandrer nivået, og lar barnet få prøve seg på nye, utfordrende oppgaver.</moveUp>
+<Q_overlay >Når bruker jeg "$$nameOfGame$$"-dekket, og hva er det til?</Q_overlay>
+<overlay>Det spesielle "$$nameOfGame$$"-dekket gir Comfy-tastaturet nye ikoner som passer til innholdet på "$$nameOfGame$$"-CD-en.</overlay>
+<forMoreFaqs>//Color#EC6002//For flere hyppig stilte spørsmål, //
+//Color#EC6002//besøk oss på www.comfyland.com//</forMoreFaqs>
+</faq>
+<!-- ====================  Products  ==================== -->
+<products style='products'>
+<chooseAge style='comics22'>VELG ALDERSGRUPPEN DIN</chooseAge>
+<chooseDesc style='normal'>Den spesielt utformede programvaren vår gir deg mange nivåer med utviklende læring ved hjelp av spennende og utfordrende aktiviteter:</chooseDesc>
+<notAllSoftwares style='normalProd'> Ikke alle programvare CD-er er tilgjengelige pa alle sprak. Vennligst ga inn pa var nettside for a fa seneste oppdatering om hvilke produkter som er tilgjengelige:  //HREF//www.comfyland.com// www.comfyland.com//HREF_END//</notAllSoftwares>
+<clickOnAnyImage>Click on any image for more information</clickOnAnyImage>
+<newPlaying style='normalProd'>Now Playing:</newPlaying>
+<mrktBefore style='prodBig'>Help your child reach his full potential by providing him the age appropriate software</mrktBefore>
+<signUp style='prodBig'>Spcieal discounts for club members.
+//HREF//www.comfyland.com/club/sign//sign up//HREF_END// for the Comfy Club for free.</signUp>
+<remind style='normalProd'>Don’t remind me any more</remind>
+<mrktAfter style='prodBig'>Your child have been playing with this software, get your//HREF//www.comfyland.com/club/sign// 15//PERCENT// off with free sign up,//HREF_END// on our range of software</mrktAfter>
+<!-- ======================    Products: First Steps   ====================== -->
+<firstSteps_Intro>"Første trinn" er den første CD-en i dataprogrammet, utviklet spesielt for smårollinger (så tidlig som 12 måneder gamle). Den gir barnet en selvstendig dataopplevelse og sitt første møte med grunnleggende begreper.</firstSteps_Intro>
+<firstSteps_Body>//h4//Programvaren har tre aktivitets-nivåer 
+//u//Nivå 1:// Innføring av farger og lyder.
+//u//Nivå 2:// Gjenkjenning av ting og navn.
+//u//Nivå 3:// Problemløsning og forståelse.
+
+//h3//Utviklingsutbytte:
+**Kjenner igjen former, lyder og farger.
+**Utvikler hånd-øye-koordinasjon.
+**Forbedrer lytteevnen.
+**Beriker resonneringsevnen og forståelse.</firstSteps_Body>
+
+<!-- ======================    Products: My Home   ====================== -->
+
+<myHome_Intro>Med "Hjemmet mitt" har smårollingene det gøy i timevis, mens de utforsker omgivelsene gjennom en rekke dagligdagse aktiviteter. Spillet inneholder sanger og overraskelser, og lærer barnet ditt å rydde, gjenkjenne ting ved hjelp av lyder og stemmer og kle seg riktig etter været. Barnet leker gjemsel og mye annet med Didi, en søt 3 år gammel jente, og vennene hennes.</myHome_Intro>
+<myHome_Body margin='20'>//h3//Programvaren har tre aktivitets-nivåer //
+//u//Nivå 1:// Lærer barnet om forskjellige ting og begreper i hjemmet.
+//u//Nivå 2:// Barnet kan delta og svare på figurenes spørsmål ved hjelp av hintene som blir vist på skjermen.
+//u//Nivå 3:// Barnet lærer å leke med figurene uten hint på skjermen.
+
+
+//h3//Utviklingsutbytte://
+**Lærer barnet ditt om de hjemlige omgivelsene.
+**Lærer årsak og virkning.
+**Utvider ordforrådet og språkferdigheter.
+**Lærer sammenhengen mellom forskjellige begreper.</myHome_Body>
+
+<!-- ======================    Products: Let's Imagine   ====================== -->
+
+<letsImagine_Intro style='products'>"På liksom" gir smårollingene timevis med gøyale aktiviteter som utvikler de kreative evnene. Barnet ditt kan utforske mange morsomme og lærerike aktiviteter ved hjelp av fargerike illustrasjoner og animerte bilder som stimulerer den visuelle utviklingen og lytteevnen.</letsImagine_Intro>
+<letsImagine_Body margin='20'>//h3//Programvaren har tre aktivitets-nivåer 
+//u//Nivå 1:// Barnet møter Didi og Boos verden med dyr, former, figurer og kroppsdeler.
+//u//Nivå 2:// Barnet deltar og svarer på spørsmål ved hjelp av hintene som vises på skjermen.
+//u//Nivå 3:// Barnet lærer å leke med figurene, uten hint fra skjermen.
+
+//h3//Utviklingsutbytte:
+**Utvidelse av ordforrådet og språkferdigheter.
+**Gjenkjennelse av lyder, former og farger.
+**Lærer årsak og virkning.
+**Hjelper barnet å løse problemer gjennom ulike aktiviteter.</letsImagine_Body>
+
+<!-- ======================    Products: Birthday Party   ====================== -->
+
+<birthdayParty_Intro>Med "Bursdagsselskap" tilegner barnet seg sosiale ferdigheter og kommunikasjonsverktøy. Hovedtemaet er Feelys fødselsdagsselskap der alle figurene forteller om seg selv (historien velges av barnet). Sneglen Snaily forteller om den første dagen som postbud, Comfy og Jumpy skildrer besøket i dyrehagen, og bjørnen Buddy forteller om opplevelsene sine ute på engen. På slutten av fortellingene møtes alle figurene i Comfyland i fødselsdagselskapet.</birthdayParty_Intro>
+<birthdayParty_Body>//h3//Tastaturet
+Ved bruk av Comfys-tastaturet lærer barnet å løse problemer ved å samle opplysninger helt fra begynnelsen av historien.
+
+//h3//Utviklingsutbytte:
+**Hjelper smårollinger å bli kjent med begreper som rom, tid og relative dimensjoner.
+**Blir kjent med sosiale normer og verdier.
+**Lærer å gjenkjenne farger og tall.
+**Forbedrer hukommelsen og selvutfoldelsen.</birthdayParty_Body>
+
+<!-- ======================    Products: Christmas in Comfyland   ====================== -->
+
+<XMass_Intro>"Jul i Comfyland" er en  koselig interaktiv film som består av flere korte episoder som  formidler det magiske ved denne høytiden på  en pedagogisk og underholdende måte. Comfy og vennene hans  forbereder julefeiringen og inviterer barna til å ta del i den morsomme høytidsstemningen. Historien avsluttes med at Comfy familien synger en spesiell ''Vi ønsker deg god jul'' -sang , og det er dette "Jul i Comfyland" handler om- hvor gøy og hyggelig det er å gjøre i stand til jul. Årets høydepunkt vil bli enda mer spesielt i år!</XMass_Intro>
+<XMass_Body>//h3//Utviklingsutbytte:
+**Forbedrer evnen til å lytte, konsentrasjonsevnen, hukommelsen og utholdenhet.
+**Utvikler selvtillit, selvstendighet og kontroll.
+**Fremmer positive følelser
+**Viser de viktigste sidene ved høytiden.</XMass_Body>
+
+<!-- ======================    Products: Joy of Music   ====================== -->
+
+<JoyOfMusic_Intro>"Gøy med musikk" viser barnet ditt den fantastiske musikkverdenen med sjarmerende, nye figurer: Fløyten Fifi, trompeten Tempo, trommen Boom Boom og pianoet Mano. Barnet ditt lærer om de forskjellige instrumentene, hvordan de lyder, rytme og harmoni. Når det trykker på fargetastene, kan det faktisk spille melodier og toner og danne et helt orkester."Gøy med musikk" er en sjarmerende
+måte å lære om de forskjellige instrumentene på, og den naturlige
+skaperevnen stimuleres slik bare musikk kan gjøre det.</JoyOfMusic_Intro>
+<JoyOfMusic_Body>//h3//Utviklingsutbytte:
+**Kjennskap til forskjellige musikkinstrumenter og uttrykk. 
+**Presenterer musikk med entusiasme og stimulerer skapereven.
+**Styrker fargesansen.
+**Utvikler følelse av kontroll og selvtillit.</JoyOfMusic_Body>
+
+<!-- ======================    Products: World of Colors   ====================== -->
+
+<WordlOfColors_Intro>"Fargeverdenen" viser barnet ditt den fantastiske verdenen av farger mens det leter etter benet som Jumpy har mistet. Barnet lærer seg fargene, å sammenligne forkjellige ting og å sette sammen farger og ting mens det forsterker hans/hennes iakttakelsesevne og visuelle oppfatningsevne. 
+"Fargeverdenen er en ideell innføring for barn som akkurat har begynt å lære fargene . Den hjelper dem å lære gjennom morsomme interaktive fortellinger. Barn som allerede kan fargene, får øvet seg og utvikler kreativiteten. 
+Det gjør leken til en berikende og interessant opplevelse.</WordlOfColors_Intro>
+<WordlOfColors_Body>//h3//Utviklingsutbytte:
+**Sette sammen farger og ting.
+**Gjenkjenne en skjult gjenstand.
+**Grunnleggende rombegrep.
+**Erfaring i problemløsning.
+**Utvikling av sammenligningsevner.</WordlOfColors_Body>
+<!-- ======================    Products: Animal World   ====================== -->
+<animalWorld_Intro>Oppdagelsene og overraskelsene i "Dyreverdenen" er en kreativ måte å la barna møte og lære mer om dyreverdenen og om dyrenes forskjellige omgivelser i naturen på. I "Dyreverdenen" leker barnet seg gjennom "jorden", "skogen","vannet" og "snøen", og kan kose seg med de magiske, interaktive aktivitetene tilknyttet omgivelsene. "Dyreverdenen" er en berikende opplevelse der barnet utvikler kognitive, følelsesmessige, språklige og kreative evner gjennom fengslende fortellinger, interaktive leker, kreativ forming og gøyale musikkaktiviteter.</animalWorld_Intro>
+<animalWorld_Body>* Innholdet på denne CD-en finnes også i "Comfy Online".
+
+//h3//Utviklingsutbytte:
+**Utvikler evnen til å gjenkjenne farger, former og tall.
+**Utvikler oppfatningsevnen og forståelse av instuksjoner.
+**Utvikler ordforråd og tankemønster.
+**Blir kjent med kunst, materialer og teknikker.</animalWorld_Body>
+
+<!-- ======================    Products: Time travel  ====================== -->
+
+<timeTravel_Intro>I "Tidsreisen" kan barnet reise sammen med Comfy og vennene hans på en eventyrlig reise gjennom tid og rom. Der møter vi forskjellige kulturer og tidsepoker, fortid og framtid i interessante fortellinger, interaktive spill, kreativ forming og gøyale musikkaktiviteter. Comfy og vennene lærer om dinosaurer, utforsker levemåten til urtidsmennesket, besøker indianere i landsbyen deres for å lære om tradisjonene deres og får besøk av et romvesen. Tidsreisen stimulerer barnets fantasi på en fantastisk måte ved å la det oppdage en helt ny verden. Barnets opplevelser under de mange aktivitetene utvikler fantasien og de kognitive evnene.</timeTravel_Intro>
+<timeTravel_Body>* Innholdet på denne CD-en finnes også i "Comfy Online".
+
+//h3//Utviklingsutbytte:
+**Forbedrer evnen til å ta beslutninger.
+**Forbedrer forståelsen av mengdebegreper.
+**Utvikler intellektuell nysgjerrighet.
+**Gir et positivt selvbilde.</timeTravel_Body>
+
+<!-- ======================    Products: My Neighborhood  ====================== -->
+
+<myNeighborhood_Intro>I "Nabolaget mitt" besøker barna Comfylands livlige nabolag. Her går de på oppdagelsesferd i kjente omgivelser med morsomme fortellinger, interaktive spill, kreativ forming og gøyale musikkaktiviteter. Sammen med Comfy og vennene hans lærer barna om hjemmet sitt, besøker hyggelige naboer, leker på lekeplassen og i parken, og lærer å kjøre forskjellige kjøretøy ved å følge instruksjoner. "Nabolaget mitt" gir barna en fantastisk mulighet til å styrke selvtilliten og utvikle kognitive, sosiale og følelsesmessige evner gjennom dagligdagse hendelser.</myNeighborhood_Intro>
+<myNeighborhood_Body>* Innholdet på denne CD-en finnes også i "Comfy Online".
+
+//h3//Utviklingsutbytte:
+**Forbedrer evnen til å systematisere og kategorisere.
+**Utvikler oppfatningsevnen med gradvis vanskeligere nivåer.
+**Forbedrer forskjellige tankemønstre.
+**Fremmer positive følelser.</myNeighborhood_Body>
+
+<!-- ======================    Products: comfyOnline   ====================== -->
+
+<comfyOnline_Intro>I Comfys Internett-verden møter barna fascinerende programmerte eventyr og opplever magisk surfing på nettet sammen med vennene sine fra Comfyland.
+I "Comfy online" finner barnet et stort utvalg av spesielle interaktive Internett-aktiviteter rundt om i forskjellige verdener. Innholdet blir hele tiden oppdatert med hendelser, tid og sted, slik at det tilpasses barnets verden og virkelige hendelser i sanntid, og gir barnet anledning til å gå gjennom en læreprosess over lengre tid. "Comfy online" gir unge oppdagelsesreisende deres første Internett-erfaring i "sikre omgivelser".</comfyOnline_Intro>
+<comfyOnline_Body>* Noe av innholdet i "Comfy online" finnes også i Comfys utvalg av program-CD-er.
+
+//h3//Utviklingsutbytte:
+**Forbedrer lytteevnen, konsentrasjonsevnen, hukommelse og utholdenhet.
+**Stimulerer forskjellige tankemønstre.
+**Utvikler selvtillit, selvstendighet og kontroll.
+**Fremmer tenking og kreative løsninger.</comfyOnline_Body>
+
+<!-- ======================    Products: BabyTV   ====================== -->
+
+<babytv_Intro>BabyTV - Go Interactive is an interactive game based on the popular characters from the
+world of BabyTV, the first channel dedicated to infants and toddlers under 3 years of age,
+The famous characters lead activities that are fun and are designed to promote development
+and interaction, We now offer you and your baby the opportunity to interact and play with
+your favorite BabyTV characters off the screen, while developing early learning and communication skills</babytv_Intro>
+<babytv_Body>//h3//Utviklingsutbytte:
+**Enhances natural curiosity to explore.
+**Encourages creative thought and imagination.
+**Develops the ability to understand and follow instructions.
+**Expands vocabulary and language skills.
+**Develops convenation skills.</babytv_Body>
+
+<!-- ======================    Products: Adventure   ====================== -->
+
+<Adventure_Intro>"Adventure in Numberland" is an exciting and fun interactive game, which opens a first window to the world of numbers. The favorite friends from Comfyland go on a fascinating adventure in Numberland where they meet animated numbers that invite them to join a picturesque color, movement and sound experience. The game gives toddlers the opportunity to practice basic quantitative problems such as counting and numbering in a joyful way, thereby enhancing their natural curiosity and strengthening their cognitive and motor skills.</Adventure_Intro>
+<Adventure_Body>//h3//Utviklingsutbytte:
+** Encouraging the natural curiosity of infants to experience mathematical tasks.
+** Getting acquainted with small numbers.
+** Practicing changes in form, pattern and appearance of fixed quantities.
+** Recognizing quantities of items and how addition and subtraction affect quantity.
+** Comparing amounts, and getting acquainted with the terms "more" and "less".</Adventure_Body>
+</products>
+
+<!-- ====================  COMFY PEDAGOGICAL HOUSE  ==================== -->
+
+<m3c style='normal'>
+<Mtitle1 style='title'>INTRODUCING COMFY PEDAGOGICAL HOUSE (CPH)</Mtitle1>
+<Mtitle2 style='title'>INTRODUCING COMFY 3C DEVELOPMENTAL CYCLE™</Mtitle2>
+<Mtitle3 style='title'>PARENTS’ ROLE IN MAXIMIZING COMFY 3C SYSTEM</Mtitle3>
+<frame1 style='normal'>//h3//Comfy Pedagogical House (CPH)// is the research and development arm of Comfy, responsible for accumulating all knowledge and information, identifying the latest trends in child-development and learning processes, in order to implement them into interactive fun-learning products.
+
+CPH activities include research and field-testing, involving many experts from various fields, which together form the wide knowledge base for Comfy’s activities.
+
+CPH is the developer of Comfy’s unique 3C Developmental Cycle™ to encourage children's curiosity, while promoting and maximizing effective learning.</frame1>
+<frame2>The immediate effect that is seen when watching a child play with the Comfy system is the magic sparkle in his eyes lighting up his whole face. This is what we refer to as "Comfy's Magic Effect". This magical effect is created by the combination of //h3//C//uriosity //PLUS// //h3//C//hallenge //PLUS// //h3//C//onfidence = //h3//3C Developmental Cycle™//
+
+//h3//Curiosity//
+Children are born with natural curiosity. At Comfy, we expose young minds to a rich interactive environment in order to leverage their natural–born curiosity and take them through a journey of learning through play and exploration, enabling the development of new skills and thought-patterns.</frame2>
+<frame3>//h3//Challenge//
+By providing children with age-appropriate, rich and developmental content, we motivate and inspire them to utilize their capabilities to the fullest. Therefore, CPH has created a line of software for children aged 1-5 years old, developing motor skills, emotional intelligence, visual and spatial perception, creative thinking, vocabulary, languages and much more.
+
+//h3//Confidence//
+The Comfy system develops self-confidence by enabling the child to play independently - being able to control the activities as an active participant rather than a passive one. Acquiring this sense of control improves the child’s confidence and self-esteem and is the basis for building a stable personality as well as healthy relationships.</frame3>
+</m3c>
+</lang>

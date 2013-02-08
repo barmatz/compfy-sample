@@ -1,0 +1,623 @@
+﻿xmlContent=<?xml version='1.0' encoding='iso-8859-9'?>
+<lang translator='eric' style='Turkish.css' embed="true">
+   <main>
+	   <xml_pressTheButterfly>BAŞLAMAK IÇIN //Color#003366//COMFY// KLAVESINDEKI //Color#003366//DAVUL// TUŞUNU TIKLAYIN </xml_pressTheButterfly>
+	   <xml_pressTheDrum>PRESS THE //Color#003366//DRUM// BUTTON ON THE COMFY KEYBOARD TO START</xml_pressTheDrum>
+
+   <xml_pressTheturtle>PRESS THE //Color#FF0000//TURTLE// BUTTON ON THE  //Color#FF0000//COMFY// KEYBOARD TO START</xml_pressTheturtle>
+	</main>
+
+
+<!-------------------------------------------      shared     ----------------------------------------------------->
+	<comicsMap>
+	<char char="ź" map="|" />
+	<char char="Ă" map="â" />
+	<char char="Ţ" map="*" />
+	<char char="İ" map="ð" />
+	<char char="Ş" map="$" />
+	<char char="ş" map="$" />
+	<char char="ź" map="|" />
+	<char char="ę" map="~" />
+	<char char="Ę" map="~" />	
+	<char char="Ś" map="}" />
+	<char char="ś" map="}" />
+	<char char="ą" map=">" />
+	<char char="Ą" map=">" />
+	<char char="ż" map="^" />
+	<char char="Ż" map="^" />
+	<char char="ó" map="¢" />
+	<char char="Ó" map="¢" />
+	<char char="Ć" map="[" />
+	<char char="Ğ" map="#" />
+	<char char="ğ" map="#" />
+	<char char="ı" map="i" />
+</comicsMap> 
+
+    <shared>
+        <back>GERİ</back>
+        <next>İLERİ</next>
+        <beginner style='h3'>Baslangiç</beginner>
+        <beginners style='h3'>Başlangıç Seviyesi</beginners>
+		<beginnerLevel style='h3'>Başlangıç Seviyesi</beginnerLevel>
+        <intermediate style='h3'>Orta Seviye</intermediate>
+        <intermediates style='h3'>intermediates</intermediates>
+	<intermediateLevel style='h3'>Orta Seviye</intermediateLevel>
+        <advanced style='h3'>İleri Seviye</advanced>
+        <advanceds style='h3'>advanceds</advanceds>
+	<advancedLevel style='h3'>İleri Seviye</advancedLevel>
+        <ages_1_3 style='h3' width="720" useMap='False'>1-3 Yaş Arası</ages_1_3>
+        <ages_1_3C style='h3' useMap='False'>1-3 YAŞ ARASI</ages_1_3C>
+        <ages_3_5 style='h3' width="720" useMap='False'>3-5 Yaş Arası</ages_3_5>
+		<ages_3_5C style='h3' useMap='False'>3-5 YAŞ ARAŞI</ages_3_5C>
+        <level1 style='comics'>seviye 1</level1>
+        <level2 style='comics'>seviye 2</level2>
+        <level3 style='comics'>seviye 3</level3>
+	<moresoft style='comics22' useMap="comicsMap">DAHA GELİŞMİŞ YAZILIM SEÇENEKLERi İÇİN TIKLAYINIZ.</moresoft>
+	<place_Overlay style='comics'>PLACE THE "$$nameOfGame$$" OVERLAY ON THE COMFY KEYBOARD</place_Overlay>
+    </shared>
+    <buttons style='pagesTitle'>
+        <enterGame>Enter Game</enterGame>
+        <enterGame_Inside>ENTER GAME</enterGame_Inside>
+        <activityCenter style='pagesTitle' effect='blue' width="370" dy='-10' dx='-10'>Etkinlik|Merkezi</activityCenter>
+        <activityCenter_Inside style='pagesTitle' effect='blue'>Etkinlik|Merkezi</activityCenter_Inside>
+        <parentSection style='pagesTitle' effect='purple'>Anne-|Babalar</parentSection>
+        <parentSection_Inside style='pagesTitle' effect='purple'>Anne-|Babalar</parentSection_Inside>
+        <welcome useMap="comicsMap">COMFY'YE HOŞGELDINIZ</welcome>
+        <welcome_Inside effect='orange' useMap="comicsMap">COMFY'YE HOŞGELDINIZ</welcome_Inside>
+        <changeLanguage effect='orange' useMap="comicsMap">Dil Değişimi</changeLanguage>
+        <changeLevel effect='orange' useMap="comicsMap">Seviye Değişimi</changeLevel>
+        <products effect='orange' >Comfy Products</products>
+        <products_Inside effect='orange' style='pagesTitle60'  dx='20' dy='-20'>Diğer Comfy Ürünleri</products_Inside>
+    </buttons>
+    
+    
+    
+    
+<!-------------------------------------------      game names     ----------------------------------------------------->
+    
+<games style="title">
+	<BabyTV>BabyTV</BabyTV>
+        <letsImagine useMap="comicsMap">Let's Imagine</letsImagine>
+        <firstSteps useMap="comicsMap">İlk Adımlar</firstSteps>
+        <animalWorld useMap="comicsMap">Animal World</animalWorld>
+        <birthdayParty useMap="comicsMap">Doğumgünü Partisi</birthdayParty>
+        <timeTravel useMap="comicsMap">Time Travel</timeTravel>
+        <myNeighborhood useMap="comicsMap">My Neighborhood</myNeighborhood>
+        <myHome useMap="comicsMap">My Home</myHome>
+        <iLivehere>Ben Burada Oturuyorum</iLivehere>
+        <comfyOnline>Comfy Online</comfyOnline>
+        <WordlOfColors useMap="comicsMap">Renklerİn Dünyası</WordlOfColors>
+	<WorldOfColors useMap="comicsMap">Renklerİn Dünyası</WorldOfColors>
+        <XMass useMap="comicsMap">Christmas in Comfyland</XMass>
+	<joyOfMusic useMap="comicsMap">Müzİk Keyfİ</joyOfMusic>
+	<Adventure useMap="comicsMap">Adventure in Numberland</Adventure>
+</games>
+
+
+
+
+<!-------------------------------------------      Parent Section      ----------------------------------------------------->
+
+    <parentSection style='comics22'>
+        <welcome style='comics22' Xstyle="title" dy='10' useMap="comicsMap">Comfy'ye hoşgeldİnİz</welcome>
+        <parentGuide style='comics22' Xstyle="title" useMap="comicsMap">ANNE-BABA REHBERİ:
+$$nameOfGame$$</parentGuide>
+	<aboutBaby style='comics22' Xstyle="title">ABOUT BABYTV</aboutBaby>
+	<comfy3c style='comics22' Xstyle="title">COMFY PEDAGOGICAL HOUSE</comfy3c>
+        <howto style='comics22' Xstyle="title" useMap="comicsMap">COMFY OYUNLARIYLA COMFY KLAVYESİNİN KULLANIMI</howto>
+        <educational style='comics22' Xstyle="title" dy="5" useMap="comicsMap">EĞİTSEL DEĞERLER</educational>
+        <faq style='comics22' Xstyle="title" useMap="comicsMap">SIKçA SORULAN SORULAR (FAQS)</faq>
+        <website style='comics22' Xstyle="title">COMFY WEB SİTESİ</website>
+        <registration style='comics22' Xstyle="title" useMap="comicsMap">ONLINE GARANTİ KAYIDI</registration>	
+	<performance style='comics22' Xstyle="title">PERFORMANS AYARLARI</performance>
+        <performance_txt1 style='normal' Xstyle="title">Ekran çözünürlüğü oyundaki animasyonun performansını etkiler.
+
+Yüksek ekran çözünürlüğü oyundaki çizgi filmin kalitesini yükseltir, ancak yavaş bilgisayarlarda bu ayar tavsiye edilmez. 
+
+Çizgi filmler yavaş ve kesik kesikse varsayılandan daha düşük bir çözünürlük seçin. 
+
+//h2//İstediğiniz çözünürlüğü seçin: </performance_txt1>
+<default>(Varsayılan)</default>
+    </parentSection>
+<!-------------------------------------------      EDUCATIONAL      ----------------------------------------------------->
+
+<educational style='normal'>
+        <title1 style='title' useMap="comicsMap">EĞİTİMSEL DEĞERLER
+GENEL</title1>
+        <note ready='true' style='note'>//i//Not:// Aşağıda bahsedilen değer ve becerileri öğrenmek için, Comfy her yaşa ve gelişim seviyesine göre değişik CD oyunları yaratmıştır.</note>
+        <frame1 ready='false' style='normal'>Comfy Klavye ve yazılımları, dijital medya üzerine uzmanlaşmış pedagojik bir araştırma ve geliştirme ekibi tarafından, 1-6 yaş arasındaki çocukların yetenekleri ve kapasitelerine uygun olarak  yaratılmış ve tasarlanmıştır. Comfy, küçük eller tarafından bile rahatça kontrol edilebilen büyük resimli tuşları, kolay tutulan telefon ahizesi ve Döndürme Tuşu sayesinde, çocukların okuma yazma bilmesine ve bilgisayar faresi(mouse) kullanmasına  gerek olmadan, kolayca tek başına oyun oynayabilmesini sağlar.</frame1>
+        <frame2 >Comfy’nin etkileşimli (interaktif) ortamında oynamak çocuklara
+
+**oyun ve keşfetme ile öğrenmeyi
+**temel bilgisayar becerileri edinmeyi 
+**bilişsel, duygusal ve sosyal becerilerini geliştirmeyi sağlar.
+ 
+Aşağıda yazılı olan Comfy özellikleri Comfy’nin eğitimsel hedeflerine ulaşmadaki yaklaşımının son derece uygun ve de eşsiz olduğunun belirtisidir:
+
+**Tüm aktiviteler içeriğinde bulunan hikayeler, hareketli filmler,
+   resimler, renkli boyama, müzik dinleme ve şarkı söyleme,
+   sosyal kavramlarla tanışma çerçevesinde, interaktif bir birleşim
+   olarak düzenlenmiştir.</frame2>
+ 
+<frame3 style='normal'>**Comfy Klavye, normal bir bilgisayar klavyesi ve
+   farenin (mouse) yerine geçer. Tüm tuşlar renklidir ve kullanması
+   kolaydır. Okuma ve yazma becerisine sahip olmayı gerektirmez.
+
+**Comfy aktiviteleri yaşa göre düzenlenmiştir. Hikayelerin
+   kahramanı olan karakterler ya da nesneler, eğlendirici ve sevimlidir.  
+
+**Çocuğunuzun öğrenme seviyesine uyan oyun seviyesi belirlenip
+   aktivite başlayınca, çocuk ebeveyn desteği olmaksızın oyuna
+   devam edebilir. Oyundaki karakterler çocuğunuz ile konuşur ve
+   her aşamada ne yapması gerektiğini söyler. Her açıklamanın
+   yanında mutlaka bir kaç resim ya da canlandırma vardır.</frame3>
+
+<frame4 style='normal'>**Comfy etkinlik sırasında ve sonrasında anne-babalarla
+   çocuklar arasında işbirliğini sağlayacak sayısız eğitsel olanaklar
+   yaratmıştır. Bir veli olarak siz ve aileniz çocuğunuzla sonsuz
+   eğlenceli deneyimler yaşayacaksınız. 
+
+Aşağıdaki bölümlerde, önemli çocuk gelişim alanları ve becerileri hakkında kısa bilgiler verilmekte ve Comfy’nin bu alanlarda çocukların duyumsal algılama, motor, bilişsel ve sosyal becerilerinin gelişmesine nasıl yardımcı olduğu açıklanmaktadır.
+</frame4>
+
+<title5 style='title' useMap="comicsMap">EĞİTİMSEL DEĞERLER -
+MOTOR VE DUYUMSAL BECERİLER</title5>
+<frame5 style='normal'>//h1//Motor ve Duyumsal Beceriler
+
+Çocuklar büyüdükçe, fiziksel ve beyinsel yetenekleri de gelişirek daha bağımsız ve karmaşık işleri becerebilmelerine olanak sağlar. Çocuğunuz nesneleri ve karakterleri tanımlamayı öğrenir, duyularını geliştirir ve yakın çevresinden gelen uyarıları (stimuli) doğru algılamaya başlar.
+
+Comfy ile oynarken çocuğunuz:
+
+**Ekrandaki nesneler ve karakterler ile klavyedeki resimler
+   arasında ilişki kurmayı öğrenir. 
+**Farklı şekiller ve renkleri ayırarak, görsel algılama
+   becerisini geliştirir. 
+**Duyma yeteneğini geliştirir. </frame5>
+        <title6 style='title' useMap="comicsMap">EĞİTİMSEL DEĞERLER
+DİL BECERİLERİ</title6>
+        <frame6 style='normal'>//h1//Dil Becerileri
+
+Cümle kurmayı öğrendikçe çocukların kelime hazinesi sürekli genişler. 
+
+Comfy ile oynarken çocuğunuz:
+**Soru sormayı, istek ve uyarıda bulunmayı, emir içeren
+   cümleler kurmayı öğrenir.
+**Hava durumu, zaman, hayvanlar, ev gibi spesifik konulara
+   ait yeni kavramlar öğrenir. </frame6>
+   
+<title7 style='title' useMap="comicsMap">EĞİTİMSEL DEĞERLER
+Düşünme Becerİlerİ</title7>
+<frame7 style='normal'>//h1//Düşünme Becerileri
+
+Çocukların hafıza yeteneği zamanla gelişerek, hatırlayabildikleri resim, ses ve deneyim sayısı gittikçe artar.  Ayrıca hayal güçleri ve yaratıcı düşünme becerileri gelişir.
+
+Comfy ile oynamak çocuğunuza:
+**Çocuğun sürekli ilerleyen bir hikayeye katılmasını ve
+   değişiklikler yaratmasını (örneğin yağmur yağdırmak,
+   gündüzü geceye çevirmek, vb) sağlayarak, neden ve
+   sonuç ilişkisini öğretir.  
+**Aktivite boyunca karşılaştığı nesneleri, sesleri, olayları
+   ve karakteleri hatırlama konusunda pratik yapmayı öğretir.
+**Hikayeye katılarak konusunu istediği şekilde
+   yönlendirebilmesi  hayal gücünü genişletirken, aynı
+   zamanda yaratıcı becerilerini de geliştirir.</frame7>
+
+<frame8 style='normal'>**Farklı karakterlerle ‘Gerçekmiş gibi’ oyunlar kurarak,
+   onların yaşadıkları dünyayı öğrenmesini sağlar. 
+
+**İlgi çekici görevler yaptırtarak, konsantre  olmayı ve
+   beyinsel faaaliyetlerde bulunmayı öğretir.</frame8>
+
+<title9 style='title' useMap="comicsMap">EĞİTİMSEL DEĞERLER
+DUYGUSAL GELİŞME</title9>
+<frame9 style='normal'>//h1//Duygusal Gelişme
+
+Çocuklar  sınırlama ve yasakların tanımlandığı, ancak sıcak ve destekleyici bir ortama ihtiyaç duyarlar.  Bu onların bağımsızlıklarının gelişmesine ve çevrelerini araştırmalarına yardımcı olurken, özgüveni ve kendine olan inancını kuvvetlendirecek aktiviler yaratmasını sağlar.
+
+Comfy ile oynarken çocuğunuz:
+**Değişen renkler ve sesleri keşfetmek veya arkadaş canlısı
+   karakterle tanışmak gibi  olumlu deneyimler yaşar. 
+**Klavye ile gerçekleştirdiği hareketler için geri bildirim ve
+   cesaretlendirme alır.
+**Döndürme tuşu ile ani hareketler yapma fırsatı kazanır.</frame9>
+   
+<frame10 style='normal'>
+**Hikayenin gelişimini, aktivitelerin içindeki olayları, ve Comfy
+   Klavyeyi kontrol edebilme gücü çocuğun kendine olan güven
+   ve inancının gelişmesini sağlar. 
+
+**Oyunların kural ve limitleri hakkında belirgin tanımlamaları
+   öğrenir (örneğin ayıcık Buddy çocuklardan yağmur
+   yağdırmasını ister, ama ’şimdi değil, ben eve gittikten hemen
+   sonra’)</frame10>
+   
+<title11 style='title' useMap="comicsMap">EĞİTİMSEL DEĞERLER - 
+SOSYAL VE DAVRANIŞSAL DEĞERLER</title11>
+<frame11 style='normal'>//h1//Sosyal ve Davranışsal Değerler
+
+Küçük çocuklar kabul edilen davranış şekillerini, sosyal ve kültürel normlarla tanışarak öğrenirler. Comfy oyunları sayesinde çocuklar uygun davranış biçimlerini öğrenirken, aynı zamanda sosyal sorun ve  engellerle nasıl baş edecekleri konusunda da bilgilenirler.
+ 
+Bu alanda Comfy
+**Çocuğunuzun çeşitli günlük ortamlara katılmasını sağlayarak,
+   bu ortamlara uygun davranışları öğrenmesine yardımcı olur. 
+**Çocuğunuzun kendisine yakın hissedeceği karakterlerle
+   tanışmasını sağlar. 
+**Başkalarına yardımcı olmak ve işbirliği gibi olumlu sosyal
+   normları vurgular. 
+**Comfyland arkadaşlık, uzlaşma, tüm varlık ve nesnelere
+   saygı konularında olumlu değerler öğretir.</frame11>
+</educational>
+    
+<!-------------------------------------------      WELCOME    ( about comfy)  ----------------------------------------------------->
+
+<welcome>
+<frame1 ready='true' style='normal'>Comfy ve arkadaşları zengin ve heyecanlı multimedya dünyasına giden kapıyı açarak deneyim ve eğlenceyi, öğrenme ve gelişmeyle birleştirir. Comfy çocuğunuza renkli animasyonlardan oluşan dinamik bir yazılım ve oyun ortamını, ebeveyn yardımına gerek duymadan keşfetme ve kontrol etme olanağı sunar. 12 aylıktan itibaren çocukların temel bilgisayar kavram ve becerilerini, eğlenceli ve doğal bir ortamda kavrayarak öğrenmesine fırsat sağlar.
+
+Comfy ürünleri çocuğunuzun motor, duygusal ve bilişsel becerilerine uymak üzere uzman bir ekip tarafından geliştirilmiştir. Büyük ve parlak renkli tuşları ile Comfy klavyesi ve yaşa uygun zengin içerikli yazılımları, çocuğunuzun okumayı ve bilgisayar klavyesini/faresini kullanmayı bilmesine gerek kalmadan, kendi öğrenme hızında ilerleyebileceği, bağımsız ve etkileşimli bir öğrenme ortamı sunar. </frame1>
+
+<website ready='false' note='it have to be there' style='comics22'>COMFY WEBSITE</website>
+
+
+
+</welcome>
+
+
+
+    
+ <!---------------------------------------------------   Use Comfy  	---------------------------------------------------------------->   
+    
+    <useComfy style='normal'>
+
+        <title1 style='title' useMap="comicsMap">COMFY OYUNLARIYLA COMFY KLAVYESİNİN KULLANIMI</title1>
+
+        <note style='note'>//i//Not://  "Comfy Klavyesi'nin Comfy Oyunlarıyla Kullanımı", Comfy Klavyesi'nin bu oyun CD'siyle nasıl kullanılacağını anlatmaz. Detaylı talimatlar için "Anne Baba Rehberi"ne başvurun. </note>
+
+<frame1 style='normal'>Comfy Klavye 1 yaş üstü bebeklerin ve çocukların Comfy’nin cezbedici oyunlarını oynayabilmelerini sağlar. Sistem ve yazılımlar 1-5 yaşa arasındaki tüm çocukların kendi hızlarına ve gelişim düzeyine göre ilerleyebilmesi için tasarlanmıştır.
+
+Comfy klavyedeki tanıdık şekiller, parlak renkler ve Comfy karakterleri çocuklarda parmaklarıyla dokunma, keşfetme ve araştırma güdüsü uyandırır. Özel geliştirilmiş yazılımlarda çocukların kendi kişisel gelişimine bağlı olarak farklı aktivitelerin kontrolünü yapabilecekleri seviyeler bulunmaktadır. </frame1>
+
+<frame2>//h1//Klavye Tuşlarının Tanımları:
+
+//h1//Comfy Klavyede 3 adet Hava Durumu/Zaman Tuşu vardır: 
+**Güneş ve gün ışığı tuşu 
+**Ay ve gece tuşu
+**Bulut ve yağmur tuşu
+
+Bu tuşlardan herhangi birine basıldığında, Comfyland’da hava durumu ve günün saati, hikayeyi etkileyecek şekilde değişir ve çocuklar bunun özelliklerini öğrenir. 
+
+//h3//Hava Durumu / Zaman tuşları sayesinde öğrenilen kavrramlar: 
+**Gündüz ve gece kavramlarını anlamak.
+**Yağmur, kar gibi hava olaylarını öğrenmek.</frame2>
+
+<frame3>//h1//Karakter Tuşları ve Telefon Ahizesi
+**Snaily Salyangoz
+**Buddy Ayıcık
+**Jumpy Köpek
+**Feely Fil
+**Comfy
+
+Bu tuşlar  sayesinde çocuk oyunun herhangi bir anında karakterlere telefon edebilir ve onları farklı yerlerde farklı şeyler yaparken görebilir. 
+
+Telefon Ahizesi sayesinde öğrenilen kavramlar:
+**Telefon ile iletişim kurmayı öğrenmek.
+**Comfy karakterleri ile kendi konuşma dilini oluşturmak
+   ve sosyal becerilerini geliştirmek.</frame3>
+
+<frame4>//h1//Müzik tuşları
+Klavyede 5 adet müzik tuşu bulunur: Davul, Flüt, Piyano, Borazan (trumpet), Müzik Notaları tuşu.
+
+Her bir müzik enstrümanının tuşuna basıldığında ilgili enstrüman çıkar ve genelde bu enstrümanın çok kullanıldığı bir müzik parçası çalar. Eğer çocuğunuz aynı düğmeye basmaya devam ederse, ya yavaşça melodinin temposu değişir ya da başka bir melodi başlar. 
+
+Müzik Notaları tuşuna basıldığında, Comfyland’in karakterlerini sırayla tanıtan Comfy’nin ana tema şarkısı çalar.
+
+//h3//Müzik tuşları sayesinde öğrenilen kavramlar:
+**Şekil ve ses farklılıkları ile dört temel müzik enstrümanını öğrenmek.
+**Farklı müzik enstrümanlarını birbirinden ayırmak.
+**Melodileri tanımak ve şarkılar öğrenmek. 
+</frame4>
+
+<frame5>//h1//Renkli Tuşlar
+Klavyede 6 adet renk tuşu vardır: 
+
+//Color#9900FF//Mor//  //Color#FF7600//Turuncu//  //Color#009900//Yeşil//  //Color#333399//Mavi//  //Color#FFFF66//Sarı//  //Color#CC0000//kırmızı//
+          
+Oyun sırasında çocuklar renkli tuşları farklı aktiviteleri oynamak için kullanır.
+
+//h3//Renkli tuşlar sayesinde öğrenilenler:
+**Renklerle tanışmak.
+**Renklerin estetik ve fonksiyonel kullanımı konusunda gelişmek.</frame5>
+
+<frame6>//h1//Durdurma Tuşu
+
+Durdurma tuşuna basıldığında ’Dur’ anlamını açıklayan sesler ve imajlar gösterilir. Klavyedeki herhangi başka bir tuşa dokunulduğunda ise, oyun ve hareket kaldığı yerden devam eder.
+
+//h3//Durdurma Tuşu sayesinde öğrenilen kavramlar:
+**Çocuğa durma (ve soluklanma) fırsatı, ebevyenlere ise bir şey
+   anlatma olanağı tanır.
+**Çok sevilen bir resme/ekrana bakma ve hakkında konuşma
+   için fırsatı yaratır.</frame6>
+
+<frame7>//h1//Döndürme Tuşu
+
+Comfy Klavye’de çevirdikçe serbest  dönebilen bir döndürme tuşu vardır. Bu tuş çocuğun ellerini serbest hareket ettirmesine olanak sağlar.  
+
+Ekrandaki olayların geçici bir süre hızını değiştirmek için kullanılan Döndürme Tuşu’nda, çocuk döndürmeyi hızlandırdıkça ekrandaki hareket de artar. 
+
+//h3//Döndürme tuşu sayesinde öğrenilenler: 
+**Eğlenme ve hayal gücünü özgürce kullanma fırsatı. 
+**Ekrandaki olayların hızını kontrol ederek, paylaşma ve eğlenme.
+</frame7>
+</useComfy>
+
+<!---------------------------------------------------  COMFY PEDAGOGICAL HOUSE  ------------------------------------------------->
+
+<m3c style='normal'>
+        <Mtitle1 style='title' useMap="comicsMap">INTRODUCING COMFY PEDAGOGICAL HOUSE (CPH)</Mtitle1>
+		<Mtitle2 style='title' useMap="comicsMap">INTRODUCING COMFY 3C DEVELOPMENTAL CYCLE™</Mtitle2>
+		<Mtitle3 style='title' useMap="comicsMap">PARENTS’ ROLE IN MAXIMIZING COMFY 3C SYSTEM</Mtitle3>
+		<frame1 style='normal'>//h3//Comfy Pedagogical House (CPH)// is the research and development arm of Comfy, responsible for accumulating all knowledge and information, identifying the latest trends in child-development and learning processes, in order to implement them into interactive fun-learning products.
+
+CPH activities include research and field-testing, involving many experts from various fields, which together form the wide knowledge base for Comfy’s activities.
+
+CPH is the developer of Comfy’s unique 3C Developmental Cycle™ to encourage children's curiosity, while promoting and maximizing effective learning.</frame1>
+
+
+
+        <frame2>The immediate effect that is seen when watching a child play with the Comfy system is the magic sparkle in his eyes lighting up his whole face. This is what we refer to as "Comfy's Magic Effect". This magical effect is created by the combination of //h3//C//uriosity //PLUS// //h3//C//hallenge //PLUS// //h3//C//onfidence = //h3//3C Developmental Cycle™//
+
+//h3//Curiosity//
+Children are born with natural curiosity. At Comfy, we expose young minds to a rich interactive environment in order to leverage their natural–born curiosity and take them through a journey of learning through play and exploration, enabling the development of new skills and thought-patterns.</frame2>
+
+<frame3>//h3//Challenge//
+By providing children with age-appropriate, rich and developmental content, we motivate and inspire them to utilize their capabilities to the fullest. Therefore, CPH has created a line of software for children aged 1-5 years old, developing motor skills, emotional intelligence, visual and spatial perception, creative thinking, vocabulary, languages and much more.
+
+//h3//Confidence//
+The Comfy system develops self-confidence by enabling the child to play independently - being able to control the activities as an active participant rather than a passive one. Acquiring this sense of control improves the child’s confidence and self-esteem and is the basis for building a stable personality as well as healthy relationships.
+</frame3>
+
+</m3c>
+<!---------------------------------------------------  activityCenter  ------------------------------------------------->
+
+<activityCenter style='comics'>
+<frame1 style='comics' width="350" useMap="comicsMap">COMFYLAND RESİMLERİNİ BOYAYARAK EĞLENİN. 
+
+EN SEVDİĞİNİZ RESMİ SEçİN. 
+
+YAZDIRMAK İçİN TIKLAYIN, 
+RESMİNİZİ BOYAYIN.
+
+İYİ EĞLENCELER!</frame1>
+</activityCenter>
+
+<!---------------------------------------------------       FAQ      ------------------------------------------------->
+
+<faq style='normal' useMap='False'>
+        <questions>SORULAR</questions>
+        <note style='note'>//i//Not:// Değişik etkinliklerle ilgili açıklamalar için Anne-Babalar Bölümü'ndeki Anne-Baba Rehberi'ne başvurun. </note>
+        
+	<Q_chooseLang>Kullanılan dili nasıl değiştirebilirim?</Q_chooseLang>
+        <chooseLang>Menüdeki "Dil Değişimi" tuşunu tıklayın. 
+
+Tüm dilleri görüntülemek için yukarı ve aşağı ok tuşlarını kullanın. 
+
+İstediğiniz dile ait bayrağı tıklayın. 
+
+Kırmızı "Oyuna Giriş" tuşunu tıkladığınızda oyun seçtiğiniz dilde başlar. </chooseLang>
+       
+       <Q_changeLevel>Seviyeyi nasıl değiştiririm? </Q_changeLevel>
+        <changeLevel>Menüdeki "Seviye Değişimi" tuşunu tıklayın. 
+
+İstediğiniz seviyeyi gösteren küpleri tıklayarak seviye seçimini yapın. 
+
+Kırmızı "Oyuna Giriş" tuşunu tıkladığınızda oyun seçtiğiniz seviyede başlar. </changeLevel>
+        
+	<Q_returnMain>Oyundan ana menüye nasıl dönebilirim?</Q_returnMain>
+        <returnMain>CD menüsüne geri dönmek için normal klavyenizdeki "Esc" tuşunu tıklayın. </returnMain>
+       
+       <Q_exitGame>Oyundan nasıl çıkılır?</Q_exitGame>
+        <exitGame>Normal klavyenizdeki "Esc" tuşunu tıklayarak CD menüsüne geri dönün. 
+
+Oyundan çıkmak için yeniden "Esc" düğmesini tıklayın. 
+
+Comfy oyunları çocuk tarafından tek başına değil, sadece anne-babaların yardımıyla oynanmaya başlanır. 
+Bu, çocuğunuzun, velilerin bilgisayar ortamına girmeden Comfy ortamında bağımsız bir şekilde oynamasını sağlar. </exitGame>
+        
+<Q_moveUp dy="7">Bir üst seviyeye ne zaman geçmeli? </Q_moveUp>
+<moveUp>Çocuğunuzun birinci seviyeden başlayıp yavaş yavaş daha yüksek seviyelere ilerlemesini tavsiye ederiz. 
+
+Çocuğunuz kendine güvenip etkinliklerle zorlanmadan oynamaya başladığında seviyeyi değiştirerek çocuğunuzu daha düşündürücü etkinliklere tanıştırın. </moveUp>
+        
+	<Q_overlay >When do I place the "$$nameOfGame$$" overlay on the Comfy Keyboard and what is it used for?</Q_overlay>
+        <overlay>The "$$nameOfGame$$" overlay should be placed on the Comfy Keyboard when playing with the "$$nameOfGame$$" game CD. The overlay has different icons than the Comfy keyboard and is needed when playing with the "$$nameOfGame$$" CD content.</overlay>
+        
+<forMoreFaqs dx='7'>//Color#EC6002//Başka sorularınız varsa, sitemizi ziyaret edin://
+//Color#EC6002//www.comfyland.com//</forMoreFaqs>
+</faq>
+    
+<!---------------------------------------------------  Products  ------------------------------------------------->
+
+<products style='products'>
+<chooseAge style='comics22'>YAŞ GRUBUNU SEÇIN</chooseAge>
+<chooseDesc style='normal'>Özel tasarımlı yazılımımız heyecanlı ve düşündürücü etkinlikler kullanarak değişik seviyelerde geliştirici eğitim sunar: </chooseDesc>
+<notAllSoftwares style='nutralEMB' embed="false">Her yazılım CD'si her dilde mevcut olmayabilir. 
+Mevcut ürünlerimiz hakkinda en güncel bilgiyi edinmek için lütfen Web sitemize giriniz: //HREF//www.comfyland.com.tr// www.comfyland.com.tr//HREF_END//</notAllSoftwares>
+<clickOnAnyImage>Daha fazla bilgi için resimleri tıklayın</clickOnAnyImage>
+<newPlaying style='nutralEMB' embed="false">Şimdi oynayan:</newPlaying>
+<mrktBefore style='prodBig' useMap="comicsMap">çocuğunuzun tüm POTANSİYELİNİ KULLANABİLMESİ İçİN YAŞINA UYGUN YAZILIMI SEçİNİZ</mrktBefore>
+<signUp style='prodBig'>Spcieal discounts for club members.
+//HREF//www.comfyland.com/club/sign//sign up//HREF_END// for the Comfy Club for free.</signUp>
+<remind style='normalProd'>Don’t remind me any more</remind>
+<mrktAfter style='prodBig'>Your child have been playing with this software, get your//HREF//www.comfyland.com/club/sign// 15//PERCENT// off with free sign up,//HREF_END// on our range of software</mrktAfter>
+
+<!------    Products: First Steps   ------------>
+
+<firstSteps_Intro>"İlk Adımlar" 12 aydan başlayarak, bağımsız bir bilgisayar oyun deneyimi sunarken temel kavramları öğreten bir oyundur. “İlk Adımlar” yazıımındaki tüm aktiviteler, yaşa uygun beceri ve ihtiyaçlara uygun şekilde çocuk psikologları, eğitim uzmanları ve ebeveynlerin önderliğinde geliştirilmiştir. “İlk Adımlar” çocukları şekiller, sesler ve renklerle tanıştırırken etkileşimli ve eğlenceli deneyimler yaşatır.</firstSteps_Intro>
+        <firstSteps_Body>//h4//Yazılım üç etkileşim seviyesi sunar:
+//u//Seviye 1:// Renk ve ses tanıtımı.
+//u//Seviye 2:// Nesnelerin ve isimlerin belirlenmesi.
+//u//Seviye 3:// Mantık yürütme ve algılama.
+
+//h3//Gelişimsel Faydalar:
+**Şekiller, sesler ve renkler ile tanıştırır.
+**El-göz koordinasyonunu geliştirir. 
+**Dinleme becerilerini artırır. 
+**Mantık yürütme ve anlama becerilerini geliştirir. </firstSteps_Body>
+
+<!------    Products: My Home   ------------>
+
+<myHome_Intro>“My Home” (Evim) çeşitli günlük aktivitelerle ev ortamını keşfederken, saatlerce eğlence imkanı sağlar. Oyun çocukların evde toplu olmanın önemini öğrendiği, sesleri ve konuşmaları ile nesneleri tanıdığı, hava durumuna göre giyinmeyi öğrendiği şarkı ve sürprizlerle doludur. Çocuklar 3 yaşındaki sevimli Didi ve arkadaşları ile, saklambaç oynar ve diğer aktiviteleri gerçekleştirirler. </myHome_Intro>
+<myHome_Body margin='25'>//h3//Yazılım üç etkileşim seviyesi sunar://
+//u//Seviye 1:// Çocuğunuzu evde bulunan değişik nesne ve kavramlarla tanıştırır. 
+//u//Seviye 2:// Çocuğunuz ekranda görüntülenen ipuçlarını kullanarak karakterlerin sorularını yanıtlar. 
+//u//Seviye 3:// Çocuğunuz ekrandaki ipuçlarını kullanmadan karakterlerle etkileşimde bulunur. 
+
+//h3//Gelişimsel Faydalar://
+**Kelime dağarcığı ve dil becerilerini geliştirir.
+**Ev ortamında keşifler yaptırır.
+**Neden-sonuç ilişkisini kurmayı öğretir.
+**Birbirine benzer kavramlar arasındaki ilişkiyi öğretir.
+
+* İçinde Türkçe dili henüz bulunmamaktadır.
+</myHome_Body>
+
+<!------    Products: Let's Imagine   ------------>
+
+<letsImagine_Intro style='products'>"Let's Imagine" offers toddlers hours of delight while developing creative skills. Your child will explore a variety of fun learning experiences through colorful graphics and animated pictures that stimulate visual development and encourage auditory skills.</letsImagine_Intro>
+<letsImagine_Body>//h3//The software offers three levels of interactivity:
+//u//Level 1//: Introduces your child to Didi and Boo's world of animals, 
+		 shapes, objects and body parts.
+//u//Level 2//: Your child participates and reacts to the characters' questions
+		 with the help of hints displayed on the screen.
+//u//Level 3//: Your child learns to interact with the characters with no on-screen hints.
+
+//h3//Developmental Benefits
+  **Expansion of vocabulary and language skills.
+  **Identification of sounds, shapes and colors.
+  **Teaches cause and effect.
+  **Helps your child solve problems through various activities. </letsImagine_Body>
+
+<!------    Products: Birthday Party   ------------>
+
+<birthdayParty_Intro>“Doğumgünü Partisi” çocukların, erken çocukluk döneminde sosyal etkileşim ve iletişim becerisi edinmelerine yardımcı olur. Karakterler Feely’nin doğumgünü partisinde biraraya geldiklerinde her biri kendi hikayesini anlatır. Postacı Snaily bir postacı olarak ilk gününü; Comfy ve Jumpy hayvanat bahçesine yaptıkları büyüleyici ziyareti; ayıcık Buddy ise kırlarda geçirdiği muhteşem macerayı anlatır. “Doğumgünü Partisi” çocuğunuzun keyifli hikayeleri kahramanları ile “yaşayarak” sosyal etkileşim ile ilgili kavramları öğrenmesini sağlar.
+</birthdayParty_Intro>
+<birthdayParty_Body>
+//h3//Gelişimsel Faydalar:
+**Sosyal kurallar ve değerler ile tanışma.
+**Mekan, zaman ve göreceli boyutlar gibi kavramlar ile tanışma. 
+**Hafızayı ve kendini ifade etmeyi geliştirme. 
+**Çocuğun kendine güvenini ve kişiliğine olumlu bakmasını kuvvetlendirme. 
+</birthdayParty_Body>
+
+<!------    Products: Christmas in Comfyland   ------------>
+
+<XMass_Intro>“Christmas in Comfyland” (Comfyland’de Yılbaşı) farklı bölümlerden oluşan bir film içinde, yılbaşı kutlamalarının sihirini yansıtırken hem eğitici hem de eğlendirici deneyimler yaşatır. Comfy ve arkadaşları yılbaşı kutlamalarına hazırlanırken, herkesi onlarla birlikte olmaya davet ederler. Hikaye tüm Comfy ailenin bir yılbaşı şarkısı söylemesiyle biter ve “Comfyland’de Yılbaşı”nın tüm eğlencesi ve keyfini yansıtır. Yılın en özel zamanı böyle daha da eğlenceli!</XMass_Intro>
+        <XMass_Body>//h3//Gelişimsel Faydalar:
+**Dinleme becerisini, konsantrasyonu, hafıza yeteneğini geliştirir.
+**Kendine güveni, bağımsız ve kontrol ederek oyun oynama becerisini geliştirir. 
+**Olumlu duyguları artırır. 
+**Temel yılbaşı karakterlerini tanıştırır.  
+
+* İçinde Türkçe dili henüz bulunmamaktadır.
+</XMass_Body>
+
+<!------    Products: Joy of Music   ------------>
+
+<JoyOfMusic_Intro>‘Müzik Keyfi’ çocukları, flüt Fifi, borazan Tempo, davul Boom-Boom ve piyano Mano’nun provalarına ve konserine aktif olarak katılmaya davet ederek müzik kavramlarını öğretir. Enstrümanların her biri kendi özel “kişilikleri” olan sevimli birer karakterdir. Bu enstrümanların, sevilen Comfyland karakterleri ile etkileşimleri, arkadaşlık ve karşılıklı yardım kavramlarının gelişimine ışık tutar. “Müzik Keyfi” çocukların müzik enstrümanlarını ve müzik uyumunu (armoni) öğrenmesi, ses yeteneği ve küçük-büyük motor becerilerini geliştirmek için ideal bir seçimdir.</JoyOfMusic_Intro>
+        <JoyOfMusic_Body>//h3//Gelişimsel Faydalar:
+**Çocuğa müziği keyifli bir şekilde tanıtırken, değişik müzik enstrümanları ve terminolojisi
+   ile tanışmasını sağlar.
+**Yaratıcılık ve konsantrasyonu teşvik eder. 
+**Renk algılamayı geliştirir.
+**Kontrol ve kendine güven duygularını geliştirir; sofra kurallarını öğretir.
+**Arkadaşlık ve karşılıklı yardımın değerini vurgular.
+</JoyOfMusic_Body>
+
+<!------    Products: World of Colors   ------------>
+
+<WordlOfColors_Intro>“Renklerin Dünyası” çocuğunuzu Jumpy’nin kayıp kemiğini ararken renklerin muhteşem dünyasıyla tanıştırıyor. Çocuğunuz izleme ve görsel algılama becerilerini geliştirirken, renkleri isimlendirmeyi, nesneleri karşılaştırmayı ve spesifik nesneleri renkleriyle eşleştirmeyi öğrenecek. “Renklerin Dünyası” renkleri yeni öğrenmeye başlayan çocuklara, eğlenceli ve etkileşimli hikayeler ile yardımcı olur. Renkleri bilen çocuklara ise tekrarlama ve yaratıcılıklarını geliştirmeye fırsatı tanıyarak, oyunu yararlı ve ilham veren bir deneyim haline getirir.
+</WordlOfColors_Intro>
+<WordlOfColors_Body>//h3//Gelişimsel Faydalar:
+**Nesneler ile renkleri eşleştirme. 
+**Gizlenmiş bir nesneyi bulma. 
+**Uzamsal/mekansal oryantasyonun temel kavramları. 
+**Problem çözme deneyimi. 
+**Karşılaştırma becerilerinin gelişimi. </WordlOfColors_Body>
+
+<!------    Products: Animal World   ------------>
+
+<animalWorld_Intro>“Animal World” (Hayvanlar Dünyası) yazılımındaki sürprizler ve keşifler, çocukları hayvanlar ve onların yaşadıkları ortamlar hakkında öğrenmeye teşvik eder. Toprak, su, orman ve kar gibi çeşitli ortamları öğrenen çocuklar, bu ortama uygun aktiviteler yapar. “Hayvanlar Dünyası” çocukların bilişsel, duygusal, dil ve yaratıcı becerilerini farklı hikayeler, etkileşimli oyunlar, sanat ve müzik aktivitleri ile geliştirmek için birebirdir. </animalWorld_Intro>
+<animalWorld_Body>
+//h3//Gelişimsel Faydalar:
+**Renkleri, şekilleri ve rakamları tanıma becerilerini geliştirir.
+**Dinleme ve komutları anlama becerilerini geliştirir.
+**Düşünce yöntemlerini ve kelime hazinesini geliştirir.
+**Sanat eserleri, materyalleri ve teknikleri ile ilgili farkındalık yaratır.
+
+* İçinde Türkçe dili henüz bulunmamaktadır.
+</animalWorld_Body>
+
+<!------    Products: Time travel  ------------>
+
+<timeTravel_Intro>In "Time Travel", children will traverse with Comfy and his friends in an adventurous journey through space and time. "Time Travel" presents different cultures and eras of the past and future through interesting stories, interactive games, creative arts and amusing musical activities. Comfy and friends will learn about dinosaurs, explore the habits of prehistoric man, visit Indians in their village to discover their traditions and enjoy an alien's visit from space. "Time Travel" is a wonderful way to capture children's imagination by exposing the child to a whole new universe. The experiences that children gain through the various activities enhance their imagination and cognitive abilities.</timeTravel_Intro>
+<timeTravel_Body>* Content of this CD is also available in "Comfy Online".
+
+//h3//Developmental Benefits
+**Improves the ability to make decisions.
+**Improves understanding of quantitative concepts.
+**Enhances intellectual curiosity.
+**Fosters positive self image.
+</timeTravel_Body>
+
+<!------    Products: My Neighborhood  ------------>
+
+<myNeighborhood_Intro>"My Neighborhood" hosts children in Comfyland's lively neighborhood. In this neighborhood, they will explore a familiar environment through stimulating stories, interactive games, creative arts and fun music activities. Together with Comfy and his friends, children will learn about their home, visit the friendly neighbors, play in the playground and park, and learn to drive various vehicles by following directions. "My Neighborhood" is a wonderful way for children to strengthen their self-assurance and develop cognitive, social and emotional skills through familiar experiences in day-to-day life.</myNeighborhood_Intro>
+<myNeighborhood_Body>* Content on this CD is also available in "Comfy Online".
+
+//h3//Developmental Benefits
+**Improves the ability to classify and categorize.
+**Develops thinking processes in increasingly complicated levels.
+**Improves different thought-patterns.
+**Fosters positive emotions.
+</myNeighborhood_Body>
+
+<!------    Products: comfyOnline   ------------>
+
+<comfyOnline_Intro>In Comfy's online world, children enter fascinating software adventures and magical surfing experiences on the internet accompanied by their friends from Comfyland. In "Comfy Online", the child will find a wide range of unique and interactive internet activities across various content worlds. Content is updated continually by event, time and place, connecting the child's world to real events in real time which ultimately enriches the child with quality learning processes over time. "Comfy Online" enables young explorers their first internet experience in a protected environment.</comfyOnline_Intro>
+<comfyOnline_Body>* Some of the content in "Comfy Online" is also available in Comfy's line of software CDs.
+
+//h3//Developmental Benefits
+**Improves listening skills, concentration, memory and perseverance.
+**Stimulates different thought-patterns.
+**Develops self confidence, independence and control.
+**Encourages thinking and creative solutions.</comfyOnline_Body>
+
+<!------    Products: BabyTV   ------------>
+
+<babytv_Intro>BabyTV - Go Interactive is an interactive game based on the popular characters from the
+world of BabyTV, the first channel dedicated to infants and toddlers under 3 years of age,
+The famous characters lead activities that are fun and are designed to promote development
+and interaction, We now offer you and your baby the opportunity to interact and play with
+your favorite BabyTV characters off the screen, while developing early learning and communication skills</babytv_Intro>
+<babytv_Body>//h3//Gelişimsel Faydalar:
+**Enhances natural curiosity to explore.
+**Encourages creative thought and imagination.
+**Develops the ability to understand and follow instructions.
+**Expands vocabulary and language skills.
+**Develops convenation skills.
+</babytv_Body>
+
+<!------    Products: Adventure   ------------>
+
+<Adventure_Intro>"Adventure in Numberland" is an exciting and fun interactive game, which opens a first window to the world of numbers. The favorite friends from Comfyland go on a fascinating adventure in Numberland where they meet animated numbers that invite them to join a picturesque color, movement and sound experience. The game gives toddlers the opportunity to practice basic quantitative problems such as counting and numbering in a joyful way, thereby enhancing their natural curiosity and strengthening their cognitive and motor skills. </Adventure_Intro>
+<Adventure_Body>//h3//Gelişimsel Faydalar:
+** Encouraging the natural curiosity of infants to experience mathematical tasks.
+** Getting acquainted with small numbers.
+** Practicing changes in form, pattern and appearance of fixed quantities.
+** Recognizing quantities of items and how addition and subtraction affect quantity.
+** Comparing amounts, and getting acquainted with the terms "more" and "less".
+</Adventure_Body>
+</products>
+
+
+
+</lang>

@@ -1,0 +1,214 @@
+﻿xmlContent=.title {
+ font-family: _Arial;
+ font-size: 16px;
+ font-weight: bold;
+ }
+ 
+ .nutral {
+ font-family: _Arial;
+ font-weight: bold;
+ color:#ffffff;
+ text-indent:0px;
+ leading:1px;
+ }
+ 
+ a{
+ font-weight: bold;
+ color:#FFFF99;
+ text-indent:0px;
+ leading:2px;
+ }
+ 
+ .pSection {
+ font-family: _Arial;
+ font-size: 24px;
+ text-align: right;
+}
+
+.pSectionC {
+ font-family: _Arial;
+ font-size: 28px;
+ text-align: Center;
+}
+ 
+.comics24 {
+font-weight: bold;
+font-family: Arial;
+font-size: 24px;
+
+}
+.comics22 {
+font-weight: bold;
+font-family: _Arial;
+font-size: 18px;
+
+}
+.comics {
+ font-family: _Arial;
+ font-weight: bold;
+ font-size: 14px;
+ line-height:-6px;
+ }
+ 
+ .comicsWest {
+ font-family: _comics;
+ }
+ 
+ .titleEng {
+ font-family: _comics;
+ font-size: 16px;
+ }
+ 
+ .comics22Eng {
+ font-family: _comics;
+ font-size: 18px;
+}
+ 
+.pagesTitle {
+ font-family: _Arial;
+ font-size: 74px;
+ text-align:center;
+ color:#3333FF;
+ leading:-25px;
+ }
+
+ .pagesTitle60 {
+ font-family: _candy;
+ font-size: 60px;
+ text-align:center;
+ color:#3333FF;
+ leading:-25px;
+ }
+
+.levelPage {
+ font-family: _Arial;
+font-weight: bold;
+ font-size: 40px;
+ }
+ 
+.cover{
+ font-family: _Arial;
+font-weight: bold;
+ font-size: 28px;
+ }
+ 
+ .note {
+ font-family: _Arial;
+ font-size: 14px;
+ font-weight: bold;
+ color:#002266;
+ leading:2px;
+ }
+
+ .normal {
+ font-family: _Arial;
+ font-size: 14px;
+ font-weight: bold;
+ color:#113399;
+
+ text-indent:0px;
+ leading:2px;
+
+ }
+
+.normalProd {
+ font-family: Arial;
+ font-size: 14px;
+ font-weight: bold;
+ color:#ffffff;
+ text-indent:0px;
+ leading:2px;
+ }
+
+.normalProd2 {
+ font-family: _Arial;
+ font-size: 14px;
+ font-weight: bold;
+ color:#ffffff;
+ text-indent:0px;
+ leading:2px;
+ }
+.prodBig {
+ font-family:  _comics;
+ font-size: 12px;
+ font-weight: bold;
+ color:#ffffff;
+ text-indent:0px;
+ leading:0px;
+ }
+
+
+ .prodDest0 {
+ font-family: Arial;
+ font-size: 12px;
+ font-weight: bold;
+ color:#0000ff;
+ line-height:0px;
+ text-indent:0px;
+ leading:0px;
+
+ }
+
+.h1{
+font-size:18px;
+line-height:10px;
+leading:0px;
+font-weight: bold;
+
+}
+
+.h2{
+font-size:16px;
+line-height:10px;
+leading:0px;
+font-weight: bold;
+
+}
+
+.h3{
+font-size:15px;
+line-height:-20px;
+leading:0px;
+font-weight: bold;
+ leading:2px;
+}
+
+.h4{
+font-size:13px;
+line-height:-14px;
+leading:0px;
+font-weight: bold;
+}
+
+.products0{
+font-family: Arial;
+font-size:12px;
+line-height:10px;
+color:#421258;
+leading:1px;
+font-weight: bold;
+}
+
+.products1{
+font-family: Arial;
+font-size:12px;
+line-height:10px;
+color:#ffffff;
+leading:1px;
+font-weight: bold;
+}
+
+
+
+
+._buttons{
+font-family: _candy13 ;
+font-size: 13px;
+text-align:center;
+color:#FFFFFF;
+
+}
+ .red{
+	 color:#FF0000;
+
+ }

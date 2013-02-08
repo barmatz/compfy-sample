@@ -1,0 +1,41 @@
+﻿xmlContent=<?xml version='1.0' encoding='UTF-8'?>
+<unique>
+<faq>
+<Q_difference dy="7" useMap='False'>İlk Adımlar'daki üç seviye arasındaki fark nedir?</Q_difference>
+<difference>"İlk Adımlar" çocuğunuzun kendi hızında ilerleyebileceği üç etkileşimli seviye içerir:
+
+1. Seviye: Çocuğunuz ekranda değişik renklerdeki nesne ve şekilleri izleyip sesleri dinler. 
+
+2. Seviye: Çocuğunuz ilk seviyede sunulan değişik nesneleri tanımayı ve bu nesnelerin adlarını öğrenir.
+ 
+3. Seviye: Çocuğunuz mantık yürütme kavramı ile tanışır. Örneğin çocuğunuz birinci seviyede bir bulut görür. İkinci seviyede adını öğrenir ve yağmurun buluttan düştüğünü öğrenir. Üçüncü seviyede de bulutu 'ıslak' kavramıyla bağdaştırır. </difference>
+</faq>
+
+
+<games style="title">
+	<EasyCall>PLUG'N PLAY PHONE</EasyCall>
+	<cec>Comfyland Experience</cec>
+	<easyPCkeyboard useMap="comicsMap">Easy PC SİSTEMİ</easyPCkeyboard>
+</games>
+
+<products style='products'>
+	<EasyPCKeyBoard style='comics22'>Comfy’s Easy PC keyboard With the Easy PC range of software adapted to child age</EasyPCKeyBoard>
+	
+	<!-- [ -------------  tri_option page  -------------]-->
+	
+	<comfyChoice style='prodBig' useMap="comicsMap">COMFY'NİN ETKİLEŞİMLİ ÜRÜNLERİNDEN SEçENEKLER SUNARIZ</comfyChoice>
+	<triWonderTitle style='prodBig'>PLUG'N PLAY PHONE</triWonderTitle>
+	<triWonder style='nutralEMB' embed="false">Ekrandaki karakterler çocuğunuzun sesine interaktif yanıt verecekler.</triWonder>
+	<triCecTitle style='prodBig'>Comfyland Experience</triCecTitle>
+	<triCec style='nutralEMB' embed="false">Küçük yaş çocukları için özel bir eğitici oyun alanı.
+//HREF//www.comfyland.com/cec//Size en yakın Comfyland noktasını bulunuz.//HREF_END//</triCec>
+	<triKeyboardTitle style='prodBig' useMap="comicsMap">Easy PC SİSTEMİ</triKeyboardTitle>
+	<triKeyboard style='nutralEMB' embed="false">1-5 yaş arasındaki çocuklar için PC Öğrenme Sistemi.
+</triKeyboard>
+	<cRange>See our Software Range:</cRange>
+	<cec_Intro>Comfyland Experience™ 12 aydan itibaren çocuklar için, benzeri olmayan eğitim odaklı özel bir oyun alanı oluşturarak, dinamik ve güvenli bir ortamda yaşa uygun zengin aktivite seçenekleri sağlamak üzere tasarlanmıştır.</cec_Intro>
+	<wonderfone_intro>Comfy PLUG'N PLAY PHONE çocuğunuzun dinleme ve iletişim kurma becerilerini geliştirir. Ekranı izlerken ve dinlerken, ekranda geçen olaylara zamanında ve doğru cevap veren çocuk, karakterler tarafından ödüllendirilir. </wonderfone_intro>
+	<easyPCkeyboard_intro>Okul Öncesi ilk PC Öğrenme Sistemi olan Easy PC çocuğunuzun 12 aylıktan başlayarak bilgisayar ile oynamayı öğrenmesini sağlar. Comfy’nin eğitici ve eğlendirici platformu etkileşimli (interaktif) deneyime dayalı yeni bir dünyanın kapılarını açar.</easyPCkeyboard_intro>
+</products>
+
+</unique>

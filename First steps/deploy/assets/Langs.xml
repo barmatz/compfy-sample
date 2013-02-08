@@ -1,0 +1,31 @@
+﻿<LangDefinitions>
+	<DefaultLanguage>X1033</DefaultLanguage>
+	<Lang name="English (United States)" code="X1033">
+	
+		<Esc code="8" name="Escape"></Esc>
+		<A code="65" name="Phone"></A>
+		<B code="66" name="BottomB"></B>
+		<C code="67" name="BottomO"></C>
+		<D code="68" name="Left5"></D>
+		<E code="69" name="CenterT"></E>
+		<F code="70" name="Left4"></F>
+		<G code="71" name="Left3"></G>
+		<H code="72" name="Left2"></H>
+		<I code="73" name="Stop"></I>
+		<J code="74" name="Left1"></J>
+		<K code="75" name="BottomR"></K>
+		<L code="76" name="Right2"></L>
+		<N code="78" name="BottomY"></N>
+		<O code="79" name="Right1"></O>
+		<R code="82" name="CenterR"></R>
+		<S code="83" name="Right3"></S>
+		<T code="84" name="CenterB"></T>
+		<U code="85" name="CenterM"></U>
+		<V code="86" name="BottomG"></V>
+		<X code="88" name="BottomP"></X>
+		<Y code="89" name="CenterL"></Y>
+		<Z code="90" name="Roller"></Z>
+		
+		
+	</Lang>
+</LangDefinitions>

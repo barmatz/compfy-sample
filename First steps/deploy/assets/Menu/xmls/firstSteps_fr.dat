@@ -1,0 +1,38 @@
+﻿xmlContent=<?xml version='1.0' encoding='UTF-8'?>
+<unique>
+<faq>
+<difference>« Premiers Pas » contient trois programmes de niveaux différents qui permettent à l'enfant de progresser à son propre rythme:
+//u//Niveau 1:// Votre enfant reconnaît les sons, les objets et les formes de différentes couleurs à l'écran.
+//u//Niveau 2:// Votre enfant apprend à identifier les différents objets du niveau 1 et apprend leur nom.
+//u//Niveau 3:// Votre enfant apprend à raisonner. Par exemple, dans le 1er niveau, l'enfant voit un nuage. Dans le 2ème niveau, l'enfant apprend le nom et apprend que le nuage fait de la pluie. Dans le 3ème niveau, il associe le nuage avec le fait d'être mouillé.
+</difference>
+</faq>
+
+<games style="title">
+	<EasyCall>PLUG'N PLAY PHONE</EasyCall>
+	<cec>Comfyland Experience</cec>
+	<easyPCkeyboard>Comfy’s Easy PC System</easyPCkeyboard>
+</games>
+
+<products style='products'>
+	<EasyPCKeyBoard style='comics22'>Comfy’s Easy PC keyboard With the Easy PC range of software adopted to child age</EasyPCKeyBoard>
+	
+	<!-- [ -------------  tri_option page  -------------]-->
+	
+	<comfyChoice style='prodBig'>The Comfy Choice: Introducing Comfy’s range
+of interactive products</comfyChoice>
+	<triWonderTitle style='prodBig'>PLUG'N PLAY PHONE</triWonderTitle>
+	<triWonder style='nutral'>Characters on screen will react to your child's voice.</triWonder>
+	<triCecTitle style='prodBig'>Comfyland Experience</triCecTitle>
+	<triCec style='nutral'>A unique indoor educational play area for toddlers.
+//HREF//www.comfyland.com/cec//Find a location near you.//HREF_END//</triCec>
+	<triKeyboardTitle style='prodBig'>Easy PC System</triKeyboardTitle>
+	<triKeyboard style='nutral'>Toddler’s PC Learning System Keyboard //PLUS// 12 different age-appropriate software games.
+</triKeyboard>
+	<cRange>See our Software Range:</cRange>
+	<cec_Intro>The Comfyland Experience is a unique, dynamic, rich and safe area offering toddlers the confidence to play and have fun in an informal and open-minded atmosphere with their friends or on their own. </cec_Intro>
+	<wonderfone_intro>The Comfy PLUG'N PLAY PHONE improves your child’s listening and conversation skills. The child receives an immediate reward for watching and listening to what is happening on the screen, and for responding correctly and at the right time. </wonderfone_intro>
+	<easyPCkeyboard_intro>Designed to suit the capabilities and interests of young children, this educational and entertaining platform opens a whole new world of interactive experiences.</easyPCkeyboard_intro>
+</products>
+
+</unique>

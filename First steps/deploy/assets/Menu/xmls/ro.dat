@@ -1,0 +1,619 @@
+﻿xmlContent=<?xml version='1.0' encoding='UTF-8'?>
+<lang translator='eric' style='Western.css' updated='15/5/2006' language='English' id='en'>
+   <main>
+	   <xml_pressTheButterfly>PRESS THE //Color#FF0000//BUTTERFLY// BUTTON ON THE COMFY KEYBOARD TO START</xml_pressTheButterfly>
+	   <xml_pressTheDrum>PRESS THE //Color#003366//DRUM// BUTTON ON THE COMFY KEYBOARD TO START</xml_pressTheDrum>
+   	 <xml_pressTheturtle>APERTE O BOTAO  //Color#003366//TAMBOR// DO TECLADO  //Color#003366//COMFY// PARA COMEÇAR</xml_pressTheturtle>  
+	</main>
+
+
+
+<!-------------------------------------------      shared     ----------------------------------------------------->
+
+    <shared>
+        <back>Înapoi</back>
+        <next>Continuaţi</next>
+        <beginner style='h3'>Nivelul începători</beginner>
+        <beginners style='h3'>Nivelul începători</beginners>
+	<beginnerLevel style='h3'>Nivelul începători</beginnerLevel>
+	
+        <intermediate style='h3'>Nivelul mediu</intermediate>
+        <intermediates style='h3'>Nivelul mediu</intermediates>
+	<intermediateLevel style='h3'>Nivelul mediu</intermediateLevel>
+	
+	<advanced style='h3'>Nivelul avansat</advanced>
+        <advanceds style='h3'>Nivelul avansat</advanceds>
+	<advancedLevel style='h3'>Nivelul avansat</advancedLevel>
+        
+	<ages_1_3 style='h3'>Vărsta 1-3 ani</ages_1_3>
+        <ages_1_3C style='h3'>Vărsta 1-3 ani</ages_1_3C>
+        <ages_3_5 style='h3'>Vărsta 3-5 ani</ages_3_5>
+	<ages_3_5C style='h3'>Vărsta 3-5 ani</ages_3_5C>
+	
+	<level1 style='comics'>LEVEL 1</level1>
+        <level2 style='comics'>LEVEL 2</level2>
+        <level3 style='comics'>LEVEL 3</level3>
+	<moresoft style='comics'>For More advanced software click here</moresoft>
+	<place_Overlay style='comics'>PLACE THE "$$nameOfGame$$" OVERLAY ON THE COMFY KEYBOARD</place_Overlay>
+    </shared>
+    <buttons style='pagesTitle'>
+        <enterGame>Enter Game</enterGame>
+        <enterGame_Inside>ENTER GAME</enterGame_Inside>
+        <activityCenter style='pagesTitle' effect='blue' width="370" dy='-10' dx='-10'>Activity|Center</activityCenter>
+        <activityCenter_Inside style='pagesTitle' effect='blue'>ACTIVITY|CENTER</activityCenter_Inside>
+        <parentSection style='pagesTitle' effect='purple'>P(rinţ*ii</parentSection>
+        <parentSection_Inside style='pagesTitle' effect='purple'>PARENT SECTION</parentSection_Inside>
+        <welcome>welcome to comfy</welcome>
+        <welcome_Inside effect='orange'>Welcome To Comfy</welcome_Inside>
+        <changeLanguage effect='orange'>Alege Limba</changeLanguage>
+
+<changeLevel effect='orange'>Schimb( Nivelul</changeLevel>
+
+        <products effect='orange' >Comfy Products</products>
+        <products_Inside effect='orange' style='pagesTitle60'  dx='20' dy='-20'>Alte Produse Comfy</products_Inside>
+
+    </buttons>
+    
+<comicsMap>
+	<char char="Ť" map="¹" />
+	<char char="Ă" map="³" />
+	<char char="ă" map="³" />
+	<char char="Ţ" map="*" />
+	<char char="Ş" map="$" />
+	<char char="ş" map="$" />	
+</comicsMap>  
+    
+    
+<!-------------------------------------------      game names     ----------------------------------------------------->
+    
+<games style="title">
+	<BabyTV>BabyTV</BabyTV>
+        <letsImagine useMap="comicsMap">Să ne imaginăm</letsImagine>
+        <firstSteps useMap="comicsMap">Primii paşi</firstSteps>
+        <animalWorld>Animal World</animalWorld>
+        <birthdayParty>Prieteni noi</birthdayParty>
+        <timeTravel>Time Travel</timeTravel>
+        <myNeighborhood>My Neighborhood</myNeighborhood>
+        <myHome useMap="comicsMap">Descoperă casa</myHome>
+        <iLivehere>I Live Here</iLivehere>
+        <comfyOnline>Comfy Online</comfyOnline>
+        <WordlOfColors>World Of Colors</WordlOfColors>
+        <XMass>CHRISTMAS IN COMFYLAND</XMass>
+	<joyOfMusic>Joy of Music</joyOfMusic>
+	<homeHunt>Home Hunt</homeHunt>
+	<Adventure>Adventure in Numberland</Adventure>
+</games>
+
+<!-- ++++++++++++++++++++++++++++++      Parent Section      ++++++++++++++++++++++++++++++++++  -->
+
+    <parentSection style='comics22'>
+        <welcome style='comics22' Xstyle="title"  dy="10" useMap="comicsMap">BUN VENIT ÎN COMFY</welcome>
+        <parentGuide style='comics22' Xstyle="title"  useMap="comicsMap">PARENT GUIDE: $$nameOfGame$$</parentGuide>
+	<aboutBaby style='comics22' Xstyle="title">ABOUT BABYTV</aboutBaby>
+	<comfy3c style='comics22' Xstyle="title">COMFY PEDAGOGICAL HOUSE</comfy3c>
+        <howto style='comics22' Xstyle="title"  useMap="comicsMap">CUM SĂ FOLOSEŞTI TASTATURA COMFY LA JOCURILE COMFY</howto>
+        <educational style='comics22' Xstyle="title"  useMap="comicsMap" dy='5'>VALORI EDUCAŢIONALE</educational>
+        <faq style='comics22' Xstyle="title"  useMap="comicsMap" dy='-5'>CELE MAI FRECVENTE ÎNTREBĂRI (FAQS)</faq>
+        <website style='comics22' Xstyle="title"  useMap="comicsMap">WEBSITE-UL COMFY</website>
+        <registration style='comics22' Xstyle="title" dy="-10" useMap="comicsMap">CERTIFICATUL DE GARANŢIE ONLINE</registration>	
+	<performance style='comics22' Xstyle="title"  useMap="comicsMap">PROGRAMAREA</performance>
+        <performance_txt1 style='normal' Xstyle="title">Rezoluţia ecranului afectează performanţele animaţiei în joc.
+
+Alegând o rezoluţie mare veţi creşte calitatea graficii în joc, oricum noi nu recomandăm asta pentru computerele neperformante.
+
+Dacă animaţia este înceată şi sacadată, alegeţi o rezoluţie mai mică decât cea standard (pre-setată).
+
+//h2//Alege rezoluţia ta preferată:</performance_txt1>
+<default>(Presetare)</default>
+    </parentSection>
+<!-------------------------------------------      EDUCATIONAL      ----------------------------------------------------->
+
+<educational style='normal'>
+        <title1 style='title' dy="10" useMap="comicsMap">VALORI EDUCAŢIONALE</title1>
+        <note ready='true' style='note'>//i//Notă:// Pentru ca micuţul să înveţe toate valorile şi atributele enumerate, Comfy a creat o multitudine de jocuri pe CD pentru vârsta copilului şi pentru stadiul său de învăţare şi dezvoltare.</note>
+        <frame1 ready='false' style='normal'>Programul si Tastatura Comfy au fost create şi proiectate de o echipă de cercetare şi dezvoltare pedagogică, specializată în tehnologia media care să se potrivească cu capacităţile şi interesele copiilor cu vârste cuprinse între 1 şi 5 ani. Butoanele mari, cu imagini, handset-ul uşor de manevrat şi Cilindrul-Rotitor sunt uşor de controlat de mâinile micuţe, dându-i copilului independenţă şi un control comfortabil, fără să aibă nevoie să ştie să citească sau să folosească mouse-ul computerului.</frame1>
+        <frame2 >Joaca în mediul interactiv al lui Comfy îl va înzestra pe copilul dumneavoastră cu următoarele:
+
+**Învăţatul prin joacă şi explorare.
+**Însuşirea noţiunilor de bază ale computer-ului.
+**Dezvoltarea cognitivă, emoţională şi a abilităţilor
+   sociale.
+
+Următoarele calităţi fac Comfy unică şi exact potrivită pentru atingerea scopurilor sale educaţionale:
+**Activităţile sunt o combinare interactivă de poveşti, 
+   filme animate, imagini şi desene colorate, muzică 
+   şi cântece, activităţi motorii şi expunerea la concepte 
+   sociale.
+.</frame2>
+ 
+ <frame3 style='normal'>**Tastatura Comfy înlocuieşte tastatura standard şi 
+   mouse-ul. Fiecare tastă este colorată şi uşor de 
+   folosit. Nu se cer aptitudini pentru scris şi citit.
+
+**Activităţile Comfy sunt potrivite vârstei, iar 
+   personajele şi obiectele care participă în poveste 
+   sunt amabile şi amuzante.
+
+**Din momentul în care nivelul este adaptat la stadiul 
+   de dezvoltare al învăţării copilului şi activitatea 
+   începe, copilul dumneavoastră se poate juca fără 
+   a mai fi supravegheat. Personajele din computer 
+   vorbesc cu copilul şi îi explică ce să facă în fiecare 
+   stadiu al activităţii. Fiecare explicaţie este însoţită 
+   de o varietate de ilustraţii şi animaţii.</frame3>
+
+<frame4 style='normal'>**Comfy a creat nenumărate oportunităţi educaţionale 
+   necesare cooperării părinte-copil atât în timpul, cât 
+   şi după activitate. Ca părinte, dumneavoastră şi 
+   familia, vă veţi bucura să împărtăşiţi nesfârşite 
+   experienţe cu copilul dumneavoastră.
+
+Următoarea secţiune oferă o descriere pe scurt a aptitudinilor şi a mostrelor de dezvoltare a copilului şi vă expune contruibuţia Comfy la dezvoltarea senzorilor de percepţie, mişcare, cunoaştere şi a abilităţilor emoţionale ale copilului dumneavoastră.</frame4>
+
+<title5 style='title' useMap="comicsMap">VALORI EDUCAŢIONALE 
+ABILITĂŢI SENZORIALE ŞI MOTRICE</title5>
+<frame5 style='normal'>//h1//Abilităţi senzoriale şi motrice
+
+Odată cu creşterea copiilor, aptitudinile lor fizice şi mentale se dezvoltă, dându-le posibilitatea să rezolve lucruri mult mai complexe. Copilul învaţă să recunoască obiecte şi personaje, interpretează corect stimulii din imediata apropiere şi dezvoltă simţurile.
+
+Când se joaca cu Comfy, copilul învaţă următoarele:
+**Face legatura între obiectele şi personajele pe care 
+   el sau ea, le vede pe ecran cu cele de pe Tastatura Comfy. 
+**Îşi îmbunătăţeste percepţia vizuală făcând diferenţa 
+   între forme şi culori diferite.
+**Îşi îmbunăţeste auzul.</frame5>
+        <title6 style='title' useMap="comicsMap">VALORI EDUCAŢIONALE
+ABILITĂŢI VERBALE</title6>
+        <frame6 style='normal'>//h1//Abilităţi verbale
+
+Vocabularul copilului se dezvoltă învăţând constant să construiască propoziţii.
+
+Cu Comfy, copilul poate:
+**Să înveţe cum să construiască întrebări, cerinţe, atenţionări
+  şi propoziţii instructive.
+**Câştigă cunoştiinţe despre concepte noi, aparţinând
+  subiectelor specifice ca vreme, poştă şi timp. </frame6>
+   
+<title7 style='title' useMap="comicsMap">VALORI EDUCAŢIONALE
+APTITUDINILE GÂNDIRII</title7>
+<frame7 style='normal'>//h1//Aptitudinile gândirii
+
+Capacitatea memoriei copiilor este treptat îmbogăţită, dându-le posibilitatea să-şi amintească din ce în ce mai multe imagini, voci si experienţe. În plus, imaginaţia lor se dezvoltă şi îşi îmbunătăţesc abilităţile gândirii creative.
+
+Joaca cu Comfy îl ajută pe copil cu urmatoarele:
+**Îşi îmbunătăţeşte înţelegerea relaţiei cauză şi efect prin
+   permiterea copilului să intervină într-o poveste în evoluţie
+   si să producă schimbări vizibile (ex. să facă să plouă, să
+   schimbe ziua în noapte).
+**Practică amintirea obiectelor, sunetelor, vocilor, evenimentelor
+   şi a personajelor în afara activităţii.
+</frame7>
+
+<frame8 style='normal'>**Îşi dezvoltă imaginaţia participând la subiectul 
+   poveştii şi influenţând-o cum îşi doreşte, 
+   îmbogăţindu-şi în acelaşi timp activităţile creative.
+
+**Participarea în "jocul de-a creaţia" cu personajele, 
+   îl ajută să înveţe de la ele despre lumea reală 
+   în care trăiesc. 
+
+**Învaţă să se concentreze şi să depună efort 
+   mental ducând la îndeplinire sarcini provocatoare.</frame8>
+
+<title9 style='title' useMap="comicsMap">VALORI EDUCAŢIONALE -
+DEZVOLTAREA EMOŢIONALĂ</title9>
+<frame9 style='normal'>//h1//Dezvoltarea emoţională
+
+Copiii au nevoie de un mediu cald care să îi susţină definiţii clare ale limitelor şi interzicerilor. Aceasta le permite să îşi dezvolte independenţa, să fie curioşi în legatură cu lucrurile înconjurătoare şi să iniţieze activităţi în încercarea de a-şi mări încrederea în sine şi în propria-i imagine.
+
+Comfy îi face cunoştiinţă copilului cu:
+**Experienţe pozitive, de la descoperirea schimbării culorilor şi
+   sunetelor, la întâlnirea cu personajele prietenoase.
+**Reacţia şi încurăjările pentru acţiunile copilului pe tastatură.
+**O sanşă de a elibera impulsurile folosind Cilindrul- Rotitor 
+   de pe Tastatură Comfy.</frame9>
+
+<frame10 style='normal'>**Simţul controlului tastaturii Comfy, evenimentele din activitaţi
+   şi felul în care se desfăşoară subiectul. Simţul controlului îi
+   îmbunătăţeste încrederea şi imaginea despre sine.
+
+**O definiţie clară a limitărilor regulilor jocului (de ex.: Buddy,
+   ursul, îi cere copilului să facă să plouă "dar nu acum, mai
+   târziu, după ce ajung acasă").
+</frame10>
+<title11 style='title' useMap="comicsMap">VALORI EDUCAŢIONALE - VALORI COMPORTAMENTALE ŞI SOCIALE</title11>
+<frame11 style='normal' dy='-10'>//h1//Valori comportamentale şi sociale
+
+Micuţii învaţă formele comportamentale acceptate, devenind conştienţi de normele sociale şi culturale. Cu jocurile Comfy ei învaţă modele comportamentale adecvate şi cum să depăşească dificultăţile şi obstacolele sociale. 
+
+În această secţiune, Comfy:
+**Îl ajută pe copil să se implice şi să înveţe să se comporte
+   adecvat în diferite situaţii de zi cu zi.
+**Îi prezintă personaje cu care copilul se poate identifica.
+**Accentuează normele sociale pozitive cum ar fi cooperarea şi
+   valoarea ajutorului accordat celorlaţi. Lumea Comfy introduce
+   valorile pozitive ale prieteniei, compromisul şi respectul pentru
+   fiecare fiinţă şi obiect.
+</frame11>
+   <frame12>
+**Vă dorim dumneavoastră şi copilului dumneavoastră momente
+   frumoase cu Comfy şi sperăm că ne veţi î nsoţi în următoarele
+   aventuri Comfy!
+   </frame12>
+</educational>
+    
+<!-------------------------------------------      WELCOME    ( about comfy)  ----------------------------------------------------->
+
+<welcome>
+<frame1 ready='true' style='normal'>Comfy şi prietenii deschid o lume multimedia incitantă, care combină aventurile şi plăcerea cu învăţatul şi dezvoltarea. Comfy îi oferă copilului dumneavoastră ocazia de a explora şi în plus, influenţa unui mediu dinamic, a unui program animat plin de culoare fără supravegherea părinţilor. De asemenea, oferă o metodă naturală şi distractivă de a face cunoştiinţă copiilor cu noţiunile de bază ale computer-ului şi cu noi calităţi şi aptitudini.
+
+Produsele noastre au fost create să se potrivească cu abilităţile motorii şi cognitive ale copilului. Tastatura Comfy şi acest program îi oferă copilului independenţă şi un control comfortabil, fără să fie nevoie să ştie să citească sau să folosească mouse-ul computerului, astfel încât copilul poate progresa în propriul său ritm.</frame1>
+<website ready='false' note='it have to be there' style='comics22'>COMFY WEBSITE</website>
+</welcome>
+
+
+
+
+    
+ <!---------------------------------------------------   Use Comfy  	---------------------------------------------------------------->   
+    
+    <useComfy style='normal'>
+
+<title1 style='title' useMap="comicsMap">CUM SĂ FOLOSEŞTI TASTATURA
+COMFY LA JOCURILE COMFY</title1>
+
+        <note style='note'></note>
+
+<frame1 style='normal'>Tastatura Comfy permite micuţilor să se bucure de jocurile interactive şi fascinante din Comfy. Sistemul a fost construit pentru a se potrivi cu capacitaţile şi interesele copiilor între un an şi cinci ani astfel încât ei să poată progresa în propriul lor ritm.
+
+Formele lui familiare, culorile care vibrează şi imaginile prietenoase invită micile degete să atingă, să exploreze şi să descopere. Programul special creat, are activităţi pe mai multe nivele care îi permit copilului să controleze diferite aspecte ale activităţilor în acord cu dezvoltarea lui.
+</frame1>
+
+<frame2>//h1//Descrierea butoanelor tastaturii:
+
+//h1//Taste vreme/timp
+Tastatura Comfy are trei taste de vreme:
+**Tasta pentru soare şi lumina zilei
+**Tasta pentru luna şi noapte
+**Tasta pentru nor şi ploaie
+
+De fiecare dată când una dintre aceste taste sunt apăsate, vremea se schimbă în Lumea Comfy şi copilul învaţă să recunoască caracteristicile vremii. 
+
+Concepte învăţate cu tastele pentru vreme:
+**Înţelegerea conceptului de zi şi noapte.
+**Identificarea fenomenului de ploaie.</frame2>
+
+<frame3>//h1//Tastele pentru personaje şi handset-ul telefonului
+**Snaily
+**Buddy
+**Jumpy
+**Feely
+**Comfy
+
+Copilul poate apela oricând la personaje şi le poate găsi în locuri şi situaţii diferite.
+
+Concepte învăţate cu telefonul:
+**acomodarea cu telefonul ca mijloc de comunicare 
+   interactiv.
+**dezvoltarea contactelor personale si aptitudinilor 
+   sociale cu ajutorul personajelor Comfy.</frame3>
+
+<frame4 dy="-10">//h1//Tastele muzicale
+Există patru taste muzicale pe tastatură: tobă, flaut, pian, trompetă.
+Apăsând tasta cu note, va incepe cântecul Comfy şi vor fi prezentate personajele Comfy.
+Apăsând fiecare tastă muzicală vor fi prezentate istrumentele muzicale şi veţi auzi un fragment muzical tipic acelui instrument. În momentul în care copilul va continua să apese aceeaşi tastă muzicală, melodia îşi va schimba treptat tempo-ul, apoi toată melodia se va schimba.
+
+Conceptele învăţate cu tastele muzicale:
+**Identifică şi se acomodează cu cele patru instrumente
+   muzicale (formă şi sunet). 
+**Învaţă să facă diferenţa între mai multe instrumente muzicale.
+**Recunoaşte melodii şi învaţă cântece.
+</frame4>
+
+<frame5>//h1//Taste culori
+Tastatura are 6 butoane colorate:
+//Color#9900FF//Violet//  //Color#FF7600//Portocaliu//  //Color#009900//Verde//  //Color#333399//Albastru//  //Color#FFFF66//Galben//  //Color#CC0000//Roşu//
+          
+În timpul jocului, copilul foloseşte Taste culori să se joace cu o mulţime de activităţi.
+
+Apăsarea unei Taste culori va duce la desfăşurarea unei activităţi corelate cu acea culoare. 
+
+Concepte învăţate cu Taste culori:
+**Se acomodează cu culorile tastaturii.
+**Este expus la folosirea în mod estetic a culorilor.</frame5>
+
+<frame6>//h1//Cilindrul-Rotitor
+
+Tastatura Comfy este echipată
+cu un Cilindrul-Rotitor revoluţionar care se roteste uşor şi îi oferă copilului ocazia de a se mişca liber.
+
+Folosind Cilindrul-Rotitor schimbaţi temporar tempo-ul evenimentelor de pe ecran. Cu cât copilul învârteşte mai repede cilindrul, cu atât tempo-ul evenimentelor devine mai rapid.
+
+Concepte învăţate cu ajutorul Cilindrul-Rotitor:
+**O oportunitate de a te amuza şi de a-ţi folosi 
+   liber imaginaţia.
+**Înveseleşte prin implicare şi prin posibilitatea 
+   de a controla tot ceea ce se întâmplă pe ecran.</frame6>
+
+<frame7>//h1//Tasta pauză
+
+Apăsând Tasta pauză va fi demonstrat prin sunete şi imagini înţelesul lui "Stop". Apăsând oricare alt buton de pe tastatură va fi reluată activitatea iniţială.
+
+Concepte învăţate cu Tasta pauză:
+**Ofera copilului posibilitatea de a iniţia intervenţia părinţilor.
+**Tasta pauză poate fi folosită pentru conversaţie sau 
+   pentru admiratul imaginilor preferate.</frame7>
+</useComfy>
+
+<!---------------------------------------------------  COMFY PEDAGOGICAL HOUSE  ------------------------------------------------->
+
+<m3c style='normal'>
+        <Mtitle1 style='title'>INTRODUCING COMFY PEDAGOGICAL HOUSE (CPH)</Mtitle1>
+		<Mtitle2 style='title'>INTRODUCING COMFY 3C DEVELOPMENTAL CYCLE™</Mtitle2>
+		<Mtitle3 style='title'>PARENTS’ ROLE IN MAXIMIZING COMFY 3C SYSTEM</Mtitle3>
+		<frame1 style='normal'>//h3//Comfy Pedagogical House (CPH)// is the research and development arm of Comfy, responsible for accumulating all knowledge and information, identifying the latest trends in child-development and learning processes, in order to implement them into interactive fun-learning products.
+
+CPH activities include research and field-testing, involving many experts from various fields, which together form the wide knowledge base for Comfy’s activities.
+
+CPH is the developer of Comfy’s unique 3C Developmental Cycle™ to encourage children's curiosity, while promoting and maximizing effective learning.</frame1>
+
+
+
+        <frame2>The immediate effect that is seen when watching a child play with the Comfy system is the magic sparkle in his eyes lighting up his whole face. This is what we refer to as "Comfy's Magic Effect". This magical effect is created by the combination of //h3//C//uriosity //PLUS// //h3//C//hallenge //PLUS// //h3//C//onfidence = //h3//3C Developmental Cycle™//
+
+//h3//Curiosity//
+Children are born with natural curiosity. At Comfy, we expose young minds to a rich interactive environment in order to leverage their natural–born curiosity and take them through a journey of learning through play and exploration, enabling the development of new skills and thought-patterns.</frame2>
+
+<frame3>//h3//Challenge//
+By providing children with age-appropriate, rich and developmental content, we motivate and inspire them to utilize their capabilities to the fullest. Therefore, CPH has created a line of software for children aged 1-5 years old, developing motor skills, emotional intelligence, visual and spatial perception, creative thinking, vocabulary, languages and much more.
+
+//h3//Confidence//
+The Comfy system develops self-confidence by enabling the child to play independently - being able to control the activities as an active participant rather than a passive one. Acquiring this sense of control improves the child’s confidence and self-esteem and is the basis for building a stable personality as well as healthy relationships.
+</frame3>
+
+</m3c>
+<!---------------------------------------------------  activityCenter  ------------------------------------------------->
+
+<activityCenter style='comics' >
+<frame1 style='comics' width="350" useMap="comicsMap">DISTREAZĂ-TE COLORÂND
+DESENE DIN LUMEA COMFY.
+
+ALEGE DESENUL ŤAU PREFERAT.
+
+APASĂ PE IMPRIMARE ŞI COLOREAZĂ-ŢI DESENUL.
+
+DISTREAZĂ-TE!
+
+
+</frame1>
+</activityCenter>
+
+<!---------------------------------------------------       FAQ      ------------------------------------------------->
+
+<faq style='normal'>
+        <questions>ÎNTREBĂRI</questions>
+        <note style='note'></note>
+        
+	<Q_chooseLang>Cum aleg altă limbă?</Q_chooseLang>
+        <chooseLang>Apăsaţi pe butonul "Alege Limba" din meniu.
+	
+Folosiţi săgeţile cu direcţiile sus-jos pentru a vedea toate limbile disponibile.
+
+Apăsaţi pe steagul care corespunde limbii preferate.
+
+Când apăsaţi butonul roşu "Intră în Joc", jocul va incepe în limba selectată.</chooseLang>
+       
+<Q_changeLevel>Cum schimb nivelurile (gradul de dificultate)?</Q_changeLevel>
+<changeLevel>Apăsaţi pe butonul "Schimbă Nivelul" din meniu.
+
+Alege un nivel apăsând pe unul dintre cuburile nivelului dorit.
+
+Când apăsaţi butonul roşu "Intră în Joc", jocul va incepe la nivelul pe care l-aţi selectat.</changeLevel>
+        
+<Q_returnMain>Cum mă întorc la meniul principal în timpul jocului?</Q_returnMain>
+<returnMain>Apăsaţi tasta "Esc" de pe tastatura dumneavoastră obişnuită pentru a vă întoarce în meniul CD-ului.</returnMain>
+       
+<Q_exitGame>Cum ies din joc?</Q_exitGame>
+<exitGame>Apăsaţi tasta "Esc" de pe tastatura dumneavoastră obişnuită pentru a va întoarce în meniul CD-ului.
+
+Apăsaţi din nou tasta "Esc" pentru a ieşi din joc.
+
+Ieşirea din jocul Comfy cere supravegherea părinţilor şi nu poate fi facută doar de copil.
+
+Aceasta permite copilului să se joace în voie în mediul Comfy fără să intre din greşeală în computer, în programele părinţilor. </exitGame>
+        
+<Q_moveUp>Cum ştiu când este timpul să avansez un nivel?</Q_moveUp>
+<moveUp>Sugerăm copilului dumneavostră să înceapă cu niveul 1 şi să avanseze treptat către alt nivel. 
+
+În momentul în care copilul câştigă încredere şi stăpâneşte jucatul cu activităţile, va recomandăm să schimbaţi nivelul pentru a expune copilul altor activităţi provocatoare.
+</moveUp>
+        
+	<Q_overlay >When do I place the "$$nameOfGame$$" overlay on the Comfy Keyboard and what is it used for?</Q_overlay>
+        <overlay>The "$$nameOfGame$$" overlay should be placed on the Comfy Keyboard when playing with the "$$nameOfGame$$" game CD. The overlay has different icons than the Comfy keyboard and is needed when playing with the "$$nameOfGame$$" CD content.</overlay>
+        
+	<forMoreFaqs>//Color#EC6002//Pentru mai multe întrebari, vizitaţi-ne pe www.comfyland.com//</forMoreFaqs>
+    </faq>
+    
+<!---------------------------------------------------  Products  ------------------------------------------------->
+
+<products style='products'>
+<chooseAge style='comics22'>ALEGEŢI-VĂ GRUPA DE VÂRSTĂ</chooseAge>
+<chooseDesc style='normal'>Programul nostru special creat oferă diferite niveluri de dezvoltare a învăţaturii prin activităţi incitante şi provocatoare:</chooseDesc>
+<notAllSoftwares style='normalProd'>Nu toate programele de calculator sunt disponibile in toate limbile. Pentru a primi cele mai recente informatii in legatura cu validitatea produselor noastre, va rugam sa accesati pagina noastra de internet: //HREF//www.comfyland.com// www.comfyland.com//HREF_END//</notAllSoftwares>
+<clickOnAnyImage>Click on any image for more information</clickOnAnyImage>
+<newPlaying style='normalProd'>Now Playing:</newPlaying>
+<mrktBefore style='prodBig'>Help your child reach his full potential by providing him the age appropriate software</mrktBefore>
+<signUp style='prodBig'>Spcieal discounts for club members.
+//HREF//www.comfyland.com/club/sign//sign up//HREF_END// for the Comfy Club for free.</signUp>
+<remind style='normalProd'>Don’t remind me any more</remind>
+<mrktAfter style='prodBig'>Your child have been playing with this software, get your//HREF//www.comfyland.com/club/sign// 15//PERCENT// off with free sign up,//HREF_END// on our range of software</mrktAfter>
+
+<!------    Products: First Steps   ------------>
+
+<firstSteps_Intro> "Primii Paşi" este primul joc pe CD pentru computer, creat special pentru cei mici (chiar şi pentru vârsta de 12 luni), care îi dă copilului posibilitatea de a explora singur computerul prezentându-i noţiunile de bază ale acestuia.</firstSteps_Intro>
+        <firstSteps_Body>//h4//Programul oferă trei nivele de interacţiune:
+
+//u//Nivelul 1:// Introduce culori şi sunete.
+//u//Nivelul 2:// Identificarea obiectelor şi a numelor.
+//u//Nivelul 3:// Raţionament şi înţelegere.
+
+//h3//Beneficiile dezvoltării:
+**Acomodarea cu forme, sunete şi culori.
+**Dezvoltă coordonarea mâinilor şi a ochilor.
+**Îmbunătăţeşte abilităţile ascultatului.
+**Îmbogăţeşte abilităţiile raţionamentului şi ale înţelegerii.</firstSteps_Body>
+
+<!------    Products: My Home   ------------>
+
+<myHome_Intro>"Descoperă casa" oferă celor abia iniţiaţi ore de plăcere în timp de explorează mediul casei printr-o varietate de activităţi de zi cu zi. Jocul este plin de cântece şi surprize prin care copilul învăţă despre importanţa ordinii, recunoaşte obiecte prin sunete şi voci şi învaţă să se îmbrace în funcţie de starea vremii. Cu Didi, o fetiţă draguţă de trei ani şi prietenii ei, copilul se va juca de-a v-aţi ascunselea şi se va bucura de multe activităţi incitante.</myHome_Intro>
+<myHome_Body margin="25">//h3//Programul oferă trei niveluri de interacţiune:
+//u//Nivelul 1:// Îi prezintă copilului o varietate de obiecte şi concepte legate de mediul casei.
+//u//Nivelul 2:// Copilul va participa şi va reacţiona la întrebările personajelor cu ajutorul diferitelor indicaţii
+		      care apar pe ecran.
+//u//Nivelul 3:// Copilul învaţă să se joace cu personajele fără indicaţiile de pe ecranţ.
+
+
+//h3//Beneficiile dezvoltării:
+**Îl învaţă pe copil despre mediul casei.
+**Îl învaţă despre cauză şi efect.
+**Îi îmbogăţeşte vocabularul şi capacităţile verbale.
+**Îl învaţă despre relaţiile între conceptele comparative.
+</myHome_Body>
+
+<!------    Products: Let's Imagine   ------------>
+
+<letsImagine_Intro style='products'>"Să ne imaginăm" oferă celor abia iniţiaţi ore de încântare, dezvoltându-şi în acelaşi timp abilităţile creative. Copilul Dvs. va explora o varietate de experienţe ale învăţatului distractiv prin grafică colorată şi tablouri animate care stimulează dezvoltarea vizuală şi încurajează capacităţile auditive.</letsImagine_Intro>
+<letsImagine_Body margin="25">//h3//Programul oferă trei niveluri de interacţiune:
+//u//Nivelul 1:// Îi face cunoştiinţă copilului cu lumea animalelor lui Didi si Boo, forme, obiecte şi părţi ale corpului.
+//u//Nivelul 2:// Copilul Dvs. participă şi reacţionează la întrebările personajelor cu ajutorul indicaţiilor care
+	            apar pe ecran.
+//u//Nivelul 3:// Copilul învaţă să interacţioneze cu personajele fără nici o indicaţie.
+
+//h3//Beneficiile dezvoltării:
+**Îmbogăţirea vocabularului şi a capacităţilor verbale.
+**Recunoaşterea sunetelor, formelor şi a culorilor.
+**Îl învaţă despre cauză şi efect.
+**Îl ajută pe copil să rezolve probleme prin activităţi diferite.
+</letsImagine_Body>
+
+<!------    Products: Birthday Party   ------------>
+
+<birthdayParty_Intro>"Prieteni noi" îl ajută pe copil să dobândească isteţime socială şi arta comunicării. Ziua de naştere a Durdulicăi este tema principală a poveştii, unde fiecare personaj (ales de copil) îşi spune povestea. Melcuşor- melcul povesteşte despre prima lui zi ca postaş. Comfy si Ţopăilă descriu prima lor vizită fascinantă la gradina zoologica şi Ursulică-ursul, povesteşte despre aventura lui minunată pe câmp. La finalul fiecarei poveşti, personajele se întâlnesc la masa dată pentru serbarea zilei de naştere.</birthdayParty_Intro>
+<birthdayParty_Body margin='20'>//h3//Butoanele tastaturii
+Folosind Tastatura Comfy, copilul dumneavoastră învaţă să rezolve probleme în timpul desfăşurării subiectului adunând informaţii din evenimentele întâmplate anterior în poveste.
+
+//h3//Beneficiile dezvoltării:
+**Îi ajută pe cei abia iniţiaţii să se familiarizeze cu conceptele de spaţiu, timp şi dimensiuni relative.
+**Se acomodează cu normele şi valorile sociale.
+**Îl ajută să recunoască culorile si numerele.
+**Îi îmbunătăţeşte memoria şi exprimarea.</birthdayParty_Body>
+
+<!------    Products: Christmas in Comfyland   ------------>
+
+<XMass_Intro>"Christmas in Comfyland" is a delightful interactive movie comprised of several brief episodes that convey the magic of this holiday, while providing an educational and entertaining experience. Comfy and his friends prepare for the Christmas celebrations and invite other children to join them and take part in the fun holiday spirit. The story ends with the Comfy family singing a special "We wish you a Merry Christmas" song, which is what "Christmas in Comfyland" is all about - the fun and joy of getting ready for Christmas. This most special time of year is going to be even more special this year!</XMass_Intro>
+        <XMass_Body>//h3//Beneficiile dezvoltării:
+**Improves listening skills, concentration,memory and perseverance.
+**Develops self-confidence, independence and control.
+**Fosters positive emotions.
+**Introduces the main holiday characteristics. </XMass_Body>
+
+<!------    Products: Joy of Music   ------------>
+
+<JoyOfMusic_Intro>"Joy of Music" exposes your child to the wonderful world of music with delightful new characters: Fifi-the flute, Tempo-the trumpet, Boom Boom-the drum and Mano-the piano.Your child will learn about different instruments, their sounds, rhythm and harmony. By pressing the color keys children can actually play tunes and musical notes, creating a multi-sound ensemble. "Joy of Music" is a charming way for your child to learn about various instruments, stimulating his or her innate creativity as only music can!
+</JoyOfMusic_Intro>
+        <JoyOfMusic_Body>//h3//Beneficiile dezvoltării:
+**Acquaints with various musical instruments and terminology
+  while presenting music with enthusiasm.
+**Stimulates creativity and concentration.
+**Improves color perception.
+**Develops the sense of control and self-confidence and
+  teaches table manners.
+**Emphasizes values of friendship and mutual help. </JoyOfMusic_Body>
+
+<!------    Products: World of Colors   ------------>
+
+<WordlOfColors_Intro>"World of Colors" exposes your child to the wonderful world of colors in a search to find Jumpy's lost bone. Your child will learn how to name colors, compare objects, and match colors to specific objects, while enhancing his/her observation and visual perception skills. "World of Colors" is an ideal introduction for children who are just beginning to learn about colors, helping them to learn through fun and interactive stories. Children who are already familiar with colors can practice and expand their creativity, making play an enriching and inspiring experience.</WordlOfColors_Intro>
+<WordlOfColors_Body>//h3//Beneficiile dezvoltării:
+**Matching colors with objects.
+**Identifying a concealed object.
+**Fundamental concepts of spatial orientation.
+**Experience in problem solving.
+**Development of comparison skills.</WordlOfColors_Body>
+
+<!------    Products: Animal World   ------------>
+
+<animalWorld_Intro>The discovery and surprises in "Animal World" are a creative way for children to encounter and learn much more about the world of animals and their various surroundings in nature. In "Animal World", children explore "Earth", "Forest", "Water" and "Snow" environments and enjoy magical interactive activities related to that specific surrounding. "Animal World" is an enriching experience where the child develops cognitive, emotional, language and creative skills through challenging stories, interactive games, creative arts and fun music activities. </animalWorld_Intro>
+<animalWorld_Body>* Content on this CD is also available in "Comfy Online".
+
+//h3//Beneficiile dezvoltării:
+**Develops the ability to identify colors, shapes, and numbers.
+**Develops listening abilities and improves understanding instructions.
+**Develops vocabulary and patterns of thoughts.
+**Familiarization with art, materials and techniques.
+</animalWorld_Body>
+
+<!------    Products: Time travel  ------------>
+
+<timeTravel_Intro>In "Time Travel", children will traverse with Comfy and his friends in an adventurous journey through space and time. "Time Travel" presents different cultures and eras of the past and future through interesting stories, interactive games, creative arts and amusing musical activities. Comfy and friends will learn about dinosaurs, explore the habits of prehistoric man, visit Indians in their village to discover their traditions and enjoy an alien's visit from space. "Time Travel" is a wonderful way to capture children's imagination by exposing the child to a whole new universe. The experiences that children gain through the various activities enhance their imagination and cognitive abilities.</timeTravel_Intro>
+<timeTravel_Body>* Content of this CD is also available in "Comfy Online".
+
+//h3//Beneficiile dezvoltării:
+**Improves the ability to make decisions.
+**Improves understanding of quantitative concepts.
+**Enhances intellectual curiosity.
+**Fosters positive self image.
+</timeTravel_Body>
+
+<!------    Products: My Neighborhood  ------------>
+
+<myNeighborhood_Intro>"My Neighborhood" hosts children in Comfyland's lively neighborhood. In this neighborhood, they will explore a familiar environment through stimulating stories, interactive games, creative arts and fun music activities. Together with Comfy and his friends, children will learn about their home, visit the friendly neighbors, play in the playground and park, and learn to drive various vehicles by following directions. "My Neighborhood" is a wonderful way for children to strengthen their self-assurance and develop cognitive, social and emotional skills through familiar experiences in day-to-day life.</myNeighborhood_Intro>
+<myNeighborhood_Body>* Content on this CD is also available in "Comfy Online".
+
+//h3//Beneficiile dezvoltării:
+**Improves the ability to classify and categorize.
+**Develops thinking processes in increasingly complicated levels.
+**Improves different thought-patterns.
+**Fosters positive emotions.
+</myNeighborhood_Body>
+
+<!------    Products: comfyOnline   ------------>
+
+<comfyOnline_Intro>In Comfy's online world, children enter fascinating software adventures and magical surfing experiences on the internet accompanied by their friends from Comfyland. In "Comfy Online", the child will find a wide range of unique and interactive internet activities across various content worlds. Content is updated continually by event, time and place, connecting the child's world to real events in real time which ultimately enriches the child with quality learning processes over time. "Comfy Online" enables young explorers their first internet experience in a protected environment.</comfyOnline_Intro>
+<comfyOnline_Body>* Some of the content in "Comfy Online" is also available in Comfy's line of software CDs.
+
+//h3//Beneficiile dezvoltării:
+**Improves listening skills, concentration, memory and perseverance.
+**Stimulates different thought-patterns.
+**Develops self confidence, independence and control.
+**Encourages thinking and creative solutions.</comfyOnline_Body>
+
+<!------    Products: BabyTV   ------------>
+
+<babytv_Intro>BabyTV - Go Interactive is an interactive game based on the popular characters from the
+world of BabyTV, the first channel dedicated to infants and toddlers under 3 years of age,
+The famous characters lead activities that are fun and are designed to promote development
+and interaction, We now offer you and your baby the opportunity to interact and play with
+your favorite BabyTV characters off the screen, while developing early learning and communication skills</babytv_Intro>
+<babytv_Body>//h3//Beneficiile dezvoltării:
+**Enhances natural curiosity to explore.
+**Encourages creative thought and imagination.
+**Develops the ability to understand and follow instructions.
+**Expands vocabulary and language skills.
+**Develops convenation skills.
+</babytv_Body>
+
+<!------    Products: Adventure   ------------>
+
+<Adventure_Intro>"Adventure in Numberland" is an exciting and fun interactive game, which opens a first window to the world of numbers. The favorite friends from Comfyland go on a fascinating adventure in Numberland where they meet animated numbers that invite them to join a picturesque color, movement and sound experience. The game gives toddlers the opportunity to practice basic quantitative problems such as counting and numbering in a joyful way, thereby enhancing their natural curiosity and strengthening their cognitive and motor skills. </Adventure_Intro>
+<Adventure_Body>//h3//Beneficiile dezvoltării:
+** Encouraging the natural curiosity of infants to experience mathematical tasks.
+** Getting acquainted with small numbers.
+** Practicing changes in form, pattern and appearance of fixed quantities.
+** Recognizing quantities of items and how addition and subtraction affect quantity.
+** Comparing amounts, and getting acquainted with the terms "more" and "less".
+</Adventure_Body>
+</products>
+
+
+
+</lang>

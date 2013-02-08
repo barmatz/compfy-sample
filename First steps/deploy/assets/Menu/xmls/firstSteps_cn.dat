@@ -1,0 +1,41 @@
+﻿xmlContent=<?xml version='1.0' encoding='UTF-8'?>
+<unique>
+<faq>
+<difference>“宝贝的第一步” 包含三种交互级别，让您的孩子以他/她自己个人的进度玩：
+
+//u//级别 1:// 您的孩子听声音并在屏幕上观看不同颜色的物体和形状。
+
+//u//级别 2:// 您的孩子将学习识别在第一级中出现的对象并学习它们的名称。 
+
+//u//级别 3:// 您的孩子将接触推理的概念。例如，在第一个级别中，您的孩子看到一朵云。在第二个级别中，他/她学习它的名称，并且云造成下雨。在第三个级别中，他/她将云与“湿”联系起来。
+</difference>
+</faq>
+
+<games style="titleEng">
+	<EasyCall>新奇电话</EasyCall>
+	<cec>Comfy乐园体验</cec>
+	<easyPCkeyboard>Comfy简易PC系统</easyPCkeyboard>
+</games>
+
+<products style='products'>
+	<EasyPCKeyBoard style='comics22Eng'>带有适合儿童年龄的简易PC软件之Comfy简易PC键盘</EasyPCKeyBoard>
+	
+	<!-- [ -------------  tri_option page  -------------]-->
+	
+	<comfyChoice style='prodBigEng'>The Comfy Choice: Introducing Comfy’s range
+of interactive products</comfyChoice>
+	<triWonderTitle style='prodBigEng'>PLUG'N PLAY PHONE</triWonderTitle>
+	<triWonder style='nutral'>屏幕上的角色可对您孩子的声音做出反应。</triWonder>
+	<triCecTitle style='prodBigEng'>Comfyland Experience</triCecTitle>
+	<triCec style='nutral'>针对幼儿的独特室内教育游戏区。
+//HREF//www.comfyland.com/cec//找到离您最近的地点。//HREF_END//</triCec>
+	<triKeyboardTitle style='prodBigEng'>Easy PC System</triKeyboardTitle>
+	<triKeyboard style='nutral'>幼儿PC 学习系统键盘 //PLUS// 12 款不同的适龄软件游戏。
+</triKeyboard>
+	<cRange>查看我们的软件产品系列：</cRange>
+	<cec_Intro>Comfy乐园 体验提供一块独特、多样而丰富的安全区域，让幼童在非正式的开放性气氛中，充满自信地独自或与他们的朋友在里面高兴玩耍。</cec_Intro>
+	<wonderfone_intro>Comfy 新奇电话能够提高您的孩子的听力和交谈技能。孩子观看並聆听屏幕上正在发生的情节，如果能在适当的时间正确反应，他们就会立即得到奖励。</wonderfone_intro>
+	<easyPCkeyboard_intro>这款寓教于乐的游戏平台是针对孩子们的能力和兴趣而设计的，开创了一个互动体验的全新世界。</easyPCkeyboard_intro>
+</products>
+
+</unique>

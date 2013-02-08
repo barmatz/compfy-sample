@@ -1,0 +1,209 @@
+﻿xmlContent=.trash{}
+
+.nutral {
+ font-family: Arial;
+ font-weight: bold;
+ color:#ffffff;
+ text-indent:0px;
+ leading:1px;
+ }
+
+.welcome {
+ font-family: Arial;
+ font-weight: bold;
+ color:#ffffff;
+ text-indent:0px;
+ leading:1px;
+ text-align: right;
+ }
+
+
+a{
+
+ font-weight: bold;
+ color:#FFFF99;
+ text-indent:0px;
+ leading:2px;
+ }
+
+.pSection {
+ font-family: _tapuzblack;
+ font-size: 24px;
+ text-align: right;
+}
+
+.pSectionC {
+ font-family: _tapuzblack;
+ font-size: 28px;
+ text-align: Center;
+}
+
+
+.prodLevel{
+
+  text-align: Right;
+  font-size:18px;
+  font-weight:bold;
+  color:#FFFF99;
+
+}
+
+
+.title {
+ font-family: _tapuzblack;
+ font-size: 20px;
+ text-align: center;
+ }
+
+.levels {
+ font-family: _tapuzblack;
+ font-size: 44px;
+ text-align: right;
+}
+
+.Tapuz {
+ font-family: _tapuzblack;
+  font-size: 35px;
+ text-align:right;
+ }
+
+.titleRandy {
+ font-family: _tapuzblack;
+ font-size: 74px;
+ text-align:center;
+ color:#3333FF;
+ }
+ 
+.pagesTitle {
+ font-family: _tapuzblack;
+ font-size: 84px;
+ text-align:right;
+ color:#3333FF;
+ leading:-10px;
+ }
+
+.pagesTitle60 {
+ font-family: _tapuzblack;
+ font-size: 60px;
+ text-align:right;
+ color:#3333FF;
+ leading:-10px;
+ }
+
+ .note {
+ font-family: Arial;
+ font-size: 14px;
+ font-weight: bold;
+ color:#002266;
+ leading:2px;
+ text-align:right;
+ }
+
+.prodBig {
+ font-family: _tapuzblack;
+ font-size: 20px;
+ font-weight: bold;
+ color:#ffffff;
+ text-indent:0px;
+ leading:0px;
+ }
+
+.normalProd {
+ font-family: Arial;
+ font-weight: bold;
+ text-align: Center;
+ line-height:1px;
+}
+ .normal {
+ font-family: Arial;
+ font-size: 14px;
+ font-weight: bold;
+ color:#113399;
+ text-align:right;
+ }
+ 
+ 
+
+.h1{
+font-size:18px;
+line-height:10px;
+leading:0px;
+font-weight: bold;
+}
+.h2{
+font-size:16px;
+line-height:10px;
+leading:0px;
+font-weight: bold;
+}
+.h3{
+font-size:15px;
+line-height:-20px;
+leading:0px;
+font-weight: bold;
+}
+
+.bh2{
+font-size:16px;
+line-height:10px;
+leading:0px;
+font-weight: bold;
+color:#003366;
+}
+.bh3{
+font-size:15px;
+line-height:-20px;
+leading:0px;
+font-weight: bold;
+color:#003366;
+}
+
+.h4{
+font-size:15px;
+line-height:5px;
+font-weight: bold;
+}
+
+.products0{
+font-family:Arial;
+text-align:right;
+font-size:15px;
+line-height:5px;
+font-weight: bold;
+leading:2px;
+color:#440055;
+
+
+}
+
+.products1{
+font-family:Arial;
+text-align:right;
+font-size:15px;
+line-height:5px;
+font-weight: bold;
+leading:-2px;
+color:#ffffff;
+}
+
+.babytv{
+
+ font-family: _comics;
+ font-size: 14px;
+ font-weight: bold;
+ text-align:left;
+ color:#000000;
+
+}
+.comics {
+ font-family: _comics;
+ font-size: 14px;
+ font-weight: bold;
+ text-align:left;
+ color:#000000;
+ }
+
+ .red{
+	 color:#FF0000;
+
+ }

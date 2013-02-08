@@ -1,0 +1,528 @@
+﻿xmlContent=<?xml version='1.0' encoding='UTF-8'?>
+<lang translator='eric' style='Western.css' updated='15/5/2006' language='English' id='en'>
+<main>
+<xml_pressTheButterfly>PRESS THE //Color#FF0000//BUTTERFLY// BUTTON ON THE COMFY KEYBOARD TO START</xml_pressTheButterfly>
+<xml_pressTheDrum>PRESS THE //Color#003366//DRUM// BUTTON ON THE COMFY KEYBOARD TO START</xml_pressTheDrum>
+<xml_pressTheturtle>PRESS THE //Color#FF0000//TURTLE// BUTTON ON THE  //Color#FF0000//COMFY// KEYBOARD TO START</xml_pressTheturtle>
+</main>
+<!-- ==========================--      shared     ========================== -->
+<shared>
+<back>EDELLINEN</back>
+<next>SEURAAVA</next>
+<beginner style='h3'>beginner</beginner>
+<beginners style='h3'>Aloitustaso</beginners>
+<beginnerLevel style='h3'>Aloitustaso</beginnerLevel>
+<intermediate style='h3'>Keskitaso</intermediate>
+<intermediates style='h3'>Keskitaso</intermediates>
+<intermediateLevel style='h3'>Keskitaso</intermediateLevel>
+<advanced style='h3'> Edistynyt taso</advanced>
+<advanceds style='h3'> Edistynyt taso</advanceds>
+<advancedLevel style='h3'> Edistynyt taso</advancedLevel>
+<ages_1_3 style='h3'>1-3-vuotiaille</ages_1_3>
+<ages_1_3C style='h3'>1-3-|vuotiaille</ages_1_3C>
+<ages_3_5 style='h3'>3-5-vuotiaille</ages_3_5>
+<ages_3_5C style='h3'>3-5-|vuotiaille</ages_3_5C>
+<level1 style='comics'>Tasoa 1</level1>
+<level2 style='comics'>Tasoa 2</level2>
+<level3 style='comics'>Tasoa 3</level3>
+<moresoft style='comics'>For More advanced software click here</moresoft>
+<place_Overlay style='comics'>PLACE THE "$$nameOfGame$$" OVERLAY ON THE COMFY KEYBOARD</place_Overlay>
+</shared>
+<buttons style='pagesTitle'>
+<activityCenter style='pagesTitleMedium' effect='blue' width="370" dy='-10' dx='-10'>Toiminito-|keskus</activityCenter>
+<parentSection style='pagesTitleSmall' effect='purple' dy="-10" dx="10">Vanhempien|osio</parentSection>
+<welcome effect='orange'>Welcome To Comfy</welcome>
+<changeLanguage effect='orange'>Vaihda Kieltä</changeLanguage>
+<changeLevel effect='orange'>Vaihda tasoa</changeLevel>
+<products_Inside effect='orange' style='pagesTitle60'  dx='20' dy='-20'>Muut Comfy-tuotteet</products_Inside>
+</buttons>
+<!-- ==========================--      game names     ========================== -->
+<games style="title">
+<BabyTV>BabyTV</BabyTV>
+<letsImagine>Kuvitellaan</letsImagine>
+<firstSteps>Ensi askeleet</firstSteps>
+<animalWorld>Eläinten maailma</animalWorld>
+<birthdayParty>Syntymäpäiväjuhlat</birthdayParty>
+<timeTravel>Aikamatkustus</timeTravel>
+<myNeighborhood>Naapurustoni</myNeighborhood>
+<myHome>Minun Kotini</myHome>
+<iLivehere>Naapurustoni</iLivehere>
+<comfyOnline>Comfy Internetissä</comfyOnline>
+<WordlOfColors>Värien maailma</WordlOfColors>
+<WorldOfColors>Värien maailma</WorldOfColors>
+<XMass>Joulu Comfy maassa</XMass>
+<joyOfMusic>Musiikin ilo</joyOfMusic>
+<homeHunt>Home Hunt</homeHunt>
+<Adventure>Adventure in Numberland</Adventure>
+</games>
+
+<!-- ==========================--      Parent Section      ========================== -->
+
+<parentSection style='comics22'>
+<welcome style='comics22' Xstyle="title">TERVETULOA COMFYYN</welcome>
+<parentGuide style='comics22' Xstyle="title">VANHEMPIEN OPAS: $$nameOfGame$$</parentGuide>
+<aboutBaby style='comics22' Xstyle="title">ABOUT BABYTV</aboutBaby>
+<comfy3c style='comics22' Xstyle="title">COMFY PEDAGOGICAL HOUSE</comfy3c>
+<howto style='comics22' Xstyle="title" dy='-3'>COMFY KEYBOARDIN KÄYTTÄMINEN COMFY-PELIEN KANSSA</howto>
+<educational style='comics22' Xstyle="title" dy="10">OPETUSARVOT</educational>
+<faq style='comics22' Xstyle="title" dy="5">USEIN KYSYTTYÄ (FAQS)</faq>
+<website style='comics22' Xstyle="title">COMFYN VERKKOSIVUT</website>
+<registration style='comics22' Xstyle="title">VERKKOTAKUUREKISTERÖINTI</registration>
+<performance style='comics22' Xstyle="title">KÄYTTÖASETUKSET</performance>
+<performance_txt1 style='normal' Xstyle="title">Näyttösi resoluutio vaikuttaa pelin animaatioon.
+
+Resoluution lisääminen parantaa pelin grafiikan laatua. Emme kuitenkaan suosittele resoluution lisäämistä hitailla tietokoneilla.
+
+Jos animaatio on hidasta ja nykivää, valitse oletusresoluutiota pienempi resoluutio.
+
+//h2//Valitse haluamasi resoluutio:</performance_txt1>
+<default>(Oletus)</default>
+</parentSection>
+
+<!-- ==========================--      EDUCATIONAL      ========================== -->
+
+<educational style='normal'>
+<title1 style='title' dy='8'>OPETUSARVOT - YLEISTÄ</title1>
+<note ready='true' style='note'>//i//Huom!//  Jotta lapsi oppisi kaikki jäljempänä kuvatut arvot ja taidot, Comfy on kehittänyt erilaisia CD-pelejä kullekin ikä- ja oppimisvaiheelle.</note>
+<frame1 ready='false' style='normal'>Comfy-näppäimistön ja ohjelmat on luonut pedagoginen tutkimus- ja kehitystiimi, joka on erikoistunut digitaaliseen mediaan. Näppäimistö ja ohjelmat vastaavat 1-5-vuotiaan lapsen kykyjä ja mielenkiinnon kohteita. Pienien käsien on helppo ohjata suuria kuvitettuja painikkeita, puhelimen kuuloketta, johon on helppo tarttua, ja rullaa. Näin lapsi voi hallita peliä itsenäisesti ja miellyttävästi, ilman että hänen tarvitsisi osata lukea tai käyttää tietokoneen hiirtä.</frame1>
+<frame2 >Pelaaminen Comfyn interaktiivisessa ympäristössä tarjoaa lapsellesi seuraavia asioita: 
+
+**Oppiminen leikin ja tutkimisen kautta
+**Tietokoneen peruskäsittelytaidot
+**Kognitiivisten, emotionaalisten ja sosiaalisten taitojen
+   kehittyminen
+
+Seuraavat ominaisuudet tekevät Comfyn lähestymistavasta ainutlaatuisen ja sopivan opetustavoitteiden saavuttamiseen: 
+
+**Toiminnot sisältävät interaktiivisen yhdistelmän tarinoita,
+   animaatioelokuvia, kuvien katselua ja väreillä maalaamista,
+   musiikin kuuntelua ja laulujen laulamista,
+   motoriikkaharjoituksia sekä sosiaalisiin käsitteisiin tutustumista</frame2>
+<frame3 style='normal'>**Comfy Keyboard -näppäimistö korvaa perinteisen 
+   näppäimistön ja hiiren. Kaikki painikkeet ovat 
+   värikkäitä ja helppokäyttöisiä. Lapsen ei tarvitse 
+   osata lukea tai kirjoittaa
+
+**Comfy-toiminnot ovat aina ikävaiheeseen sopivia, 
+   ja tarinaan kuuluvat hahmot ja esineet ovat 
+   rakastettavia ja hauskoja
+
+**Kun pelin taso on sovitettu lapsen 
+   kehitysvaiheeseen sopivaksi ja toiminta alkaa,
+   lapsi voi pelata ilman vanhemman apua. 
+   Tietokoneen hahmot juttelevat lapsellesi ja selittävät, 
+   mitä hänen tulee tehdä kussakin toiminnan vaiheessa. 
+   Jokaista selitystä täydentävät erilaiset kuvat ja animaatiot</frame3>
+<frame4 style='normal'>**Comfy on luonut lukemattomia opetusmahdollisuuksia vanhempien ja lapsen yhteistoimintaa varten sekä pelin aikana että sen jälkeen. Sinä ja perheesi voitte jakaa lapsesi kanssa rajattomasti nautinnollisia kokemuksia
+
+
+Seuraavassa osiossa on kuvattu lyhyesti lasten taidot ja kehitysvaiheet sekä annettu yksityiskohtaisempi selvitys siitä, miten Comfy edistää lapsen aistihavaintoja, motoriikkaa ja kognitiivisia ja emotionaalisia kykyjä.</frame4>
+
+<title5 style='title'>OPETUSARVOT - MOTORIIKKA JA AISTIEN KEHITYS</title5>
+<frame5 style='normal'>//h1//Motoriikka ja aistien kehitys
+
+Kun lapsi kasvaa, hänen fyysiset ja psyykkiset taitonsa kehittyvät ja lapsi kykenee suoriutumaan entistä monimutkaisemmista tehtävistä. Lapsi oppii tunnistamaan esineitä ja hahmoja, tulkitsemaan oikein lähiympäristössä olevia välittömiä ärsykkeitä ja kehittämään aistejaan. 
+
+Pelatessaan Comfylla lapsi oppii:
+**yhdistämään näytössä näkemänsä hahmot ja esineet Comfy 
+  Keyboardin hahmoihin ja esineisiin
+**kehittämään visuaalista havaintokykyään erottamalla 
+  eri muotoja ja värejä
+**kehittämään kuuloaistiaan</frame5>
+
+<title6 style='title'>OPETUSARVOT - 
+Kielen kehitys</title6>
+<frame6 style='normal'>//h1//Kielen kehitys
+
+Lapsen sanavarasto laajenee jatkuvasti hänen oppiessaan muodostamaan lauseita. 
+
+Comfyn avulla lapsesi voi:
+
+**oppia muotoilemaan kysymys-, pyyntö-, varoitus- ja 
+   ohjelauseita
+**hankkia tietoa uusista käsitteistä, jotka liittyvät 
+   tiettyihin aihealueisiin, kuten säähän, postin 
+   kulkuun ja aikaan</frame6>
+<title7 style='title'>OPETUSARVOT -
+AJATTELU</title7>
+<frame7 style='normal'>//h1//Ajattelu
+
+Lapsen muistikapasiteetti paranee vähitellen, ja lapsi kykenee muistamaan yhä useampia kuvia, ääniä ja kokemuksia. Lisäksi hänen mielikuvituksensa kehittyy ja parantaa hänen luovaa ajatteluaan.
+
+Comfylla pelatessaan lapsesi voi:
+**oppia ymmärtämään syy-seuraussuhteen puuttumalla
+   tarinan kulkuun ja aiheuttamalla muutoksia tarinaan
+   (esim. luomalla sateen, muuttamalla päivän yöksi)
+**harjoitella esineiden, äänien, tapahtumien ja hahmojen
+   muistamista
+</frame7>
+<frame8 style='normal'>**kehittää mielikuvitustaan osallistumalla tarinan 
+   juoneen ja vaikuttamalla siihen haluamallaan tavalla, 
+   mikä edistää lapsen luovien kykyjen kehittymistä
+
+**oppia ymmärtämään ympäröivää maailmaa 
+   osallistumalla kuvitteluleikkiin eri hahmojen avulla
+
+**oppia keskittymään ja käyttämään henkistä 
+   ponnistelua haastavien tehtävien suorittamiseen</frame8>
+
+<title9 style='title'>OPETUSARVOT -
+EMOTIONAALINEN KEHITYS</title9>
+<frame9 style='normal'>//h1//Emotionaalinen kehitys
+Lapset tarvitsevat lämpimän ja kannustavan ympäristön sekä selkeät rajat. Näin lapsi kehittyy itsenäiseksi ja oppii esittämään ympäristöään koskevia kysymyksiä ja toimimaan oma-aloitteisesti, mikä vahvistaa lapsen itseluottamusta ja hänen käsitystään itsestään.
+
+Comfy tarjoaa lapselle mahdollisuuden:
+**tavatessaan ystävällisiä hahmoja lapsi saa 
+   positiivisia kokemuksia väreistä ja äänistä
+**saada palautetta ja rohkaisua näppäimistöllä 
+   tekemilleen toimille
+**toimia mielihalujensa mukaan käyttäessään 
+   Comfy-näppäimistön rullaa</frame9>
+<frame10 style='normal'>**kokea näppäimistön, tapahtumien ja juonen 
+   etenemisen hallinnan tunteen. Hallinnan tunne 
+   edistää lapsen itseluottamusta ja parantaa hänen 
+   käsitystään itsestään
+
+**pelin säännöt ja rajoitukset ovat selkeät (esim. 
+   Buddy-karhu pyytää lasta luomaan sateen, mutta 
+   "ei vielä, vaan hetken päästä, kun olen ehtinyt 
+   kotiin")</frame10>
+<title11 style='title'>OPETUSARVOT - SOSIAALISET ARVOT
+JA KÄYTTÄYTYMINEN</title11>
+<frame11 style='normal'>//h1//Sosiaaliset Arvot ja Käyttäytyminen
+
+Lapset oppivat hyväksyttävän tavan käyttäytyä tutustumalla sosiaalisiin ja kulttuurisiin normeihin. Comfy-pelien avulla lapsi oppii sopivat käyttäytymismallit ja tavan selviytyä sosiaalisista vaikeuksista ja esteistä.
+
+Tällä osa-alueella Comfy:
+**auttaa lasta osallistumaan ja oppimaan sopivaa 
+   käyttäytymistä erilaisissa päivittäisissä tilanteissa
+**esittelee lapselle hahmoja, joihin lapsi voi samaistua
+**painottaa myönteisiä sosiaalisia normeja, kuten 
+   yhteistyötä ja muiden auttamisen merkitystä.
+**Comfyn maa esittelee positiivisia arvoja, kuten 
+   ystävyyttä, kompromisseja ja kaikkien olentojen 
+   ja esineiden kunnioittamista</frame11>
+</educational>
+
+<!-- ==========================--      WELCOME    ( about comfy)  ========================== -->
+
+<welcome>
+<frame1 ready='true' style='normal'>Comfy ystävineen avaa oven monipuoliseen ja jännittävään multimediamaailmaan, jossa yhdistyvät mukavat kokemukset sekä oppiminen ja kehitys. Comfy antaa lapsellesi mahdollisuuden tutkia dynaamista, värikkäästi animoitua ohjelmistoympäristöä ja vaikuttaa siihen ilman vanhempien apua. Se on myös hauska ja luonnollinen tapa opettaa pikkulapselle perustaidot ja -tiedot tietokoneiden käsittelystä. 
+
+Tuotteemme on suunniteltu lapsesi motoriikkaan ja kognitiivisiin taitoihin sopiviksi. ComfyKeyboard™ -näppäimistö ja ohjelmisto antavat lapsellesi itsenäisen, turvallisen hallinnantunteen. Lukutaito ei ole tarpeen eikä tietokoneen hiirtä tarvitse käyttää, joten lapsesi voi kehittyä omaan tahtiinsa.</frame1>
+
+<website ready='false' note='it have to be there' style='comics22'>COMFY WEBSITE</website>
+</welcome>
+
+<!-- ==========================   Use Comfy  	==========================- -->
+
+<useComfy style='normal'>
+<title1 style='title'>COMFY KEYBOARDIN KÄYTTÄMINEN 
+COMFY-PELIEN KANSSA</title1>
+<note style='note'>//i//Huom!//  Ohjeet "Miten käyttää Comfy näppäimistöä Comfy pelejen kanssa" ei selitä tarkemmin miten vaihtoehtoinen näppäimistön päällyste toimii muiden pelien kanssa.</note>
+<frame1 style='normal'>ComfyKeyboardin avulla pikkulapsi voi nauttia Comfyn kiehtovista interaktiivisista peleistä. Järjestelmä on suunniteltu vastaamaan 1-5-vuotiaan lapsen kykyjä ja kiinnostuksen kohteita, ja lapsi voi edetä omaan tahtiinsa. 
+
+Sen tutut muodot, eloisat värit ja viehättävät kuvat houkuttelevat lastasi koskettamaan, tutkimaan ja löytämään. Erityisesti suunniteltu ohjelmisto sisältää monentasoisia toimintoja, joiden avulla lapsesi voi ohjata tapahtumia oman henkilökohtaisen kehitystasonsa mukaan.</frame1>
+<frame2>//h1//Näppäimistön painikkeiden kuvaukset
+
+//h1//Sää-/vuorokaudenaikapainikkeet
+Comfy Keyboardissa on kolme sääpainiketta:
+**aurinko ja päivänvalo -painike.
+**kuu ja yö -painike.
+**pilvi ja sade -painike.
+
+Aina, kun jotakin näistä painikkeista painetaan, Comfyn maan säätila muuttuu. Näin lapsi oppii tunnistamaan säätiloja.
+
+//h3//Sääpainikkeiden avulla opittavat asiat:
+**päivän ja yön käsitteiden ymmärtäminen.
+**sateen kaltaisten ilmiöiden tunnistaminen.</frame2>
+<frame3>//h1//Hahmojen painikkeet ja puhelimen luuri:
+
+**Snaily
+**Buddy
+**Jumpy
+**Feely
+**Comfy
+
+Lapsi voi kutsua hahmoja milloin tahansa ja löytää heidät eri paikoista ja tilanteista.
+//h3//Puhelimen avulla saavutettavat asiat:
+**tutustuminen puhelimeen interaktiivisena 
+   viestintävälineenä.
+**henkilökohtaisen yhteyden luominen Comfy-hahmojen 
+   kanssa sekä sosiaalisten taitojen kehittäminen.</frame3>
+<frame4>//h1//Musiikkipainikkeet
+Näppäimistössä on neljä musiikkipainiketta: rumpu, huilu, piano ja trumpetti.
+
+Nuottipainikkeen painaminen soittaa Comfyn teemalaulun ja esittelee Comfyn maan hahmot.
+Kunkin musiikkipainikkeen painaminen esittelee kyseisen soittimen ja soittaa sille tyypillisen musiikkikappaleen. Kun lapsi jatkaa saman musiikkipainikkeen painamista, melodian tempo ja itse melodia muuttuvat vähitellen. 
+
+//h3//Musiikkipainikkeiden avulla saavutettavat asiat:
+**neljään soittimeen tutustuminen ja niiden 
+   tunnistaminen (muoto ja ääni).
+**eri soittimien erottaminen toisistaan.
+**melodioiden tunnistaminen ja 
+   laulujen oppiminen.</frame4>
+<frame5>//h1// Väripainikkeet
+
+Näppäimistössä on kuusi väripainiketta:
+//Color#CC0000//punainen//  //Color#FFFF66//keltainen//  //Color#333399//sininen//  //Color#009900//vihreä//  //Color#FF7600//oranssi//  //Color#9900FF//violetti//
+
+Värinäppäintä painettaessa tapahtuu kyseistä väriä vastaava toiminto.
+
+Pelin aikana lapsi toteuttaa lukuisia toimintoja väripainikkeiden avulla.
+
+Väripainikkeiden avulla saavutettavat asiat:
+**tutustuminen näppäimistön väreihin.</frame5>
+<frame6>//h1//Rulla
+Comfy-näppäimistössä on pyörivä rulla, joka pyörii vapaasti, ja joka mahdollistaa käsivaraisen ohjauksen.
+
+Rullan pyörittäminen muuttaa näytössä tapahtuvien tapahtumien vauhtia väliaikaisesti. Mitä nopeammin lapsi pyörittää rullaa, sitä nopeammin näytön tapahtumat etenevät. 
+
+//h3//Rullan avulla saavutettavat asiat:
+**mahdollisuus viihtyä ja käyttää mielikuvitusta vapaasti.
+**viihtyminen lapsen kyetessä vaikuttamaan näytön 
+   tapahtumiin.</frame6>
+<frame7>//h1//Taukopainike
+Taukopainike osoittaa pysäyttämisen merkityksen äänen ja kuvan avulla. Minkä tahansa muun näppäimistön painikkeen painaminen aloittaa kyseisen toiminnan alusta. 
+
+//h3//Taukopainikkeen avulla saavutettavat asiat:
+**lapsi voi pyytää vanhempaa puuttumaan tapahtumiin.
+**taukopainiketta voidaan käyttää, kun lapsi haluaa j
+   utella vanhemman kanssa tai katsoa kuvaa, josta 
+   hän erityisesti pitää.</frame7>
+</useComfy>
+<!-- ==========================  activityCenter  ==========================- -->
+<activityCenter style='comics'>
+<frame1 style='comics' width="350" dy ='-25' dx='-10'>VÄRITÄ KUVIA COMFYN MAASTA.
+
+NAPSAUTTAMALLA COMFYN MAAN HAHMOJA TUOT NÄKYVIIN VÄRITYSSIVUMME. VALITSE SUOSIKKIKUVASI.
+
+NAPSAUTA TULOSTAAKSESI KUVAN VÄRITETTÄVÄKSI.
+
+PIDÄ HAUSKAA!</frame1>
+</activityCenter>
+<!-- ==========================       FAQ      ==========================- -->
+<faq style='normal'>
+<questions>KYSYMYKSET</questions>
+<note style='note'>//i//Huomautus:// Yksityiskohtaiset selitykset eri toiminnoista löydät vanhempien osiossa olevasta vanhempien oppaasta.</note>
+<Q_chooseLang>Kuinka kieli valitaan?</Q_chooseLang>
+<chooseLang>Napsauta CD-valikon Vaihda kieli -painiketta.
+Selaa mahdollisia kieliä ylös- ja alas-nuolilla. Napsauta haluamasi kielen lippua.
+Kun painat punaista Siirry peliin -painiketta, peli alkaa valitsemallasi kielellä.</chooseLang>
+<Q_changeLevel>Kuinka tasoa vaihdetaan?</Q_changeLevel>
+<changeLevel>Napsauta valikon Vaihda tasoa -painiketta.
+Valitse taso painamalla jotain halutun tason kuutioista.
+
+Voit myös vaihtaa tasoa painamalla Comfy Keyboard -näppäimistön väripainikkeita: vihreä = taso 1, sininen = taso 2, keltainen = taso 3. 
+
+Kun painat punaista Siirry peliin -painiketta, peli alkaa valitsemallasi tasolla.</changeLevel>
+<Q_returnMain>Kuinka pelistä palataan päävalikkoon?</Q_returnMain>
+<returnMain>Palaa CD-valikkoon tavallisen näppäimistön Esc-painikkeella.</returnMain>
+<Q_exitGame>Kuinka peli lopetetaan?</Q_exitGame>
+<exitGame>Palaa CD-valikkoon tavallisen näppäimistön Esc-painikkeella.
+
+Lopeta peli painamalla Esc-painiketta uudelleen.
+
+Lapsi ei voi lopettaa Comfy-peliä itse, vaan siihen tarvitaan vanhemman apua. Näin lapsi voi leikkiä Comfy-ympäristössä itsenäisesti ilman, että hän siirtyy vahingossa vanhempien tietokoneympäristöön.</exitGame>
+<Q_difference dy="7">Mikä ero kolmella "$$nameOfGame$$" -tasolla on?</Q_difference>
+<Q_moveUp>Mistä tiedän, milloin on aika siirtyä seuraavalle tasolle?</Q_moveUp>
+<moveUp>Suosittelemme, että lapsesi aloittaa tasolta 1 ja siirtyy vähitellen ylemmille tasoille.
+Kun lapsesi on saanut itseluottamusta ja hallitsee toiminnot, tasoa kannattaa vaihtaa uusien haastavien toimintojen tarjoamiseksi lapselle.</moveUp>
+<Q_overlay >Milloin "$$nameOfGame$$" -painikemattoa käytetään ja mikä sen tehtävä on?</Q_overlay>
+<overlay>Comfy-näppäimistö peitetään "$$nameOfGame$$" -painikematolla, jossa on "$$nameOfGame$$" -CD-levyn sisältöön sopivat kuvakkeet.</overlay>
+<forMoreFaqs>//Color#EC6002//Lisää usein kysyttyjä kysymyksiä//
+//Color#EC6002//on osoitteessa www.comfyland.com//</forMoreFaqs>
+</faq>
+
+<!-- ==========================  Products  ==========================- -->
+
+<products style='products'>
+<chooseAge style='comics22'>VALITSE IKÄRYHMÄSI</chooseAge>
+<chooseDesc style='normal'>Erityinen ohjelmistomme tarjoaa eri oppimistasoja 
+jännittävien ja haasteellisten toimintojen muodossa:</chooseDesc>
+<notAllSoftwares style='normalProd'>Kaikkia ohjelmisto-CD-levyjä ei ole saatavilla kaikilla kielillä. 
+Parhaiten ajan tasalla olevaa tietoa tuotteidemme saatavuudesta saat verkkosivuiltamme osoitteessa
+ //HREF//www.comfyland.com// www.comfyland.com//HREF_END//</notAllSoftwares>
+<clickOnAnyImage>Click on any image for more information</clickOnAnyImage>
+<newPlaying style='normalProd'>Now Playing:</newPlaying>
+<mrktBefore style='prodBig'>Help your child reach his full potential by providing him the age appropriate software</mrktBefore>
+<signUp style='prodBig'>Spcieal discounts for club members.
+//HREF//www.comfyland.com/club/sign//sign up//HREF_END// for the Comfy Club for free.</signUp>
+<remind style='normalProd'>Don’t remind me any more</remind>
+<mrktAfter style='prodBig'>Your child have been playing with this software, get your//HREF//www.comfyland.com/club/sign// 15//PERCENT// off with free sign up,//HREF_END// on our range of software</mrktAfter>
+
+<!-- ===============    Products: First Steps ================== -->
+
+<firstSteps_Intro>"Ensi askeleet" on ensimmäinen erityisesti pikkulapsille (jopa vain 12 kk:n ikäisille) kehitetty tietokonepeli-CD, jonka avulla lapsesi voi tutustua ensi kertaa tietokoneisiin ja niitä koskeviin peruskäsitteisiin itsenäisesti.</firstSteps_Intro>
+<firstSteps_Body>//h4//Ohjelmistossa on kolme vuorovaikutustasoa: 
+//u//Tasolla 1:// esitellään värit ja äänet. 
+//u//Tasolla 2:// tunnistetaan esineitä ja nimiä.
+//u//Tasolla 3:// kehitetään päättelykykyä ja ymmärrystä.
+
+//h3//Hyödyt kehityksen kannalta:
+**tutustuttaa muotoihin, ääniin ja väreihin
+**kehittää käden ja silmän koordinaatiota
+**parantaa kuuntelutaitoja
+**parantaa järkeily- ja ymmärryskykyä</firstSteps_Body>
+
+<!-- ===============    Products: My Home ================== -->
+
+<myHome_Intro>"Minun kotini" tarjoaa lapselle monta iloista tuntia, kun hän tutkii kotiympäristöä päivittäisten askareiden avulla. Pelissä on paljon lauluja, joiden avulla lapsesi oppii siisteyden tärkeyden, tunnistaa esineitä äänistä ja oppii pukeutumaan sään mukaan. Sievän 3-vuotiaan Didi-tytön ja hänen ystäviensä kanssa lapsesi leikkii kuurupiiloa ja nauttii monista jännittävistä askareista.</myHome_Intro>
+<myHome_Body margin='20'>//h3//Ohjelmistossa on kolme interaktiivisuustasoa: //
+//u//Tasolla 1://  esitellään lapsellesi erilaisia kotiympäristöönsä liittyviä esineitä ja käsitteitä.
+//u//Tasolla 2://  lapsesi on osallisena ja reagoi hahmojen kysymyksiin ruudulla näytettävien vinkkien avulla.
+//u//Tasolla 3://  lapsesi oppii leikkimään hahmojen kanssa ilman ruudulla näkyviä vinkkejä.
+
+//h3//Hyödyt kehityksen kannalta://
+**lapsi oppii asioita kotiympäristöstänsä 
+**lapsi oppii syyn ja seurauksen suhteen
+**lapsen sanavarasto laajenee ja kielitaito kehittyy
+**lapsi oppii vertailukäsitteiden välisiä suhteita</myHome_Body>
+
+<!-- ===============    Products: Let's Imagine ================== -->
+
+<letsImagine_Intro style='products'>"Kuvitellaan" tarjoaa lapselle monta iloista tuntia, kun hän kehittää luovia taitojaan. Lapsesi saa paljon hauskoja oppimiskokemuksia. Värikkäät ja animoidut kuvat stimuloivat visuaalisten ja auditiivisten kykyjen kehittymistä.</letsImagine_Intro>
+<letsImagine_Body margin='10'>//h3//Ohjelmistossa on kolme interaktiivisuustasoa://
+//u//Tasolla 1://  esitellään lapsellesi Didin ja Boon maailma, jossa tutustutaan eläimiin, muotoihin,
+			    esineisiin ja ruumiinosiin.
+//u//Tasolla 2://  lapsesi on osallisena ja reagoi hahmojen kysymyksiin ruudulla näytettävien vinkkien avulla.
+//u//Tasolla 3://  lapsesi oppii vuorovaikutusta hahmojen kanssa ilman ruudulla näkyviä vinkkejä.
+
+//h3//Hyödyt kehityksen kannalta:
+**sanavaraston ja kielitaidon kehittyminen
+**muotojen, äänien ja värien tunnistaminen
+**syyn ja seurauksen oppiminen
+**auttaa lastasi ratkaisemaan ongelmia eri aktiviteettien kautta</letsImagine_Body>
+
+<!-- ===============    Products: Birthday Party ================== -->
+
+<birthdayParty_Intro>"Syntymäpäiväjuhlat" auttaa lastasi oppimaan sosiaalista älykkyyttä ja viestintäkeinoja. Pääteemana on Feelyn syntymäpäiväjuhla, jossa kukin hahmo kertoo oman tarinansa (jonka lapsi valitsee). Snaily-etana kertoo ensimmäisestä päivästään postinkuljettajana. Comfy ja Jumpy kuvailevat jännittävää vierailuaan eläintarhassa, ja Buddy-karhu kertoo ihmeellisestä seikkailustaan pellolla. Kunkin tarinan lopussa Comfyn maan hahmot tapaavat syntymäpäiväjuhlassa.</birthdayParty_Intro>
+<birthdayParty_Body>//h3//Näppäimistö
+Comfy Keyboardin avulla lapsesi oppii ratkomaan ongelmia juonen aikana keräämällä tietoja tarinan aiemmista vaiheista.
+
+//h3//Hyödyt kehityksen kannalta:
+**lapsi tutustuu tilan, ajan ja suhteellisten ulottuvuuksien käsitteisiin
+**lapsi tutustuu sosiaalisiin normeihin ja arvoihin
+**lapsi oppii tunnistamaan värejä ja numeroita
+**lapsen muisti ja itseilmaisu paranevat</birthdayParty_Body>
+
+<!-- ===============    Products: Christmas in Comfyland ================== -->
+
+<XMass_Intro>"Joulu Comfyn maassa" on ihastuttava interaktiivinen elokuva. Se koostuu useista lyhyistä jaksoista, jotka välittävät joulun taianomaisuuden ja ovat samalla opettavaisia ja viihdyttäviä. Comfy ja hänen ystävänsä valmistautuvat joulunviettoon ja kutsuvat muita lapsia osallistumaan hauskuuteen. Tarina loppuu siihen, kun Comfy perheineen laulaa erityisen joululaulun, joka välittää sen, mistä Joulu Comfyn maassa -tarinassa on kyse: jouluun valmistautumisen riemusta. Vuoden paras aika on tänä vuonna entistäkin ainutlaatuisempaa.</XMass_Intro>
+<XMass_Body>//h3//Hyödyt kehityksen kannalta:
+**parantaa kuuntelutaitoja, keskittymiskykyä, muistia ja sinnikkyyttä
+**kehittää itseluottamusta, itsenäisyyttä ja hallintaa
+**synnyttää positiivisia tunteita
+**esittelee joulun pääpiirteet</XMass_Body>
+
+<!-- ===============    Products: Joy of Music ================== -->
+
+<JoyOfMusic_Intro>"Musiikin ilo" opettaa lapselle musiikkikäsitteitä. Hän saa olla aktiivisesti mukana, kun Fifi Huilu, Tempo Trumpetti, Boom-Boom Rumpu ja Mano Piano harjoittelevat ja esiintyvät konsertissa. Soittimet ovat ihastuttavia hahmoja, joilla kaikilla on oma persoonallisuutensa. Soitinten vuorovaikutus Comfyn maan tuttujen ja rakastettavien hahmojen kanssa auttaa ymmärtämään ystävyyden ja toisten auttamisen merkitystä. "Musiikin ilo" on lapselle erinomainen tapa oppia soittimista, tutustua harmonian käsitteeseen sekä parantaa motoriikkaansa ja auditiivisia taitojaan.</JoyOfMusic_Intro>
+<JoyOfMusic_Body>//h3//Hyödyt kehityksen kannalta:
+**Tutustuttaa eri soittimiin ja musiikin käsitteisiin
+**Esittelee musiikin innostavasti ja kannustaa luovuuteen
+**Parantaa värien havaintokykyä
+**Kehittää hallinnantunnetta ja itseluottamusta</JoyOfMusic_Body>
+
+<!-- ===============    Products: World of Colors ================== -->
+
+<WordlOfColors_Intro>"Värien maailma" tuo värien upean maailman lapsesi ulottuville Jumpyn kadonneen luun etsinnän kautta. Lapsesi oppii nimeämään värejä, vertailemaan esineitä ja liittämään värejä tiettyihin esineisiin. Samalla hänen visuaalinen havaintokykynsä paranee. Hauskojen, interaktiivisten tarinoiden avulla opettava "Värien maailma" sopii ihanteellisesti lapselle, joka on juuri oppimassa värejä. Väreihin jo tutustuneet lapset voivat harjoitella ja lisätä luovuuttaan ja saada innostavia, rikastuttavia leikkikokemuksia.</WordlOfColors_Intro>
+<WordlOfColors_Body>//h3//Hyödyt kehityksen kannalta:
+**värien yhdistäminen esineisiin
+**piilotetun esineen tunnistaminen
+**tärkeimpien tilakäsitteiden oppiminen
+**kokemus ongelmien ratkaisemisesta
+**vertailukyvyn kehittyminen</WordlOfColors_Body>
+
+<!-- ===============    Products: Animal World ================== -->
+
+<animalWorld_Intro>"Eläinten maailman" löydöt ja yllätykset tarjoavat lapselle luovan tavan oppia lisää eläinmaailmasta ja eläinten luonnollisista elinympäristöistä. "Eläinten maailmassa" lapsi seikkailee maassa, metsässä, vedessä ja lumessa ja nauttii taianomaisesta vuorovaikutuksesta kulloisenkin ympäristönsä kanssa. "Eläinten maailma" on rikastuttava kokemus, jossa lapsi oppii kognitiivisia, emotionaalisia ja luovia taitoja haastavien tarinoiden, interaktiivisten pelien, luovien taiteiden ja hauskojen musiikkiaktiviteettien kautta.</animalWorld_Intro>
+<animalWorld_Body>* Tämän CD-levyn sisältö on saatavana myös "Comfy Internetissä" -pelissä. 
+
+//h3//Hyödyt kehityksen kannalta:
+**kehittää kykyä tunnistaa värejä, muotoja ja numeroita
+**kehittää kuuntelukykyä ja parantaa ohjeiden ymmärryskykyä
+**kehittää sanastoa ja ajatusmalleja
+**tutustuttaa taiteisiin, materiaaleihin ja tekniikoihin</animalWorld_Body>
+
+<!-- ===============    Products: Time travel================== -->
+
+<timeTravel_Intro>"Aikamatkustus" vie lapsen jännittävälle seikkailulle läpi ajan ja avaruuden Comfyn ja hänen ystäviensä kanssa. "Aikamatkustus" esittelee erilaisia kulttuureita, menneitä ja tulevia aikakausia kiinnostavien tarinoiden, interaktiivisten pelien, luovien taiteiden ja hauskojen musiikkiaktiviteettien avulla. Comfy ystävineen oppii dinosauruksista, tutkii esihistoriallisten ihmisten elintapoja, vierailee intiaanikylässä tutustumassa intiaanien perinteisiin ja saa vieraakseen avaruusolennon. "Aikamatkustus" on erinomainen tapa saada lapsen mielikuvitus liikkeelle antamalla hänelle löydettäväkseen kokonainen uusi maailmankaikkeus. 
+Lapsen eri aktiviteettien kautta saamat kokemukset kehittävät 
+mielikuvitusta ja kognitiivisia taitoja.</timeTravel_Intro>
+<timeTravel_Body>* Tämän CD-levyn sisältö on saatavana myös "Comfy Internetissä" -pelissä. 
+
+//h3//Hyödyt kehityksen kannalta:
+**parantaa päättelykykyä
+**parantaa määrällisten käsitteiden ymmärryskykyä
+**parantaa älykästä uteliaisuutta
+**kehittää myönteistä minäkuvaa</timeTravel_Body>
+
+<!-- ===============    Products: My Neighborhood================== -->
+
+<myNeighborhood_Intro>"Naapurustoni" vie lapsen Comfyn maan vilkkaaseen naapurustoon. Siellä tutkitaan tuttua ympäristöä innostavien tarinoiden, interaktiivisten pelien, luovien taiteiden ja hauskojen musiikkiaktiviteettien avulla. Yhdessä Comfyn ja hänen ystäviensä kanssa lapsesi tekee havaintoja kodistaan, vierailee mukavien naapureiden luona, leikkii leikkikentällä ja puistossa ja oppii ajamaan eri ajoneuvoja ohjeita noudattamalla. "Naapurustoni" auttaa lasta  vahvistamaan itseluottamustaan ja kehittämään kognitiivisia, sosiaalisia ja emotionaalisia taitojaan tuttujen päivittäisten kokemusten avulla.</myNeighborhood_Intro>
+<myNeighborhood_Body>* Tämän CD-levyn sisältö on saatavana myös "Comfy Internetissä" -pelissä. 
+
+//h3//Hyödyt kehityksen kannalta:
+**parantaa luokittelukykyä
+**kehittää ajatteluprosessia yhä monimutkaisemmiksi käyvillä tasoilla
+**kehittää erilaisia ajattelumalleja
+**synnyttää positiivisia tunteita</myNeighborhood_Body>
+
+<!-- ======================    Products: comfyOnline   ====================  -->
+
+<comfyOnline_Intro>Comfyn Internet-maailmassa lapsi osallistuu kiehtoviin ohjelmistoseikkailuihin ja kokee taianomaisia hetkiä surffatessaan Internetissä Comfyn maan ystäviensä kanssa. Lapsi löytää paljon ainutlaatuisia, interaktiivisia Internet-toimintoja erilaisilta osa-alueilta. Tapahtumia, aikoja ja paikkoja koskevaa sisältöä päivitetään jatkuvasti. Näin lapsen maailma kytkeytyy todellisiin tapahtumiin reaaliajassa. Tämä on ajan mittaan tapahtuva, laadukas oppimisprosessi. "Comfy Internetissä" tarjoaa nuorelle tutkimusmatkailijalle hänen ensimmäisen Internet-kokemuksensa suojatussa ympäristössä.</comfyOnline_Intro>
+<comfyOnline_Body>* Osa "Comfy Internetissä" -sisällöstä on saatavana  myös Comfyn ohjelmisto-CD-levyillä.
+
+//h3//Hyödyt kehityksen kannalta:
+**parantaa kuuntelutaitoja, keskittymiskykyä, muistia ja sinnikkyyttä
+**kehittää erilaisia ajattelumalleja
+**kehittää itseluottamusta, itsenäisyyttä ja hallintaa
+**rohkaisee ajatteluun ja luoviin ratkaisuihin</comfyOnline_Body>
+
+<!-- =========================    Products: BabyTV   ================= -->
+
+<babytv_Intro>BabyTV - Go Interactive is an interactive game based on the popular characters from the
+world of BabyTV, the first channel dedicated to infants and toddlers under 3 years of age,
+The famous characters lead activities that are fun and are designed to promote development
+and interaction, We now offer you and your baby the opportunity to interact and play with
+your favorite BabyTV characters off the screen, while developing early learning and communication skills</babytv_Intro>
+<babytv_Body>//h3//Hyödyt kehityksen kannalta:
+**Enhances natural curiosity to explore.
+**Encourages creative thought and imagination.
+**Develops the ability to understand and follow instructions.
+**Expands vocabulary and language skills.
+**Develops convenation skills.</babytv_Body>
+
+<!-- ==========================    Products: Adventure    ================ -->
+
+<Adventure_Intro>"Adventure in Numberland" is an exciting and fun interactive game, which opens a first window to the world of numbers. The favorite friends from Comfyland go on a fascinating adventure in Numberland where they meet animated numbers that invite them to join a picturesque color, movement and sound experience. The game gives toddlers the opportunity to practice basic quantitative problems such as counting and numbering in a joyful way, thereby enhancing their natural curiosity and strengthening their cognitive and motor skills.</Adventure_Intro>
+<Adventure_Body>//h3//Hyödyt kehityksen kannalta:
+** Encouraging the natural curiosity of infants to experience mathematical tasks.
+** Getting acquainted with small numbers.
+** Practicing changes in form, pattern and appearance of fixed quantities.
+** Recognizing quantities of items and how addition and subtraction affect quantity.
+** Comparing amounts, and getting acquainted with the terms "more" and "less".</Adventure_Body>
+</products>
+
+<!-- ==========================  COMFY PEDAGOGICAL HOUSE  ==========================- -->
+<m3c style='normal'>
+<Mtitle1 style='title'>INTRODUCING COMFY PEDAGOGICAL HOUSE (CPH)</Mtitle1>
+<Mtitle2 style='title'>INTRODUCING COMFY 3C DEVELOPMENTAL CYCLE™</Mtitle2>
+<Mtitle3 style='title'>PARENTS’ ROLE IN MAXIMIZING COMFY 3C SYSTEM</Mtitle3>
+<frame1 style='normal'>//h3//Comfy Pedagogical House (CPH)// is the research and development arm of Comfy, responsible for accumulating all knowledge and information, identifying the latest trends in child-development and learning processes, in order to implement them into interactive fun-learning products.
+
+CPH activities include research and field-testing, involving many experts from various fields, which together form the wide knowledge base for Comfy’s activities.
+
+CPH is the developer of Comfy’s unique 3C Developmental Cycle™ to encourage children's curiosity, while promoting and maximizing effective learning.</frame1>
+<frame2>The immediate effect that is seen when watching a child play with the Comfy system is the magic sparkle in his eyes lighting up his whole face. This is what we refer to as "Comfy's Magic Effect". This magical effect is created by the combination of //h3//C//uriosity //PLUS// //h3//C//hallenge //PLUS// //h3//C//onfidence = //h3//3C Developmental Cycle™//
+
+//h3//Curiosity//
+Children are born with natural curiosity. At Comfy, we expose young minds to a rich interactive environment in order to leverage their natural–born curiosity and take them through a journey of learning through play and exploration, enabling the development of new skills and thought-patterns.</frame2>
+<frame3>//h3//Challenge//
+By providing children with age-appropriate, rich and developmental content, we motivate and inspire them to utilize their capabilities to the fullest. Therefore, CPH has created a line of software for children aged 1-5 years old, developing motor skills, emotional intelligence, visual and spatial perception, creative thinking, vocabulary, languages and much more.
+
+//h3//Confidence//
+The Comfy system develops self-confidence by enabling the child to play independently - being able to control the activities as an active participant rather than a passive one. Acquiring this sense of control improves the child’s confidence and self-esteem and is the basis for building a stable personality as well as healthy relationships.</frame3>
+</m3c>
+</lang>

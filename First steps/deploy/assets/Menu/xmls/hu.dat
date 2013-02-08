@@ -1,0 +1,615 @@
+﻿xmlContent=<?xml version='1.0' encoding='UTF-8'?>
+<lang translator='eric' style='Western.css' updated='15/5/2006' language='English' id='en'>
+   <main>
+	   <xml_pressTheButterfly>PRESS THE //Color#FF0000//BUTTERFLY// BUTTON ON THE COMFY KEYBOARD TO START</xml_pressTheButterfly>
+	   <xml_pressTheDrum>PRESS THE //Color#003366//DRUM// BUTTON ON THE COMFY KEYBOARD TO START</xml_pressTheDrum>
+	</main>
+
+
+
+<!-------------------------------------------      shared     ----------------------------------------------------->
+
+    <shared>
+        <back>back</back>
+        <next>next</next>
+        <beginner style='h3'>Kezdőknek</beginner>
+        <beginners style='h3'>Kezdő szint</beginners>
+		<beginnerLevel style='h3'>Kezdő szint</beginnerLevel>
+        <intermediate style='h3'>Intermediate</intermediate>
+        <intermediates style='h3'>intermediates</intermediates>
+		<intermediateLevel style='h3'>Középhaladó szint</intermediateLevel>
+        <advanced style='h3'>advanced</advanced>
+        <advanceds style='h3'>advanceds</advanceds>
+		<advancedLevel style='h3'>Haladó szint</advancedLevel>
+        <ages_1_3 style='h3'>1-3 éves korig</ages_1_3>
+        <ages_1_3C style='h3'>1-3 éves korig</ages_1_3C>
+        <ages_3_5 style='h3'>3-5 éves korig</ages_3_5>
+		<ages_3_5C style='h3'>3-5 éves korig</ages_3_5C>
+        <level1 style='comics'>Első szint</level1>
+        <level2 style='comics'>Második szint</level2>
+        <level3 style='comics'>Harmadik szint</level3>
+	<moresoft style='comics' dx="-3"  useMap="comicsMap">Magasabb szintű÷ szoftverért kattintson ide</moresoft>
+	<place_Overlay style='comics'>PLACE THE "$$nameOfGame$$" OVERLAY ON THE COMFY KEYBOARD</place_Overlay>
+    </shared>
+    <buttons style='pagesTitle'>
+        <enterGame>Enter Game</enterGame>
+        <enterGame_Inside>ENTER GAME</enterGame_Inside>
+        <activityCenter style='pagesTitle' effect='blue' width="370" dy='-10' dx='-10'>Activity|Center</activityCenter>
+        <activityCenter_Inside style='pagesTitle' effect='blue'>ACTIVITY|CENTER</activityCenter_Inside>
+        <parentSection style='pagesTitle' effect='purple'>Parent Section</parentSection>
+        <parentSection_Inside style='pagesTitle' effect='purple'>PARENT SECTION</parentSection_Inside>
+        <welcome>welcome to comfy</welcome>
+        <welcome_Inside effect='orange'>Welcome To Comfy</welcome_Inside>
+        <changeLanguage effect='orange' dy='-25'>Change Language</changeLanguage>
+        <changeLanguage_Inside effect='orange'>CHANGE LANGUAGE</changeLanguage_Inside>
+        <changeLevel effect='orange'>Change Level</changeLevel>
+        <changeLevel_Inside effect='orange'>CHANGE LEVEL</changeLevel_Inside>
+        <products effect='orange' >Comfy Products</products>
+        <products_Inside effect='orange'  style='pagesTitle60'  dx='20' dy='-20' embed='true'>Comfy termékpaletta
+</products_Inside>
+
+    </buttons>
+    
+<comicsMap>
+	<char char="Ő" map="£" />
+	<char char="ő" map="£" />
+	<char char="Ű" map="÷" />
+	<char char="ű" map="÷" />
+</comicsMap>
+    
+    
+<!-------------------------------------------      game names     ----------------------------------------------------->
+    
+<games style="title">
+	<BabyTV>BabyTV</BabyTV>
+        <letsImagine>KÉPZELD EL!</letsImagine>
+        <firstSteps useMap="comicsMap">ELSŐ LÉPÉSEK</firstSteps>
+        <animalWorld>Állatvilág</animalWorld>
+        <birthdayParty>Szülinapi Buli</birthdayParty>
+        <timeTravel useMap="comicsMap">IDŐUTAZÁS</timeTravel>
+        <myNeighborhood>Környezetem</myNeighborhood>
+        <myHome>OTTHONOM</myHome>
+        <iLivehere>I Live Here</iLivehere>
+        <comfyOnline>Comfy Online</comfyOnline>
+        <WordlOfColors>SZÍNEK VILÁGA</WordlOfColors>
+	<WorldOfColors>SZÍNEK VILÁGA</WorldOfColors>
+        <XMass>KARÁCSONY COMFYFÖLDÖN</XMass>
+	<joyOfMusic>Zene öröme</joyOfMusic>
+	<Adventure>Kalandok Számországban</Adventure>
+</games>
+
+<!-------------------------------------------      Parent Section      ----------------------------------------------------->
+
+    <parentSection style='comics22'>
+        <welcome style='comics22' Xstyle="title" dy='8'>Comfy Világa</welcome>
+        <parentGuide style='comics22' Xstyle="title">Szülői útmutató: $$nameOfGame$$</parentGuide>
+	<aboutBaby style='comics22' Xstyle="title">ABOUT BABYTV</aboutBaby>
+	<comfy3c style='comics22' Xstyle="title">COMFY PEDAGOGICAL HOUSE</comfy3c>
+        <howto style='comics22' Xstyle="title" useMap="comicsMap">HOGYAN HASZNÁLJUK A COMFY BILLENTYŰZETET</howto>
+        <educational style='comics22' Xstyle="title" >OKTATÁSI ÉRTÉKEK</educational>
+        <faq style='comics22' Xstyle="title" useMap="comicsMap" dy="-5">GYAKRAN ISMÉTLŐDŐ KÉRDÉSEK (FAQs)</faq>
+        <website style='comics22' Xstyle="title">COMFY WEBSITE</website>
+        <registration style='comics22' Xstyle="title" dy="-8">ONLINE jótállási regisztráció</registration>	
+	<performance style='comics22' Xstyle="title" dy="5">TELJESÍTMÉNY BEÁLLÍTÁSOK</performance>
+        <performance_txt1 style='normal' Xstyle="title">A képernyő felbontása befolyásolja a játékban található animációk minőségét.
+Nagyobb képernyőfelbontás a grafika minőségét javítja, de lassabb gépeken ezt a beállítást nem javasoljuk. 
+Ha az animációk lassúak, és ugrálnak, válasszon kisebb képernyőfelbontást az alapértelmezettnél.
+
+
+
+
+//h2//Válassza ki a kívánt képernyőfelbontást:</performance_txt1>
+<default>(Alapértelmezett)</default>
+    </parentSection>
+<!-------------------------------------------      EDUCATIONAL      ----------------------------------------------------->
+
+<educational style='normal'>
+        <title1 style='title'>OKTATÁSI ÉRTÉKEK
+ÁLTALÁNOS RÉSZ</title1>
+        <note ready='true' style='note'>//i//Megjegyzés:// Annak érdekében, hogy a gyermek elsajátítsa az alább bemutatott értékeket és készségeket, a Comfy számos a gyermek életkorának és fejlettségi szintjének megfelelő játék CD-t készített. </note>
+        <frame1 ready='false' style='normal'>A Comfy billentyűzetet és programot, digitális médiára szakosodott, pedagógiai kutató és fejlesztő csapat tervezte és készítette úgy, hogy azok igazodjanak az 1-5 éves gyerekek érdeklődéséhez és képességeihez. A nagy, illusztrált gombok, a könnyen megmarkolható telefonkagyló és a "pörgő-forgó" az apró kezek által is könnyen használhatóak, így általuk a gyermek függetlenségre és kényelmes kontrollérzetre tehet szert, az olvasás vagy az egér használatának ismerete nélkül is.</frame1>
+        <frame2 >A Comfy interaktív környezetében történő játék a következőket nyújtja gyermeke számára:
+
+**Játszva és felfedezve tanulás.
+**Alapvető számítógépes ismeretek megszerzése.
+**Kognitív, érzelmi és közösségi készségek fejlesztése.
+
+A Comfy megközelítését a következő minőségi jellemzők teszik egyedivé és alkalmassá a kívánt oktatási eredmények elérésére:
+
+**A tevékenységek történetek, animációs filmek, képnézegetés
+   és színezés, zenehallgatás és dalok éneklése, motorikus
+   tevékenységek és társas kapcsolatok bemutatása, és
+   mindezek interaktív elegyéből állnak.</frame2>
+ 
+ <frame3 style='normal'>**A Comfy billentyűzet helyettesíti a hagyományos
+   billentyűzetet és egeret. Minden billentyű színes
+   és könnyen használható. Nincs szükség sem az olvasás
+   vagy az írás ismeretére. 
+   
+**A Comfy feladatai a gyerekek korához illőek, a
+   történetben szereplő tárgyak és karakterek szeretni
+   valóak és szórakoztatóak.
+   
+**Ha a játék szintjét a gyermek fejlettségi szintjéhez
+   igazítottuk és a játék elindult, a gyermek képes szülői
+   segítség nélkül játszani. A számítógépes karakterek
+   beszélnek gyermekéhez és elmagyarázzák, hogy a
+   játék egyes pontjain mit kell tennie. Minden magyarázatot
+   változatos grafikus illusztráció és animáció kisér.</frame3>
+
+<frame4 style='normal'>**A Comfy számtalan további nevelési lehetőséget kínál
+   a gyermek-szülő együttműködés terén feladatok
+   megoldása közben és után. Ön, mint szülő és családja
+   véget nem érő élményeknek lesznek részesei.
+   
+A következő részek röviden leírják a gyermek készségeit és fejlődésének lehetséges útjait, valamint részletezik, hogyan járul hozzá Comfy a gyermeke érzékszervi, motorikus, kognitív és érzelmi készségeinek fejlődéséhez.</frame4>
+
+<title5 style='title'>NEVELÉSI ÉRTÉKEK
+MOTORIKUS ÉS ÉRZÉKSZERVI KÉSZSÉGEK</title5>
+<frame5 style='normal'>//h1//Motorikus és érzékszervi készségek
+
+Ahogy a gyermek nő, fizikai és értelmi képessége fejlődik, ami képessé teszik arra, hogy bonyolultabb feladatokat oldjon  meg.  Megtanul tárgyakat és karaktereket felismerni, érzékeli a közvetlen környezet ingereit és fejleszti az érzékelését.
+
+A Comfyval való játék során gyermeke megtanulja:
+**Az összefüggést a képernyőn látott tárgyak és karakterek,
+   valamint a billentyűzet megfelelő gombjai között.
+**Fejleszteni vizuális felfogó képességét különböző formák
+   és színek megkülönböztetése során.
+**Fejleszteni hallását.</frame5>
+
+<title6 style='title'>NEVELÉSI ÉRTÉKEK
+NYELVI KÉSZSÉGEK</title6>
+<frame6 style='normal'>//h1//Nyelvi készségek
+	
+Ahogyan megtanulnak mondatokat alkotni, a gyermekek szókincse folyamatosan bővül.
+
+A Comfy segítségével gyermeke:
+**Megtanulja, hogyan tud kérdő, kérő, figyelmeztető és
+   utasító mondatokat alkotni.
+**Olyan új fogalmakkal bővíteni ismereteit, amelyek sajátos
+   témákhoz kapcsolódnak, mint időjárás, posta, idő.
+</frame6>
+
+<title7 style='title'>OKTATÁSI ÉRTÉKEK
+GONDOLKODÁSI KÉSZSÉG</title7>
+<frame7 style='normal'>//h1//Gondolkodási készség
+ 
+A gyerekek memóriája fokozatosan fejlődik, ami képessé teszi őket arra, hogy egyre több és több képre, hangra és tapasztalatra emlékezzenek. Emellett képzelőerejük is fejlődik és egyre kreatívabb a gondolkodásuk. 
+
+A Comfyval való játék gyermekének segít:
+**Az ok-okozati összefüggés megértésében  azzal, hogy
+   a gyermek beavatkozhat egy kibontakozó történetbe
+   és abban változásokat eszközölhet (pl. esőt csinál,
+   nappalból éjszakát).
+**Gyakorolni az emlékezést tárgyakra, zajokra, hangokra,
+   eseményekre és karakterekre tevékenységek során.</frame7>
+
+<frame8 style='normal'>**Fejleszteni kreativitását és képzelőerejét azáltal,
+   hogy a forgatókönyv részévé válik,
+   amit befolyásolhat kedve szerint.
+   
+**Részt vesz egy szerepjátékban, amelyben megismerkedhet
+   a valódi világgal, amelyben a karakterek élnek.
+   
+**Megtanul összpontosítani és szellemi erőfeszítést fordítani
+   valamire, az erőt próbáló feladatok révén.</frame8>
+
+<title9 style='title' useMap="comicsMap">NEVELÉSI ÉRTÉKEK
+Érzelmi fejlődés</title9>
+<frame9 style='normal'>//h1//Érzelmi fejlődés
+  
+A gyerekek éppúgy igénylik a meleg és bátorító környezetet, mint a korlátozások és tiltások egyértelmű megfogalmazását. Ez lehetővé teszi számukra, hogy fejlesszék önállóságukat, érdeklődjenek a környezetük iránt, és olyan tevékenységeket kezdeményezzenek, amelyek fejlesztik magabiztosságukat és énképüket.
+
+Gyermeke számára a Comfy biztosít:
+**Pozitív tapasztalatokat, színek és hangok
+   megváltoztatásának élményétől a barátságos
+   karakterekkel való megismerkedésig.
+**Visszajelzést és bátorítást a billentyűzet használata közben.  
+**Lehetőséget a pihenésre a pörgő-forgó tekergetésével,
+   ha túl sok inger érte.</frame9>
+ 
+<frame10 style='normal'>**Az irányítás érzését a Comfy billentyűzet használatával az
+   események és a történet kibontakozása felett. Az irányítás
+   érzete fejleszti a gyermek magabiztosságát és énképét. 
+   
+**A játék szabályai által megkövetelt korlátozások érthető
+   megfogalmazását (pl. Buddy, a medve kéri a gyereket,
+   hogy fakasszon esőt, "de ne azonnal – kicsit később,
+   csak miután már hazaértem").</frame10>
+   
+<title11 style='title'>NEVELÉSI ÉRTÉKEK
+KÖZÖSSÉGI ÉRTÉKEK ÉS VISELKEDÉS</title11>
+<frame11 style='normal' dy='-8'>//h1//Közösségi értékek és viselkedés
+		
+A fiatal gyermek megtanulja a viselkedés elfogadott formáit, ahogy egyre inkább megismeri a szociális és kulturális normákat. A Comfy játékokkal megfelelő viselkedésmintákat tanul, illetve azt, hogy hogyan kerekedjen felül a társas kapcsolatok nehézségein és akadályain.
+
+Ezen a területen a Comfy:
+**Segít, hogy gyermeke átélje és megtanulja a
+   mindennapi helyzetekben szükséges viselkedésformákat.
+**Olyan karaktereket mutat be, amelyekkel gyermeke
+   azonosulni tud.
+**Kiemel pozitív szociális normákat, mint az
+   együttműködés és a másoknak való segítségnyújtás. 
+</frame11>
+<frame12>**Comfyföld olyan pozitív értékeket mutat be, mint a
+   barátság, kompromisszumkészség és tisztelet minden
+   élőlény és tárgy iránt.</frame12>
+</educational>
+    
+<!-------------------------------------------      WELCOME    ( about comfy)  ----------------------------------------------------->
+
+<welcome>
+<frame1 ready='true' style='normal'>A Comfynál határozott meggyőződésünk, hogy egy elégedett, életvidám gyermek felneveléséhez olyan biztonságos környezet szükséges, amely egyszerre érdekes és támogató számára.
+
+Ennek a támogatásnak egyik módja a konstruktív játék, gyermek és szülő közös részvételével. Azok a játékok, amelyek a gyermeknek kihívást nyújtanak és rávezetik a megoldásra, a tanulást igyekszenek megszerettetni, miközben magabiztosságot és önbizalmat is építenek.
+
+A számítógép ideális csatorna az ilyen típusú konstruktív játékhoz. Sok gyermeket vonz a szülők számítógépe, és a Comfy interaktív termékei lehetővé teszik, hogy a gyerekek felfedezzék a körülöttük lévő világot és fejlesszék képességeiket, egy kimondottan számukra tervezett környezetben.
+</frame1>
+<frame2>A Comfy termékek tetszetősek, anyagukkal stimulálják és ingerlik a gyermek fantáziáját. A játékot úgy terveztük, hogy az a gyermek számára a kísérletezést és új felfedezéseket a hibázástól és kudarctól való félelem nélkül tegye lehetővé, valamint támogassa abban, hogy jobban bízzon saját képességeiben, és a Comfy termékeket akár önállóan - szülői irányítás nélkül - használhassa. 
+
+A Comfy termékekkel való játék segíti a gyermeket személyes céljai elérésében, valamint megfelelő irányítással, fejleszti kognitív, szociális és emocionális készségeit. Hisszünk abban, hogy minden gyermek képes szórakoztató játékkal tanulni, és a tanuláson keresztül az egyedül elért siker érzését megtapasztalni. Reméljük sok szórakoztató órát fognak a Comfyval eltölteni. A tanulásból sosem lehet elég.
+</frame2>
+        <website ready='false' note='it have to be there' style='comics22'>COMFY WEBSITE</website>
+</welcome>
+
+
+
+
+    
+ <!---------------------------------------------------   Use Comfy  	---------------------------------------------------------------->   
+    
+    <useComfy style='normal'>
+
+        <title1 style='title' useMap="comicsMap">HOGYAN HASZNÁLJUK
+A COMFY BILLENTYŰZETET</title1>
+
+        <note style='note'>//i//Megjegyzés:// A „Hogyan használjuk a Comfy billentyűzetet”, a billentyűzet funkcióit jelen szoftvertől függetlenül mutatja be. Kérjük olvassa el a "Szülői útmutató"–t részletesebb információért.</note>
+
+<frame1 style='normal'>A Comfy Billentyűzet segítségével a csecsemők és kisgyermekek is élvezhetik a Comfy játékok lenyűgöző interaktív világát. Úgy terveztük a billentyűzetet és a kapcsolódó játékokat, hogy megfeleljenek az 1és 5 év közötti gyermekek érdeklődésének és képességeinek, ezáltal a saját tempójukban haladhassanak. 
+
+Ismerős formái, vibráló színei és barátságos képei vonzzák a kis kezeket, hogy megérintsék, felfedezzék és megismerjék. A speciálisan tervezett szoftver többszintű tevékenységgel bír, ami a gyermek számára lehetővé teszi, hogy saját képességének megfelelő tevékenységekkel játsszon.</frame1>
+
+<frame2 dy='-10'>//h1//A billentyű gombjainak leírása:
+
+//h1//Időjárás billentyűk//
+
+A Comfy billentyűzet három időjárás gombbal rendelkezik:
+**A nap és nappal gomb
+**A hold és éjszaka gomb
+**A felhő és eső gomb
+
+Ezen gombok egyikét megnyomva, az időjárás megváltozik Comfyföldön, a gyermek pedig megtanulja felismerni jellemzőjüket.
+
+//h3//Amire az Időjárás billentyűk használata tanít:
+**Megérteni a nappal és éjszaka fogalmát.
+**Azonosítani egy jelenséget, mint pl. az eső</frame2>
+
+<frame3>//h1//Karakter billentyűk és a telefonkagyló:
+
+**Snaily
+**Buddy
+**Jumpy
+**Feely
+**Comfy
+
+A gyermek a játék folyamán bármikor felhívhatja a karaktereket és ilyenkor különféle helyeken és szituációkban találja őket.
+
+//h3//Amire a telefonkagyló használata tanít:
+**Megismerkedés a telefonnal, mint interaktív kommunikációs
+   eszközzel. 
+**Személyes kapcsolat kialakítása a Comfy karakterekkel,
+   valamint a társas érintkezés formuláinak gyakorlása.</frame3>
+
+<frame4>//h1//Zene billentyűk
+
+Négy Zene billentyű van a billentyűzeten: dob, furulya, zongora és trombita.
+A Kotta billentyűt megnyomva felcsendül a Comfy fő dala, ami bemutatja Comfyföld karaktereit.
+Az egyes hangszer billentyűket megnyomva megjelenik az adott hangszer és eljátszik egy rá jellemző zenei részletet. Amikor gyermeke újra megnyomja ugyanazt a gombot, a dallam és annak tempója fokozatosan változik. 
+
+//h3//Amire a Zene billentyűk használata tanít:
+**Formájuk és hangjuk alapján a négy hangszer
+   felismerése, azonosítása.
+**Számos hangszer megkülönböztetése.
+**Dallamok felismerése és dalok tanulása.</frame4>
+
+<frame5>//h1//Szín billentyűk
+
+A billentyűzetnek 6 szín billentyűje van:
+
+//Color#9900FF//Lila//  //Color#FF7600//Narancssárga//  //Color#009900//Zöld//  //Color#333399//Kék//  //Color#FFFF66//Sárga//  //Color#CC0000//Piros//
+
+A szín billentyűk lenyomása azonos színű tevékenységet indít el. 
+A játék folyamán, a gyermek a Szín billentyűk segítségével különböző tevékenységeket játszhat.
+
+//h3//Amire a Szín billentyűk használata tanít:
+**A billentyűk színeinek megismerése.
+**A színek esztétikus használata.
+</frame5>
+<frame6>//h1//Pörgő-forgó
+
+A Comfy billentyűzet rendelkezik egy forgó hengerrel, amely körbe forog és a gyermek szabadon tekergetheti. 
+
+A „Pörgő-forgó” ideiglenesen megváltoztatja a képernyőn zajló események tempóját. Minél gyorsabban forgatja a gyermek, annál gyorsabb lesz az események tempója. 
+
+//h3//Amire a pörgő-forgó használata tanít:
+**Mókázás és fantázia szabadon engedése. 
+**Örömteli időtöltés a képernyőn zajló eseményekben
+   elmerülve és azokat irányítva.</frame6>
+
+<frame7>//h1//Szünet billentyű
+
+A Szünet billentyűt megnyomva, mind hang, mind kép formájában megtapasztalható az  "Állj" jelentése.  Bármelyik másik gomb megnyomásával újraindítható a félbeszakított tevékenység. 
+
+//h3//A Szünet billentyű által megismert fogalmak:
+**Lehetővé teszi a gyermek számára, hogy szülői
+   segítséget kérjen.
+**Lehetőséget ad egy részlet megbeszélésére vagy
+   egy kedvelt kép nézegetésére.</frame7>
+</useComfy>
+
+<!---------------------------------------------------  COMFY PEDAGOGICAL HOUSE  ------------------------------------------------->
+
+<m3c style='normal'>
+        <Mtitle1 style='title'>INTRODUCING COMFY PEDAGOGICAL HOUSE (CPH)</Mtitle1>
+		<Mtitle2 style='title'>INTRODUCING COMFY 3C DEVELOPMENTAL CYCLE™</Mtitle2>
+		<Mtitle3 style='title'>PARENTS’ ROLE IN MAXIMIZING COMFY 3C SYSTEM</Mtitle3>
+		<frame1 style='normal'>//h3//Comfy Pedagogical House (CPH)// is the research and development arm of Comfy, responsible for accumulating all knowledge and information, identifying the latest trends in child-development and learning processes, in order to implement them into interactive fun-learning products.
+
+CPH activities include research and field-testing, involving many experts from various fields, which together form the wide knowledge base for Comfy’s activities.
+
+CPH is the developer of Comfy’s unique 3C Developmental Cycle™ to encourage children's curiosity, while promoting and maximizing effective learning.</frame1>
+
+
+
+        <frame2>The immediate effect that is seen when watching a child play with the Comfy system is the magic sparkle in his eyes lighting up his whole face. This is what we refer to as "Comfy's Magic Effect". This magical effect is created by the combination of //h3//C//uriosity //PLUS// //h3//C//hallenge //PLUS// //h3//C//onfidence = //h3//3C Developmental Cycle™//
+
+//h3//Curiosity//
+Children are born with natural curiosity. At Comfy, we expose young minds to a rich interactive environment in order to leverage their natural–born curiosity and take them through a journey of learning through play and exploration, enabling the development of new skills and thought-patterns.</frame2>
+
+<frame3>//h3//Challenge//
+By providing children with age-appropriate, rich and developmental content, we motivate and inspire them to utilize their capabilities to the fullest. Therefore, CPH has created a line of software for children aged 1-5 years old, developing motor skills, emotional intelligence, visual and spatial perception, creative thinking, vocabulary, languages and much more.
+
+//h3//Confidence//
+The Comfy system develops self-confidence by enabling the child to play independently - being able to control the activities as an active participant rather than a passive one. Acquiring this sense of control improves the child’s confidence and self-esteem and is the basis for building a stable personality as well as healthy relationships.
+</frame3>
+
+</m3c>
+<!---------------------------------------------------  activityCenter  ------------------------------------------------->
+
+    <activityCenter style='comics' embed="false" useMap="comicsMap">
+	<frame1 style='comics' dy='-45' width="350" height="500" useMap="comicsMap">Pihenésül színezd ki Comfyföld képeit.
+A SZÍNEZŐLAPOK megtekintéséhez kattints
+rá egy comfyföldi karakterre.
+Válaszd ki a kedvenc képed.
+Kattints a kép kinyomtatásához, majd színezed ki a képet.
+Jó szórakozást!
+</frame1>
+</activityCenter>
+
+<!---------------------------------------------------       FAQ      ------------------------------------------------->
+
+<faq style='normal'>
+        <questions>Kérdések</questions>
+        <note style='note'>//i//Megjegyzés:// A különféle feladatok részletes leírását keresse az „Útmutató Szülőknek” vonatkozó részében. </note>
+        
+	<Q_chooseLang>Hogyan váltsunk nyelvet?</Q_chooseLang>
+        <chooseLang>Kattintsunk a „Nyelvválasztás” gombra a menüben.
+Használja a fel és le nyilakat az összes elérhető nyelv megtekintéséhez. Kattintson a megfelelő zászlóra a nyelv kiválasztásához.
+Ha megnyomja a piros „Játék indítása” gombot, a játék megkezdődik a kiválasztott nyelven.
+</chooseLang>
+       
+       <Q_changeLevel>Hogyan állítsuk be a nehézségi szintet?</Q_changeLevel>
+        <changeLevel>Klikkeljen a „Szint beállítás” gombra a menüben.
+
+Válassza ki a megfelő szintet úgy, hogy rákattint egy kockára a kívánt szinten.
+
+Változtathat szintet úgy is, hogy lenyom egy Szín billentyűt a Comfy billentyűzeten: Zöld (első szint), Kék (második szint), Piros (harmadik szint).
+Amikor megnyomja a „Játék indítása” gombot, a játék a kiválasztott szinten indul el.
+</changeLevel>
+        
+	<Q_returnMain>Hogyan térhetek vissza a főmenüből a játékba?</Q_returnMain>
+        <returnMain>Nyomja meg az Esc gombot a hagyományos billentyűzeten a visszatéréshez a CD menüjébe.</returnMain>
+       
+       <Q_exitGame dy='-3'>Hogyan léphetek ki a játékból?</Q_exitGame>
+        <exitGame>Nyomja meg az Esc gombot a hagyományos billentyűzeten a játék menüjéhez való visszatéréshez.
+A játékból való kilépéshez nyomja meg az Esc gombot ismét.
+A játékból történő kilépés szülői segítséget igényel, a gyermek önállóan nem tudja végrehajtani. Ez lehetővé teszi, hogy a gyermek önállóan játsszon a Comfy környezetben anélkül, hogy véletlenül betévedne a szülők számítógépes munkakörnyezetébe. 
+</exitGame>
+        
+	<Q_difference dy='6'>Mi a különbség a játék 3 szintje között?</Q_difference>
+        
+	<Q_moveUp dy='-8'>Honnan tudom, ha eljött az idő, hogy egy szinttel feljebb lépjek?</Q_moveUp>
+			  
+        <moveUp>Minden gyermeknek egyéni fejlődési üteme van. Amikor a gyermek megérti az útmutatásokat, képes egyedül irányítani a játékot és úgy tűnik, hogy új kihívásokra vágyik, eljött a pillanat, hogy a következő nehézségi szintre lépjen.</moveUp>
+        
+	<Q_overlay >When do I place the "$$nameOfGame$$" overlay on the Comfy Keyboard and what is it used for?</Q_overlay>
+        <overlay>The "$$nameOfGame$$" overlay should be placed on the Comfy Keyboard when playing with the "$$nameOfGame$$" game CD. The overlay has different icons than the Comfy keyboard and is needed when playing with the "$$nameOfGame$$" CD content.</overlay>
+        
+	<forMoreFaqs>//Color#EC6002//Még több gyakori kérdésre megtalálja a választ weboldalunkon: www.comfyland.com//</forMoreFaqs>
+    </faq>
+    
+<!---------------------------------------------------  Products  ------------------------------------------------->
+
+<products style='products'>
+<chooseAge style='comics22'>Válasszon korcsoportot:</chooseAge>
+<chooseDesc style='normal'>Különlegesen megtervezett termékünk a tanulás és fejlődés különféle szintjeihez kínál lehetőséget izgalmas és érdeklődésre számot tartó feladatok formájában.</chooseDesc>
+<notAllSoftwares style='normalProd'>Egyes játék CD-k csak bizonyos nyelveken kaphatók. Ha naprakész információra van szüksége termékeinkkel kapcsolatban, kérjük, látogassa meg honlapunkat://HREF//www.comfyland.com// www.comfyland.com//HREF_END//</notAllSoftwares>
+<clickOnAnyImage>Kattintson egy képre, ha többet szeretne tudni!</clickOnAnyImage>
+<newPlaying style='normalProd'>Aktuális játék:</newPlaying>
+<mrktBefore style='prodBig'>Help your child reach his full potential by providing him with
+age appropriate software</mrktBefore>
+<signUp style='prodBig'>Spcieal discounts for club members.
+//HREF//www.comfyland.com/club/sign//sign up//HREF_END// for the Comfy Club for free.</signUp>
+<remind style='normalProd'>  Ne figyelmeztessen többet</remind>
+<mrktAfter style='prodBig'>Your child have been playing with this software, get your//HREF//www.comfyland.com/club/sign// 15//PERCENT// off with free sign up,//HREF_END// on our range of software</mrktAfter>
+
+<!-- ====    Products: First Steps   ======== -->
+
+<firstSteps_Intro>As „Első lépések” az első számítógépes játék, amelyet kifejezetten kisgyerekek számára terveztek (már 12 hónapos kortól) , amely lehetővé teszi, hogy gyermeke önálló számítógépes tapasztalatot szerezzen és elsőként találkozzon alapvető fogalmakkal.</firstSteps_Intro>
+        <firstSteps_Body>//h4//A szoftver az interaktivitás három szintjét kínálja:
+//u//Első szint:// ismerkedés a színekkel és hangokkal.
+//u//Második szint:// tárgyak és nevek beazonosítása.
+//u//Harmadik szint:// Következtetések és szövegértés.
+
+//h3//Segíti a gyermek fejlődését:
+**Ismerkedés színekkel, formákkal és hangokkal.
+**Fejleszti a kéz-szem koordinációt.
+**Javítja a figyelési készséget.
+**Gazdagítja az érvelési és szövegértési készséget.
+</firstSteps_Body>
+
+<!-- ====   Products: My Home   ======= -->
+
+<myHome_Intro>Az „Otthonom” önfeledt szórakozást kínál a kicsiknek az otthoni környezet felfedezése során, számos mindennapi tevékenységen keresztül. A játék tele van dalokkal és meglepetésekkel, amelyekből a gyermek megtanulja a rend fontosságát, felismeri a tárgyakat hangjukról, és megtanulja, hogyan öltözködjünk az időjártásnak megfelelően. Mimivel, a bájos 3 éves kislánnyal és barátaival bújócskázhat és számos izgalmas tevékenységben vehet részt.</myHome_Intro>
+<myHome_Body>//h3//A program az interaktivitás három szintjét kínálja://
+//u//Első szint:// Számos, az otthoni környezethez kapcsolódó tárggyal és fogalommal ismerteti meg a gyermeket.
+//u//Második szint:// A gyermek aktívan résztvesz a játékban és válaszol a karakterek kérdéseire a képernyőn megjelenő útmutatások segítségével.
+//u//Harmadik szint:// A gyermek segítség nélkül is megtanul játszani a karakterekkel.
+
+//h3//Segíti a gyermek fejlődését://
+**Megismerteti a kicsikkel az otthoni környezetet.
+**Megtanít ok és okozati összefüggéseket.
+**Fejleszti a szókincset és nyelvi készségeket.
+**Rávilágít az összehasonlító fogalmak közötti kapcsolatokra.
+</myHome_Body>
+
+<!------    Products: Let's Imagine   ------------>
+
+<letsImagine_Intro style='products'>A „Képzeld el!” a kisgyermekek számára számtalan örömteli órát kínál, amelynek során kreatív készségeiket fejleszti. Gyermeke felfedezi az örömteli tanulás élményét színes rajzok és animált képek segítségével, amelyek serkentik vizuális fejlődését és erősítik hallását.</letsImagine_Intro>
+<letsImagine_Body>//h3//A szoftver az interaktivitás három szintjét kínálja:
+//u//Első szint:// Bemutatja a gyermeknek Mimi és Boo színes világát, ahol állatokat, tárgyakat, formákat és testrészeket ismerhet meg.
+//u//Második szint:// Gyermeke aktívan közreműködik  és reagál a karakterek kérdéseire a képernyőn megjelenő tanácsok segítségével.
+//u//Harmadik szint:// Gyermeke megtanul kapcsolatba kerülni a karakterekkel segítség nélkül.
+
+//h3//Segíti a gyermek fejlődését:
+**Gazdagítja a szókincset és fejleszti a nyelvi készséget.
+**Hangok, formák és színek felismerése.
+**Megértet ok és okozati összefüggéseket.
+**Számos feladat segítségével segíti gyermeke problémamegoldó készségét.</letsImagine_Body>
+
+<!------    Products: Birthday Party   ------------>
+
+<birthdayParty_Intro>A “Szülinapi buli” a közösségi viselkedésmódok és kommunikációs eszközök elsajátításában segít gyermekének. Feely születésnapi bulija áll a történet középpontjában, ahol minden (a gyermek által választott) karakter elmeséli a saját történetét. Snaily, a csiga postásként töltött első napjáról beszél. Comfy és Jumpy varázslatos állatkerti látogatásukról számolnak be, Buddy, a mackó csudás erdei kalandját meséli el. Minden történet végén a születésnapi asztalnál találkoznak Comfyföld lakói.</birthdayParty_Intro>
+<birthdayParty_Body>//h3//Billentyűk
+A Comfy billentyűzet használatával a gyermek megtanulja, hogyan oldhat meg problémákat a történet során, a történet korábbi szakaszaiban gyűjtött információk segítségével.
+
+//h3//Segíti a gyermek fejlődését:
+**Bevezeti a gyermeket a tér és az idő fogalmába, azok viszonyaiba.
+**Bemutatja az alapvető közösségi szabályokat és értékeket.
+**Megismerteti a színeket és a számokat.
+**Fejleszti az emlékezetet és az önkifejezést.
+</birthdayParty_Body>
+
+<!------    Products: Christmas in Comfyland   ------------>
+
+<XMass_Intro>A „Karácsony Comfyföldön” egy vidám, interaktív mozi, amely számos rövid epizódból áll amelyek bemutatják az ünnep varázsát miközben nevelő és szórakoztató élményt nyújtanak.
+Comfy és barátai a karácsony ünnepére készülődnek és meghívnak más gyerekeket is, hogy csatlakozzanak hozzájuk és vegyenek részt a vidám ünnepi hangulatban. A történet végén a Comfy család elénekli a „Boldog karácsonyt kívánunk” című dal egy különleges változatát, amely összefoglalja, miről szól a Karácsony Comfyföldön: az ünnepre való készülődés öröméről és izgalmáról. Az év legcsodásabb időszaka az idén még különlegesebb lesz!
+</XMass_Intro>
+        <XMass_Body>//h3//Segíti a gyermek fejlődését:
+**Javítja a figyelési és a koncentrációs készséget, a memóriát és a kitartást.
+**Fejleszti a magabiztosságot, az önállóságot és az irányító készséget. 
+**Táplálja a pozitív érzelmeket.
+**Bemutatja az ünnep legfontosabb jellemzőit.
+</XMass_Body>
+
+<!------    Products: Joy of Music   ------------>
+
+<JoyOfMusic_Intro>A „Zene öröme” zenei fogalmakat tanít meg, azáltal, hogy meghívja a gyermeket, vegyen részt Fifi furulya, Tempó trombita, BumBum dob és Manó zongora próbáin és koncertjén. Minden egyes hangszer egy-egy bájos, különleges személyiségű karakter. A hangszerek együttműködése Comfyföld ismert és szeretett figuráival rávilágít a barátság és a kölcsönös segítségnyújtás fontosságára.
+A „Zene öröme” ideális módon mutatja be a hangszereket, a harmóniát, fejleszti a finommotoros és a nagymozgásos készségeket, valamint a hallást.
+</JoyOfMusic_Intro>
+        <JoyOfMusic_Body>//h3//Segíti a gyermek fejlődését:
+**Lelkesítő zene segítségével mutatja be a különböző hangszereket és zenei kifejezéseket.
+**Serkenti a kreativitást és az összpontosítást.
+**Fejleszti a színérzékelést.
+**Fejleszti az irányítási készséget és önbizalmat, megismerteti az étkezési illemszabályokat.
+**Hangsúlyozza a barátság és kölcsönös segítségnyújtás fontosságát.
+ </JoyOfMusic_Body>
+
+<!------    Products: World of Colors   ------------>
+
+<WordlOfColors_Intro>A “Színek világa” feltárja gyermeke előtt a színek csodás világát, Jumpy elveszett csontjának keresése közben. A gyermek megtanulja a színek neveit, a tárgyak összehasonlítását, a színek jellemző tárgyakhoz történő rendelését, miközben megfigyelő és vizuális felfogó képessége is javul. 
+A “Színek világa” a megfelelő kezdet a színekkel éppen ismerkedő gyermekek számára. A tanulást mókás interaktív történetek segítik. A színeket már ismerő gyerekeknek is jó gyakorlási lehetőséget biztosít: kiteljesíthetik kreativitásukat ezzel a sok örömet nyújtó és inspiráló játékkal.
+</WordlOfColors_Intro>
+<WordlOfColors_Body>//h3//Segíti a gyermek fejlődését:
+**A tárgyak és a színek összepárosításában.
+**Az elrejtett tárgyak felismerésében.
+**Megismerteti a térbeli viszonyok alapvető fogalmait.
+**Fejleszti a problémamegoldó képességet.
+**Fejleszti az összehasonlító képességeket.
+</WordlOfColors_Body>
+
+<!------    Products: Animal World   ------------>
+
+<animalWorld_Intro>„Állatvilág” jeleneteiben a felfedezések és meglepetések kreatív módon vezetik a gyermeket, hogy felfedezzen és tanuljon az állatvilágról és az azt körülvevő természetes környezetről. Az „Állatvilág”  játékban a gyermekek a földön, erdőben, vízben, és havas tájon kalandoznak, és ezekhez kapcsolódó varázslatos interaktív tevékenységekben vesznek részt. A felfedezésekben gazdag „Állatvilág” tanulságos történeteivel, interaktív játékaival, kreatív tevékenységeivel és szórakoztató zenéjével fejleszti a gyermek kognitív, érzelmi, nyelvi és kreatív képességeit. </animalWorld_Intro>
+<animalWorld_Body>* Ennek a CD-nek a tartalma a “Comfy Online” játékban is megtalálható.
+
+//h3//Segíti a gyermek fejlődését:
+**Fejleszti a színek, formák és számok felismerésének képességét.
+**Fejleszti a figyelési készséget és az előírások megértését, értelmezését.
+**Bővíti a szókincset és a gondolkodási mintákat.
+**Megismertet a művészettel, anyagokkal és technikákkal.
+</animalWorld_Body>
+
+<!------    Products: Time travel  ------------>
+
+<timeTravel_Intro>Az “Időutazás” során a gyermekek Comfyval és barátaival kalandos utazáson vesznek részt térben és időben. Az ‘Időutazás” különböző kultúrákat és korszakokat mutat be múltból és jövőből, érdekes történeteken, interaktív játékokon, kreatív művészeti és izgalmas zenei tevékenységeken keresztül. Comfy és barátai tanulnak dinoszauruszokról, megismerkednek az ősember szokásaival, találkoznak az indiánokkal falujukban, hogy megismerjék hagyományaikat, valamint átélik egy földönkívüli látogatását az űrből. Az “Időutazás” csodás módja annak, hogy megragadja a gyermek képzeletét azáltal, hogy lehetőséget ad egy egészen új univerzum felfedezésére. Az élmények, amiket a gyermek szerez a számos feladat során, fejlesztik képzelőerejét és kognitív képességeit.</timeTravel_Intro>
+<timeTravel_Body>* Ennek a CD-nek a tartalma a “Comfy Online” játékban is megtalálható.
+
+//h3//Segíti a gyermek fejlődését:
+**Javítja a döntéshozó képességet.
+**Elősegíti a mennyiségi fogalmak megértését.
+**Fokozza az intellektuális érdeklődést.
+**Táplálja a pozitív én képet.
+</timeTravel_Body>
+
+<!------    Products: My Neighborhood  ------------>
+
+<myNeighborhood_Intro>A „Környezetem” Comfyföld pezsgő környezetében fogadja a gyermekeket, amit ösztönző történeteken, interaktív játékokon, kreatív művészeti és szórakoztató zenei tevékenységeken keresztül ismernek meg. Comfyval és barátaival a gyermekek felfedezik az otthonukat, meglátogatják barátságos szomszédaikat, játszanak a parkban és megtanulnak számos járművet vezetni, iránymutatás alapján. A „környezetem” a mindennapi életből vett cselekményeivel remek módszer a gyermek önbizalmának megerősítésére és a kognitív, közösségi és érzelmi készségek fejlesztésére.</myNeighborhood_Intro>
+<myNeighborhood_Body>* Ennek a CD-nek a tartalma a “Comfy Online” játékban is megtalálható.
+
+//h3//Segíti a gyermek fejlődését:
+**Javítja az osztályozási és kategóriaalkotó készségeket.
+**Egyre összetettebb szintekre emeli a gondolkodás-mechanizmust.
+**Fejleszti a különböző gondolkodás-mintákat.
+**Táplálja a pozitív érzelmeket.
+</myNeighborhood_Body>
+
+<!------    Products: comfyOnline   ------------>
+
+<comfyOnline_Intro>"Comfy Online" világában a gyerekeket magával ragadó számítógépes kalandok várják. Varázslatos élményekben részesülnek, miközben az interneten szörföznek Comfyföldi barátaik társaságában. A “Comfy Online” játékban a gyermekek számos egyedi és változatos tartalmú interaktív internetes játékban vehetnek részt. A tartalom folyamatosan frissül, idő, hely és események szerint, a gyermeki világot valós idejű valódi eseményekhez kötve, amely minőségi tanulási folyamatot tesz lehetővé a gyermek számára. A „Comfy Online” biztonságos környezetet nyújt az ifjú felfedezőknek az első internetes tapasztalataik megszerzéséhez.</comfyOnline_Intro>
+<comfyOnline_Body>* A “Comfy Online” tartalmának egy részét a Comfy szoftver termékcsaládja is tartalmazza.
+
+//h3//Segíti a gyermek fejlődését:
+**Javítja a figyelési és a koncentrációs készséget, a memóriát és a kitartást.
+**Különböző gondolkodásmintákra serkent.
+**Fejleszti a magabiztosságot, önállóságot és kontrollt.
+**Gondolkodásra és kreatív megoldásokra késztet.
+</comfyOnline_Body>
+
+<!------    Products: BabyTV   ------------>
+
+<babytv_Intro>BabyTV - egy interaktív játék, amely a Baby TV csatorna népszerű figuráin alapul. Ön és gyermeke találkozhatnak és játszhatnak kedvenc Baby TV figuráikkal a képernyőn kívül, miközben gyermeke tanulási és kommunikációs készsége fejlődik.</babytv_Intro>
+<babytv_Body>//h3//Segíti a gyermek fejlődését:
+**Erősíti az új felfedezések iránti természetes kíváncsiságot.
+**Elősegíti a kreatív gondolkodást és képzelőerőt.
+**Fejleszti a megértési készséget és az instrukciók végrehajtására való készséget.
+**Bővíti a szókincset és fejleszti a nyelvi készségeket.
+**Fejleszti a társalgási készséget.
+
+</babytv_Body>
+
+<!------    Products: Adventure   ------------>
+
+<Adventure_Intro>A "Kalandok Számországban" egy izgalmas és szórakoztató interaktív játék, amely elsőként nyithatja ki a számok birodalmának kapuját. Táplálja a gyermekek természetes kíváncsiságát és megerősíti kognitív és motorikus készségeiket.</Adventure_Intro>
+<Adventure_Body>//h3//Segíti a gyermek fejlődését:
+**Táplálja a gyermekek természetes érdeklődését matematikai feladatok iránt.
+**Megismerteti a kisebb számokat.
+**Gyakoroltatja mennyiségek formátumának, alakjának és sémájának megváltoztatását.
+**Elősegíti darabszámok megértését, és azt, hogy hogyan befolyásolja az összeadás és a kivonás a mennyiséget.
+**Összegek összehasonlításával, a "több" és a "kevesebb" fogalmával ismertet meg.
+</Adventure_Body>
+</products>
+
+
+
+</lang>

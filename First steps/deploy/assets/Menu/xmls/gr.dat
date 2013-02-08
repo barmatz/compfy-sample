@@ -1,0 +1,620 @@
+﻿xmlContent=<?xml version='1.0' encoding='UTF-8'?>
+<lang translator='eric' style='Western.css' updated='15/5/2006' language='English' id='en'>
+   <main>
+	   <xml_pressTheButterfly>DRÜCKE AUF DIE //Color#FF0000//SCHMETTERLING// TASTE AUF DER COMFYTASTATUR, 
+UM ZU BEGINNEN</xml_pressTheButterfly>
+	   <xml_pressTheDrum>DRÜCKE AUF DIE //Color#003366//TROMMEL// TASTE AUF DER COMFYTASTATUR, UM ZU BEGINNEN</xml_pressTheDrum>
+	   <xml_pressTheturtle>DRUCKE AUF DIE //Color#FF0000//SCHILDKROTE// TASTE AUF
+DER COMFYTASTATUR, UM ZU BEGINNEN</xml_pressTheturtle>
+	</main>
+
+
+
+<!-------------------------------------------      shared     ----------------------------------------------------->
+
+    <shared>
+        <back>ZURÜCK</back>
+        <next>next</next>
+        <beginner style='h3'>Anfänger</beginner>
+        <beginners style='h3'>Anfänger</beginners>
+		<beginnerLevel style='h3'>Anfänger</beginnerLevel>
+        <intermediate style='h3'>Fortgeschrittene|Anfänger</intermediate>
+        <intermediates style='h3'>Fortgeschrittene|Anfänger</intermediates>
+		<intermediateLevel style='h3'>Fortgeschrittene Anfänger</intermediateLevel>
+        <advanced style='h3'>Fortgeschritten</advanced>
+        <advanceds style='h3'>Fortgeschritten</advanceds>
+		<advancedLevel style='h3'>Fortgeschritten</advancedLevel>
+        <ages_1_3 style='h3'>Alter 1-3</ages_1_3>
+        <ages_1_3C style='h3'>ALTER 1-3</ages_1_3C>
+        <ages_3_5 style='h3'>Alter 3-5</ages_3_5>
+		<ages_3_5C style='h3'>ALTER 3-5</ages_3_5C>
+        <level1 style='comics'>STUFE 1</level1>
+        <level2 style='comics'>STUFE 2</level2>
+        <level3 style='comics'>STUFE 3</level3>
+	<moresoft style='comics'>For More advanced software click here</moresoft>
+	<place_Overlay style='comics'>PLACE THE "$$nameOfGame$$" OVERLAY ON THE COMFY KEYBOARD</place_Overlay>
+    </shared>
+    <buttons style='pagesTitle'>
+        <enterGame>Spielbeginn</enterGame>
+        <enterGame_Inside>SPIELBEGINN</enterGame_Inside>
+        <activityCenter style='pagesTitle' effect='blue' width="380" dy='-10' dx='-10'>Aktivitäts|zentrum</activityCenter>
+        <activityCenter_Inside style='pagesTitle' effect='blue'>Aktivitäts|Zentrum</activityCenter_Inside>
+        <parentSection style='pagesTitle' effect='purple'>Eltern</parentSection>
+        <parentSection_Inside style='pagesTitle' effect='purple'>ELTERN</parentSection_Inside>
+        <welcome>Wilkommen bei Comfy</welcome>
+        <welcome_Inside effect='orange'>WILLKOMMEN BEI COMFY</welcome_Inside>
+        <changeLanguage effect='orange' >Sprach-|Wechcel</changeLanguage>
+     
+        <changeLevel effect='orange'>Niveau-|wechsel</changeLevel>
+  
+        <products effect='orange' >Comfy Produkte</products>
+        <products_Inside effect='orange' style='pagesTitle60'  dx='20' dy='-20'>Comfys Produktangebot</products_Inside>
+
+    </buttons>
+
+
+
+<!-------------------------------------------      Parent Section      ----------------------------------------------------->
+
+    <parentSection style='comics22'>
+        <welcome style='comics22' Xstyle="title" dy='10'>WILLKOMMEN BEI COMFY</welcome>
+        <parentGuide style='comics22' Xstyle="title">ELTERNANLEITUNG: $$nameOfGame$$</parentGuide>
+	<aboutBaby style='comics22' Xstyle="title">**ABOUT BABYTV</aboutBaby>
+	<comfy3c style='comics22' Xstyle="title">**COMFY PEDAGOGICAL HOUSE</comfy3c>
+        <howto style='comics16' Xstyle="title" width="500">WIE VERWENDET MAN DAS COMFY
+KEYBOARD MIT DEN COMFY SPIELEN</howto>
+        <educational style='comics22' Xstyle="title" dy="5">PÄDAGOGISCHE WERTE</educational>
+        <faq style='comics22' Xstyle="title">HÄUFIG GESTELLTE FRAGEN (FAQS)</faq>
+        <website style='comics22' Xstyle="title">COMFY WEBSITE</website>
+        <registration style='comics22' Xstyle="title">ONLINE GARANTIE ANMELDUNG</registration>
+	<performance style='comics22' Xstyle="title">EINSTELLUNGEN</performance>
+        <performance_txt1 style='normal' Xstyle="title">Ihre Bildschirmresolution bestimmt die Leistung der Animation unserer Spiele.
+
+Eine höhere Resolutionseinstellung verbessert die Qualität der Grafik. Für langsame Computer raten wir davon allerding ab.
+
+Ist die Animation langsam und zappelig, stellen Sie eine niedrigere Resolution ein als die vorhandene.
+
+//h2//Wählen Sie die gewünschte Resolution:</performance_txt1>
+<default>(default)</default>
+    </parentSection>
+
+
+
+<!-------------------------------------------      game names     ----------------------------------------------------->
+
+<games style="title">
+	<BabyTV>BabyTV</BabyTV>
+        <letsImagine>Stell' dir vor!</letsImagine>
+        <firstSteps>Erste schritte</firstSteps>
+        <animalWorld>Die welt der tiere</animalWorld>
+        <birthdayParty>Geburtstagsparty</birthdayParty>
+        <timeTravel>Zeitreise</timeTravel>
+        <myNeighborhood>Meine nachbarschaft</myNeighborhood>
+        <myHome>Mein haus</myHome>
+        <iLivehere>Mein haus</iLivehere>
+        <comfyOnline>Comfy Online</comfyOnline>
+        <WordlOfColors>Die welt der farben</WordlOfColors>
+	 <WorldOfColors>Die welt der farben</WorldOfColors>
+        <XMass>Weihnachten im comfyland</XMass>
+	<joyOfMusic>Spass an der musik</joyOfMusic>
+	<homeHunt>*Home Hunt</homeHunt>
+	<Adventure>*Adventure in Numberland</Adventure>
+</games>
+
+<!-------------------------------------------      EDUCATIONAL      ----------------------------------------------------->
+
+<educational style='normal'>
+        <title1 style='title'>PÄDAGOGISCHE WERTE - ALLGEMEIN</title1>
+        <note ready='true' style='note'>//i//Hinweis:// Damit sich Ihr Kind alle im Folgenden beschriebenen Werte und Fertigkeiten aneignen kann, hat Comfy verschiedene CD Spiele entwickelt, die dem Alter und dem Entwicklungsstadium ihres Kindes entsprechen.</note>
+        <frame1 ready='false' style='normal'>Die Comfytastatur und die Software wurden von einem pädagogischen Forschungs- und Entwicklungsteam ausgearbeitet und entworfen, das sich insbesondere mit technologischen Medien beschäftigt, die den Fähigkeiten und Interessen von Kindern zwischen 1 und 5 Jahren entsprechen.
+Die großen Bildertasten, der leicht zu haltende Hörer und die Drehtrommel können leicht von kleinen Händen bedient werden und erlauben dem Kind Unabhängigkeit und bequeme Handhabung. Lesefähigkeit oder Handhabung der Maus sind nicht notwendig.</frame1>
+        <frame2 >Das Spiel in Comfy´s interaktivem Umfeld bietet Ihrem Kind folgendes:
+
+**Lernen durch Spiel und Entdeckung.
+**Aneignen erster Computerfertigkeiten. 
+**Entwicklung der Wahrnehmung, sowie emotionaler und sozialer Fertigkeiten.
+
+Folgende Eigenschaften machen Comfy´s Methode so besonders einmalig und angemessen, seine pädagogischen Ziele zu erreichen:
+**Die Erlebnisse bestehen aus einem interaktiven 
+   Zusammenspiel von Geschichten, Trickfilmen, 
+   Bildbetrachtungen, Malen, Musikhören, Liedersingen, sowie 
+   motorischen Übungen und Darstellungen sozialer Konzepte.</frame2>
+
+ <frame3 style='normal'>**Die Comfytastatur ersetzt die normale Tastatur und die Maus. 
+  Jede Taste hat eine andere Farbe und ist leicht zu benutzen. 
+  Es werden keinerlei Lese- oder Schreibfähigkeiten 
+  vorausgesetzt. 
+
+**Comfy Aktionen sind dem Alter angepasst und die Figuren 
+  und Gegenstände in den Geschichten sind freundlich und 
+  lustig.
+
+**Sobald das Niveau dem Lern- und Entwicklungsstadium Ihres 
+  Kindes angepasst ist, beginnen die Erlebnisse; Ihr Kind kann 
+  ohne elterliche Hilfe das Spiel beginnen. Die Computer 
+  Figuren sprechen zu Ihrem Kind und erklären, was bei jeder 
+  Stufe des Spiels zu tun ist. </frame3>
+
+<frame4 style='normal'>**Comfy hat eine Vielzahl von pädagogischen Möglichkeiten für 
+  ein Zusammenspiel von Eltern und Kind während und nach 
+  dem Spiel eingebaut. Als Eltern werden Sie zahllose 
+  angenehme Erfahrungen mit ihrem Kind teilen. 
+
+In den folgenden Absätzen erhalten Sie eine kurze Beschreibung der Fertigkeiten und Entwicklungsmuster von Kindern, sowie eine Darstellung, wie Comfy zur Entwicklung der Sinneswahrnehmung, der motorischen und emotionalen Fertigkeiten Ihres Kindes beiträgt.</frame4>
+
+<title5 style='title'>PÄDAGOGISCHE WERTE - 
+MOTORIK UND SINNESWAHRNEMUNG</title5>
+<frame5 style='normal'>//h1//Motorik und Sinneswahrnehmung
+
+Wenn Kinder heranwachsen, entwickeln sich ihre physischen und geistigen Fähigkeiten und geben ihnen die Möglichkeit, komplexere Aufgaben zu meistern. Ihr Kind lernt Gegenstände und Personen zu erkennen, Umweltreize richtig zu interpretieren und seine Sinne zu entwickeln.
+
+Wenn Ihr Kind mit Comfy spielt, lernt es:
+**Eine Verbindung herzustellen zwischen den Gegenständen 
+  und Figuren, die es auf dem Monitor sieht und denen auf der 
+  Comfytastatur.
+**Die visuelle Erfassung zu verbessern durch die 
+  Unterscheidung verschiedener Formen und Farben.
+**Das Hörverständnis zu verbessern.</frame5>
+        <title6 style='title'>PÄDAGOGISCHE WERTE - 
+SPRACHKENNTNISSE</title6>
+        <frame6 style='normal'>//h1//Sprachkenntnisse
+
+Der Wortschatz der Kinder wird durch die Aneignung von Satzstrukturen, ständig grösser.
+
+Mit Comfy kann Ihr Kind:
+
+**Lernen, Fragen, Wünsche, Warnungen und  Angaben in 
+  Sätzen auszudrücken.
+
+**Neue Begriffe zu bestimmten Bereichen, wie Wetter,
+  Post und Zeit, kennen lernen.</frame6>
+<title7 style='title'>PÄDAGOGISCHE WERTE -
+GEDANKLICHE FERTIGKEITEN</title7>
+<frame7 style='normal'>//h1//Gedankliche Fertigkeiten
+
+Die Aufnahmefähigkeit des Gedächtnisses Ihres Kindes nimmt ständig zu und ermöglicht es ihm, immer mehr Bilder, Stimmen und Erfahrungen zu behalten. Darüber hinaus entwickelt sich seine Fantasie und es verbessern sich seine kreativen Denkfertigkeiten.
+
+Das Spiel mit Comfy kann Ihrem Kind helfen:
+**Das Verständnis von Ursprung und Wirkung zu 
+   verbessern, indem ihm die Möglichkeit gegeben wird,
+   direkt in eine laufende Geschichte einzugreifen und 
+   Veränderungen einzubauen (z.B. Regen einbauen, Tag 
+   und Nacht auszutauschen).</frame7>
+
+<frame8 style='normal'>**Zu üben Gegenstände, Geräusche, Stimmen, Ereignisse 
+   und Figuren während des gesamten Spiels zu behalten.
+**Seine Fantasie zu entwickeln. Durch seine Beteiligung 
+   am Ablauf der Geschichte. Durch Veränderungen, 
+   die es einbauen kann, werden seine kreativen 
+   Fähigkeiten gefördert.
+**An „Rollenspielen” mit den Figuren teilzunehmen
+   und von ihnen etwas über die „echte" 
+   Welt erfahren, in der sie leben. 
+**Sich zu konzentrieren und geistigen Einsatz zu
+   zeigen, durch die Erfüllung fordernder Aufgaben.
+</frame8>
+
+<title9 style='title'>PÄDAGOGISCHE WERTE - 
+EMOTIONALE ENTWICKLUNG</title9>
+<frame9 style='normal'>//h1//Emotionale Entwicklung
+
+Kinder brauchen ein warmes und unterstützendes Umfeld und eine klare Definition von Grenzen und Verboten. Es wird Ihnen eingeräumt, ihre Unabhängigkeit zu entwickeln, ihre Umwelt zu erforschen und Aktionen zu beginnen, mit der Absicht, ihre Selbstsicherheit und ihr Selbstwertgefühl zu fördern.
+
+Comfy gibt ihrem Kind:
+**Positive Erfahrungen - von der Entdeckung 
+   wechselnder Farben bis zur Begegnung mit 
+   freundlichen Figuren.
+**Feedback und Lob für seine Betätigung der Tastatur.
+**Eine Gelegenheit, Reize auszuleben, indem es 
+   die Drehtrommel auf der Comfytastatur verwendet.
+ </frame9>
+        <frame10 style='normal'>**Ein Gefühl, die Comfytastatur, die Ereignisse beim
+   Spiel und den Ablauf der Handlung "unter Kontrolle"
+   zu haben. Dieses Gefühl der Kontrolle fördert das 
+   Selbstbewusstsein und das Selbstwertgefühl des Kindes.
+
+**Eine klare Definition der Spielregeleinschränkungen
+   (z.B.: Buddy der Bär bittet das Kind, es regnen zu
+   lassen "aber nicht sofort, - erst etwas später, 
+   wenn er nach Hause kommt.") </frame10>
+        <title11 style='title'>PÄDAGOGISCHE WERTE - SOZIALE 
+NORMEN UND WERTE KENNENZULERNEN </title11>
+		<frame11 style='normal' height="600">//h1//Soziale Normen und Werte kennenzulernen 
+Kleine Kinder erlernen gutes Verhalten durch das Kennenlernen von sozialen und kulturellen Normen. Mit Comfy-Spielen lernen sie angemessene Verhaltensmuster und auch, wie man soziale Schwierigkeiten und Hürden überwindet.
+In diesem Bereich kann Comfy:
+**Ihrem Kind helfen, an verschiedenen Alltagssituationen
+   teilzunehmen und das jeweils dazugehörige Verhalten
+   zu erlernen.
+**Es werden Figuren eingesetzt, mit denen sich ihr
+   Kind identifizieren kann.
+**Soziale Normen werden betont, z.B. Zusammenarbeit
+   und gegenseitige Hilfe.
+**Comfyland führt positive Werte von Freundschaft,
+   Kompromisbereitschaft und Respekt für jedes Wesen 
+   und jeden Gegenstand ein. 
+</frame11>
+</educational>
+
+<!-------------------------------------------      WELCOME    ( about comfy)  ----------------------------------------------------->
+
+<welcome>
+<frame1 ready='true' style='normal'>Comfy und seine Freunde öffnen die Tür zur neuen und aufregenden Multimediawelt, indem sie Erfahrungen und Freude mit Lernen und Entwicklung verbinden. Comfy gibt Ihrem Kind die Gelegenheit, ein dynamisches Umfeld einer bunten, animierten Software ohne elterliche Hilfe zu erforschen und zu beeinflussen. Es bietet außerdem eine lustige und natürliche Methode, ein Kleinkind an die grundlegenden Computerfähigkeiten und -fertigkeiten heranzuführen.
+
+Unsere Produkte wurden entwickelt, um der Motorik und der Wahrnehmung Ihres Kindes zu entsprechen. Die Comfytastatur und die Software gewähren Ihrem Kind Unabhängigkeit und angenehme Kontrolle. Ihr Kind muss weder lesen noch eine Maus betätigen können, dadurch kann nach dem eigenen Rhythmus fortgeschritten werden.</frame1>
+
+<website ready='false' note='it have to be there' style='comics22'>COMFY WEBSITE</website>
+</welcome>
+
+
+ <!---------------------------------------------------   Use Comfy  	---------------------------------------------------------------->
+
+    <useComfy style='normal13'>
+
+        <title1 style='title'>WIE VERWENDET MAN DIE COMFY-
+TASTATUR MIT DEN COMFY-SPIELEN</title1>
+
+        <note style='note'>//i//Hinweis:// Die Erklärung „Gebrauch der Comfytastatur mit Comfy Spielen” geht nicht darauf ein, wie die Comfytastatur mit dieser Spiele-CD einzusetzen ist. Genaue Anweisungen finden Sie im „Elternanleitung”.</note>
+
+<frame1 style='normal'>Die Comfytastatur erlaubt es den Kleinkindern, die faszinierenden interaktiven Spiele von Comfy voll zu geniessen. Das System wurde konzipiert, um den Fähigkeiten und Interessen von Kindern im Alter von 1 und 5 Jahren zu entsprechen. Es erlaubt ihnen, in ihrem ganz persönlichen Tempo voranzukommen.
+
+Die vertrauten Formen, leuchtenden Farben und freundlichen Bilder ermutigen die kleinen Händchen anzufassen, zu erkunden und zu entdecken. Die zu diesem Zweck entwickelte Software bietet vielschichtige Erlebnisse und erlaubt Ihrem Kind den Einfluss auf verschiedene Aspekte des Spiels, je nach 
+persönlicher Entwicklung.
+</frame1>
+
+<frame2>//h1//Beschreibung der Tastatur-Tasten:
+
+//h1//Tasten für Wetter und Zeit//
+
+Die Comfytastatur verfügt über drei Wetter- und Zeit-Tasten:
+**Die Sonne- und Tageslicht-Taste
+**Die Mond und Nacht-Taste
+**Die Wolken und Regen-Taste
+
+Wenn man eine Taste drückt, wechselt das Wetter im Comfyland - das Kind lernt so die verschiedenen Wettereigenschaften kennen.
+
+//h3//Erlebnisse die mit den Wetter- und Zeit-Tasten eingeführt werden:
+**Verständnis für Tag und Nacht.
+**Identifizierung von Erscheinungen wie z.B. Regen.</frame2>
+
+<frame3>//h1//Figurentasten und Telefonhörer:
+
+**Snaily
+**Buddy
+**Jumpy
+**Feely
+**Comfy
+
+Das Kind kann die Figuren zu jeder Zeit ansprechen und findet sie an unterschiedlichen Orten und in verschiedenen Situationen.
+
+//h3//Über das Telefon erlernte Ereignisse:
+**Kennenlernen des Telefons als interaktives 
+   Kommunikationsmittel.
+**Erstellung eines persönlichen Kontaktes mit 
+  den Comfy Figuren und Entwicklung sozialer 
+  Fertigkeiten.
+</frame3>
+
+<frame4>//h1//Musiktasten
+
+Auf der Tastatur befinden sich 4 Musiktasten: 
+Trommel, Flöte, Klavier, Trompete.
+Ein Druck auf die Notentaste lässt das Comfylied erklingen und die Figuren im Comfyland werden vorgestellt.
+Druck auf die einzelnen Musiktasten stellt das jeweilige Instrument vor und lässt ein Musikstück ertönen, das das jeweilige Instrument charakterisiert. Bleibt der Druck auf der Taste, verändern sich stufenweise sowohl das Tempo der Melodie, als auch die Melodie selbst. 
+
+//h3//Mit Hilfe der Musiktasten erlernte Ereignisse:
+**Kennenlernen und Identifizierung der vier 
+   Musikinstrumente (Form und Klang).
+**Unterscheiung zwischen verschiedenen Musikinstrumenten.
+**Erkennung von Melodien und 
+   Erlernen von Liedern.</frame4>
+
+<frame5>//h1//Farbtasten
+
+Die Tastatur verfügt über 6 Farbtasten:
+
+//Color#9900FF//Lila//  //Color#FF7600//Orange//  //Color#009900//Grün//  //Color#333399//Blau//  //Color#FFFF66//Gelb//  //Color#CC0000//Rot//              
+
+Der Druck auf die Farbtasten ruft eine Aktion dieser Farbe auf.
+
+Während des Spieles setzt das Kind die Farbtasten ein, um  eine Vielzahl von Aktivitäten zu durchlaufen.
+
+//h3//Mit Hilfe der Farbtasten erlernte Methoden:
+**Kennenlernen der Tastatur-Farben.
+**Einführung in ästhetische Farbverbindungen.</frame5>
+
+<frame6>//h1//Die Drehtrommel
+Die Comfytastatur verfügt über eine Drehtrommel, die sich frei dreht und dem Kind die Möglichkeit bietet, sich frei zu bewegen.
+
+Der Einsatz der Drehtrommel verändert das Ablauftempo auf dem Bildschirm. Je schneller das Kind die Trommel bewegt, desto schneller laufen die Ereignisse ab. 
+
+//h3//Mit Hilfe der Drehtrommel erlernte Methoden:
+**Gelegenheit zum Spiel und freiem Einsatz 
+   der Fantasie.
+**Spiel durch Beteiligung am Bildschirm und 
+   direkte Eingreifmöglichkeiten.</frame6>
+
+<frame7>//h1//Pausentaste
+
+Der Druck auf die Pausentaste zeigt die Bedeutung von „Stop” durch Klang und Bild. Druck auf jede andere Taste lässt die jeweilige Aktion wieder von vorne beginnen.
+
+//h3//Durch die Pausentaste erlernte Konzepte:
+**Gibt dem Kind Gelegenheit, elterliche Beteiligung 
+  zu initiieren.
+**Die Pausentaste kann für ein Gespräch oder zur 
+  Betrachtung eines schönen Bildes verwendet werden.
+</frame7>
+</useComfy>
+
+<!---------------------------------------------------  COMFY PEDAGOGICAL HOUSE  ------------------------------------------------->
+
+<m3c style='normal'>
+        <Mtitle1 style='title'>INTRODUCING COMFY PEDAGOGICAL HOUSE (CPH)</Mtitle1>
+		<Mtitle2 style='title'>INTRODUCING COMFY 3C DEVELOPMENTAL CYCLE™</Mtitle2>
+		<Mtitle3 style='title'>PARENTS’ ROLE IN MAXIMIZING COMFY 3C SYSTEM</Mtitle3>
+		<frame1 style='normal'>//h3//Comfy Pedagogical House (CPH)// is the research and development arm of Comfy, responsible for accumulating all knowledge and information, identifying the latest trends in child-development and learning processes, in order to implement them into interactive fun-learning products.
+
+CPH activities include research and field-testing, involving many experts from various fields, which together form the wide knowledge base for Comfy’s activities.
+
+CPH is the developer of Comfy’s unique 3C Developmental Cycle™ to encourage children's curiosity, while promoting and maximizing effective learning.</frame1>
+
+
+
+        <frame2>The immediate effect that is seen when watching a child play with the Comfy system is the magic sparkle in his eyes lighting up his whole face. This is what we refer to as "Comfy's Magic Effect". This magical effect is created by the combination of //h3//C//uriosity //PLUS// //h3//C//hallenge //PLUS// //h3//C//onfidence = //h3//3C Developmental Cycle™//
+
+//h3//Curiosity//
+Children are born with natural curiosity. At Comfy, we expose young minds to a rich interactive environment in order to leverage their natural–born curiosity and take them through a journey of learning through play and exploration, enabling the development of new skills and thought-patterns.</frame2>
+
+<frame3>//h3//Challenge//
+By providing children with age-appropriate, rich and developmental content, we motivate and inspire them to utilize their capabilities to the fullest. Therefore, CPH has created a line of software for children aged 1-5 years old, developing motor skills, emotional intelligence, visual and spatial perception, creative thinking, vocabulary, languages and much more.
+
+//h3//Confidence//
+The Comfy system develops self-confidence by enabling the child to play independently - being able to control the activities as an active participant rather than a passive one. Acquiring this sense of control improves the child’s confidence and self-esteem and is the basis for building a stable personality as well as healthy relationships.
+</frame3>
+
+</m3c>
+<!---------------------------------------------------  activityCenter  ------------------------------------------------->
+
+    <activityCenter style='comics'>
+	<frame1 style='comics' width="350"  dx="-5" dy="-30">SPIELE MIT DEN COMFYLAND 
+FIGUREN WEITER UND MALE.
+
+WÄHLE DIE FIGUR, DIE DU GERNE
+BUNTMALEN MÖCHTEST.
+
+DRÜCKE AUF DIE DRUCKERTASTE.
+ 
+VIEL SPASS!
+</frame1>
+</activityCenter>
+
+<!---------------------------------------------------       FAQ      ------------------------------------------------->
+
+<faq style='normal'>
+        <questions>FRAGEN</questions>
+        <note style='note'>//i//Hinweis:// Genaue Erklärungen zu den verschiedenen Aktivitäten finden Sie im „Leitfaden für Eltern” im Abschnitt für Eltern</note>
+
+	<Q_chooseLang>Wie wähle ich eine Sprache aus?</Q_chooseLang>
+    <chooseLang>Klicken sie auf die Taste „Sprachwechsel” auf dem Menü.
+	
+Mit Hilfe der Pfeile können sie alle angebotenen Sprachen einsehen. 
+
+Klicken Sie auf die Fahne der von Ihnen gewünschten Sprache.
+
+Wenn Sie auf die rote Taste „Spielbeginn” drücken, beginnt das Spiel in der von Ihnen gewählten Sprache.</chooseLang>
+
+       <Q_changeLevel>Wie wechsel ich das Niveau?</Q_changeLevel>
+       <changeLevel>Klicken Sie auf die Taste „Niveauwechsel” im Menü. 
+Wählen Sie das Niveau durch Klicken auf eines der Felder im gewünschten Niveau.
+Wenn Sie auf die rote „Spielbeginn” Taste drücken, beginnt das Spiel auf dem von Ihnen gewählten Niveau.</changeLevel>
+
+	<Q_returnMain>Wie rufe ich das Hauptmenü des Spieles wieder auf?</Q_returnMain>
+    <returnMain>Drücken Sie die Escapetaste auf Ihrer normalen Tastatur um zum CD-Menü zurückzukehren.</returnMain>
+
+    <Q_exitGame>Wie beende ich das Spiel?</Q_exitGame>
+    <exitGame>Drücken Sie auf die Escapetaste auf Ihrer normalen Tastatur, um zum CD Menü zurückzukehren.
+Drücken Sie noch einmal auf die Esc-taste, um das Spiel zu beenden.
+Die Beendigung der Comfyspiele verlangt elterliche Hilfe. Ihr Kind sollte dies nicht alleine bewerkstelligen. Es erlaubt dem Kind im Comfy Umfeld unabhängig zu spielen, ohne aus Versehen in das elterliche Computerumfeld einzudringen.</exitGame>
+
+	<Q_difference dy="7">Worin liegen die Niveauunterschiede in „$$nameOfGame$$”?</Q_difference>
+<difference>„$$nameOfGame$$” bietet 3 interaktive Niveaus, die Ihrem Kind die Möglichkeit geben, in seinem eigenen Tempo fortzuschreiten:
+Stufe 1: Ihr Kind hört Töne und sieht auf dem Monitor  Gegenstände und Formen in unterschiedlichen Farben. 
+Stufe 2: Ihr Kind lernt die auf dem 1. Niveau eingeführten verschiedenen Gegenstände zu identifizieren und lernt ihre Namen kennen.
+Stufe 3: Ihr Kind lernt das Konzept der Zusammenhänge kennen. z.B. lernt es auf  dem 1. Niveau eine Wolke kennen. Auf dem 2. Niveau lernt es ihren Namen und erfährt, dass der Regen aus der Wolke kommt. Auf dem 3. Niveau verbindet es die Wolke mit „nass”. </difference>
+	<Q_moveUp dy="7">Wie stelle ich den Zeitpunkt für das „Aufsteigen” fest?</Q_moveUp>
+        <moveUp>Wir schlagen vor, dass Ihr Kind mit der Stufe 1 beginnt und dann schrittweise zu den höheren Niveaus übergeht.
+Wenn Ihr Kind Selbstsicherheit gewonnen hat und die Aktionen im Griff hat, empfehlen wir, zum nächsten Niveau überzugehen, um dem Kind durch fordernde Aktionen weiteren Ansporn zu geben.</moveUp>
+
+	<Q_overlay >Wann verwende ich das „$$nameOfGame$$” Deckblatt und was ist seine Aufgabe?</Q_overlay>
+    <overlay>Das besondere „$$nameOfGame$$" Deckblatt bedeckt die Comfy Tastatur mit neuen Zeichen, die dem Inhalt der „$$nameOfGame$$" CD entsprechen.
+</overlay>
+
+	<forMoreFaqs>//Color#EC6002//Für weitere, häufig gestellte Fragen, besuchen//
+//Color#EC6002//Sie uns bei www.comfyland.com//</forMoreFaqs>
+    </faq>
+
+<!---------------------------------------------------  Products  ------------------------------------------------->
+
+<products style='products'>
+<chooseAge style='comics22'>WÄHLEN SIE IHRE ALTERSGRUPPE</chooseAge>
+<chooseDesc style='normal'>Unsere speziell entwickelte Software bietet unterschiedliche Niveaus für das entwicklungsgemäße Lernen durch spannende und herausfordernde Aktionen:</chooseDesc>
+<notAllSoftwares style='normalProd'>Manche unserer Software CDs sind nicht in allen Sprachen erhältlich. Für die neuesten upgedateten Angaben zu unseren Produkten besuchen Sie bitte unsere Webseite://HREF//www.comfyland.com// www.comfyland.com//HREF_END//</notAllSoftwares>
+<clickOnAnyImage>Klicken Sie auf ein Bild für weitere Informationen</clickOnAnyImage>
+<newPlaying style='normalProd'>Now Playing:</newPlaying>
+<mrktBefore style='prodBig'>Help your child reach his full potential by providing him the age appropriate software</mrktBefore>
+<signUp style='prodBig'>Spcieal discounts for club members.
+//HREF//www.comfyland.com/club/sign//sign up//HREF_END// for the Comfy Club for free.</signUp>
+<remind style='normalProd'>Don’t remind me any more</remind>
+<mrktAfter style='prodBig'>Your child have been playing with this software, get your//HREF//www.comfyland.com/club/sign// 15//PERCENT// off with free sign up,//HREF_END// on our range of software</mrktAfter>
+
+<!------    Products: First Steps   ------------>
+
+<firstSteps_Intro>„Erste Schritte” ist die erste Computerspiel CD, die speziell für Kleinkinder (schon ab 12 Monaten) entwickelt wurde. Es vermittelt Ihrem Kind ein unabhängiges Computererlebnis und eine erste Begegnung mit Grundbegriffen.</firstSteps_Intro>
+        <firstSteps_Body>//h4//Die Software bietet drei Entwicklungsstufen:
+//u//Stufe  1:// Farben und Klänge.
+//u//Stufe  2:// Erkennung von Gegenständen und Namen.
+//u//Stufe  3:// Überlegen und Verstehen.
+
+//h3//Vorteile für die Entwicklung:
+**Umgang mit Formen, Tönen und Farben.
+**Fördert die Hand-Auge Koordination.
+**Fördert Hörfertigkeiten.
+**Bereichert Scharfsinn und Auffassungsgabe.</firstSteps_Body>
+
+<!------    Products: My Home   ------------>
+
+<myHome_Intro>„Mein Haus” bietet Kleinkindern eine spielerische Entdeckungsreise durch das häusliche Umfeld. Das Spiel steckt voller Lieder und Überraschungen, durch die Ihr Kind ein Gespür für Ordnung entwickelt, Objekte durch Klänge und Stimmen wiedererkennt und lernt sich wettergerecht anzuziehen. Mit dem dreijährigen Mädchen Didi und seinen Freunden spielt Ihr Kind Verstecken und erlebt spannende Abenteuer.</myHome_Intro>
+<myHome_Body>//h3//Die Software bietet drei Entwicklungsstufen://
+//u//Stufe 1://  Erklärt Ihrem Kind verschiedene Gegenstände und Begriffe aus dem 
+                 häuslichen Umfeld.
+//u//Stufe 2://  Ihr Kind nimmt am Spiel teil und reagiert auf die Fragen der Figuren, die als 
+                 Hilfestellung auf dem Monitor erscheinen.
+//u//Stufe 3://  Ihr Kind lernt auch ohne Hinweise am Spiel der Figuren teilzunehmen.
+                 
+//h3//Vorteile für die Entwicklung://
+**Erklärt Ihrem Kind das häusliche Umfeld. 
+**Ursache und Auswirkung werden unterrichtet.
+**Erweitert den Wortschatz und die Sprachfertigkeiten.
+**Lehrt Ihrem Kind vergleichbare Situationen zu erkennen.</myHome_Body>
+
+<!------    Products: Let's Imagine   ------------>
+
+<letsImagine_Intro style='products'>„Stell` Dir vor!” fördert auf spielerische Art die kreativen Fertigkeiten der Kleinkinder. Bunte Grafiken und bewegte Bilder unterstützen die Entwicklung des Hör - und Sehsinnes. 
+Didi, Boo und ihre lustigen Freunde zeigen den Kleinkindern die Welt der Tiere, der Formen, der Gegenstände und Körperteile, entwickeln ihre Sprachfertigkeiten und helfen ihnen bei der Lösung von Aufgaben.</letsImagine_Intro>
+<letsImagine_Body margin='10'>//h3//Die Software bietet drei Entwicklungsstufen:
+//u//Stufe 1//: Ihrem Kind wird Didi und Boo´s Welt der Tiere, Formen, Gegenstände und Körperteile vorgestellt.
+//u//Stufe 2//: Ihr Kind nimmt am Spiel teil und reagiert auf die Fragen der Figuren, mit Hilfe von Andeutungen,
+               die auf dem Bildschirm erscheinen.
+//u//Stufe 3//:  Ihr Kind nimmt ohne Andeutungen am Spiel mit den Figuren teil. 
+
+//h3//Vorteile für die Entwicklung:
+  **Entwicklung des Wortschatzes und der Sprachfertigkeiten.
+  **Erkennung von Klängen, Formen und Farben.
+  **Lehrt Ursache und Wirkung.
+  **Bietet Ihrem Kind Problemlösungen durch verschiedene Erlebnisse.</letsImagine_Body>
+
+<!------    Products: Birthday Party   ------------>
+
+<birthdayParty_Intro>„Geburtstagsparty” hilft Ihrem Kind soziale Fertigkeiten und Kommunikationsfähigkeiten zu entwickeln. Feely´s Geburtstagsparty bildet den Mittelpunkt der Geschichte, in der jede Figur seine / ihre eigene Geschichte vorstellt (nachdem das Kind sie ausgesucht hat). Snaily die Schnecke beschreibt ihren erten Tag als Briefträger. Comfy und Jumpy beschreiben ihren aufregenden Besuch im Zoo und Buddy der Bär spricht von seinem herrlichen Abenteuer im Freien. Am Ende jeder Geschichte treffen sich die Comfyland-Figuren am Geburtstagstisch.</birthdayParty_Intro>
+<birthdayParty_Body>//h3//Tastaturtasten
+Durch die Verwendung der Comfytastatur lernt Ihr Kind im Verlauf der Handlung Probleme zu lösen, indem es Informationen einsetzt, die es in den vorhergegangenen Etappen der Geschichte gesammelt hat.
+
+//h3//Vorteile für die Entwicklung:
+**Es hilft dem Kleinkind Konzepte wie Raum, Zeit und relative
+   Dimensionen zu entdecken.
+**Soziale Normen und Werte kennenzulernen. 
+**Farben und Zahlen wiederzuerkennen.
+**Das Gedächtnis und die Ausdrucksfähigkeit zu verbessern.</birthdayParty_Body>
+
+<!------    Products: Christmas in Comfyland   ------------>
+
+<XMass_Intro>„Weihnachten in Comfyland” ist ein aus mehreren Teilen zusammengesetzter wunderschöner interaktiver Film, der den Zauber dieses Festes darstellt und gleichzeitig ein didaktisches und unterhaltsames Erlebnis bietet. Comfy und seine Freunde bereiten die Weihnachtsfeier vor und laden andere Kinder ein, mit ihnen die Feiertagsstimmung zu geniessen. Am Ende der Geschichte singt die Comfy Familie  ein besonderes Lied: „Wir wünschen Ihnen fröhliche Weihnachten” - und genau darum geht es bei „Weihnachten in Comfyland” - die Freude und den Spass bei den Weihnachtsvorbereitungen. Diese ganz besondere 
+Jahreszeit wird dieses Jahr noch schöner sein!</XMass_Intro>
+        <XMass_Body>//h3//Vorteile für die Entwicklung:
+**Fördert Hörfertigkeiten, Konzentrationsfähigkeit, Gedächtnis
+   und Ausdauer.
+**Fördert Selbstvertrauen, Unabhängigkeit und Beherrschung.
+**Fördert positive Gefühle.
+</XMass_Body>
+
+<!------    Products: Joy of Music   ------------>
+
+<JoyOfMusic_Intro>„Spass an der Musik” eröffnet Ihrem Kind die wunderbare Welt der Musik mit neuen, tollen Figuren: Fifi die Flöte, Tempo die Trompete, Bum-Bum die Trommel und Mano das Klavier. Ihr Kind lernt verschiedene Instrumente, ihre Laute, ihren Rhythmus und ihre Harmonie kennen. Durch Druck auf die Farbtasten können Kinder Melodien und Noten spielen und ein Multisoundensemble kreieren. „Spass an der Musik” zeigt Ihrem Kind einen bezaubernden Weg verschiedene Musikinstrumente kennenzulernen. Die angeborene Kreativität wird angeregt, so wie es nur die Musik vermag!</JoyOfMusic_Intro>
+        <JoyOfMusic_Body>//h3//Vorteile für die Entwicklung:
+**Kennenlernen von verschiedenen Musikinstrumenten 
+   und Ausdrücken.
+**Stellt die Musik auf begeisternde Art und Weise 
+   dar und regt die Kreativität an.
+**Fördert das Farbempfinden.
+**Entwickelt Selbstwertgefühl und Selbstvertrauen.</JoyOfMusic_Body>
+
+<!------    Products: World of Colors   ------------>
+
+<WordlOfColors_Intro>„Die Welt der Farben” - auf der Suche nach Jumpy´s verlorenem Knochen wird ihr Kind mitgenommen in die wunderbare Welt der Farben. Ihr Kind lernt die Namen der Farben, Farben zu bestimmen, den Vergleich von Gegenständen, Objekte zuzuordnen und seine Beobachtungsgabe wird unterstützt. „Die Welt der Farben” ist eine ideale Einführung für Kinder, die Farben gerade kennenlernen. Sie lernen spielerisch durch interaktive Geschichten. Kinder, die bereits Farben kennen, können so ihre Kreativität einsetzen und ausbauen - das Spiel wird zu einer bereichernden und anregenden Erfahrung. </WordlOfColors_Intro>
+<WordlOfColors_Body>//h3//Vorteile für die Entwicklung:
+**Farben und Gegenstände zuordnen.
+**Versteckte Gegenstände entdecken.
+**Grundlagen der Raumorientierung.
+**Erfahrung in der Problemlösung.
+**Entwicklung des räumlichen Denkens.</WordlOfColors_Body>
+
+<!------    Products: Animal World   ------------>
+
+<animalWorld_Intro>Die Entdeckungen und Überraschungen in „Die Welt der Tiere” lassen auf kreative Art und Weise Kinder, der Tierwelt begegnen und Sie neues über ihre Umgebung in der Natur erfahren. In der Tierwelt durchstreifen die Kinder „Erde”, „Wald”, „Wasser” und „Schnee” und geniessen magische, interaktive Aktionen, die mit dem spezifischen Umfeld verbunden sind. „Die Welt der Tiere” bietet eine bereichernde Erfahrung, in der das Kind emotionale, sprachliche und kreative Fertigkeiten entwickelt. Dies geschieht durch fordernde Geschichten, interaktive Spiele, kreative Künste und lustige Musikaktionen.</animalWorld_Intro>
+<animalWorld_Body>* Der Inhalt dieser CD ist außerdem bei „Comfy Online” erhältlich.
+
+//h3//Vorteile für die Entwicklung:
+**Entwickelt die Fähigkeit, Farben, Formen und Zahlen 
+   zu erkennen. 
+**Entwickelt Hörferigkeiten und verbessert das Verständnis 
+   von Anweisungen.
+**Entwickelt Wortschatz und Denkmuster.
+**Das Kind gewöhnt sich an Kunst, Materialien und Techniken.
+
+</animalWorld_Body>
+
+<!------    Products: Time travel  ------------>
+
+<timeTravel_Intro>In der „Zeitreise” geht Ihr Kind mit Comfy und seinen Freunden auf eine abenteuerliche Reise durch Raum und Zeit. Die Zeitreise zeigt verschiedene Kulturen und Zeitalter der Vergangenheit und Zukunft mit Hilfe interessanter Geschichten, interaktiven Spielen, kreativer Kunst und amüsanter musikalischer Aktionen. Comfy und seine Freunde lernen Dinosaurier kennen, erforschen die Gewohnheiten der prähistorischen Menschen, besuchen Indianer in ihrem Dorf, lernen so ihre Traditionen kennen und erleben den Besuch eines „Marsmenschen”. „Zeitreise” bildet eine wunderbare Möglichkeit, die Fantasie der Kinder anzuregen durch die Entdeckung einer völlig neuen Umwelt. Die Erfahrungen die die Kinder durch die verschiedenen Erlebnisse 
+sammeln, fördern ihre Fantasie und ihre Wahrnehmungsfähigkeit.</timeTravel_Intro>
+<timeTravel_Body>* Der Inhalt dieser CD ist außerdem bei „Comfy Online” erhältlich.
+
+//h3//Vorteile für die Entwicklung:
+**Fördert die Entscheidungsfähigkeit.
+**Fördert das Verständnis quantitativer Konzepte.
+**Fördert die Neugier.
+**Fördert das Selbstwertgefühl.</timeTravel_Body>
+
+<!------    Products: My Neighborhood  ------------>
+
+<myNeighborhood_Intro>„Meine Nachbarschaft” empfängt Kinder in Comfys aktiver Nachbarschaft. In dieser Nachbarschaft entdecken sie die vertraute Umwelt durch anregende Geschichten, interaktive Spiele, kreative Künste und lustige Musikaktionen. Mit Comfy und seinen Freunden werden die Kinder ihr Heim kennenlernen, nette Nachbarn besuchen, auf dem Spielplatz und im Park spielen und in verschiedenen Fahrzeugen herumfahren, indem sie den Richtungsanweisungen folgen. „Meine Nachbarschaft” bietet eine ausgezeichnete Möglichkeit, das Selbstwertgefühl der Kinder zu stärken und ihre sozialen und emotionalen Fertigkeiten durch bekannte Erfahrungen aus dem täglichen Leben zu fördern.</myNeighborhood_Intro>
+<myNeighborhood_Body>* Der Inhalt dieser CD ist außerdem bei „Comfy Online” erhältlich.
+
+//h3//Vorteile für die Entwicklung:
+**Fördert die Fähigkeit Einzuordnen und Kategorien herzustellen.
+**Entwickelt das Denkvermögen in immer komplizierteren Phasen.
+**Fördert verschiedenen Denkmuster.
+**Fördert positive Gefühle.</myNeighborhood_Body>
+
+<!------    Products: comfyOnline   ------------>
+
+<comfyOnline_Intro>In Comfys online Welt erleben die Kinder faszinierende Software Abenteuer und zauberhafte Surferfahrungen im Internet in Begleitung ihrer Freunde aus dem Comfyland. In „Comfy Online” findet das Kind eine ganze Reihe von einzigartigen und interaktiven Internet-Aktionen, die unterschiedliche Inhalte darstellen. Die Inhalte werden ständig auf Ereignis, Zeit und Ort auf den neuesten Stand gebracht, sodass die Welt des Kindes mit den wirklichen Vorgängen in Echtzeit verbunden ist. Auf diese Art und Weise erlebt das Kind im Laufe der Zeit hochgradige Lernprozesse. „Comfy Online” ermöglicht  jungen Entdeckern ihre erste Interneterfahrung 
+in einem „beschützten Gartenumfeld”.</comfyOnline_Intro>
+<comfyOnline_Body>* Teile des Inhalts von "Comfy Online" sind auch auf der 
+Comfy-CD Software-Serie enthalten.
+
+//h3//Vorteile für die Entwicklung:
+**Fördert Hörfertigkeiten, Konzentration, Gedächtnis und Ausdauer.
+**Regt verschiedene Denkmuster an.
+**Entwickelt Selbstbewusstsein, Unabhängigkeit und Beherrschung.
+**Fördert Denkprozesse und kreative Lösungen.</comfyOnline_Body>
+
+<!------    Products: BabyTV   ------------>
+
+<babytv_Intro>BabyTV - Go Interactive is an interactive game based on the popular characters from the
+world of BabyTV, the first channel dedicated to infants and toddlers under 3 years of age,
+The famous characters lead activities that are fun and are designed to promote development
+and interaction, We now offer you and your baby the opportunity to interact and play with
+your favorite BabyTV characters off the screen, while developing early learning and communication skills</babytv_Intro>
+<babytv_Body>//h3//Developmental Benefits
+**Enhances natural curiosity to explore.
+**Encourages creative thought and imagination.
+**Develops the ability to understand and follow instructions.
+**Expands vocabulary and language skills.
+**Develops convenation skills.
+</babytv_Body>
+
+<!------    Products: Adventure   ------------>
+
+<Adventure_Intro>"Adventure in Numberland" is an exciting and fun interactive game, which opens a first window to the world of numbers. The favorite friends from Comfyland go on a fascinating adventure in Numberland where they meet animated numbers that invite them to join a picturesque color, movement and sound experience. The game gives toddlers the opportunity to practice basic quantitative problems such as counting and numbering in a joyful way, thereby enhancing their natural curiosity and strengthening their cognitive and motor skills. </Adventure_Intro>
+<Adventure_Body>//h3//Developmental Benefits
+** Encouraging the natural curiosity of infants to experience mathematical tasks.
+** Getting acquainted with small numbers.
+** Practicing changes in form, pattern and appearance of fixed quantities.
+** Recognizing quantities of items and how addition and subtraction affect quantity.
+** Comparing amounts, and getting acquainted with the terms "more" and "less".
+</Adventure_Body>
+</products>
+
+
+
+</lang>

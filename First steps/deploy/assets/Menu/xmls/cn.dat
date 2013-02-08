@@ -1,0 +1,571 @@
+﻿xmlContent=<?xml version='1.0' encoding='UTF-8'?>
+<lang translator='eric' style='Korean.css' embed="False">
+   <main>
+	   <xml_pressTheButterfly>PRESS THE //Color#FF0000//BUTTERFLY// BUTTON ON THE COMFY KEYBOARD TO START</xml_pressTheButterfly>
+	   <xml_pressTheDrum>PRESS THE //Color#003366//DRUM// BUTTON ON THE COMFY KEYBOARD TO START</xml_pressTheDrum>
+	</main>
+
+
+
+<!-------------------------------------------      shared     ----------------------------------------------------->
+
+<shared>
+        <back>back</back>
+        <next>next</next>
+        <beginner style='h3'>beginner</beginner>
+        <beginners style='h3'>入门级</beginners>
+	<beginnerLevel style='h3'>入门级</beginnerLevel>
+        <intermediate style='h3'>中级</intermediate>
+        <intermediates style='h3'>中级</intermediates>
+	<intermediateLevel style='h3'>中级</intermediateLevel>
+        <advanced style='h3'>高级</advanced>
+        <advanceds style='h3'>高级</advanceds>
+	<advancedLevel style='h3'>高级</advancedLevel>
+        <ages_1_3 style='h3'>1-3 岁</ages_1_3>
+        <ages_1_3C style='h3'>1-3 岁</ages_1_3C>
+        <ages_3_5 style='h3'>3-5 岁</ages_3_5>
+	<ages_3_5C style='h3'>3-5 岁</ages_3_5C>
+        <level1 style='comics'>级别 1</level1>
+        <level2 style='comics'>级别 2</level2>
+        <level3 style='comics'>级别 3</level3>
+	<moresoft style='comics'>点击此处了解更多高级软件</moresoft>
+	<place_Overlay style='comics'>PLACE THE "$$nameOfGame$$" OVERLAY ON THE COMFY KEYBOARD</place_Overlay>
+</shared>
+
+<buttons style='pagesTitle'>
+       <enterGame>Enter Game</enterGame>
+        <enterGame_Inside>ENTER GAME</enterGame_Inside>
+        <activityCenter style='pagesTitle' effect='blue' width="370" dy='-10' dx='-10'>Activity|Center</activityCenter>
+        <activityCenter_Inside style='pagesTitle' effect='blue'>ACTIVITY|CENTER</activityCenter_Inside>
+        <parentSection style='pagesTitle' effect='purple'>Parent Section</parentSection>
+        <parentSection_Inside style='pagesTitle' effect='purple'>PARENT SECTION</parentSection_Inside>
+        <welcome>Comfy 的世界</welcome>
+
+        <welcome_Inside effect='orange'>Comfy 的世界</welcome_Inside>
+        <changeLanguage effect='orange' dy='-25'>Change Language</changeLanguage>
+        <changeLanguage_Inside effect='orange'>CHANGE LANGUAGE</changeLanguage_Inside>
+        <changeLevel effect='orange'>更改级别</changeLevel>
+        <changeLevel_Inside effect='orange'>更改级别</changeLevel_Inside>
+        <products effect='orange' >Comfy Products</products>
+        <products_Inside effect='orange'  style='pagesTitle60'  dx='20' dy='-20' embed='true'>Comfy`s Product Range</products_Inside>
+
+    </buttons>
+    
+    
+    
+    
+<!-------------------------------------------      game names     ----------------------------------------------------->
+    
+<games style="comics22">
+	<BabyTV>BabyTV</BabyTV>
+        <letsImagine>让我们想象</letsImagine>
+        <firstSteps>宝贝的第一步</firstSteps>
+        <animalWorld>动物世界</animalWorld>
+        <birthdayParty>生日派对</birthdayParty>
+        <timeTravel>时空旅行</timeTravel>
+        <myNeighborhood>我的邻居</myNeighborhood>
+        <myHome>我的家</myHome>
+        <iLivehere>I Live Here</iLivehere>
+        <comfyOnline>Comfy 在线</comfyOnline>
+        <WordlOfColors>色彩世界</WordlOfColors>
+	<WorldOfColors>色彩世界</WorldOfColors>
+        <XMass>Comfyland 圣诞</XMass>
+	<joyOfMusic>欢乐音乐</joyOfMusic>
+	<homeHunt>Home Hunt</homeHunt>
+	<Adventure>Numberland 探险</Adventure>
+</games>
+
+<!-------------------------------------------      Parent Section      ----------------------------------------------------->
+
+    <parentSection style='comics22'>
+        <welcome style='comics22' Xstyle="title" dy='8'>Comfy 的世界</welcome>
+        <parentGuide style='comics22' Xstyle="title" dy='8'>PARENT GUIDE: $$nameOfGame$$</parentGuide>
+	<aboutBaby style='comics22' Xstyle="title">ABOUT BABYTV</aboutBaby>
+	<comfy3c style='comics22' Xstyle="title">COMFY PEDAGOGICAL HOUSE</comfy3c>
+        <howto style='comics22' Xstyle="title" dy='12'>如何在 Comfy 游戏中使用 Comfy 键盘</howto>
+        <educational style='comics22' Xstyle="title" dy="5">教育价值</educational>
+        <faq style='comics22' Xstyle="title" dy="5">FAQS</faq>
+        <website style='comics22' Xstyle="title">Comfy 网站</website>
+        <registration style='comics22' Xstyle="title" dy='0'>在线保证注册</registration>	
+	<performance style='comics22' Xstyle="title" dy="5">游戏设置</performance>
+        <performance_txt1 style='normal' Xstyle="title" >您的屏幕分辨率影响游戏中动画的性能。
+
+选择高的屏幕分辨率会增加游戏中图形的质量，但是对于速度较慢的计算机，我们不建议这样做。
+
+如果动画较慢而且跳跃，请选择比默认分辨率低的分辨率。
+
+
+//h2//选择您喜欢的分辨率：</performance_txt1>
+<default>(默认)</default>
+    </parentSection>
+<!-------------------------------------------      EDUCATIONAL      ----------------------------------------------------->
+
+<educational style='normal'>
+        <title1 style='title'>教育价值 ——常规</title1>
+        <note ready='true' style='note'>//i//注：// 为了让孩子学习下面描述的所有价值观和技巧，Comfy 创建了许多适合您孩子的年龄和学习发展阶段的 光盘游戏。</note>
+        <frame1 ready='false' style='normal'>Comfy 键盘和软件由一个教育研究开发团队创建和设计的，他们专精制作符合 1 到 5 岁儿童能力和兴趣的技术媒介。大演示键、方便抓握的听筒和滚筒可以由孩子的小手轻松地控制。不需要阅读技巧或使用电脑的鼠标，孩子也能够独立舒适地控制。</frame1>
+        <frame2 >在 Comfy 的交互式环境中玩耍，可为您的孩子提供下面的好处：
+
+** 通过玩耍和探索进行学习。
+** 掌握基本的计算机技能。
+** 发展认知、情感和社交技能。
+
+Comfy 的方法独特、特别能达到其教育目标，因为它具有以下特质:
+
+** 这些活动是故事、动画片、看图和涂色、听音乐和唱歌、
+   运动和接触社会概念的交互式组合。</frame2>
+ 
+ <frame3 style='normal'>** Comfy 键盘取代标准键盘和鼠标。每个键都是彩色的，
+  并且易于使用。不需要阅读和写作技能。
+  
+** Comfy 活动有年龄针对性，故事中出现的人物和物体亲切
+  有趣。
+
+** 如果级别适合您孩子的学习发展阶段，游戏开始，
+   您的孩子不需要父母的帮助就可以玩。
+   电脑里的角色和您的孩子交谈，
+   解释在活动的每个阶段该做什么。
+   每个解释都配有大量的演示图形和动画
+</frame3>
+
+<frame4 style='normal'>** Comfy 为活动期间和活动后的亲子合作创造了无数的教育
+  机会。作为父母，您和您的家庭将会与孩子分享无穷无
+  尽的体验。
+
+下面各部分提供孩子技能和发展模式的简短描述，并详细说明 Comfy 如何帮助您孩子的感觉、运动、认知和情感技能的发展。
+</frame4>
+
+<title5 style='title'>教育价值 — 运动和感觉技能</title5>
+<frame5 style='normal'>//h1//运动和感觉技能
+
+孩子的身体和精神技能随着孩子的成长而发展，这使他们能够执行更复杂的任务。您的孩子学习识别物体和人物，正确地解释周围环境的刺激并发展感知能力。
+
+在玩 Comfy 时，您的孩子将学习：
+** 将他或她在屏幕上看到的物体和人物与 Comfy 键盘上的物
+   体和人物联系起来
+** 通过辨别不同的形状和颜色，提高视觉感知能力。
+** 提高听觉能力。
+</frame5>
+        <title6 style='title'>教育价值 — 语言技能</title6>
+        <frame6 style='normal'>//h1//语言技能
+	
+孩子的词汇随着他们学习造句而不断扩展。
+
+使用 Comfy，您的孩子可以：
+** 学习如何组成问题、请求、警告与指引句型
+** 获得与特定主题（如天气、邮件和时间）有关的新概念知识。</frame6>
+   
+<title7 style='title'>教育价值 — 思考技能</title7>
+<frame7 style='normal'>//h1//思考技能
+	
+孩子的记忆能力逐渐增强，让他们能够记住越来越多的图
+片、声音和经验。另外，他们的想像能力发展从而提高其
+创造性思维能力。
+
+玩 Comfy 可以帮助您的孩子：
+** 增强对原因和结果的理解。允许孩子参与一个不断演进
+   的故事并制造变化（如，让天空下雨、白天变成黑夜）
+   来理解其中的因果关系。
+
+** 通过一个活动练习记忆物体、声音、语音、事件和人物。
+</frame7>
+
+<frame8 style='normal'>** 通过参与故事的情节并可随心所欲地影响故事情节来开发
+   他/她的想像力，同时增强创新能力。
+  
+** 和角色一起参与“虚构游戏”，从他们身上了解他们生活的
+   真实世界。
+  
+** 通过执行挑战性任务来学习集中精神。
+</frame8>
+
+<title9 style='title'>教育价值 — 情感发展</title9>
+<frame9 style='normal'>//h1//情感发展
+
+孩子需要一个温暖且有支持性的环境，并且需要对限制和禁止的事情有明确的定义。这样可以让他们发展独立个性，以及探究他们周围的环境，并且努力尝试活动来强化他们的自信心和自我形象。
+
+Comfy 为您的孩子提供：
+** 积极的体验，从发现不断变化的颜色和声音到遇见友善的
+   人物
+** 对您孩子在键盘上的动作进行反馈和鼓励。
+** 通过在 Comfy 键盘上使用滚筒，可以减轻冲动。
+ </frame9>
+        <frame10 style='normal'>** Comfy 键盘的控制感、活动中的事件和故事情节的演进。
+   控制感能提高孩子们的自信心和自我形象。
+  
+** 清晰的游戏规则限制定义（例如，巴迪熊叫小孩让天
+   下雨，“但不是现在，只能是不久之后，等我回家之后”）。</frame10>
+<title11 style='title'>教育价值 — 社交和行为价值</title11>
+<frame11 style='normal'>//h1//社交和行为价值
+		
+您的孩子通过熟悉社会和文化规范来学习可接受的行为形式。通过玩 Comfy 游戏，他们学习适当的行为模式，以及如何克服社交困难和阻碍。
+
+在这方面，Comfy：
+** 帮助您的孩子参与和学习各种日常情况下的适当行为。
+** 提供您孩子能认同的角色。
+** 强调积极的社会规范，如合作和助人的价值观。
+   Comfy乐园引入了有关友谊、妥协以及尊重每个人和
+   对象的积极价值观。
+</frame11>
+</educational>
+    
+<!-------------------------------------------      WELCOME    ( about comfy)  ----------------------------------------------------->
+
+<welcome>
+<frame1 ready='true' style='normal'>Comfy 坚信，养育一个活泼可爱的孩子，最重要一点就是为他或她提供一个充满支持与趣味的安全环境。
+
+这种支持的一面可用让孩子和家人共同参与的建设性游戏来呈现。给孩子提供挑战并支持他们找到问题解决办法的游戏可鼓励孩子热爱学习，同时又能建立自信和自尊。
+
+电脑是这类建设性游戏的理想渠道。许多孩子对父母的电脑着迷，Comfy 的交互式产品专门为孩子们设计一个环境，让他们可以探索其周围环境并扩展他们的能力。
+
+Comfy 产品栩栩如生，提供启发性的材料，激发孩子的想像力。游戏的设计允许孩子进行试验并作出新的发现，而不会害怕错误或失败，让他们对自己的能力更有自信，并且可以独立使用 Comfy 产品，不需要父母进行指导。
+</frame1>
+<frame2>
+玩 Comfy 产品可以帮助孩子实现个人的目标，采用正确的指导，可以提高其认知、社交和情感能力。我们相信每个孩子都有通过有趣的玩耍进行学习并通过学习获得个人成就感的潜能。
+我们希望您从 Comfy 找到更多的乐趣。学无止境。
+
+我们的产品针对您小孩的运动和认知技能而设计。Comfy 键盘和软件可让您的孩子独立和舒适控制，不需要阅读技能，也不需要使用计算机鼠标，这样您的孩子可以按自己个人的进度进行玩耍。
+</frame2>
+        <website ready='false' note='it have to be there' style='comics22'>Comfy 网站</website>
+</welcome>
+
+
+
+
+    
+ <!---------------------------------------------------   Use Comfy  	---------------------------------------------------------------->   
+    
+    <useComfy style='normal'>
+
+        <title1 style='title'>如何在 Comfy 游戏中使用 Comfy 键盘</title1>
+
+        <note style='note'>//i//注：//“如何在 Comfy 游戏中使用 Comfy 键盘”的解释并没有详细说明如何在这款特定的游戏光盘中使用Comfy键盘。请参照“父母指南”里的详细说明。</note>
+
+<frame1 style='normal'>Comfy 键盘让婴儿和初学走路的儿童喜爱上 Comfy 迷人的交互式游戏。该系统设计针对年龄一到五岁儿童的能力和兴趣，因此他们可以按照他们自己个人的步调而进行游戏。
+
+其熟悉的形状、活泼的颜色和友好的形象吸引幼小的手指触摸、探索和发现。专门设计的软件有多个级别的活动，让您的孩子可以根据他/她个人的发展来控制活动的各层面。</frame1>
+
+<frame2 dy='-10'>//h1//键盘按键说明：
+
+//h1//天气键//
+
+Comfy 键盘有三个天气键：
+** 太阳和白天键
+** 月亮和夜晚键
+** 云和雨键
+
+每铵一次这些键中的一个键时，Comfy乐园的天气就跟着变化，这样孩子就可学习认知天气的特征。
+
+//h3//通过天气按键学到的概念：
+** 理解白天和黑夜的概念。
+** 识别一些现象，如下雨。</frame2>
+
+<frame3>//h1//人物按键和电话听筒
+
+**Snaily
+**Buddy
+**Jumpy
+**Feely
+**Comfy
+
+孩子在任何时候都可以打电话给这些人物，并在不同的位置和场合发现他们。
+
+//h3//通过电话学到的概念：
+** 了解电话是一种通信的交互手段。
+** 发展与 Comfy 人物的个人接触和社交技能。
+</frame3>
+
+<frame4>//h1//音乐键
+
+键盘上有四个音乐键：鼓、笛、钢琴和喇叭。
+按“音符”键会播放 Comfy 的主题歌并介绍 Comfy乐园的角色。
+按每个音乐键会介绍该乐器并播放一段该乐器的音乐。您的孩子继
+续按相同的音乐键时，乐曲的节拍会逐渐变化，而乐曲本身也会变化。
+
+//h3//通过音乐键学到的概念：
+** 熟悉并识别四种乐器（形状和声音）。
+** 在各种乐器之间进行辨别。
+** 识别乐曲并学习唱歌。</frame4>
+
+<frame5>//h1// 颜色按键
+
+键盘有 6 个颜色按键：
+
+//Color#9900FF//紫色//  //Color#FF7600//橙色//  //Color#009900//绿色//  //Color#333399//蓝色//  //Color#FFFF66//黄色//  //Color#CC0000//红色//
+
+按一个颜色键会启动该颜色的活动。
+在游戏期间，孩子使用颜色按键来玩各种活动。
+
+//h3//通过颜色按键学到的概念：
+** 熟悉键盘颜色。
+** 接触美学的颜色使用。</frame5>
+
+<frame6>//h1//滚筒
+
+Comfy 键盘配有一个可以拨动旋转的滚筒，让孩子可以自由地拨动。
+
+操作滚筒会临时改变屏幕上事件的节拍。孩子滚动滚筒越快，事件的节拍越快。	
+
+//h3//通过滚筒学到的概念：
+** 可以获得愉快並自由运用想像力。
+** 通过屏幕上的参与和控制来获得快乐。</frame6>
+
+<frame7>//h1//暂停键
+
+按 暂停 键会通过声音和图像演示“停止”的意思。在键盘上按任何其他键将从头开始相关的活动。
+
+//h3//通过暂停键学到的概念
+** 让父母可以介入孩子的活动。
+** 暂停可用于对话或者观看喜欢的图片。</frame7>
+</useComfy>
+
+<!---------------------------------------------------  COMFY PEDAGOGICAL HOUSE  ------------------------------------------------->
+
+<m3c style='normal'>
+        <Mtitle1 style='title'>INTRODUCING COMFY PEDAGOGICAL HOUSE (CPH)</Mtitle1>
+		<Mtitle2 style='title'>INTRODUCING COMFY 3C DEVELOPMENTAL CYCLE™</Mtitle2>
+		<Mtitle3 style='title'>PARENTS’ ROLE IN MAXIMIZING COMFY 3C SYSTEM</Mtitle3>
+		<frame1 style='normal'>//h3//Comfy Pedagogical House (CPH)// is the research and development arm of Comfy, responsible for accumulating all knowledge and information, identifying the latest trends in child-development and learning processes, in order to implement them into interactive fun-learning products.
+
+CPH activities include research and field-testing, involving many experts from various fields, which together form the wide knowledge base for Comfy’s activities.
+
+CPH is the developer of Comfy’s unique 3C Developmental Cycle™ to encourage children's curiosity, while promoting and maximizing effective learning.</frame1>
+
+
+
+        <frame2>The immediate effect that is seen when watching a child play with the Comfy system is the magic sparkle in his eyes lighting up his whole face. This is what we refer to as "Comfy's Magic Effect". This magical effect is created by the combination of //h3//C//uriosity //PLUS// //h3//C//hallenge //PLUS// //h3//C//onfidence = //h3//3C Developmental Cycle™//
+
+//h3//Curiosity//
+Children are born with natural curiosity. At Comfy, we expose young minds to a rich interactive environment in order to leverage their natural–born curiosity and take them through a journey of learning through play and exploration, enabling the development of new skills and thought-patterns.</frame2>
+
+<frame3>//h3//Challenge//
+By providing children with age-appropriate, rich and developmental content, we motivate and inspire them to utilize their capabilities to the fullest. Therefore, CPH has created a line of software for children aged 1-5 years old, developing motor skills, emotional intelligence, visual and spatial perception, creative thinking, vocabulary, languages and much more.
+
+//h3//Confidence//
+The Comfy system develops self-confidence by enabling the child to play independently - being able to control the activities as an active participant rather than a passive one. Acquiring this sense of control improves the child’s confidence and self-esteem and is the basis for building a stable personality as well as healthy relationships.
+</frame3>
+
+</m3c>
+<!---------------------------------------------------  activityCenter  ------------------------------------------------->
+
+    <activityCenter style='comics' embed="false">
+	<frame1 style='comics' width="350">拥有Comfyland的有趣彩色图片
+	
+选择您最喜欢的图片，点击打印并给您的图片涂上颜色。
+
+玩得开心！
+</frame1>
+</activityCenter>
+
+<!---------------------------------------------------       FAQ      ------------------------------------------------->
+
+<faq style='normal'>
+        <questions>问题</questions>
+        <note style='note'>//i//注：//欲了解各种活动的详细说明，请参照父母区中的“父母指南”。</note>
+        
+<Q_chooseLang>我如何选择语言？</Q_chooseLang>
+<chooseLang>使用向上和向下箭头查看所有可用的语言。单击您喜欢语言的旗子。
+
+在您按下红色的“进入游戏”按钮时，将会以您选择的语言开始游戏。
+</chooseLang>
+       
+<Q_changeLevel>我如何改变级别？</Q_changeLevel>
+<changeLevel>单击菜单上的“更改级别”按钮。单击想要级别的一个立方体选择级别。
+在您按红色的“进入游戏”按钮时，将以您选定的级别开始游戏。
+</changeLevel>
+        
+<Q_returnMain>三种不同的游戏级别之间有何不同?</Q_returnMain>
+<returnMain>在您的普通键盘上按 Escape 键返回到 光盘菜单。</returnMain>
+       
+<Q_exitGame>我如何退出游戏？</Q_exitGame>
+<exitGame>在您的普通键盘上按 Escape 键返回到 光盘菜单。
+再次按 Escape 键退出游戏。
+退出 Comfy 游戏需要父母帮助，孩子单独无法完成。这样允许孩子独自在 Comfy 环境中玩而不会意外地进入父母的计算机环境。</exitGame>
+        
+<Q_difference dy='6'>三种不同的游戏级别之间有何不同</Q_difference>
+        
+<Q_moveUp>我如何才能知道什么时候应该进入更高的级别？
+</Q_moveUp>
+<moveUp>每个孩子有其自己的速度。在孩子理解说明并且可以控制游戏，并且好象渴望新的挑战时，就建议进入下一个难度级别。
+</moveUp>
+        
+<Q_overlay >When do I place the "$$nameOfGame$$" overlay on the Comfy Keyboard and what is it used for?</Q_overlay>
+<overlay>The "$$nameOfGame$$" overlay should be placed on the Comfy Keyboard when playing with the "$$nameOfGame$$" game CD. The overlay has different icons than the Comfy keyboard and is needed when playing with the "$$nameOfGame$$" CD content.</overlay>
+        
+<forMoreFaqs>//Color#EC6002//更多 FAQ，请访问 www.comfyland.com//</forMoreFaqs>
+</faq>
+    
+<!---------------------------------------------------  Products  ------------------------------------------------->
+
+<products style='products'>
+<chooseAge style='comics22'>CHOOSE YOUR AGE GROUP</chooseAge>
+<chooseDesc style='normal'>我们专门设计的软件通过刺激而有挑战性的活动来提供各种级别的发展学习：</chooseDesc>
+<notAllSoftwares style='normalProd'>这些页面上的所有软件光盘并非都具有所有语言的版本。欲了解我们最新的产品信息，请访问我们的网站：//HREF//www.comfyland.com// www.comfyland.com//HREF_END//</notAllSoftwares>
+<clickOnAnyImage>单击任何图像了解更多信息</clickOnAnyImage>
+<newPlaying style='normalProd'>现在正在播放:</newPlaying>
+<mrktBefore style='prodBig'>为您的孩子提供适龄软件，帮助他们开启全部的潜能</mrktBefore>
+<signUp style='prodBig'>Spcieal discounts for club members.
+//HREF//www.comfyland.com/club/sign//sign up//HREF_END// for the Comfy Club for free.</signUp>
+<remind style='normalProd'>不要再次提醒我</remind>
+<mrktAfter style='prodBig'>Your child have been playing with this software, get your//HREF//www.comfyland.com/club/sign// 15//PERCENT// off with free sign up,//HREF_END// on our range of software</mrktAfter>
+
+<!------    Products: First Steps   ------------>
+
+<firstSteps_Intro>"宝贝的第一步" 是专为初学走路的儿童（年龄可早至 12 个月）创造的第一款电脑游戏光盘，它让您的孩子获得自主的电脑体验并且第一次接触到电脑的基本概念。</firstSteps_Intro>
+        <firstSteps_Body>//h4//这个软件提供三个级别的交互活动：
+//u//级别 1:// 介绍颜色和声音。
+//u//级别 2:// 物体和名称的识别。
+//u//级别 3:// 推理和理解。
+
+//h3//对幼儿发展的益处：
+** 熟悉形状、声音和颜色。
+** 发展手和眼的协调性。
+** 提高听力技能。
+** 强化推理和理解技能。
+</firstSteps_Body>
+
+<!------    Products: My Home   ------------>
+
+<myHome_Intro>“我的家” 为初学走路的儿童带来欢愉，同时通过各种日常的活动来探索家庭环境。这个游戏充满歌曲和奇趣，通过这个游戏，您的孩子了解整洁的重要性、通过声音和语音来识别物体，以及学习根据天气来穿衣服。一个 3 岁大的聪明小女孩 迪迪、她的朋友将和您的孩子一起捉迷藏，并且一起参与许多有趣的活动。</myHome_Intro>
+<myHome_Body>//h3//该软件提供三个级别的交互式活动：//
+//u//级别 1:// 向您的孩子介绍与家庭环境有关的各种物体和概念
+//u//级别 2:// 您的孩子借助屏幕上显示的各种提示参与游戏并回答角色的问题。
+//u//级别 3:// 您的孩子学习不需要屏幕提示与角色玩耍。
+
+//h3//对幼儿发展的益处：//
+** 教给您的孩子有关家庭环境的知识。
+** 教给孩子原因和结果。
+** 扩展词汇量和语言技能。
+** 教孩子比较级概念之间的关系。</myHome_Body>
+
+<!------    Products: Let's Imagine   ------------>
+
+<letsImagine_Intro style='products'>” 让我们想象” 为初学走路的小孩带来快乐并同时发展创造性技能。您的孩子将通过刺激视觉发展和促进听觉技能的五颜六色图形和动画来探索多种有趣的学习经验。</letsImagine_Intro>
+<letsImagine_Body>//h3//该软件提供三个级别的交互式活动：
+//u//级别 1//: 向您的孩子介绍 迪迪与布世界的动物、形状、物体和身体各个部分。
+//u//级别 2//: 您的孩子借助屏幕上显示的提示参与游戏并回答角色的问题。
+//u//级别 3//: 您的孩子学习不需要屏幕提示与角色互动。
+
+//h3//对幼儿发展的益处：
+  ** 扩展词汇量和语言技能。
+  ** 识别声音、形状和颜色。
+  ** 教孩子原因和结果。
+  ** 通过各种活动帮助孩子解决问题。</letsImagine_Body>
+
+<!------    Products: Birthday Party   ------------>
+
+<birthdayParty_Intro>“生日派对” 帮助您的孩子获得社交技巧和沟通的工具。
+Feely 的生日聚会是主要的故事主题，在这个聚会里，每个角色都讲他或她自己的故事（由孩子选择）。蜗牛 Snaily 讲他第一天做邮递员的故事、Comfy 和 Jumpy 讲述他们参观迷人的动物园、Buddy 熊讲他在野外的奇妙历险。在每个故事的最后，Comfy乐园的 所有角色都聚集在生日桌旁。
+</birthdayParty_Intro>
+<birthdayParty_Body>//h3//键盘按键
+使用 Comfy 键盘，您的孩子学习在故事较早阶段收集信息，並在故事发展期间解决问题。
+
+//h3//对幼儿发展的益处：
+** 帮助初学走路的儿童熟悉空间、时间和相对维度的概念。
+** 熟悉社会规范和价值观。
+** 认知颜色和数字。
+** 提高记忆和个人表达能力。</birthdayParty_Body>
+
+<!------    Products: Christmas in Comfyland   ------------>
+
+<XMass_Intro>" Comfy乐园的圣诞节" 是一款令人喜爱的互动游戏光盘，由几段简洁的情节构成，阐释圣诞节的魔力，寓教于乐。Comfy 与他的朋友们准备举行圣诞节庆祝活动，並邀请其他孩子加入，感受有趣的节日精神。故事以 Comfy 一家演唱“祝你圣诞快乐”这首特别的歌曲而结束，这就是" Comfy乐园的圣诞节" 游戏所要呈现的：准备过圣诞节的乐趣与欢愉。这个一年当中最特别的日子今年将变得更特别了！</XMass_Intro>
+        <XMass_Body>//h3//对幼儿发展的益处：
+** 提高听力、注意力、记忆力并锻炼毅力。
+** 开发自信、独立和控制能力。
+** 培养积极正向的情绪。
+** 介绍节日的主要特色</XMass_Body>
+
+<!------    Products: Joy of Music   ------------>
+
+<JoyOfMusic_Intro>"音乐的喜乐" 可以让您的孩子沉浸在一个绝妙的音乐世界里，新增了如下令人欢欣的新功能：Fifi 表示长笛、Tempo表示喇叭、Boom Boom表示鼓、Mano表示钢琴。您的孩子可以了解不同乐器的不同乐音、旋律及和声。通过按那些彩色键盘，孩子们能够真正弹出各种曲调和音符，进行多音合奏。"音乐的喜乐" 以有趣的方法让您的孩子了解各种乐器，激发出孩子们与生俱来、唯有音乐才能激发出的创造力！
+</JoyOfMusic_Intro>
+        <JoyOfMusic_Body>//h3//对幼儿发展的益处：
+** 在热情呈现音乐的同时熟悉各种乐器及术语。
+** 激发创造力和训练注意力。
+** 提高色彩感知能力。
+** 开发控制力及自信感，並传授餐桌礼仪。
+** 强调友谊及互助的价值观。</JoyOfMusic_Body>
+
+<!------    Products: World of Colors   ------------>
+
+<WordlOfColors_Intro>"彩色世界"通过寻找Jumpy丢失的骨头这样的情节，让您的孩子接触一个绝妙的彩色世界。您的孩子可以学会色彩的名称、比较各种物体、并且给特定的物体进行颜色配对，同时提高其观察能力和视觉感知能力。"彩色世界" 是那些刚开始认识颜色的孩子们的理想入门教材，通过有趣和互动的故事情节帮助他们认知颜色。那些已经熟悉颜色的孩子可以锻炼和扩展他们的创造力，让游戏成为丰富而启富发性的经验。</WordlOfColors_Intro>
+<WordlOfColors_Body>//h3//对幼儿发展的益处：
+** 给物体进行颜色配对。
+** 识别隐藏着的物体。
+** 空间方向的基本概念。
+** 如何解决问题的体验。
+** 对比技能的开发。</WordlOfColors_Body>
+
+<!------    Products: Animal World   ------------>
+
+<animalWorld_Intro>"动物世界" 中的探索发现与呈现的惊奇，对孩子们来说是一种别具创意的方式，能让孩子接触与了解更多动物的世界，以及它们所在的不同自然环境。孩子们可以在"动物世界"中经历“地球”、“森林”、“水”和“雪”四种环境，并且享受参与该特定情境中的神奇互动游戏。"动物世界" 这款游戏通过富有挑战性的故事情节、互动游戏、创新的艺术场景以及有趣的音乐活动，给孩子们一个丰富的体验，有助于发展他们的认知、情感和语言技能以及创造力</animalWorld_Intro>
+<animalWorld_Body>* 本光盘内容还可以通过"Comfy Online" 获得。
+
+//h3//对幼儿发展的益处：
+** 开发识别颜色、形状和数字的能力。
+** 开发听力，提高理解指令的能力。
+** 开发词汇和思维模式。
+** 熟悉艺术、材料及技巧。
+</animalWorld_Body>
+
+<!------    Products: Time travel  ------------>
+
+<timeTravel_Intro>在"时光旅行"这款游戏中，孩子们可以与Comfy及他的朋友们一起穿越空间和时间进行一次冒险之旅。"时光旅行" 通过有趣的故事情节、互动游戏、创新的艺术场景及有趣的音乐活动呈现过去和未来的不同文化和时代。Comfy和朋友们一起认识恐龙、探索史前人类的生活习惯、参观印第安人村落的居民，並探索他们的传统习俗、並经历外太空人的来访。"时光旅行" 让孩子接触一个全新的宇宙世界，以一种奇妙的方式捕捉孩子们的想象力。孩子们经由各种活动所获得的经验提高了他们的想象力和认知能力。</timeTravel_Intro>
+<timeTravel_Body>* 本CD内容还可以通过"Comfy Online" 获得。
+
+//h3//对幼儿发展的益处：
+** 提高决断能力。
+** 加强对数量概念的理解。
+** 增强对知识的好奇心。
+** 培养正向的自我形象。
+</timeTravel_Body>
+
+<!------    Products: My Neighborhood  ------------>
+
+<myNeighborhood_Intro>"我的小区" 可以让孩子们生活在Comfy乐园这个充满活力的社区里。在这个社区里，他们可以通过启发性的故事情节、互动游戏、创新的艺术场景及有趣的音乐活动来探索一个熟悉的环境。孩子们、Comfy及他的朋友们将一起认识他们的家庭、拜访友善的邻居、在游乐场和公园里玩耍、以及遵照指示学习驾驶各种交通工具。"我的小区" 以一种针对小孩的奇妙方式，通过在日常生活中熟悉的经验，来增强孩子们的自信能力，并培养他们的认知、社交及情感能力。</myNeighborhood_Intro>
+<myNeighborhood_Body>* 本CD内容还可以通过"Comfy Online" 获得。
+
+//h3//对幼儿发展的益处：
+** 提高区别与分类的能力。
+** 开发更加复杂级别的思维过程。
+** 改进不同的思维模式。
+** 培养积极正向的情绪。
+</myNeighborhood_Body>
+
+<!------    Products: comfyOnline   ------------>
+
+<comfyOnline_Intro>在Comfy在线世界里，孩子们在Comfy乐园朋友们的陪伴下，进行引人入胜的软件冒险活动，以及感受互联网上神奇的遨游经验。通过"Comfy 在线"，孩子们可以找到范围广阔、跨越不同内容世界、的独特互动网络游戏。游戏内容按照事件、时间和地点等方面不断更新升级，把孩子的世界与真实事件实时地结合在一起，随着时间的推演，以高质量的学习过程丰富孩子们的生活。"Comfy 在线" 能够在受保护的环境中实现小探险家的第一次网络体验。</comfyOnline_Intro>
+<comfyOnline_Body>* "Comfy 在线" 中的某些内容还可以在Comfy一系列的软件光盘的中获得。
+
+//h3//对幼儿发展的益处：
+** 提高听力、注意力、记忆力和毅力。
+** 刺激不同的思维模式。
+** 开发自信、独立和控制能力。
+** 鼓励思考和创新的解决方案。</comfyOnline_Body>
+
+<!------    Products: BabyTV   ------------>
+
+<babytv_Intro>BabyTV - 来互动 是一款基于BabyTV世界里受人喜爱的人物角色之互动游戏。BabyTV是第一个专注于3岁以下婴幼儿的频道。由著名的人物角色来带领有趣的游戏活动，旨在增进发展和加强互动。现在，我们提供您和您的孩子不用看电视也能与您喜爱的BabyTV人物一起互动和游戏的机会，同时还发展了孩子的早期学习和沟通技能。</babytv_Intro>
+<babytv_Body>//h3//对幼儿发展的益处：
+** 增强天生的探索好奇心
+** 鼓励创新思维和想象力
+** 开发理解和遵从指令的能力
+** 扩大词汇和语言能力
+** 开发交谈技能
+</babytv_Body>
+
+<!------    Products: Adventure   ------------>
+
+<Adventure_Intro>"数字乐园大冒险" 是一款令人兴奋、十分有趣的互动游戏，开启孩子们了解数字世界的第一扇窗户。Comfy乐园最受欢迎的朋友们在数字乐园进行一次奇妙的大冒险，他们遇到动画形象的数字，邀请他们加入生动的色彩、运动和声音大体验。该游戏让幼童有机会练习基本的数量问题，像是以有趣的方式数数和编号等，以此增强他们天生的好奇心，提高认知和动作技能。</Adventure_Intro>
+<Adventure_Body>//h3//对幼儿发展的益处：
+** 激励幼儿天生的好奇心去体验数学问题
+** 熟悉小数字
+** 练习固定数量在组成、形式和呈现方面的变化
+** 识别物体的数量，以及加、减对数量的影响
+** 比较数量，熟悉“多”和“少”的概念
+</Adventure_Body>
+</products>
+
+
+
+</lang>

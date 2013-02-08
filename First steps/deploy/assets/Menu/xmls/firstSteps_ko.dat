@@ -1,0 +1,41 @@
+﻿xmlContent=<?xml version='1.0' encoding='UTF-8'?>
+<unique>
+<faq>
+<difference>“첫번째 단계”에는 자녀들의 발달 진도에 따른 세가지의 인터액티브 단계들이 있습니다. 
+
+레벨 1: 소리를 듣고 스크린에 나오는 다양한 색깔의 물건과 모양들을 보게 됩니다. 
+
+레벨 2: 앞의 단계에서 본 물건들을 알아보고 이름을 익힐 수 있게 됩니다. 
+
+레벨 3: 이성적인 사고의 개념에 노출되는 단계입니다. 예를 들어, 첫 단계에서는 구름을 보게 됩니다. 두번째 단계에서는 구름의 이름을 배우고 구름이 비를 만든다는 것을 알게 됩니다. 세번째 단계에서는 구름을 “젖은” 이라는 개념과 연관지을 수 있게 됩니다. 
+</difference>
+</faq>
+
+<games style="titleEng">
+	<EasyCall>PLUG'N PLAY PHONE</EasyCall>
+	<cec>Comfyland Experience</cec>
+	<easyPCkeyboard>Comfy’s Easy PC System</easyPCkeyboard>
+</games>
+
+<products style='products'>
+	<EasyPCKeyBoard style='comics22Eng'>Comfy’s Easy PC keyboard With the Easy PC range of software adopted to child age</EasyPCKeyBoard>
+	
+	<!-- [ -------------  tri_option page  -------------]-->
+	
+	<comfyChoice style='prodBigEng'>The Comfy Choice: Introducing Comfy’s range
+of interactive products</comfyChoice>
+	<triWonderTitle style='prodBigEng'>PLUG'N PLAY PHONE</triWonderTitle>
+	<triWonder style='nutral'>Characters on screen will react to your child's voice.</triWonder>
+	<triCecTitle style='prodBigEng'>Comfyland Experience</triCecTitle>
+	<triCec style='nutral'>A unique indoor educational play area for toddlers.
+//HREF//www.comfyland.com/cec//Find a location near you.//HREF_END//</triCec>
+	<triKeyboardTitle style='prodBigEng'>Easy PC System</triKeyboardTitle>
+	<triKeyboard style='nutral'>Toddler’s PC Learning System Keyboard //PLUS// 12 different age-appropriate software games.
+</triKeyboard>
+	<cRange>See our Software Range:</cRange>
+	<cec_Intro>The Comfyland Experience is a unique, dynamic, rich and safe area offering toddlers the confidence to play and have fun in an informal and open-minded atmosphere with their friends or on their own. </cec_Intro>
+	<wonderfone_intro>The Comfy PLUG'N PLAY PHONE improves your child’s listening and conversation skills. The child receives an immediate reward for watching and listening to what is happening on the screen, and for responding correctly and at the right time. </wonderfone_intro>
+	<easyPCkeyboard_intro>Designed to suit the capabilities and interests of young children, this educational and entertaining platform opens a whole new world of interactive experiences.</easyPCkeyboard_intro>
+</products>
+
+</unique>
